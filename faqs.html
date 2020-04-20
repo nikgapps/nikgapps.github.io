@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="src/css/main.css" />
+  <title>Frequently Asked Questions - NikGApps</title>
+</head>
+
+<body>
+  <nav class="vm__header headroom">
+    <header class="wrap">
+      <h1 class="branding">
+        <a href="index.html">NikGApps</a>
+      </h1>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li>
+          <a href="project.html"><i class="fa fa-info-circle"></i> About</a>
+        </li>
+        <li>
+          <a href="downloads.html"><i class="fa fa-download"></i> Downloads</a>
+        </li>
+        <li>
+          <a href="announcements.html"><i class="fa fa-bullhorn"></i> Announcements</a>
+        </li>
+        <li>
+          <a href="faqs.html"><i class="fa fa-question-circle"></i> FAQs</a>
+        </li>
+        <li>
+          <a href="team.html"><i class="fa fa-users"></i> Team</a>
+        </li>
+      </ul>
+    </header>
+  </nav>
+
+  <div class="page__header">
+    <h1 class="page__title">
+      Frequently Asked Questions
+    </h1>
+  </div>
+
+  <section class="faqs__inner wrap">
+    <div class="faqs__container">
+      <div id="opengappsdiffnikgapps" class="faq__item">
+        <h4>What is the difference between OpenGapps and NikGApps?</h4>
+        <ul>
+          <li>
+            NikGApps comes with prebuilt YouTube Vanced and Lawnchair
+            launcher.
+          </li>
+          <li>
+            NikGApps packages are created from the apks present in my personal
+            device.
+          </li>
+          <li>
+            NikGapps offers separate addon.d scripts for each package that it comes with. Easy to control which package
+            you want to restore after dirty flash!
+          </li>
+          <li>
+            NikGApps follows a different partition mounting mechanism.</li>
+          <li>
+            NikGApps has it's own set of definition of packages defined
+            keeping users feedback in mind.
+          </li>
+          <li>
+            NikGApps installs all its applications and whitelist permissions
+            in /product partition whereas OpenGapps stores it in /system
+            partition.
+          </li>
+          <li>
+            NikGApps has it's own implementation of install configuration
+            (defined in nikgapps.config and debloater.config).
+          </li>
+          <li>
+            NikGApps offers gms optimization saving your battery so you don't have to worry about google services
+            draining your battery while you are sleeping.
+          </li>
+          <li>
+            NikGApps comes with several addon packages for those who only require specific addon and not the whole gapps
+            package.
+          </li>
+          <li>
+            NikGApps supports Split Apks!
+          </li>
+        </ul>
+      </div>
+      <div id="nikgappsConfig" class="faq__item">
+        <h4>What is nikgapps.config and how to use it?</h4>
+        <ul>
+          <li>
+            NikGapps.config is a configuration file which allows you to configure your installation the way you like.
+            You can skip any Pacakge that you don't want to be part of your installation.
+          </li>
+          <li>
+            Nikgapps.config is placed in <code>/sdcard/NikGApps</code> folder
+            automatically after first install with all the packages enabled
+            for installation.
+          </li>
+          <li>
+            If you want to configure the installation with your very first
+            installation, extract nikgapps.config from the gapps zip and place
+            it to <code>/sdcard/NikGapps</code> folder.
+          </li>
+          <li>
+            Edit the file and set 0,1,2 against the package that you want to configure,
+            save the file, flash the gapps.
+          </li>
+          <li>
+            NikGapps installer recognizes 3 config values <br>
+            -> 0 (Skip the package) <br>
+            -> 1 (install the package and delete corresponding aosp app) <br>
+            -> 2 (install the package and <b style="color:red">do not</b> delete corresponding aosp app) <br>
+          </li>
+          <li>
+            For e.g. if you want to skip GoogleContacts during the installation, the
+            config should read <code>GoogleContacts=0</code>. <br>
+            if you want to install GoogleContacts and remove Aosp Contacts, config should read
+            <code>GoogleContacts=1</code>. <br>
+            if you want to install GoogleContacts and keep Aosp Contacts, config should read
+            <code>GoogleContacts=2</code>.
+          </li>
+          <li>
+            All the lines starting # in config file are comments. Adding
+            comments (#) in front of Package name will not skip it's
+            installation. i.e. <code># YouTube=0</code> will not skip the
+            installation.
+          </li>
+          <li>
+            'files' Package in nikgapps.config is not GoogleFiles. it is a
+            package of set of important files for gapps installations. Never
+            skip that
+          </li>
+        </ul>
+      </div>
+      <div id="debloaterConfig" class="faq__item">
+        <h4>How to use debloater.config?</h4>
+        <ul>
+          <li>
+            Debloater config is a configuration that allows you to remove files/folders from system. You can place a
+            file named debloater.config in <code>/sdcard/NikGapps</code> folder and add the folder name/file path that you want to remove and flash latest version of 
+            <u><a style="color:blue" href="https://sourceforge.net/projects/nikgapps/files/Releases/Debloater/">Debloater Zip</a></u>.
+          </li>
+          <li>
+            Debloater recognizes the folder names that you
+            want to delete in priv-app or app folder.
+          </li>
+          <li>
+            You can Just enter the name of the folder you want
+            to delete. For e.g. YouTube. This would remove the YouTube folder
+            wherever it is located in <code>/system/app</code>,
+            <code>/system/priv-app</code>, <code>/system/product/app</code>,
+            <code>/system/product/priv-app</code>.
+          </li>
+          <li>
+            If you want to delete a specific file/folder you can enter full
+            path. For e.g. <code>/system/app/YouTube</code>.
+          </li>
+          <li>
+            However, the above one wouldn't work in case of SAR device since the
+            partition path you're looking for can be
+            <code>/system_root/system/app/YouTube</code> or
+            <code>/system/system/app/YouTube</code>(Hence use the Folder method).
+          </li>
+        </ul>
+      </div>
+      <div class="faq__item">
+        <h4>The installation failed?</h4>
+        <p>It could be because of sevaral reasons</p>
+        <ul>
+          <li>
+            In case of <code>Busybox setup failed. Aborting...</code> error, Push the
+            package to /sdcard and try flashing again.
+          </li>
+          <li>
+            In case the zip is flashed but you don't see gapps in Rom, Check if you have kept the package in a folder
+            with spaces in its name.
+            Try pushing the
+            package to <code>/sdcard</code> and try flashing again.
+          </li>
+          <li>
+            Make sure the downloaded file is not corrupted.</li>
+          <li>
+            Make sure zip file opens properly in File Explorer.</li>
+          <li>
+            Try mounting system manually in recovery before flashing the zip
+          </li>
+          <li>
+            If you are on <code>A/B</code> device, make sure you follow the
+            procedure (Flash the rom, twrp, reboot to recovery, flash rom,
+            twrp, reboot to recovery, flash gapps).
+          </li>
+        </ul>
+      </div>
+      <div class="faq__item">
+        <h4>Is Addon Package compatible with Android 9 and 10 both?</h4>
+        <p>
+          <ul>
+            <li>
+              No! Since android 9 and 10 differs in mounting mechanism, NikGapps follows the right standard based on
+              android version you're installing the packages in.
+            </li>
+            <li>
+              Flashing android 9 package in 10 and vice-versa will install the app normally. However, it won't work fine
+              after dirty flash. It is recommended to flash appropriate package depending on android version.
+            </li>
+          </ul>
+        </p>
+      </div>
+      <div class="faq__item">
+        <h4>
+          Why is Pixel Launcher missing in Q packages?
+        </h4>
+        <ul>
+          <li>
+            Pixel Launcher requires overlay changes which are not part of
+            gapps yet.
+          </li>
+        </ul>
+      </div>
+      <div class="faq__item">
+        <h4>How to report an issue?</h4>
+        <p>
+          <ul>
+            <li>
+              Check <code>/sdcard/NikGApps/logs</code> folder after gapps
+              installation, it will have logs file present, share it in Telegram
+              group
+            </li>
+          </ul>
+        </p>
+      </div>
+      <div class="faq__item">
+        <h4>Can I buy you a cup of coffee?</h4>
+        <p>
+          <ul>
+            <li>
+              Sure! :) Just find the Donate button!
+            </li>
+          </ul>
+        </p>
+      </div>
+      <div class="faq__item">
+        <h4>Where's my cat?</h4>
+        <p>
+          <ul>
+            <li>
+              Sitting somewhere in the corner and rooting her device? ;)
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer__inner wrap">
+      <span class="disclaimer"><strong>Android</strong> is a Trademark of Google Inc.</span>
+      <span class="copyright">
+        Copyright NikGApps - <span id="year"></span>.
+      </span>
+    </div>
+  </footer>
+
+  <!-- Scripts  -->
+  <script src="src/js/app.js"></script>
+</body>
+
+</html>

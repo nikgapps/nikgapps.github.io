@@ -1,2 +1,2 @@
 # nikgapps.github.io
-NikGapps Website
+NiKGapps Website

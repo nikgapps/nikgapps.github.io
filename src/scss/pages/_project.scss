@@ -1,0 +1,68 @@
+// Features Section
+
+.ng__features {
+  padding: 3rem 0;
+  background-color: #edf2f7;
+}
+
+.nikgapps__intro {
+  margin-bottom: 1rem;
+
+  img {
+    display: block;
+    max-width: 240px;
+    margin: 0 auto 10px;
+  }
+
+  p {
+    color: #4a5568;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+}
+
+.nikgapps__features__list {
+  li {
+    display: block;
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "\f058";
+      font-family: fontawesome;
+      margin-right: 1.5rem;
+      color: #2c3e50;
+      font-size: 20px;
+    }
+  }
+
+  li + li {
+    margin-top: 1rem;
+  }
+}
+
+.ng__packages {
+  background-color: #f7fafc;
+  padding: 1.5rem;
+  border-radius: 3px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  h4 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.ngf__art {
+  margin-bottom: 2rem;
+  img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
