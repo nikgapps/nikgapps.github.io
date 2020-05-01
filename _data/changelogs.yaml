@@ -1,3 +1,13 @@
+- date: 27 April 2020
+  changes:
+      - item: Introducing NikGapps Go! A lite version of gapps
+      - item: Fixed backup/restore issue with pixel setup wizard
+      - item: Fixed Bad/Rom Recovery issue reported for some devices
+      - item: Added Lawnchair recents provider
+      - item: Made Lawnchair a system app
+      - item: Addons are updated! 
+      - item: Playstore Updates (27th April) 
+
 - date: 09 March 2020
   changes:
       - item: Included everything from the last experimental build.
