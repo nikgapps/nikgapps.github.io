@@ -1,5 +1,5 @@
 url: 'nikgapps.github.io'
-baseurl: '/nikgapps'
+baseurl: ''
 title: 'NikGapps Website'
 
 plugins:
