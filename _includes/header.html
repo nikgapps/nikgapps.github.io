@@ -1,0 +1,21 @@
+<header>
+    <nav class="container-fluid">
+
+        <div class="branding">
+            <h1>
+                <a href="/">NikGApps</a>
+            </h1>
+        </div>
+        <button class="hamburger" type="button">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+        <div class="nav__overlay">
+            <div class="header__nav">
+                <button class="nav__close">Close</button>
+                {% include menu.html %}
+            </div>
+        </div>
+    </nav>
+</header>

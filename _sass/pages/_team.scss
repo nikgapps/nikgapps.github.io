@@ -1,0 +1,61 @@
+.team__members {
+    .member + .member {
+        margin-top: 1.5rem;
+    }
+}
+
+.member {
+    box-shadow: var(--shadow-xl);
+    border-radius: 3px;
+    border: 0.25rem solid #ecf0f5;
+    padding: 1.25rem;
+    text-align: center;
+
+    > * + * {
+        margin-top: 0.65rem;
+    }
+
+    .avatar {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 1rem;
+    }
+
+    .name {
+        font-weight: 600;
+        font-size: 1.35rem;
+    }
+
+    .posi {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #718096;
+        font-size: 0.88rem;
+    }
+
+    &__intro {
+        line-height: 1.45;
+    }
+
+    .social__links {
+        color: #718096;
+        font-size: 0.88rem;
+        display: flex;
+        justify-content: center;
+
+        li + li {
+            &::before {
+                content: '/';
+                margin: 0 0.5rem;
+            }
+        }
+
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

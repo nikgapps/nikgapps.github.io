@@ -1,0 +1,40 @@
+.news__art {
+    max-width: 300px;
+    margin: 0 auto 1.5rem;
+}
+
+.cooking__item {
+    padding: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+    > * + * {
+        margin-top: 0.85rem;
+    }
+
+    .date {
+        font-weight: 400;
+        color: #718096;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .heading {
+        font-size: 1.15rem;
+    }
+
+    ul {
+        list-style: disc outside;
+        padding-left: 1.5rem;
+        color: #718096;
+    }
+
+    li {
+        padding: 0.25rem 0;
+    }
+}
+
+.cooking__item + .cooking__item {
+    margin-top: 1.5rem;
+}

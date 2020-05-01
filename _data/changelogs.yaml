@@ -1,0 +1,184 @@
+- date: 09 March 2020
+  changes:
+      - item: Included everything from the last experimental build.
+      - item: Added missing media effects library
+      - item: Added logging mechanism in addon.d scripts (will be generated in /sdcard/NikGapps/addonLogs)
+      - item: Debloater-v4! Made the debloater more stable with additional conditions (to avoid bootloop)
+      - item: Updated all the Addons
+      - item: Latest version of Google apps (09th Mar)
+- date: 10 Feb 2020
+  changes:
+      - item: Added Pixel Tips
+      - item: Added Pixel Setup Wizard and its overlays.
+      - item: Set sms, storage and location permissions to google play services by default.
+      - item: Updated chrome to v80.
+      - item: Updated calendar sync adapter to match android P+.
+      - item: Updated Lawnchair to latest alpha version
+      - item: Kept Aosp Dialer!
+      - item: Remove Device Personalization Services since its FCing and we're yet to find the solution. (an addon will be provided in support group which you can flash to get it back)
+      - item: Playstore Updates (till 10th Feb)
+- date: 19 Jan 2020
+  changes:
+      - item: Fixed operand issue (nikgapps.config should work accurately like before).
+      - item: Fixed permission issues with Google Play Services
+      - item: Fixed issues with contact sync
+      - item: Playstore Updates (till 19th Jan)
+- date: 12 Jan 2020
+  changes:
+      - item: Fixed NikGapps installation issues with config values not reflecting in installation.
+      - item: Added a nikgapps.config value "2" to retain aosp apps (set the value to 2 if you don't want the installer to delete the aosp counter part of google app).
+      - item: AOSP Dialer is now deleted by default starting omni package to maintain the uniformity (set Dialer=2 in nikgapps.config before flashing if you want the gapps to skip removing aosp dialer).
+      - item: YouTube Vanced Dark/Black installer fixed (Dark was installing black and visa versa).
+      - item: The installer now clears Dalvik Cache (helps when the changes are not reflected because of dalvik cache).
+      - item: Updated all the Addons (which had a version updates).
+      - item: Latest version of Google apps (12th Jan)
+- date: 17 Dec 2019
+  changes:
+      - item: Back to Latest Lawnchair alpha version for Q releases
+      - item: Enable Google Apps Updates from PlayStore (for apps such as Digital Wellbeing, Google Sound Recorder) 
+      - item: Add support for Next Generation Assistant
+      - item: Add Pixel Live Wallpapers (So Amazing! Must Check out!) addon
+      - item: Removed Pixel Live Wallpaper from Full package since there is a addon package available now
+      - item: Added Chrome, Photos, AdAway Addons
+      - item: Removed MixPlorer Addon for now (since it causes issues with Havoc Rom, will add it back again once I fix the issue)
+      - item: Stability Improvements
+      - item: Latest version of Google apps (17th Dec)
+- date: 03 Dec 2019
+  changes:
+      - item: Removed Debloating from gapps installation to avoid unnecessary bootloops (Flash latest Debloater.zip if you want to debloat anything) 
+      - item: Fixed issues with payzapp installation
+      - item: Added Lawnchair 2 (stable)
+      - item: Added shared maps library support in favor of apps depending on maps library
+      - item: Fixed an issue where dirty flashing a Rom required setting permissions to all the apps again
+      - item: Installation Script improvements
+      - item: Fixed an issue with MixPlorer addon causing Force Close of default Files App
+      - item: Added Device Personalization Services (full package)
+      - item: Latest version of Google apps (3rd Dec)
+- date: 24 Nov 2019
+  changes:
+      - item: Fixed gapps not getting installed when the zip was placed in a folder with spaces in it (flashing with ext sdcard should work now)
+      - item: Fixed - 'Busybox installation Failed'
+      - item: Bootloop with various Roms should be fixed now
+      - item: Fixed a bug in addon.d script where dirty flashing did not delete the necessary files
+      - item: GMS Optimization is back! disable 'Find my device' option from settings 
+      - item: Lawnchair and Lawnfeed added (starting stock package)
+      - item: More improvements to Addon.d
+      - item: More Addons (Google Recorder, Lawnchair)
+      - item: Removing Bromite for now (since it is causing bootloops for many)
+      - item: Stability Improvements
+      - item: Latest version of Google apps (24th Nov)
+- date: 11 Nov 2019
+  changes:
+      - item: Fixed storage and sms permissions by whitelisting soft restrictions on GooglePlayServices
+      - item: Fixed 'Checking for update' taking forever to load in GoogleSetupWizard
+      - item: addon.d v2 - added support for OTA installation (Introducing Debloater v2 with this support)
+      - item: Use Rom Specific system partition ($S) to perform restore/delete actions during addon.d script execution 
+      - item: addon.d script now gets written to SAR driven /system partition
+      - item: Removed unnecessary ls -al /tmp command from addon.d
+      - item: Fixed chmod, chcon errors in addon.d script
+      - item: Added Google Sound Recorder (Starting Full Package)
+      - item: Added Digital Wellbeing (Starting Basic Package)
+      - item: Default Debloater.config doesn't delete anything now
+      - item: Fixed the typo while removing apps from /system/app/product folder
+      - item: Added Installation Logging (this will help users share the necessary logs for faster resolution to the issues they experience). File is created in /sdcard/NikGapps/logs folder
+      - item: Show Progress in Progress bar while installing packages
+      - item: Digital NikGapps logo added in gapps installer script
+      - item: Stability Improvements
+      - item: Latest version of Google apps (11th Nov)
+- date: 14 Oct 2019
+  changes:
+      - item: addon.d v2 support (now works on A/B devices too).
+      - item: Play Store not showing quick changelog box while updating an app fixed
+      - item: All the various NikGapps packages now available for Android Q.
+      - item: Introduce debloater.config with NikGapps-Debloater itself (a config to remove unwanted apps/files). Instructions present in config file.
+      - item: Push nikgapps.config and debloater.config to /sdcard/NikGapps by default with installer so you can just go to the folder and edit the config file.
+      - item: improved the installer (aborts the installation when installation is faulty without impacting the system).
+      - item: Latest version of Google apps (14th Oct)
+- date: 12 Sep 2019
+  changes:
+      - item: Support Priv-app Whitelist (Fixed boot loop on Roms like Omni)
+      - item: Separated the Addon.d script for individual packages (Fixed addon.d override issue)
+      - item: Introducing nikgapps.config (control the installation as you need now)
+      - item: Revamped the NikGapps implementation method
+      - item: Reduced the zip size (implemented compression - core - 66.2 mb only)
+      - item: Moved the addon packages to single zip (configuration will allow you to control the installation)
+      - item: Beautified the installer and addon.d restoring process now shows the progress
+      - item: Latest Google Apps (12th Sept)
+- date: 17 Aug 2019
+  changes:
+      - item: Remove Aosp Apps now removes gallery also
+      - item: Added Remove - Digital Wellbeing zip to debloat Digital Wellbeing
+      - item: Updated all the Addon apps to latest version
+      - item: Added MixPlorer and Google Play Music Addon
+      - item: Introducing NikGapps Go Addon (Lite package including Go apps)
+      - item: Fixed FCs with CrDroid Rom 
+      - item: Latest Google Apps (17th Aug) 
+- date: 04 Aug 2019
+  changes:
+      - item: A lot of Addons added
+      - item: Script changes to keep aosp dialer as it is for those who prefer call recording. (added a separate zip to delete aosp dialer, can be found in Addon Packages) 
+      - item: Updated lawnchair to latest version
+      - item: Added Google Markup in Omni Package
+      - item: Latest Google Apps (4th Aug) 
+- date: 22 Jul 2019
+  changes:
+      - item: Removed Chrome from stock
+      - item: Removed web view stub
+      - item: Removed Dialer app by default in stock (no more duplicates now) 
+      - item: Introduced 4 new packages "core", "omni", "full", "aroma"
+      - item: Updated Google Apps (22nd July) 
+- date: 11 Jul 2019
+  changes:
+      - item: Added Lawnchair 
+      - item: Added Google Drive 
+      - item: Added Google Maps
+      - item: Removed duplicate apps (except Dialer app) 
+      - item: Removed Google Assistant
+      - item: Removed Google Chrome Beta
+      - item: Removed Aosp keyboard
+      - item: included Google stable (beta had theming issues)
+      - item: Updated gcam from PE rom (addon)
+      - item: Latest Google Apps (11th July)
+- date: 02 Jul 2019
+  changes:
+      - item: Changed the base from PE to Opengapps (fixes crashes on few roms and requires clean flash)
+      - item: Fixed duplicate Calendar appearing
+      - item: Added Google webviewstub
+      - item: Added modded Pixel Launcher
+      - item: Removed gcam from stock and basic package to make it generic for all arm64 devices
+      - item: Latest Google Apps (2nd July)
+- date: 25 Jun 2019
+  changes:
+      - item: Fixed FC with Face Unlock
+      - item: Added Google Sounds
+      - item: Added Pixel Launcher
+      - item: Updated YouTube Vanced to latest
+      - item: Updated Google Camera to latest
+      - item: Latest Google Apps (25th June)
+- date: 12 May 2019
+  changes:
+      - item: Added Google Markup
+      - item: Fixed Google Backup and Restore issues
+      - item: Fixed device not compatible message appearing while opening Google Dialer app
+      - item: Updated to latest Google Camera (with Time Lapse feature)
+      - item: Updated to latest version of Google Apps (12th May)
+- date: 27 Apr 2019
+  changes:
+      - item: Signed the build with my key (just like opengapps)
+      - item: Updated PlayGround
+      - item: Updated Google Camera to 6.2.0.24 (from PixelExperience Rom)
+      - item: Updated to latest version of Google Apps (27th April)
+- date: 15 Apr 2019
+  changes:
+      - item: Fixed Setup Wizard FC (tested on Havoc, CrDroid, RR, AOSIP, Los 16. Let me know if you face issues with any other rom)
+      - item: Updated to latest version of Google Apps (15th April)
+- date: 07 Apr 2019
+  changes:
+      - item: Added Setup Wizard in stock gapps for those who wants to restore their backup from google backup.
+      - item: Added ARCore and PlayGround in stock gapps with supported GCam (same as pixel experience rom)
+      - item: Updated to latest version of Google Apps (7th April)
+- date: 30 March 2019
+  changes:
+      - item: Updated to latest version of Google Apps (30th March)
+      - item: Included Digital Wellbeing in basic version of NikGapps
+      - item:  Introduced NikGapps Stock (Google Apps Package which replaces stock aosp apps with Google Apps. More details in OP)

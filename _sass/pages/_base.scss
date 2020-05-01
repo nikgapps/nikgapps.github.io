@@ -1,0 +1,22 @@
+.page__header {
+    background-color: var(--clr-primary);
+    color: var(--white);
+    padding: 4rem 0;
+    position: relative;
+
+    h2 {
+        font-weight: 400;
+        font-size: 1.75rem;
+        line-height: 1.35;
+        text-align: center;
+    }
+}
+
+.page {
+    main {
+        background-color: var(--white);
+        padding: 2rem 1rem;
+        border-radius: 3px;
+        // box-shadow: var(--shadow-xl);
+    }
+}

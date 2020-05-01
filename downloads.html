@@ -1,0 +1,116 @@
+---
+layout: page
+permalink: /downloads
+headline: Downloads
+title: Downloads - NikGApps
+bClass: downloads
+---
+
+<div class="downloads__wrapper">
+    <div class="downloads__inner">
+        <div class="downloads">
+            <div class="tab__item">
+                <button class="tab__btn active">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" class="icon icon-tabler icon-tabler-box"
+                        viewBox="0 0 24 24">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3M12 12l8-4.5M12 12v9M12 12L4 7.5" />
+                    </svg> Packages
+                </button>
+                <button class="tab__btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" class="icon icon-tabler icon-tabler-puzzle"
+                        viewBox="0 0 24 24">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M4 7h3a1 1 0 001-1V5a2 2 0 014 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 001 1h1a2 2 0 010 4h-1a1 1 0 00-1 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 00-4 0v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-3a1 1 0 011-1h1a2 2 0 000-4H4a1 1 0 01-1-1V8a1 1 0 011-1" />
+                    </svg> Addons
+                </button>
+            </div>
+            <div class="tab__content">
+                <div class="tab__pane tab__packages">
+                    <!-- <h2>Packages</h2> -->
+                    <div class="downloads__grid">
+                        {% for item in site.data.downloads.packages %}
+                        <div class="item {{item.title | downcase}}">
+                            <h3>{{item.title}}</h3>
+                            {% if item.message %}
+                            <p class="info__box">
+                                {{item.message}}
+                            </p>
+                            {% endif %}
+                            <ul>
+                                {% for entry in item.contains %}
+                                <li>{{entry.item}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="tab__pane tab__addons">
+                    <!-- <h2>Addons</h2> -->
+                    <div class="downloads__grid">
+                        {% for item in site.data.addons.addons %}
+                        <div class="item">
+                            <h3>{{item.title}}</h3>
+                            <p>
+                                {{item.contains}}
+                            </p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="download__btn has-svg"><svg fill="currentColor" viewBox="0 0 20 20" class="w-8 h-8">
+            <path fill-rule="evenodd"
+                d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+        </svg> Download Now</a>
+
+    <div class="latest__changelogs">
+        {% for item in site.data.changelogs limit:1 %}
+        <h3>Latest Update - {{item.date}}</h3>
+        <ul>
+            {% for entry in item.changes %}
+            <li>{{entry.item}}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+
+    </div>
+
+    <div class="older__changelogs">
+        <div class="ui styled accordion">
+            <div class="title">
+                <i class="dropdown icon"></i>
+                Older Changelogs
+            </div>
+            <div class="content">
+                <p class="transition hidden">
+                    {% for item in site.data.changelogs offset:1 %}
+                    <div class="title">
+                        <i class="dropdown icon"></i>
+                        {{item.date}}
+                    </div>
+                    <div class="content">
+                        <p class="transition hidden">
+                            <ul>
+                                {% for entry in item.changes %}
+                                <li>{{entry.item}}</li>
+                                {% endfor %}
+                            </ul>
+
+                        </p>
+                    </div>
+                    {% endfor %}
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>

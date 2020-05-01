@@ -1,0 +1,8 @@
+url: 'nikgapps.github.io'
+baseurl: '/nikgapps'
+title: 'NikGapps Website'
+
+plugins:
+    - jekyll-seo-tag
+
+theme: jekyll-theme-cayman

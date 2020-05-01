@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <!-- <title>{{ page.title }}</title> -->
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    {% seo %}
+</head>
+
+<body class="page blog-post">
+    {% include header.html %}
+    <div class="page__header">
+        <div class="container">
+            <!-- {% if page.tags.size >= 1 %}
+            <div class="post-tag">
+                {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
+                {% endfor %}
+            </div>
+            {% endif %} -->
+            <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            <p class="post-meta">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ page.date | date: date_format }}
+                </time>
+                {%- if page.modified_date -%}
+                ~
+                {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+                <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+                    {{ mdate | date: date_format }}
+                </time>
+                {%- endif -%}
+                {%- if page.author -%}
+                • {% for author in page.author %}
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+                {%- if forloop.last == false %}, {% endif -%}
+                {% endfor %}
+                {%- endif -%}</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <main>
+            <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+                <header class="post-header">
+
+                </header>
+
+                <div class="post-content e-content" itemprop="articleBody">
+                    {{ content }}
+                </div>
+
+                <div class="post__share">
+                    <h5 class="share__title">Sharing is Caring</h5>
+                    <ul class="share-list list-reset">
+                        <li class="share-item">
+                            <a class="share-facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+                                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                                title="Share on Facebook" rel="nofollow">
+                                Facebook
+                            </a>
+                        </li>
+
+                        <li class="share-item">
+                            <a class="share-twitter"
+                                href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+                                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                                title="Share on Twitter" rel="nofollow">
+                                Twitter
+                            </a>
+                        </li>
+
+                        <li class="share-item">
+                            <a class="share-whatsapp"
+                                href="whatsapp://send?text={{ page.title | uri_escape }}{{ page.url }}"
+                                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                                rel="nofollow">
+                                WhatsApp
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                {% if jekyll.environment == 'production' %}
+                {% if page.comments %}
+                <div class="post__comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        (function () { // DON'T EDIT BELOW THIS LINE
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://nikgapps.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                            powered by Disqus.</a></noscript>
+                </div>
+                {% else %}
+                <h4 class="no__comments">Comments are Closed for this Post</h4>
+                {% endif %}
+                {% endif %}
+                <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+            </article>
+        </main>
+    </div>
+    {% include footer.html %}
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.js"></script>
+    <script id="dsq-count-scr" src="//nikgapps.disqus.com/count.js" async></script>
+    <script src="{{ "/assets/js/app.js" | relative_url }}"></script>
+</body>
+
+</html>

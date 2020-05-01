@@ -1,0 +1,49 @@
+.nikgapps__intro {
+    margin-bottom: 1rem;
+
+    img {
+        display: block;
+        max-width: 240px;
+        margin: 0 auto 10px;
+    }
+
+    p {
+        color: #4a5568;
+        padding: 1.5rem;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-weight: 600;
+    }
+}
+
+.nikgapps__features__list {
+    list-style: square inside;
+    li {
+        display: block;
+        padding: 1rem;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+            0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        transition: background-color 180ms ease;
+
+        &:hover {
+            background-color: #ecf0f5;
+        }
+    }
+
+    li + li {
+        margin-top: 1rem;
+    }
+}
+
+.ngf__art {
+    margin-bottom: 2rem;
+    img {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+}

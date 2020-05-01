@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <!-- <title>{{ page.title }}</title> -->
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    {% seo %}
+</head>
+
+<body class="page {% if page.bClass %}
+    {{page.bClass}}
+{% endif %}">
+    {% include header.html %}
+    <div class="page__header">
+        <div class="vm__wrapper">
+            <h2>
+                {{page.headline}}
+            </h2>
+        </div>
+    </div>
+
+    <div class="vm__wrapper">
+        <main>
+            {{ content }}
+        </main>
+    </div>
+    {% include footer.html %}
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.js"></script>
+    <script src="{{ "/assets/js/app.js" | relative_url }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+---
+layout: page
+permalink: /announcements
+headline: 'NikGApps Announcements'
+title: Announcements - NikGApps
+bClass: cooking
+---
+
+<section class="cooking">
+    <div class="cooking__inner">
+        <img class="news__art" src="{{ '/images/announcements.svg' | relative_url }}" alt="">
+        {% for item in site.data.announcements %}
+        <div class="cooking__item">
+            <h3 class="date">{{item.date}}</h3>
+            {% if item.heading %}
+            <h2 class="heading">{{item.heading}}</h2>
+            {% endif %}
+            <ul>
+                {% for entries in item.entries %}
+                <li>{{entries.item}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</section>
