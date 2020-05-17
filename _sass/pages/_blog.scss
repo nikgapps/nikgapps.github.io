@@ -116,31 +116,39 @@
 	}
 
 	.post-content {
+		line-height: 1.65;
 		> * + * {
-			margin-top: 1rem;
+			margin-top: 1.5rem;
 		}
 
 		h1,
 		h2,
 		h3 {
 			font-weight: 600;
+			padding-bottom: 0.25rem;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.11);
 		}
 
 		h1 {
-			font-size: 2rem;
-		}
-
-		h2 {
 			font-size: 1.75rem;
 		}
 
-		h3 {
+		h2 {
 			font-size: 1.5rem;
+		}
+
+		h3 {
+			font-size: 1.35rem;
 		}
 
 		ul {
 			list-style: disc inside;
 			padding-left: 2rem;
+		}
+
+		li {
+			padding: 0.25rem 0;
+			font-weight: 500;
 		}
 
 		ol {

@@ -2,7 +2,7 @@
 	text-align: center;
 
 	> * + * {
-		margin-left: 1.25rem;
+		margin-left: 1rem;
 	}
 }
 
@@ -19,16 +19,17 @@
 	align-items: center;
 	padding: 0.35rem 1.5rem;
 	font-size: 1.15rem;
+	transition: border 180ms ease;
 
 	&.active {
 		background-color: var(--clr-primary);
 		color: #fff;
 	}
 
-	svg {
-		height: 1.25em;
-		width: 1.25em;
-		margin-right: 0.35em;
+	&:focus,
+	&:active {
+		outline: none;
+		border-color: #c0cedc;
 	}
 }
 
@@ -51,7 +52,7 @@
 
 .tab__packages,
 .tab__addons {
-	margin-top: 4rem;
+	margin-top: 2.5rem;
 	> h2 {
 		font-size: 1.5rem;
 		font-weight: 300;
@@ -139,7 +140,8 @@
 		color: #fff;
 		border-radius: 4px;
 		overflow: hidden;
-		font-family: var(--font-mono);
+		font-family: var(--font-monospace);
+		font-weight: 300;
 	}
 
 	li {
