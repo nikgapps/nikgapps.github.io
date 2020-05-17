@@ -22,7 +22,7 @@ bClass: blog
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {%- for post in posts -%}
         <div class='post__outer'>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: date_format }}</span>
             <h3 class="post__title">
                 <a class="post-link" href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
@@ -32,7 +32,8 @@ bClass: blog
                 {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}
             </p>
 
-            <a href="{{post.url | prepend: site.baseurl}}" class="read-more">Keep Reading</a>
+            <a href="{{post.url | prepend: site.baseurl}}" class="read-more">Keep Reading <i
+                    class="fa fa-long-arrow-right"></i></a>
         </div>
         {%- endfor -%}
     </div>

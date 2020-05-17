@@ -1,8 +1,6 @@
-url: 'nikgapps.github.io'
-baseurl: '/nikgapps.github.io'
-title: 'NikGapps Website'
+url: "nikgapps.com"
+baseurl: "/"
+title: "NikGapps Website"
 
 plugins:
-    - jekyll-seo-tag
-
-theme: jekyll-theme-cayman
+  - jekyll-seo-tag

@@ -1,77 +1,83 @@
 // Container
 
 .container-fluid {
-    max-width: none;
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+	max-width: none;
+	width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .vm__wrapper {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .container-spaced {
-    max-width: calc(100% - 2rem);
-    margin: 0 auto;
+	max-width: calc(100% - 2rem);
+	margin: 0 auto;
+}
+
+.my__wrap {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
 
 // Links with svg icons
 
 a,
 button {
-    &.has-svg {
-        display: inline-flex;
-        align-items: center;
+	&.has-svg {
+		display: inline-flex;
+		align-items: center;
 
-        svg {
-            margin-right: 0.25rem;
-            display: block;
-            height: 1.25rem;
-            width: 1.25rem;
-        }
-    }
+		svg {
+			margin-right: 0.25rem;
+			display: block;
+			height: 1.25rem;
+			width: 1.25rem;
+		}
+	}
 }
 
 // Section Heading
 
 .section__heading {
-    margin-bottom: 5rem;
-    text-align: center;
+	margin-bottom: 5rem;
+	text-align: center;
 
-    span {
-        font-size: 0.85rem;
-        letter-spacing: 1px;
-        display: block;
-        font-weight: 300;
-        text-transform: uppercase;
-        color: var(--text-lighter);
-    }
+	span {
+		font-size: 0.85rem;
+		letter-spacing: 1px;
+		display: block;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: var(--text-lighter);
+	}
 
-    h3 {
-        font-size: 1.5rem;
-        font-weight: 400;
-        line-height: 1.35;
-    }
+	h3 {
+		font-size: 1.5rem;
+		font-weight: 400;
+		line-height: 1.35;
+	}
 }
 
 // Codes in FAQs
 
 code {
-    font-family: var(--font-family-monospace);
-    font-size: 0.92rem;
-    background-color: #edf2f7;
-    padding: 3px 5px;
-    border-radius: 2px;
-    line-height: 1;
+	font-family: var(--font-family-monospace);
+	font-size: 0.92rem;
+	background-color: #edf2f7;
+	padding: 3px 5px;
+	border-radius: 2px;
+	line-height: 1;
 }
