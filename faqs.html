@@ -165,7 +165,8 @@ bClass: faqs
                         Click on Apps & Notification
                     </li>
                     <li>
-                        Check all permissions for GooglePlayServices, whether allowed or not. If all permission denied, Allow them</li>
+                        Check all permissions for GooglePlayServices, whether allowed or not. If all permission denied,
+                        Allow them</li>
                     <li>
                         On upper right corner there is a three dot menu. Click on Show system app
                     </li>
@@ -173,7 +174,8 @@ bClass: faqs
                         Search for Google Contacts Sync app
                     </li>
                     <li>
-                        Check whether Contacts permission is allowed or not for that app. If disabled, please allow Contacts permission so that it can Sync Google Contacts
+                        Check whether Contacts permission is allowed or not for that app. If disabled, please allow
+                        Contacts permission so that it can Sync Google Contacts
                     </li>
                     <li>
                         A restart maybe required
@@ -181,42 +183,66 @@ bClass: faqs
                 </ul>
             </div>
 
-            <div class="title" id="failed">
+            <div class="title" id="googlebackup">
                 <i class="dropdown icon"></i>
-                The installation failed?
+                Google Backup Waiting for backup?
             </div>
 
             <div class="content">
                 <ul>
-                    <li><b>It could be because of sevaral reasons</b></li>
-                    <li>
-                        In case of <code>Busybox setup failed. Aborting...</code> error, Push the
-                        package to /sdcard and try flashing again.
+                    <li>Connect your computer with your device and execute the following command from adb<br>
+                        <code>adb shell</code><br>
+                        <code>bmgr run<br></code>
+                        <code>bmgr backupnow --all<br></code>
+                        </code>
                     </li>
-                    <li>
-                        In case the zip is flashed but you don't see gapps in Rom, Check if you have kept the package in
-                        a
-                        folder
-                        with spaces in its name.
-                        Try pushing the
-                        package to <code>/sdcard</code> and try flashing again.
-                    </li>
-                    <li>
-                        Make sure the downloaded file is not corrupted.</li>
-                    <li>
-                        Make sure zip file opens properly in File Explorer.</li>
-                    <li>
-                        Try mounting system manually in recovery before flashing the zip
-                    </li>
-                    <li>
-                        If you are on <code>A/B</code> device, make sure you follow the
-                        procedure (Flash the rom, twrp, reboot to recovery, flash rom,
-                        twrp, reboot to recovery, flash gapps).
+                    <li>if it's shows Transport error, do<br>
+                        <code>
+                            bmgr backupnow appdata<br>
+                        </code>
+                        and repeat the previous command once more
                     </li>
                 </ul>
             </div>
 
+            <div class="title" id="issue">
+                <i class="dropdown icon"></i>
+                How to report an issue?
+            </div>
 
+            <div class="content">
+                <ul>
+                    <li>If something is wrong with installation, addon.d, debloater, pull the installation logs and
+                        share it with us</li>
+                    <li><b>How to pull the installation logs?</b><br>
+                        Find the tar.gz file from /sdcard/NikGapps/logs folder generated after your recent installation
+                        and share it with us here
+                    </li>
+                    <li><b>How to report a crash?</b><br>
+                        Pull logcat using matlog app or any other app related to logcat that you prefer and share it
+                        with us along with logs generated in <code>/sdcard/NikGapps/logs</code> folder
+                    </li>
+                    <li><b>How to report an issue related to debloater?</b><br>
+                        For issues related to debloater, grab the debloater.config and share it with us along with the
+                        logs from <code>/sdcard/NikGapps/logs</code> folder
+                    </li>
+                    <li><b>How to report an issue with dirty installation and ota survival?</b><br>
+                        Pull AddonLogs from <code>/sdcard/NikGapps</code> folder, zip them and share it with us
+                    </li>
+                    <li><b>How to take logcat if you face bootloop?</b><br>
+                        If something is wrong with your device not booting up, try booting it without gapps to ensure
+                        the bootloop is sure to gapps<br>
+                        If you narrow the root cause down to gapps, try to get a logcat during bootloop<br>
+                        Steps to get a logcat during bootloop<br>
+                        - boot into the system while flashing only ROM<br>
+                        - enable debugging in Developer settings<br>
+                        - run adb shell and enable connection on the phone<br>
+                        - reboot to recovery<br>
+                        - dirty flash gapps<br>
+                        - boot and try logcat again<br>
+                    </li>
+                </ul>
+            </div>
             <div class="title">
                 <i class="dropdown icon"></i>
                 Is Addon Package compatible with Android 9 and 10 both?
@@ -253,41 +279,6 @@ bClass: faqs
                     gapps yet.
                 </p>
             </div>
-
-            <div class="title" id="issue">
-                <i class="dropdown icon"></i>
-                How to report an issue?
-            </div>
-
-            <div class="content">
-                <ul>
-                    <li>If something is wrong with installation, addon.d, debloater, pull the installation logs and share it with us</li>
-                    <li><b>How to pull the installation logs?</b><br>
-                        Find the tar.gz file from /sdcard/NikGapps/logs folder generated after your recent installation and share it with us here
-                    </li>
-                    <li><b>How to report a crash?</b><br>
-                        Pull logcat using matlog app or any other app related to logcat that you prefer and share it with us along with logs generated in <code>/sdcard/NikGapps/logs</code> folder
-                    </li>
-                    <li><b>How to report an issue related to debloater?</b><br>
-                        For issues related to debloater, grab the debloater.config and share it with us along with the logs from <code>/sdcard/NikGapps/logs</code> folder
-                    </li>
-                    <li><b>How to report an issue with dirty installation and ota survival?</b><br>
-                        Pull AddonLogs from <code>/sdcard/NikGapps</code> folder, zip them and share it with us
-                    </li>
-                    <li><b>How to take logcat if you face bootloop?</b><br>
-                        If something is wrong with your device not booting up, try booting it without gapps to ensure the bootloop is sure to gapps<br>
-                        If you narrow the root cause down to gapps, try to get a logcat during bootloop<br>
-                        Steps to get a logcat during bootloop<br>
-                        - boot into the system while flashing only ROM<br>
-                        - enable debugging in Developer settings<br>
-                        - run adb shell and enable connection on the phone<br>
-                        - reboot to recovery<br>
-                        - dirty flash gapps<br>
-                        - boot and try logcat again<br>
-                    </li>
-                </ul>
-            </div>
-
 
             <div class="title">
                 <i class="dropdown icon"></i>
