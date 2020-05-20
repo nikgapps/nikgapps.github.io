@@ -1,3 +1,14 @@
+- date: 10 May 2020
+  changes:
+      - item: Fixed Dialer not supported message in Google Dialer
+      - item: Fixed Crashes with Device Personalization Services
+      - item: Fixed Device Health Services crash
+      - item: Updated nikgapps.config (finally, I know :P)
+      - item: Separated LawnchairRecentsProvider from Lawnchair (use nikgapps.config to include) 
+      - item: Fixed EOL issue with nikgapps.config
+      - item: Added ActionServicesOverlay, WellbeingOverlay, Google Dialer Overlays
+      - item: More stuff that I forgot 
+      - item: Playstore Updates (10th May) 
 - date: 27 April 2020
   changes:
       - item: Introducing NikGapps Go! A lite version of gapps
@@ -7,7 +18,6 @@
       - item: Made Lawnchair a system app
       - item: Addons are updated! 
       - item: Playstore Updates (27th April) 
-
 - date: 09 March 2020
   changes:
       - item: Included everything from the last experimental build.
