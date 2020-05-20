@@ -260,10 +260,32 @@ bClass: faqs
             </div>
 
             <div class="content">
-                <p>
-                    Check <code>/sdcard/NikGApps/logs</code> folder after gapps
-                    installation, it will have logs file present, share it in Telegram
-                </p>
+                <ul>
+                    <li>If something is wrong with installation, addon.d, debloater, pull the installation logs and share it with us</li>
+                    <li><b>How to pull the installation logs?</b><br>
+                        Find the tar.gz file from /sdcard/NikGapps/logs folder generated after your recent installation and share it with us here
+                    </li>
+                    <li><b>How to report a crash?</b><br>
+                        Pull logcat using matlog app or any other app related to logcat that you prefer and share it with us along with logs generated in <code>/sdcard/NikGapps/logs</code> folder
+                    </li>
+                    <li><b>How to report an issue related to debloater?</b><br>
+                        For issues related to debloater, grab the debloater.config and share it with us along with the logs from <code>/sdcard/NikGapps/logs</code> folder
+                    </li>
+                    <li><b>How to report an issue with dirty installation and ota survival?</b><br>
+                        Pull AddonLogs from <code>/sdcard/NikGapps</code> folder, zip them and share it with us
+                    </li>
+                    <li><b>How to take logcat if you face bootloop?</b><br>
+                        If something is wrong with your device not booting up, try booting it without gapps to ensure the bootloop is sure to gapps<br>
+                        If you narrow the root cause down to gapps, try to get a logcat during bootloop<br>
+                        Steps to get a logcat during bootloop<br>
+                        - boot into the system while flashing only ROM<br>
+                        - enable debugging in Developer settings<br>
+                        - run adb shell and enable connection on the phone<br>
+                        - reboot to recovery<br>
+                        - dirty flash gapps<br>
+                        - boot and try logcat again<br>
+                    </li>
+                </ul>
             </div>
 
 
