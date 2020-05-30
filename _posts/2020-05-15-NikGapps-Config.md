@@ -11,7 +11,7 @@ Ever since the aroma installer started to be incompatible with newer versions of
 
 ## What NikGapps.config is and how it works
 
-nikGapps.config is a LF based (more info on LF here) configuration file which allows you to configure your installation the way you like. 
+nikgapps.config is a LF based (more info on LF here) configuration file which allows you to configure your installation the way you like. 
 By Editing nikgapps.config, you can skip any Package that you don't want to be part of your installation.
 
 The gapps package that you flash reads `/sdcard/NikGapps/nikgapps.config` to decide how to flash the application
