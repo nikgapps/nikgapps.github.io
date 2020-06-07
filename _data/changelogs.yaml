@@ -4,6 +4,8 @@
       - item: Enable blur on regular picture in Photos app
       - item: Added Gmail Go in Go packages
       - item: Fixed crash with PixelWallpapers Addon (Need to be flashed over NikGapps package)
+      - item: Support to Flash over Rom with Existing Gapps
+      - item: Everything from Experimental Build (check older changelog)
       - item: Playstore Updates (07th June) 
 - date: 10 May 2020
   changes:
