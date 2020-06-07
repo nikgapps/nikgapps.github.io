@@ -1,3 +1,10 @@
+- date: 07 June 2020
+  changes:
+      - item: Added a config 'InstallPartition' to choose between 'system' and 'product' while installing
+      - item: Enable blur on regular picture in Photos app
+      - item: Added Gmail Go in Go packages
+      - item: Fixed crash with PixelWallpapers Addon (Need to be flashed over NikGapps package)
+      - item: Playstore Updates (07th June) 
 - date: 10 May 2020
   changes:
       - item: Fixed Dialer not supported message in Google Dialer
