@@ -11,12 +11,12 @@ Ever since the aroma installer started to be incompatible with newer versions of
 
 ## What NikGapps.config is and how it works
 
-nikgapps.config is a LF based (Unix Line Ending, more info on LF <a style="color:#2C3E50;" href="https://notepadunix2dos.info/">here</a>) configuration file which allows you to configure your installation the way you like. 
+nikgapps.config is a LF based (Unix Line Ending, more info on LF <a target="_blank" style="color:#0e7cea;" href="https://notepadunix2dos.info/">here</a>) configuration file which allows you to configure your installation the way you like. 
 By Editing nikgapps.config, you can skip any Package that you don't want to be part of your installation.
 
 Any NikGapps package that you flash reads `/sdcard/NikGapps/nikgapps.config` file to perform the installation. if the installer doesn't find nikgapps.config, it automatically creates the file for you so you can configure it the way you want.
 
-If you wish to customize the installation for your first NikGapps installation, you can download nikgapps.config from <a style="color:#2C3E50;" href="https://sourceforge.net/projects/nikgapps/files/Releases/Config/nikgapps-config/v1/">here</a> and place it in `/sdcard/NikGapps` folder and then start configuring.  
+If you wish to customize the installation for your first NikGapps installation, you can download nikgapps.config from <a target="_blank" style="color:#0e7cea;" href="https://sourceforge.net/projects/nikgapps/files/Releases/Config/nikgapps-config">here</a> and place it in `/sdcard/NikGapps` folder and then start configuring.  
 All the lines starting with # are comments. NikGapps installer recognizes the uncommented lines and performs the installation based on the config value.
 
 ### How you can configure your installation
