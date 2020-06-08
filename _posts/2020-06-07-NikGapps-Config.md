@@ -37,15 +37,17 @@ if you want to install GoogleContacts and keep Aosp Contacts, config should read
 -- Starting Android 10, gapps are installed in `/product` partition as opposed to lower versions in which gapps are installed in `/system` partition.  
 -- For the devices with separate `/product` partition, NikGapps allows you to choose which partition you want to install the gapps in. You can flash android 10 based gapps in `/system` partition.  
 -- NikGapps installer reads `InstallPartition` config from nikgapps.config file to decide whether to install the gapps in `/system` partition or `/system/product` partition  
--- By Default, the config value is commented, if you are unsure of what it does, do not uncomment it  
+-- By Default, the config value is commented, if you are unsure of what it does, do not uncomment it. The installation will happen as usual like it used to before.   
 
-For e.g. if you want to install the gapps in `/system` partition, set below config value to `system`  
+if you specifically want to install the gapps in `/system` partition, set below config value to `system`  
 
 `InstallPartition=system`  
 
 if you want to install the gapps in `/system/product` partition, set the config value to `product`  
 
 `InstallPartition=product`  
+
+Again, if you are unsure about the config, leave it as it is, NikGapps will be installed where gapps are required to be installed.
 
 
 <p style="color:green;">If you have further questions about nikgapps config, you can join the telgram support group or ask in NikGapps XDA thread</p>
