@@ -151,6 +151,11 @@
 			font-weight: 500;
 		}
 
+		a {
+			color: #3498db;
+			text-decoration: underline;
+		}
+
 		ol {
 			list-style: decimal inside;
 			padding-left: 2rem;
@@ -159,6 +164,20 @@
 		img {
 			max-width: 100%;
 			margin: 0 auto;
+		}
+
+		.divider {
+			padding: 0 0 0 0;
+			list-style: none outside;
+
+			li {
+				padding: 1rem;
+				font-weight: 400;
+			}
+
+			li + li {
+				border-top: 1px solid rgba(34, 36, 38, 0.15);
+			}
 		}
 	}
 }
