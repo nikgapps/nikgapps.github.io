@@ -1,3 +1,15 @@
+- date: 24 June 2020 (Experimental)
+  changes:
+      - item: Revamped the whole mounting mechanism
+      - item: Fixed mounting issues with newer twrp version (3.4)
+      - item: Add support for Devices with Dynamic Partitions (Thanks @merothh)
+      - item: Made nikgapps.config location portable (now installer will also read the file from the same directory gapps zip is)
+      - item: Remove AOSP Browser, Email, Gallery with Chrome, Gmail, Photos installation
+      - item: Updated nikgapps.config with Go Apps (You can now configure Go apps installation too)
+      - item: Added Android Device Policy to support Work Profile (Starting Stock Package)
+      - item: Moved Lawnchair to priv-app as it is reported to work better being privileged app
+      - item: Debugging logs will now be better at reading (nikgapps.log)
+      - item: Playstore Updates (24th June) 
 - date: 07 June 2020
   changes:
       - item: Added a config 'InstallPartition' to choose between 'system' and 'product' while installing
@@ -7,7 +19,7 @@
       - item: Support to Flash over Rom with Existing Gapps
       - item: Everything from Experimental Build (check older changelog)
       - item: Playstore Updates (07th June) 
-- date: 10 May 2020
+- date: 10 May 2020 (Experimental)
   changes:
       - item: Fixed Dialer not supported message in Google Dialer
       - item: Fixed Crashes with Device Personalization Services
@@ -35,7 +47,7 @@
       - item: Debloater-v4! Made the debloater more stable with additional conditions (to avoid bootloop)
       - item: Updated all the Addons
       - item: Latest version of Google apps (09th Mar)
-- date: 10 Feb 2020
+- date: 10 Feb 2020 (Experimental)
   changes:
       - item: Added Pixel Tips
       - item: Added Pixel Setup Wizard and its overlays.
