@@ -7,6 +7,7 @@ packages:
           - item: Google Services Framework
           - item: Google Contacts Sync Adapter
           - item: Google Calendar Sync
+          - item: ExtraFiles (necessary files for Gapps to work)
     - title: Basic
       contains:
           - item: Everything from Core
@@ -31,13 +32,13 @@ packages:
           - item: Gmail
           - item: Google Photos
           - item: Google Play Games
-          - item: Google Markup
           - item: Lawnchair
-          - item: Google Turbo
+          - item: Device Health Services
     - title: Stock
       contains:
           - item: Everything from Macro
           - item: Google Calendar (Replaces AOSP Calendar)
+          - item: Google Markup
           - item: GBoard (Replaces AOSP keyboard)
           - item: Google Sounds
           - item: Google Wallpaper
