@@ -1,3 +1,16 @@
+- date: 23 July 2020
+  changes:
+      - item: Everything from last Experimental Release (highlights below)
+      - item: Fixed mounting issues with newer twrp version (3.4)
+      - item: Add support for Devices with Dynamic Partitions (Thanks @merothh)
+      - item: Fix Priv-app permissions generation with MaxSdkVersion in it
+      - item: Installation will now fail if there is no space left on the device
+      - item: Installation will now fail for devices not having NikGapps support
+      - item: Made WipeDalvikCache configurable (set WipeDalvikCache=0 in nikgapps.config if you want the installer to skip wiping dalvik cache)
+      - item: nikgapps.config updated with package names that makes sense (let me know if you still want me to add description)
+      - item: Addons Updated (Support for twrp 3.4 and Version Updates till 23rd July)
+      - item: Debloater v6 Updated (Support for twrp 3.4)
+      - item: Playstore Updates (23rd July)
 - date: 24 June 2020 (Experimental)
   changes:
       - item: Revamped the whole mounting mechanism
