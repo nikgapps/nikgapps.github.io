@@ -1,3 +1,17 @@
+- date: 25 Aug 2020
+  changes:
+      - item: Revamped Addon.d implementation (One master addon to control all the Packages)
+      - item: Log the addon execution in one single file (can be found at /sdcard/NikGapps/Logs folder)
+      - item: Fixed mounting issues with Dynamic Partitions (Huge Thanks to @merothh for working together on this)
+      - item: Fixed conflicts with Magisk addon (Now dirty flashing will also flash magisk without issues if magisk addon is present)
+      - item: Fixed AOSP Apps not deleting after dirty flash in some cases
+      - item: Fixed location crash issue with vanced addon
+      - item: Fixed mounting issue for pie and older version (addons can be flashed on older versions)
+      - item: Improved logging functionality to a greater extent
+      - item: Remove ExtraFiles and ExtraFiles from nikgapps.config (to prevent users from accidentally setting it to 0)
+      - item: Remove AOSP Dialer with Google Dialer installation (set GoogleDialer=2 in nikgapps.config if you want to keep aosp dialer)
+      - item: Addon Updates (25th Aug)
+      - item: Playstore Updates (25th Aug)
 - date: 23 July 2020
   changes:
       - item: Everything from last Experimental Release (highlights below)
