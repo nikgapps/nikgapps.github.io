@@ -1,3 +1,12 @@
+- date: 1st Sept 2020
+  changes:
+      - item: Setup InstallPartition config such that, user can intall gapps to desired location (This is more for Developers)
+      - item: Fixed an issue where LawnchairRecentsProvider was installed by default
+      - item: Fixed an issue where GooglePhone was not appearing on Playstore if InstallPatition was set to system
+      - item: Separate GoogleSetupWizard and PixelSetupWizard addon
+      - item: Improved logs structure
+      - item: Addon Updates (1st Sept)
+      - item: Playstore Updates (1st Sept)
 - date: 25 Aug 2020
   changes:
       - item: Revamped Addon.d implementation (One master addon to control all the Packages)
