@@ -1,3 +1,13 @@
+- date: 12th Sept 2020 (Android R Release only)
+  changes:
+      - item: Initial NikGapps R (Android 11) release
+      - item: Everything Works except for SetupWizard! (will be fixed with upcoming releases)
+      - item: NikGapps-full without setupwizard is also uploaded which should be a stable one with almost all the apps targeting android 11
+      - item: I've also uploaded the builds with SetupWizard which can be skipped using nikgapps.config (if someone doesn't want full package and want macro or stock)
+      - item: Improved logs structure
+      - item: Removed Lawnchair since it is not yet compatible with android 11 (will try to add Pixel Launcher with future releases)
+      - item: YouTube Vanced v14 is shipped with the build
+      - item: Playstore Updates (12th Sept)
 - date: 1st Sept 2020
   changes:
       - item: Setup InstallPartition config such that, user can intall gapps to desired location (This is more for Developers)
