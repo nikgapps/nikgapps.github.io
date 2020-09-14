@@ -1,7 +1,7 @@
 - date: 14th Sept 2020 (Android R Release only)
   changes:
       - item: Fixed PixelSetupWizard (Test Google Restore and let me know how it works out for you)
-      - item: Move Pixel Setup Wizard to /system/overlay 
+      - item: Move Pixel Setup Wizard overlays to /system/overlay 
       - item: Improve the installer script (in support for android 11)
 - date: 12th Sept 2020 (Android R Release only)
   changes:
