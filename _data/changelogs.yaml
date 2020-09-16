@@ -1,3 +1,9 @@
+- date: 16th Sept 2020 (Android R Release only)
+  changes:
+      - item: Added Pixel Launcher (macro/stock/full) (Yay? :P)
+      - item: Fixed Google Chrome account sync/sign in issue
+      - item: Fixed Google Markup crash
+      - item: Remove unnecessary Google Dialer overlays
 - date: 14th Sept 2020 (Android R Release only)
   changes:
       - item: Fixed PixelSetupWizard (Test Google Restore and let me know how it works out for you)
