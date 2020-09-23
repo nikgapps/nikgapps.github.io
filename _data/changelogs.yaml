@@ -1,3 +1,14 @@
+- date: 23rd Sept 2020 (Android R Release only)
+  changes:
+      - item: Added DevicePersonalizationServices (Live Caption Works)
+      - item: Added Google Files (Macro/Stock/Full)
+      - item: Added GoogleDialer, PixelLauncher, GoogleFiles overlays
+      - item: Added Google Files (Macro/Stock/Full)
+      - item: Fixed Permission (PACKAGE_USAGE_STATS) denial with Pixel Launcher
+      - item: Set Location Permissions to GoogleChrome for those who were facing issues with account sync in Chrome
+      - item: Added all the pixel overlays (icons, accent, etc to get more Pixel feel)
+      - item: Improve addon.d scripts to a huge extent
+      - item: Improvement in installer scripts
 - date: 16th Sept 2020 (Android R Release only)
   changes:
       - item: Added Pixel Launcher (macro/stock/full) (Yay? :P)
