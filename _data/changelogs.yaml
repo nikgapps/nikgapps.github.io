@@ -1,3 +1,10 @@
+- date: 26th Sept 2020 (Android R Release only)
+  changes:
+      - item: Fix 4G/LTE not working due to APN resetting
+      - item: Fixed an issue where Google Lens was not opening in Google Photos 
+      - item: Fixed Chrome sync issue out of the box (without contacts permissions)
+      - item: Remove RevengeOS Messages and Calculator with Google Messages and Google Calculator installation respectively
+      - item: Playstore Updates (25th Sept)
 - date: 23rd Sept 2020 (Android R Release only)
   changes:
       - item: Added DevicePersonalizationServices starting Macro (Live Caption Works)
