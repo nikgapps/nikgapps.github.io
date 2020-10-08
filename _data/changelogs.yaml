@@ -1,3 +1,13 @@
+- date: 08th Oct 2020 (Android R and Q Release)
+  changes:
+      - item: Fixed select option not working in Recents Screen
+      - item: Revamped NikGapps architecture to implement AppSets (check notes/website for more details)
+      - item: Add pixelize AppSet that will enable pixel features such as PixelSetupWizard, PixelConfigs
+      - item: Remove styles and wallpaper to avoid conflicts with Rom
+      - item: Removed the overlay that was causing biometrics to fail in app authentication
+      - item: Removed Lawnchair from NikGapps packages (Q and R) since the development is stopped, Add Pixel Launcher instead, you can flash Lawnchair addon to get Lawnchair
+      - item: Fix Debloater not debloating in some scenarios for A/B devices, Also fix logging for A/B devices
+      - item: Playstore Updates (08th Oct)
 - date: 26th Sept 2020 (Android R Release only)
   changes:
       - item: Fix 4G/LTE not working due to APN resetting
