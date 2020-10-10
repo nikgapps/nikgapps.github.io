@@ -1,3 +1,9 @@
+- date: 10th Oct 2020 (Android R and Q Release)
+  changes:
+      - item: Fixed Pixelize Package failing to enable Pixel Setup Wizard (You should get PixelSetupWizard if you sent Pixelize=1)
+      - item: Shipped a working messages app (The one that is compatible with shipped Google Play Services)
+      - item: Addons Updated (10th Oct)
+      - item: Playstore Updates (10th Oct)
 - date: 08th Oct 2020 (Android R and Q Release)
   changes:
       - item: Fixed select option not working in Recents Screen
