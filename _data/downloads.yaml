@@ -56,3 +56,5 @@ packages:
           - item: Google Sound Recorder
           - item: YouTube Music (Replaces AOSP Music and Google Play Music)
           - item: Device Personalization Services
+          - item: Google TTS
+          - item: Google Talkback
