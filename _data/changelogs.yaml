@@ -1,3 +1,17 @@
+- date: 25th Oct 2020 (Android R Release)
+  changes:
+      - item: Added Google TTS, Google Talkback
+      - item: Added google webview, trichromelibrary (should resolve lags issue in chrome)
+      - item: Moved certain pixel launcher overlays in Pixelize Package
+      - item: Added PixelLauncher from Pixel5
+      - item: Fixed Google Drive not opening issue
+      - item: Added swipelibrary with gboard
+      - item: Faster installation (script changes)
+      - item: Set several apps by default (Google Dialer as default phone, Google Velvet as default assistant)
+      - item: Fix aosp apps not being deleted during addon.d execution
+      - item: Updated Pixel live wallpaper from Pixel5
+      - item: Updated Vanced Gms to latest version
+      - item: Playstore Updates (25th Oct)
 - date: 10th Oct 2020 (Android R and Q Release)
   changes:
       - item: Fixed Pixelize Package failing to enable Pixel Setup Wizard (You should get PixelSetupWizard if you sent Pixelize=1)
