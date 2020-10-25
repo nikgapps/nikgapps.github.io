@@ -11,6 +11,7 @@
       - item: Fix aosp apps not being deleted during addon.d execution
       - item: Updated Pixel live wallpaper from Pixel5
       - item: Updated Vanced Gms to latest version
+      - item: Dropped Google Play Music in favor of stock YouTube Music
       - item: Playstore Updates (25th Oct)
 - date: 10th Oct 2020 (Android R and Q Release)
   changes:
