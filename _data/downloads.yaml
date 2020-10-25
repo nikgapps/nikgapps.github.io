@@ -23,7 +23,7 @@ packages:
     - title: Macro
       contains:
           - item: Everything from Omni
-          - item: Pixel Setup Wizard
+          - item: Google/Pixel Setup Wizard (configurable with nikgapps.config)
           - item: Google Calculator (Replaces AOSP Calculator)
           - item: Google Clock (Replaces AOSP Clock)
           - item: Google Drive
@@ -32,8 +32,10 @@ packages:
           - item: Gmail (Replaces AOSP Email)
           - item: Google Photos (Replaces AOSP Gallery)
           - item: Google Play Games
-          - item: Lawnchair
+          - item: Lawnchair (Android P & Q only)
+          - item: Pixel Launcher (Android R)
           - item: Device Health Services
+          - item: Google Files
     - title: Stock
       contains:
           - item: Everything from Macro
@@ -52,5 +54,5 @@ packages:
           - item: Google Chrome (Replaces AOSP Browser)
           - item: Google Assistant
           - item: Google Sound Recorder
-          - item: Google Play Music
+          - item: YouTube Music (Replaces AOSP Music and Google Play Music)
           - item: Device Personalization Services
