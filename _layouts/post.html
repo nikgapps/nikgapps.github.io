@@ -58,26 +58,6 @@
                 <div class="post__share">
                     <div class="sharethis-inline-share-buttons"></div>
                 </div>
-
-                {% if jekyll.environment == 'production' %}
-                {% if page.comments %}
-                <div class="post__comments">
-                    <div id="disqus_thread"></div>
-                    <script>
-                        (function () { // DON'T EDIT BELOW THIS LINE
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://nikgapps.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
-                            powered by Disqus.</a></noscript>
-                </div>
-                {% else %}
-                <h4 class="no__comments">Comments are Closed for this Post</h4>
-                {% endif %}
-                {% endif %}
                 <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
             </article>
         </main>
@@ -85,7 +65,6 @@
     {% include footer.html %}
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.js"></script>
-    <script id="dsq-count-scr" src="//nikgapps.disqus.com/count.js" async></script>
     <script src="{{ "/assets/js/app.js" | relative_url }}"></script>
 </body>
 
