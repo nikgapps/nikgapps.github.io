@@ -34,6 +34,7 @@ packages:
           - item: Google Play Games
           - item: Lawnchair (Android P & Q only)
           - item: Pixel Launcher (Android R)
+          - item: Device Personalization Services
           - item: Device Health Services
           - item: Google Files
     - title: Stock
@@ -55,6 +56,7 @@ packages:
           - item: Google Assistant
           - item: Google Sound Recorder
           - item: YouTube Music (Replaces AOSP Music and Google Play Music)
-          - item: Device Personalization Services
           - item: Google TTS
           - item: Google Talkback
+          - item: Device Setup (Android for work)
+          - item: Android Auto
