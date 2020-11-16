@@ -1,3 +1,14 @@
+- date: 16th Nov 2020 (Android R and Q Release)
+  changes:
+      - item: Android Auto, DeviceSetup (i.e. Android for Work) in full package (R and Q)
+      - item: More robust GMS Optimization (R and Q)
+      - item: Added Google TTS, Google Talkback (Q)
+      - item: Added google webview, trichromelibrary (Q)
+      - item: Fix aosp apps not being deleted during addon.d execution (Q)
+      - item: Improvement in installer scripts (R and Q)
+      - item: Moved DPS to Macro so that we don't have to ship it with Pixel Launcher AppSet (R and Q)
+      - item: Updated Vanced Gms to latest version (can be found in @NikGappsSupport telegram group)
+      - item: Playstore Updates (16th Nov)
 - date: 25th Oct 2020 (Android R Release)
   changes:
       - item: Added Google TTS, Google Talkback
