@@ -71,7 +71,7 @@ First things first, let's find out how to skip installing a package or a set of 
 
 ### How to skip installing a Package/AppSet
 
-For instance, if you want to skip installing 'Google Contacts', all you need to do is open nikgapps.config and find an entry of Google Contacts (usually the spaces are trimmed and the entry you will find will be GoogleContacts). in order to skip installing the package, the config should read `<Name>=0` ; where `<Name>` is package name. Which means, in our case `GoogleContacts=0`.
+For instance, if you want to skip installing `Google Contacts`, all you need to do is open nikgapps.config and find an entry of Google Contacts (usually the spaces are trimmed and the entry you will find will be GoogleContacts). In order to skip installing the package, the config should read `<Name>=0` ; where `<Name>` is package name. Which means, in our case `GoogleContacts=0`.
 
 If you want to install GoogleContacts and remove Aosp Contacts, config should read `GoogleContacts=1`.
 
