@@ -1,3 +1,12 @@
+- date: 22nd Nov 2020 (Android R and Q Release)
+  changes:
+      - item: Feature to uninstall any Package/Addon added (more info can be found on nikgapps.config blog)
+      - item: Fixed several apps (such as GooglePhotos, PixelLiveWallpapers) not showing up even when they were installed
+      - item: Fixed issues with Google Phone (you'll be able to update it properly)
+      - item: Fixed SetupWizard appearing on notification bar even after going through setup wizard process
+      - item: A lot of code optimization in installer script
+      - item: Many new things added in nikgapps.config (listed Packages under AppSet so you can control it)
+      - item: Playstore Updates (22nd Nov)
 - date: 16th Nov 2020 (Android R and Q Release)
   changes:
       - item: Android Auto, DeviceSetup (i.e. Android for Work) in full package (R and Q)
