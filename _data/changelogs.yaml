@@ -1,3 +1,12 @@
+- date: 12th Dec 2020 (Android R and Q Release)
+  changes:
+      - item: Install gapps to /system partition in devices with dynamic partitions (should fix no space issue for several users) 
+      - item: Introduced more addon.d configs to control addon.d execution (read more in nikgapps.config file from the zip) 
+      - item: Fixed duplicate values coming in nikgapps.config causing issues
+      - item: Ship working versions of Google Maps, Drive, Google Recorder
+      - item: Remove GmsCore folder with installation of GmsCore
+      - item: avc denied error should be fixed with this update
+      - item: Playstore Updates (12th Dec)
 - date: 22nd Nov 2020 (Android R and Q Release)
   changes:
       - item: Feature to uninstall any Package/Addon added (more info can be found on nikgapps.config blog)
