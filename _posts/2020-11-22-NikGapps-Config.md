@@ -81,6 +81,33 @@ However, if you accidentally missed configuring a package and you ended up havin
 
 In summary, if you wish to uninstall any addon, set `<AddonName>=-1`, `mode=uninstall` and reflash the addon/gapps containing the Package.
 
+## How to skip restoring NikGapps with dirty flashing Rom
+
+nikgapps.config comes with 3 more config entries that allows you to control the addon.d execution. 
+
+<table class="ui striped fixed small unstackable table">
+  <thead>
+    <tr>
+      <th  class="six wide center aligned">Config Entry</th>
+      <th  class="ten wide">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="center aligned">execute.d</td>
+      <td>1 (enabled by default), set to 0 if you want the installer to skip restoring NikGapps upon dirty flashing the rom</td>
+    </tr>
+    <tr>
+      <td class="center aligned">mount.d</td>
+      <td>1 (enabled by default), set to 0 if you don't want the installer to run partition mounting functions</td>
+    </tr>
+    <tr>
+      <td class="center aligned">unmount.d</td>
+      <td>1 (enabled by default), set to 0 if you don't want the installer to run partition unmounting functions</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Introduction to InstallPartition config
 
 There are devices with Roms having separate <code>/product</code> partition which is designed to store vendor specific files and is usually less in size.
