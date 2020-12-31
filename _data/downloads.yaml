@@ -57,3 +57,15 @@ packages:
           - item: Google Talkback
           - item: Device Setup (Android for work)
           - item: Android Auto
+    - title: Go
+      contains:
+          - item: Everything from Core
+          - item: Assistant Go
+          - item: Gallery Go
+          - item: Gmail Go
+          - item: Google Go
+          - item: Maps Go
+          - item: Navigation Go
+          - item: Pixel Launcher 
+          - item: Device Personalization Services
+          - item: YouTube v14
