@@ -179,8 +179,8 @@
 		gap: 1.25rem;
 		grid-template-areas:
 			"core basic omni"
-			"macro stock full"
-			"macro stock full";
+			"go stock full"
+			"go stock full";
 
 		.core {
 			grid-area: core;
@@ -194,8 +194,8 @@
 			grid-area: omni;
 		}
 
-		.macro {
-			grid-area: macro;
+		.go {
+			grid-area: go;
 		}
 
 		.stock {
