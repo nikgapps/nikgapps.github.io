@@ -1,3 +1,11 @@
+- date: 31st Dec 2020 (Android R, Q and P Release)
+  changes:
+      - item: Uninstall the addons/gapps packages with -1 config (mode=uninstall is optional now)
+      - item: Calculate partition size and gapps size (based on customized nikgapps.config)
+      - item: Added support for flashing NikGapps after first boot (for space issue with dynamic partitions)
+      - item: Fixed an issue where YouTube Vanced addon failed to install after ota update
+      - item: Remove more aosp apps (SimpleGallery, SimpleCalendar)
+      - item: Playstore updates (31st Dec)
 - date: 12th Dec 2020 (Android R and Q Release)
   changes:
       - item: Install gapps to /system partition in devices with dynamic partitions (should fix no space issue for several users) 
