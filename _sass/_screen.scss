@@ -178,9 +178,9 @@
 		display: grid;
 		gap: 1.25rem;
 		grid-template-areas:
-			"core basic omni"
-			"go stock full"
-			"go stock full";
+			"core go basic"
+			"omni stock full"
+			"omni stock full";
 
 		.core {
 			grid-area: core;
