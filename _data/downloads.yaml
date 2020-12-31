@@ -11,45 +11,42 @@ packages:
     - title: Basic
       contains:
           - item: Everything from Core
+          - item: Google Carrier Services
+          - item: Google Clock (Replaces AOSP Clock)
           - item: Digital Wellbeing
-          - item: YouTube Vanced
-    - title: Omni
-      contains:
-          - item: Everything from Basic
+          - item: Vanced Manager
           - item: Google Dialer (Replaces AOSP Dialer)
           - item: Google Messages (Replaces AOSP Messages)
           - item: Google Contacts (Replaces AOSP Contacts)
-          - item: Google Carrier Services
-    - title: Macro
+    - title: Omni
       contains:
-          - item: Everything from Omni
-          - item: Google/Pixel Setup Wizard (configurable with nikgapps.config)
-          - item: Google Calculator (Replaces AOSP Calculator)
-          - item: Google Clock (Replaces AOSP Clock)
-          - item: Google Drive
-          - item: Google Velvet (for voice unlock)
-          - item: Google Maps
-          - item: Gmail (Replaces AOSP Email)
-          - item: Google Photos (Replaces AOSP Gallery)
-          - item: Google Play Games
-          - item: Lawnchair (Android P & Q only)
-          - item: Pixel Launcher (Android R)
-          - item: Device Personalization Services
+          - item: Everything from Basic
           - item: Device Health Services
-          - item: Google Files
+          - item: Google Drive
+          - item: Gmail (Replaces AOSP Email)
+          - item: Google Calculator (Replaces AOSP Calculator)
+          - item: Google/Pixel Setup Wizard (configurable with nikgapps.config using Pixelize)
+          - item: Google Maps
+          - item: Google Photos (Replaces AOSP Gallery)
     - title: Stock
       contains:
-          - item: Everything from Macro
-          - item: Google Calendar (Replaces AOSP Calendar)
-          - item: Google Markup
+          - item: Everything from Omni  
+          - item: Android Device Policy
           - item: GBoard (Replaces AOSP keyboard)
-          - item: Google Sounds
-          - item: Google Wallpaper
+          - item: Google Calendar (Replaces AOSP Calendar)
           - item: Google Feedback
           - item: Google Partner Setup
+          - item: Pixel Launcher
+          - item: Device Personalization Services
+          - item: Google Files (Android R only)
+          - item: Google Velvet (for voice unlock)
+          - item: Google Play Games
+          - item: Google Markup
+          - item: Google Sounds
+          - item: Google Wallpaper
     - title: Full
       contains:
-          - item: Everything from Stock.
+          - item: Everything from Stock
           - item: Google Play Books
           - item: Google Keep
           - item: Google Chrome (Replaces AOSP Browser)
