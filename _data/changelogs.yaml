@@ -1,3 +1,20 @@
+- date: 28th Jan 2021 (Android R and Q Release)
+  changes:
+      - item: Added missing Hotward Permissions
+      - item: Playstore Updates (28th Jan)
+- date: 27th Jan 2021 (Android R and Q Release)
+  changes:
+      - item: Fixed YouTube Vanced Root version not working
+      - item: Fixed Android tv remote app crash
+      - item: Add missing GBoard properties
+      - item: Ship GoogleRecorder 2.1
+      - item: Playstore Updates (27th Jan)
+- date: 24th Jan 2021 (Android R and Q Release)
+  changes:
+      - item: Fixed an issue where sideloading of NikGapps packages failed
+      - item: Fixed an issue where the permissions were resetting upon dirty flashing NikGapps
+      - item: Mounting fixes (require feedback from users with dynamic partitions on space issue)
+      - item: Many under the hood improvements
 - date: 31st Dec 2020 (Android R, Q and P Release)
   changes:
       - item: Uninstall the addons/gapps packages with -1 config (mode=uninstall is optional now)
@@ -5,7 +22,7 @@
       - item: Added support for flashing NikGapps after first boot (for space issue with dynamic partitions)
       - item: Fixed an issue where YouTube Vanced addon failed to install after ota update
       - item: Remove more aosp apps (SimpleGallery, SimpleCalendar)
-      - item: Playstore updates (31st Dec)
+      - item: Playstore Updates (31st Dec)
 - date: 12th Dec 2020 (Android R and Q Release)
   changes:
       - item: Install gapps to /system partition in devices with dynamic partitions (should fix no space issue for several users) 
