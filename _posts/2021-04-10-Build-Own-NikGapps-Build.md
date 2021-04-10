@@ -24,7 +24,7 @@ This will help you get your config files merged quicker than before.
 
 <p class="ui negative message">Any config file that is outside of above folders, it will be ignored by the NikGapps config build and moved to archive folder</p>
 
-![Config_Repo_Folders.png](../images/Config_Repo_Folders.png)
+![Config_Repo_Folders.png](https://raw.githubusercontent.com/nikgapps/nikgapps.github.io/master/images/Config_Repo_Folders.png)
 
 ### Config rules
 
@@ -36,4 +36,4 @@ This will help you get your config files merged quicker than before.
 - GoogleChrome comes with 3 packages, all of them are mandatory. Make sure you know what you're doing if you set any one of the packages=0
 - Config build only scans for the config values 1, if the config reads `GoogleChrome=2`, GoogleChrome will be ignored
 
-![Config_Sample_1.png](../images/Config_Sample.png)
+![Config_Sample.png](https://raw.githubusercontent.com/nikgapps/nikgapps.github.io/master/images/Config_Sample.png)
