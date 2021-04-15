@@ -4,3 +4,12 @@ title: "NikGapps Website"
 
 plugins:
   - jekyll-seo-tag
+
+# Instructions
+
+# git clone https://github.com/nikgapps/nikgapps.github.io.git
+# cd nikgapps.github.io
+# bundle update
+# gem install jekyll-seo-tag
+
+# Installing jekyll-seo-tag is important using above command
