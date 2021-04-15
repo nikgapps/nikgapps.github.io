@@ -13,11 +13,21 @@ Ever since the aroma installer started to be incompatible with newer versions of
 
 nikgapps.config is a configuration file which allows you to completely configure your installation.
 
-Any NikGapps package that you flash reads a config file named `nikgapps.config` which is located inside `/sdcard/NikGapps` folder to perform the installation. To make it convenient for users, `nikgapps.config` can also be located at different locations, the location preference will be covered later in this page. If the installer doesn't find **nikgapps.config**, it automatically creates the file for you so you can configure it the way you want. 
+Any NikGapps package that you flash reads a config file named `nikgapps.config` which is located inside `/sdcard/NikGapps` folder to perform the installation. To make it convenient for users, `nikgapps.config` can also be located at different locations, the location preference is listed below.  
+
+#### nikgapps.config location preferences
+1. "/tmp/nikgapps.config"
+2. "$ZIPDIR/nikgapps.config" where ZIPDIR is the directory NikGapps package is located
+3. "/sdcard1/nikgapps.config"
+4. "/sdcard1/NikGapps/nikgapps.config"
+5. "/sdcard/nikgapps.config"
+6. "/sdcard/NikGapps/nikgapps.config"
+
+If the installer doesn't find **nikgapps.config**, it automatically creates the file for you so you can configure it the way you want.
 
 ### How to setup nikgapps.config for first time users
 
-If you wish to customize the installation for your first NikGapps installation, you can download nikgapps.config from <a target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Releases/Config/nikgapps-config">here</a> and place it in `/sdcard/NikGapps` folder and then start configuring. You can also extract nikgapps.config from the gapps zip and place it in `/sdcard/NikGapps`. 
+You can download nikgapps.config from <a target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Releases/Config/nikgapps-config">here</a> and place it in `/sdcard/NikGapps` folder and then start configuring. Alternatively, you can also extract nikgapps.config from the gapps zip and place it in `/sdcard/NikGapps`. 
 
 ### Understanding nikgapps.config and using it to configure your installation
 
@@ -81,9 +91,9 @@ However, if you accidentally missed configuring a package and you ended up havin
 
 In summary, if you wish to uninstall any addon, set `<AddonName>=-1`, `mode=uninstall` and reflash the addon/gapps containing the Package.
 
-## How to skip restoring NikGapps with dirty flashing Rom
+## How to control addon.d execution with NikGapps
 
-nikgapps.config comes with 3 more config entries that allows you to control the addon.d execution. 
+nikgapps.config comes with 4 more config entries that allows you to control the addon.d execution. 
 
 <table class="ui striped fixed small unstackable table">
   <thead>
@@ -104,6 +114,10 @@ nikgapps.config comes with 3 more config entries that allows you to control the 
     <tr>
       <td class="center aligned">unmount.d</td>
       <td>1 (enabled by default), set to 0 if you don't want the installer to run partition unmounting functions</td>
+    </tr>
+    <tr>
+      <td class="center aligned">addon_version.d</td>
+      <td>2 (by default), set to 3 if you are using lineageOs recovery or using latest los build</td>
     </tr>
   </tbody>
 </table>
