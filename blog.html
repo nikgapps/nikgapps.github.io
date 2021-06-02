@@ -32,7 +32,7 @@ bClass: blog
                 {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}
             </p>
 
-            <a href="{{post.url | prepend: site.baseurl}}" class="read-more">Keep Reading <i
+            <a href="{{ post.url | relative_url }}" class="read-more">Keep Reading <i
                     class="fa fa-long-arrow-right"></i></a>
         </div>
         {%- endfor -%}
