@@ -40,7 +40,7 @@ packages:
           - item: Device Personalization Services
           - item: Google Files (Android R only)
           - item: Google Velvet (for voice unlock)
-          - item: Google Play Games
+          - item: Google Sound Recorder
           - item: Google Markup
           - item: Google Sounds
           - item: Google Wallpaper
@@ -51,7 +51,7 @@ packages:
           - item: Google Keep
           - item: Google Chrome (Replaces AOSP Browser)
           - item: Google Assistant
-          - item: Google Sound Recorder
+          - item: Google Play Games
           - item: YouTube Music (Replaces AOSP Music and Google Play Music)
           - item: Google TTS
           - item: Google Talkback
@@ -68,4 +68,4 @@ packages:
           - item: Navigation Go
           - item: Pixel Launcher 
           - item: Device Personalization Services
-          - item: YouTube v14
+          - item: Vanced Manager
