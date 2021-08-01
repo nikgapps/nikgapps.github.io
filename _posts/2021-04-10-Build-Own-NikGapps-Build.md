@@ -5,6 +5,9 @@ categories: misc
 author: Nikhil Menghani
 ---
 
+* This will become a table of contents (this text will be scrapped).
+{:toc}
+
 # Rules for setting up your custom config file
 
 For the better understanding of how NikGapps config release works, we've decided to document all the rules that you need to follow while configuring your config file. We understand that sending a pull request and not having to merge easily can be frustrating.  
