@@ -195,3 +195,38 @@
 	padding: 1rem;
 	border-radius: 3px;
 }
+
+#markdown-toc {
+	background:#fafafa;
+	padding:1rem 1.5rem .25rem 2.5rem;
+	color:black;
+	font-size:14px;
+	width:fit-content;
+	line-height:1.8;
+	margin-bottom:1rem;
+	border-radius:4px;
+	border: 0.5px solid #aaa;
+}
+
+// Adding 'Contents' headline to the TOC
+#markdown-toc::before {
+    content: "Table of Contents";
+	font-weight:500;
+	color:#555;
+	text-transform:uppercase;
+	font-size:1rem;
+	margin-left:-1rem;
+}
+
+// Using circle instead of bullets for listing
+#markdown-toc ul {
+    list-style: circle;
+}
+
+#markdown-toc a {
+	font-weight:500;
+	color:#555;
+	font-size:.90rem;
+	text-decoration: none;
+	list-style-type: circle;
+}
