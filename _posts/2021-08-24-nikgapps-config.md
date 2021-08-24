@@ -108,6 +108,6 @@
 
 
 
-##*1 Disable either from the package or from the addon packages. Best if you disable from addon package
-##*2 Install only one of the varient. May replace the youtube app when installing package.
-##*3 choose only one of the varient Dark or black mode. You may install vanced manager for vanced updates.
+## *1 Disable either from the package or from the addon packages. Best if you disable from addon package
+## *2 Install only one of the varient. May replace the youtube app when installing package.
+## *3 choose only one of the varient Dark or black mode. You may install vanced manager for vanced updates.
