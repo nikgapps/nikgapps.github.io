@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Guide for Packages in NikGapps.config"
+categories: misc
+author: Kingshuk Das,Nikhil Menghani
+---
+
+* This will become a table of contents (this text will be scrapped).
+{:toc}
+
+
 ## Nikgapps appset and package information
 ## Following are the packages with default configuration
 ## Set Core=0 if you want to skip installing all packages belonging to Core Package (Don't disable this if you know what you are doing)
@@ -32,16 +43,16 @@
     >>PixelTips=1
     >>PixelConfigOverlays=1
     
-    GoogleCalculator=1         (Package for calculator app)
-    Drive=1			   (Package for google drive app)
-    GoogleMaps=1		   (Package for google maps app)
-    GoogleLocationHistory=1    (Package for Maps location history service)
-    Gmail=1                    (Package for google mail app)
-    GooglePhotos=1		   (Package for google photoes app)
-    DeviceHealthServices=1	   (Package for device battery health service)
-    Flipendo=1	 	   (Package for extreme battery saver service)
-    Velvet=1	 	   (Package for main google + assistant app)
-    GBoard=1		   (Package for google keyboard app)
+    GoogleCalculator=1        (Package for calculator app)
+    Drive=1			          (Package for google drive app)
+    GoogleMaps=1		      (Package for google maps app)
+    GoogleLocationHistory=1   (Package for Maps location history service)
+    Gmail=1                   (Package for google mail app)
+    GooglePhotos=1		      (Package for google photoes app)
+    DeviceHealthServices=1	  (Package for device battery health service)
+    Flipendo=1	 	          (Package for extreme battery saver service)
+    Velvet=1	 	          (Package for main google + assistant app)
+    GBoard=1		          (Package for google keyboard app)
 
 ## Set PixelLauncher=0 if you want to skip installing all packages belonging to PixelLauncher Package  (Replaces aosp or any launcher with the pixel launcher)
     PixelLauncher=1  
@@ -61,11 +72,12 @@
     MarkupGoogle=1       (Installs photoes markup app used in google photos)
     GoogleWallpaper=1    (Installs google based wallpaper app)
     GoogleFeedback=1     (Installs Google Feedback app)
-    GooglePartnerSetup=1 (Google Partner Setup is an app that helps you run applications in conjunction with Google products. For example, with this application's help, you can use the calendar from your device with a ToDo app that you've just installed.
-    GoogleSounds=1       (Replaces stock aosp sounds selector with google sounds)
-    AndroidDevicePolicy=1 ( It is for Enterprises)
+    GooglePartnerSetup=1 (Google Partner Setup is an app that helps you run applications in conjunction with Google products-
+                          For example, you can use the calendar from your device with a ToDo app that you've just installed)
+    GoogleSounds=1        (Replaces stock aosp sounds selector with google sounds)
+    AndroidDevicePolicy=1 (It is for Enterprises to manage the devices)
     GoogleKeep=1          (Installs google notebook app)
-    Books=1               (Installs  googbe based e-book app)
+    Books=1               (Installs  google based e-book app)
     Assistant=1           (Installs standalone assistant app)
     YouTubeMusic=1        (Installs stock youtube music app)
     PlayGames=1           (Installs google play games)
@@ -90,19 +102,19 @@
     GmailGo=1
 
 ## Following are the Addon packages NikGapps supports
-    AdAway=1                         (Used to block ads via editing hosts file. Needs root or can be used with vpn method)
-    PixelLiveWallpapers=1		 (Installs Pixel Live wallpapers)
-    YouTubeVancedDark15=1		 (Installs Youtube vanced dark version)*2,3
-    YouTubeVancedBlack15=1           (Installs Youtube vanced amoled black version)*2,3
-    YouTubeVancedMusic=1             (Installs Youtube music vanced)
-    PixelSetupWizard=1		 (Installs pixel setup wizard)*1
-    GoogleFi=1                       (Installs googleFi app)
-    GoogleDuo=1	 		 (Installs google video calling app)
-    GoogleDocs=1			 (Installs google documents app)
-    GoogleSlides=1			 (Installs google presentation app)
-    GoogleSheets=1			 (Installs google excel sheet app)
-    YouTube=1			 (Installs normal youtube app)*2
-    PokePixLiveWallpapers=1          (Installs more pokemon themed live wallpapers)
+    AdAway=1                       (Used to block ads via editing hosts file. Needs root or can be used with vpn method)
+    PixelLiveWallpapers=1		   (Installs Pixel Live wallpapers)
+    YouTubeVancedDark15=1		   (Installs Youtube vanced dark version)*2,3
+    YouTubeVancedBlack15=1         (Installs Youtube vanced amoled black version)*2,3
+    YouTubeVancedMusic=1           (Installs Youtube music vanced)
+    PixelSetupWizard=1		       (Installs pixel setup wizard)*1
+    GoogleFi=1                     (Installs googleFi app)
+    GoogleDuo=1	 		           (Installs google video calling app)
+    GoogleDocs=1			       (Installs google documents app)
+    GoogleSlides=1			       (Installs google presentation app)
+    GoogleSheets=1			       (Installs google excel sheet app)
+    YouTube=1			           (Installs normal youtube app)*2
+    PokePixLiveWallpapers=1        (Installs more pokemon themed live wallpapers)
 
 
 
