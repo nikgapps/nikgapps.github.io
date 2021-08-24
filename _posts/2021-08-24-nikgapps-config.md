@@ -61,12 +61,12 @@
     MarkupGoogle=1       (Installs photoes markup app used in google photos)
     GoogleWallpaper=1    (Installs google based wallpaper app)
     GoogleFeedback=1     (Installs Google Feedback app)
-    GooglePartnerSetup=1 (Google Partner Setup is an app that helps you run applications in conjunction with Google products. For example, you can use the
-    calendar from your device with a ToDo app that you've just installed)
-    GoogleSounds=1       (Replaces stock aosp sounds selector with google sounds)
-    AndroidDevicePolicy=1 ( It is for Enterprises)
+    GooglePartnerSetup=1 (Google Partner Setup is an app that helps you run applications in conjunction with Google products-
+                          For example, you can use the calendar from your device with a ToDo app that you've just installed)
+    GoogleSounds=1        (Replaces stock aosp sounds selector with google sounds)
+    AndroidDevicePolicy=1 (It is for Enterprisesto manage the devices)
     GoogleKeep=1          (Installs google notebook app)
-    Books=1               (Installs  googbe based e-book app)
+    Books=1               (Installs  google based e-book app)
     Assistant=1           (Installs standalone assistant app)
     YouTubeMusic=1        (Installs stock youtube music app)
     PlayGames=1           (Installs google play games)
