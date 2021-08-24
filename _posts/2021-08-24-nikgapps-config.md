@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Guide for Packages in NikGapps.config"
+categories: misc
+author: Kingshuk Das,Nikhil Menghani
+---
+
+* This will become a table of contents (this text will be scrapped).
+{:toc}
+
+
 ## Nikgapps appset and package information
 ## Following are the packages with default configuration
 ## Set Core=0 if you want to skip installing all packages belonging to Core Package (Don't disable this if you know what you are doing)
@@ -64,7 +75,7 @@
     GooglePartnerSetup=1 (Google Partner Setup is an app that helps you run applications in conjunction with Google products-
                           For example, you can use the calendar from your device with a ToDo app that you've just installed)
     GoogleSounds=1        (Replaces stock aosp sounds selector with google sounds)
-    AndroidDevicePolicy=1 (It is for Enterprisesto manage the devices)
+    AndroidDevicePolicy=1 (It is for Enterprises to manage the devices)
     GoogleKeep=1          (Installs google notebook app)
     Books=1               (Installs  google based e-book app)
     Assistant=1           (Installs standalone assistant app)
