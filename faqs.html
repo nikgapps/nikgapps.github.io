@@ -9,6 +9,18 @@ bClass: faqs
 <section class="faqs__inner wrap">
     <div class="faqs__container">
         <div class="ui styled accordion">
+
+            <div class="title">
+                <i class="dropdown icon"></i>
+                Can I buy you a cup of coffee?
+            </div>
+
+            <div class="content">
+                <p>
+                    Sure! :) Just find the Donate button on the top right corner of the page!
+                </p>
+            </div>
+
             <div class="title" id="difference">
                 <i class="dropdown icon"></i>
                 What is the difference between OpenGapps and NikGapps?
@@ -52,6 +64,49 @@ bClass: faqs
                 </ul>
             </div>
 
+            <div class="title" id="cleanflash">
+                <i class="dropdown icon"></i>
+                How to clean flash NikGapps update without losing data?
+            </div>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        Step 1: Uninstall Playstore updates of Google Apps 
+                    </li>
+                    <li>
+                        Step 2: Go to /system/addon.d folder and delete all the scripts that starts with "50-"
+                    </li>
+                    <li>
+                        Step 3: Dirty flash Rom
+                    </li>
+                    <li>
+                        Step 4: Flash newer version of NikGapps
+                    </li>
+                    <li>
+                        <b>Note:</b> this doesn't allow you to dirty flash GBoard/Google Clock app, for that you need to wipe /data and then flash gapps
+                    </li>
+                </ul>
+            </div>
+
+            <div class="title" id="canary">
+                <i class="dropdown icon"></i>
+                What are the 'Canary' Builds?
+            </div>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        As with other kind of software releases, basically canary is technically a test, alpha, beta, whatever you call it. 
+                        Has some improvements with quick fixes for previous issues. 
+                        Main releases are more stable though it would be releases at a later date than canary. 
+                        If you want to have a more stable update go for release, if you want bleeding edge, bugs be damned, go canary
+                    </li>
+                    <li>
+                        Download: <a style="color:blue" href="https://sourceforge.net/projects/nikgapps/files/Canary-Releases">link</a>
+                    </li>
+                </ul>
+            </div>
 
             <div class="title" id="NikGappsconfig">
                 <i class="dropdown icon"></i>
@@ -65,46 +120,7 @@ bClass: faqs
                         you
                         like.
                         You can skip any Package that you don't want to be part of your installation.
-                    </li>
-                    <li>
-                        NikGapps.config is placed in <code>/sdcard/NikGapps</code> folder
-                        automatically after first install with all the packages enabled
-                        for installation.
-                    </li>
-                    <li>
-                        If you want to configure the installation with your very first
-                        installation, extract NikGapps.config from the gapps zip and place
-                        it to <code>/sdcard/NikGapps</code> folder.
-                    </li>
-                    <li>
-                        Edit the file and set 0,1,2 against the package that you want to configure,
-                        save the file, flash the gapps.
-                    </li>
-                    <li>
-                        NikGapps installer recognizes 3 config values <br>
-                        -> 0 (Skip the package) <br>
-                        -> 1 (install the package and delete corresponding aosp app) <br>
-                        -> 2 (install the package and <b style="color:red">do not</b> delete corresponding aosp app)
-                        <br>
-                    </li>
-                    <li>
-                        For e.g. if you want to skip GoogleContacts during the installation, the
-                        config should read <code>GoogleContacts=0</code>. <br>
-                        if you want to install GoogleContacts and remove Aosp Contacts, config should read
-                        <code>GoogleContacts=1</code>. <br>
-                        if you want to install GoogleContacts and keep Aosp Contacts, config should read
-                        <code>GoogleContacts=2</code>.
-                    </li>
-                    <li>
-                        All the lines starting # in config file are comments. Adding
-                        comments (#) in front of Package name will not skip it's
-                        installation. i.e. <code># YouTube=0</code> will not skip the
-                        installation.
-                    </li>
-                    <li>
-                        'ExtraFiles' Package in NikGapps.config is not GoogleFiles. it is a
-                        package of set of important files for gapps installations. Never
-                        skip that
+                        More on that <a style="color:blue" href="https://nikgapps.com/misc/2020/11/22/NikGapps-Config.html">here</a>
                     </li>
                 </ul>
             </div>
@@ -254,6 +270,28 @@ bClass: faqs
                 How to report an issue?
             </div>
 
+            <div class="title">
+                <i class="dropdown icon"></i>
+                Can I flash NikGapps on top of other gapps such as OpenGapps?
+            </div>
+
+            <div class="content">
+                <p>
+                    No, please clean flash
+                </p>
+            </div>
+
+            <div class="title">
+                <i class="dropdown icon"></i>
+                Can I flash addons on top of Roms with existing gapps or other gapps?
+            </div>
+
+            <div class="content">
+                <p>
+                    Yes, now you can flash NikGapps addons independent of NikGapps.
+                </p>
+            </div>
+
             <div class="content">
                 <ul>
                     <li>If something is wrong with installation, addon.d, debloater, pull the installation logs and
@@ -321,17 +359,6 @@ bClass: faqs
                 <p>
                     Pixel Launcher requires overlay changes which are not part of
                     gapps yet.
-                </p>
-            </div>
-
-            <div class="title">
-                <i class="dropdown icon"></i>
-                Can I buy you a cup of coffee?
-            </div>
-
-            <div class="content">
-                <p>
-                    Sure! :) Just find the Donate button!
                 </p>
             </div>
 
