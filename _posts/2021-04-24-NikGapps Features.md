@@ -130,6 +130,7 @@ So next time you run into issues, make sure you grab the log file and share it w
 ## Priv-App whitelist support
 
 System apps being part of the system also requires certain permissions to be able to actually use the exclusive features. NikGapps supports priv-app whitelist feature (more on that [here](https://source.android.com/devices/tech/config/perms-allowlist)) that provides necessary permissions to privileged apps (which are system app with priviliges to access internal apis). This is automated so you never lose out on any feature that new google app updates offers.
+
 <!-- 
 ### Safe and Secure
 -->
