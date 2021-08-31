@@ -59,7 +59,7 @@ If we let those google apps survive over the OTA update, they are again going to
 
 To overcome this problem, NikGapps has a different way of addon.d implementation. We create addon.d script for each google app individually. Meaning, if you find that Stock Google Play Games is draining a lot of battery and you never use it, you can simply follow below steps to get rid of it  
 
-- Find `GooglePlayGames.sh` file in /system/addon.d/nikgapps folder and delete it
+- Find `50-GooglePlayGames.sh` file in /system/addon.d folder and delete it
 - Reflash your Rom and Profit!
 
 While we allow controlling backup and restore of every google app, we also let you control addon.d execution where you can decide whether you want to backup and restore your gapps, whether you wish to mount/unmount partitions during your addon.d execution
@@ -127,7 +127,9 @@ To troubleshoot the issues reported by users, we built a solid logging mechanism
 
 So next time you run into issues, make sure you grab the log file and share it with us so we can help troubleshoot the problems you are facing.
 
+## Priv-App whitelist support
+
+System apps being part of the system also requires certain permissions to be able to actually use the exclusive features. NikGapps supports priv-app whitelist feature (more on that [here](https://source.android.com/devices/tech/config/perms-allowlist)) that provides necessary permissions to privileged apps (which are system app with priviliges to access internal apis). This is automated so you never lose out on any feature that new google app updates offers.
 <!-- 
 ### Safe and Secure
-### Priv-App whitelist support
 -->
