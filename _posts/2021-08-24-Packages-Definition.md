@@ -52,7 +52,7 @@ author: Kingshuk Das, Nikhil Menghani
 
 `SetupWizard=1`  
 `>>SetupWizard=1 (Google Setup Wizard)`  
-`>>GoogleRestore=1 (Goolge Restore lets you restore the backup data`  
+`>>GoogleRestore=1 (Google Restore lets you restore the backup data`  
 `>>GoogleOneTimeInitializer=1 (Lets you choose which apps to install during restore process while you're going through initial setup)`  
 
 
