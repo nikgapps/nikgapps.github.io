@@ -36,7 +36,7 @@ You can download nikgapps.config from <a target="_blank" href="https://sourcefor
 
 ## Understanding nikgapps.config and using it to configure your installation
 
-nikgapps.config is a LF based (more info on LF <a target="_blank" href="https://notepadunix2dos.info/">here</a>) configuration file. By editing nikgapps.config, you can skip any Package that you don't want to be part of your installation.
+nikgapps.config is a LF based configuration file. By editing nikgapps.config, you can skip any Package that you don't want to be part of your installation.
 
 nikgapps.config is built with list of AppSets, Packages and comments. 
 
