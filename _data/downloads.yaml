@@ -53,8 +53,6 @@ packages:
           - item: Google Assistant
           - item: Google Play Games
           - item: YouTube Music (Replaces AOSP Music and Google Play Music)
-          - item: Google TTS
-          - item: Google Talkback
           - item: Device Setup (Android for work)
           - item: Android Auto
     - title: Go
