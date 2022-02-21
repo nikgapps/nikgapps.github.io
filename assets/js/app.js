@@ -66,3 +66,18 @@ $(document).ready(function () {
         }
     }
 })
+
+// var headers = $('#accordion .accordion-header');
+// var contentAreas = $('#accordion .ui-accordion-content ').hide();
+
+// // add the accordion functionality
+// headers.click(function() {
+//     var panel = $(this).next();
+//     var isOpen = panel.is(':visible');
+//     contentAreas.slideUp();
+//     if (!isOpen) {
+//         panel.slideDown();
+//     }
+
+//     return false;
+// });
