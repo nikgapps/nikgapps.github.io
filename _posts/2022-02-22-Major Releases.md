@@ -22,7 +22,7 @@ Changelog of this release is as follows:
 - Control all the features of nikgapps.config through config builds
 - Fixed an issue where dirty flashing Gboard failed even when Gboard was originally clean flashed
 - nikgapps.config bumped up to v20
-- Changed addon script name from 50-<package>.sh to 51-<package>.sh to let Rom script execute first
+- Changed addon script name from <50-package>.sh to <51-package>.sh to let Rom script execute first
 - Abort when unknown mode is detected
 - Addon.d improvements
 - Revert back to google setup wizard as default (flash PixelSetupWizard addon for pixel setup wizard)
