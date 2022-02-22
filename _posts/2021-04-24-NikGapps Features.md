@@ -37,7 +37,7 @@ So if you want to keep both Google Dialer and AOSP dialer, you can do so.
 If you want to skip any one of them, no problem, just configure your nikgapps.config file. 
 
 We not only provide full control over installing your apps, we also allow you to control your addon.d execution, wipe dalvik cache after installation, basically anything that you would like to change in your gapps installation, we cover it.   
-Head over to [nikgapps.config documentation](https://nikgapps.com/misc/2020/11/22/NikGapps-Config.html) to know more about how you can achieve that.
+Head over to [nikgapps.config documentation](https://nikgapps.com/misc/2022/02/22/NikGapps-Config.html) to know more about how you can achieve that.
 
 ## Create your own NikGapps build
 
@@ -49,6 +49,21 @@ If you don't have knowledge to create a build or any server or resource to build
 
 All you need to do is upload your custom nikgapps.config to [our config repository](https://github.com/nikgapps/config) and our nightly cycle will create a build for you.
 
+## Smart installation
+
+With ever evolving partition scheme for devices that has newly seen the light, the partition types and their behaviors have changed.
+
+Gone are the days when we only had `/system` to install all the apps to. Now we have additional partitions viz. `/product` and `/system_ext`. While these partitions provide a lot of flexibility, they also have some limitations. One of the known limitation that we've seen is the availability of size in the respective partitions which leads to storage space issues.
+
+NikGapps is designed to solve this issue by providing a smart installation feature.
+with 22nd Feb 2022 release, we will be providing a smart installation feature which will allow installation of apps to the partitions that has available space.
+
+Next time you're flashing NikGapps and say your /product partition is full, the installer will look for space in the /system partition. If it doesn't find space, it will look for space in the /system_ext partition. The installer will make sure to scan all the partitions and install the apps to the partitions that has space.
+
+This will reduce the probability of getting storage space issues.
+
+Not only that, NikGapps also ensures that the app installation only takes place when there is sufficient space available in the partition. When there is not enough space, the installer will skip the app and move on to installing an app with smaller size there by letting you install the skipped app from playstore without leaving your device into an inconsistent state.
+
 ## Different Addon.d implementation
 
 We all know backuptools aka Addon.d scripts are created to backup all your system files that you want to preserve after an OTA update.  
@@ -59,12 +74,12 @@ If we let those google apps survive over the OTA update, they are again going to
 
 To overcome this problem, NikGapps has a different way of addon.d implementation. We create addon.d script for each google app individually. Meaning, if you find that Stock Google Play Games is draining a lot of battery and you never use it, you can simply follow below steps to get rid of it  
 
-- Find `50-GooglePlayGames.sh` file in /system/addon.d folder and delete it
+- Find `51-GooglePlayGames.sh` file in /system/addon.d folder and delete it
 - Reflash your Rom and Profit!
 
-While we allow controlling backup and restore of every google app, we also let you control addon.d execution where you can decide whether you want to backup and restore your gapps, whether you wish to mount/unmount partitions during your addon.d execution
+While we allow controlling backup and restore of every google app, we also let you control addon.d execution where you can decide whether you want to backup and restore your gapps during your addon.d execution
 
-Head over to [nikgapps.config documentation](https://nikgapps.com/misc/2020/11/22/NikGapps-Config.html) to know more about how you can achieve that.
+Head over to [nikgapps.config documentation](https://nikgapps.com/misc/2022/02/22/NikGapps-Config.html) to know more about how you can achieve that.
 
 ## Ability to uninstall selectively as well as completely 
 
@@ -73,7 +88,20 @@ Many times they mess up and eventually reflash the whole Rom and gapps skipping 
 
 If you find yourself in such case, don't worry, we've got you covered. All you need to do is follow below steps
 
+### Uninstall NikGapps completely (This will remove all the traces of NikGapps from your system)
+
+**First Method (when you are in recovery and cannot make changes to nikgapps.config)**
+
+- Rename the zip you flashed to `UnInstall.zip`
+- Flash the zip to your device
+
+**Second Method (when you can make changes to nikgapps.config file)**
+
+- set execute.d=0 in nikgapps.config
+- reflash your Rom
+
 ### Uninstall selected packages
+
 **First Method (when you don't want your aosp counterpart back)**
 
 - Set `<Package>=-1` in nikgapps.config (for e.g. `YouTube=-1`)
@@ -81,15 +109,8 @@ If you find yourself in such case, don't worry, we've got you covered. All you n
 
 **Second Method (when you want your aosp counterpart back)**
 
-- Find `50-<Package>.sh` file in /system/addon.d folder and delete it (for e.g. `50-YouTube.sh`)
+- Find `51-<Package>.sh` file in /system/addon.d folder and delete it (for e.g. `51-YouTube.sh`)
 - Reflash your Rom
-
-### Uninstall NikGapps completely
-
-This will remove all the traces of NikGapps from your system
-
-- set execute.d=0 in nikgapps.config
-- reflash your Rom
 
 ## Release only when it makes a difference
 
@@ -118,7 +139,8 @@ We're very happy to make NikGapps open source. This gives everyone the opportuni
 2. [Config Repository to build your own gapps](https://github.com/nikgapps/config)
 3. [Apk files for Android 10 builds](https://gitlab.com/nikgapps/10)
 4. [Apk files for Android 11 builds](https://gitlab.com/nikgapps/11)
-5. [NikGapps blogs](https://github.com/nikgapps/nikgapps.github.io/tree/master/_posts)
+5. [Apk files for Android 11 builds](https://gitlab.com/nikgapps/12)
+6. [NikGapps blogs](https://github.com/nikgapps/nikgapps.github.io/tree/master/_posts)
 
 ## Solid logging mechanism
 

@@ -27,6 +27,7 @@ Following are the list of locations preferred in ascending order which means if 
 4. "/sdcard1/NikGapps/nikgapps.config"
 5. "/sdcard/nikgapps.config"
 6. "/sdcard/NikGapps/nikgapps.config"
+7. "$ZIPFILE/afzc/nikgapps.config" where $ZIPFILE is the zip you are flashing
 
 If the installer doesn't find **nikgapps.config**, it automatically creates the file for you so you can configure it the way you want.
 
@@ -80,7 +81,7 @@ NikGapps installer recognizes 4 config values for every package that it installs
   </tbody>
 </table>
 
-In addition to controlling how individual package behaves, you can also control how the installer behaves. `nikgapps.config` allows you to control which partiton you want to install your gapps in (handy when you're storage space for system or product partition is full), whether or not you want to wipe dalvik/cache during your installation and simply uninstall a package that you accidentally installed. 
+In addition to controlling how individual package behaves, you can also control how the installer behaves. `nikgapps.config` allows you to control which partition you want to install your gapps in (handy when you're storage space for system or product partition is full), whether or not you want to wipe dalvik/cache during your installation and simply uninstall a package that you accidentally installed. 
 
 First things first, let's find out how to skip installing a package or a set of apps also called `AppSet`.
 
@@ -107,7 +108,7 @@ if for any reason, you wish to uninstall the installed package, there are two wa
 
 **If you want AOSP counterpack back**
 - Uninstall any playstore updates you have for the addon
-- Delete the <50-addon>.sh file from /system/addon.d folder (e.g. 50-GoogleContacts.sh)
+- Delete the <51-addon>.sh file from /system/addon.d folder (e.g. 51-GoogleContacts.sh)
 - Reflash the rom
 
 # How to control addon.d execution with NikGapps
@@ -154,5 +155,27 @@ if you want to install the gapps in `/product` partition, set the config value t
 Similarly, if you want to install the gapps in `/system/product` partition, set the config value to `/system/product` 
 
 `InstallPartition=/system/product`
+
+# How to use nikgapps.config when you're sideloading or running on encrypted storage
+
+You're sideloading your gapps and want to configure your installation? You're running on an encrypted /data partition? You want to configure your installation? well, you can do it using use_zip_config option in nikgapps.config.
+
+use_zip_config is 0 by default which means, nikgapps installer will use nikgapps.config file from supported locations to configure the installation. However, if you set use_zip_config to 1, nikgapps installer will use the nikgapps.config file from the zip you're flashing.
+
+follow below steps to configure your installation 
+1. Unpack the zip and open nikgapps.config file in your zip (can be found in afzc/nikgapps.config)
+2. Set use_zip_config to 1
+3. Make necessary changes in nikgapps.config file
+4. Repack and Flash the zip
+
+# How to configure nikgapps.config and enable gms optimization
+
+Please make this change at your own risk, we will not provide any support for this!
+
+Many users prefer to have gms optimized (restricting from always running in the background taking up battery when you're not using your phone). This sounds fun but the outcome is not always ideal. In some cases enabling gms optimization can cause the device to delay the notifications from several apps such as WhatsApp, Telegram, etc. (this is natural since gms is battery optimized and is not actually running for you to provide live notifications). 
+
+We do not encourage you to enable gms optimization unless you're sure you know what you're doing. Hence, we have provided a config entry in nikgapps.config to enable gms optimization. If you want to enable gms optimization, set below config value to 1.
+
+gms_optimization=1
 
 <p class="ui positive message" style="color:green;">If you have further questions about nikgapps config, you can join the telgram support group or ask in NikGapps XDA thread</p>
