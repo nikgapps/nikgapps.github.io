@@ -79,3 +79,4 @@ You can download the builds from here:
 [Android 12 Gapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-S/22-Feb-2022/) | [Android 12 Addons](https://sourceforge.net/projects/nikgapps/files/Releases/Addons-S/22-Feb-2022/)  
 [Android 11 Gapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/22-Feb-2022/)  | [Android 11 Addons](https://sourceforge.net/projects/nikgapps/files/Releases/Addons-R/22-Feb-2022/)  
 [Android 10 Gapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-Q/22-Feb-2022/)  | [Android 10 Addons](https://sourceforge.net/projects/nikgapps/files/Releases/Addons-Q/22-Feb-2022/)  
+[Debloater](https://sourceforge.net/projects/nikgapps/files/Releases/Debloater/22-Feb-2022/) | [nikgapps.config v20](https://sourceforge.net/projects/nikgapps/files/Releases/Config/nikgapps-config/v20/)
