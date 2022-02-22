@@ -70,3 +70,12 @@ v20 of nikgapps.config introduces gms_optimization config. This config is set to
 Until now, the config files that were uploaded to build [custom builds](https://github.com/nikgapps/config), were only capable of reading the Package values and build gapps on top of it. The features were limited to only reading the Package values. When a user wanted to install gapps to a specific partition, it did not reflect the changes in the config file. 
 
 Now, you have full control over the builds you create, you can configure nikgapps.config once and the installer will use your config while flashing the gapps. You no longer have to maintain the config file in your /sdcard/NikGapps folder, the installer from custom builds will pick the config file that you have uploaded and flash accordingly.
+
+# Download
+
+You can download the builds from here:
+
+
+[Android 12 Gapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-S/22-Feb-2022/) | [Android 12 Addons](https://sourceforge.net/projects/nikgapps/files/Releases/Addons-S/22-Feb-2022/)  
+[Android 11 Gapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/22-Feb-2022/)  | [Android 11 Addons](https://sourceforge.net/projects/nikgapps/files/Releases/Addons-R/22-Feb-2022/)  
+[Android 10 Gapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-Q/22-Feb-2022/)  | [Android 10 Addons](https://sourceforge.net/projects/nikgapps/files/Releases/Addons-Q/22-Feb-2022/)  
