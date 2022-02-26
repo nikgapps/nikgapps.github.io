@@ -173,31 +173,34 @@ bClass: faqs
                         <a href="https://sourceforge.net/projects/NikGapps/files/Releases/Debloater/">Debloater Zip</a>.
                     </li>
                     <li>
+                        Find the package name of the apk (MixPlorer is easy to use)
+                    </li>
+                    <li>
+                        Find the install location of the app (run 'pm path packagename' in terminal app)
+                    </li>
+                    <li>
+                        Note the Folder name (usually found in app or priv-app folder inside /system or /system/product folder)
+                    </li>
+                    <li>
+                        Open debloater.config and enter the Folder name (it is case sensitive)
+                    </li>
+                    <li>
+                        Watch below video to see how to use debloater.config
+                    </li>
+                    <li>
                         <video width="400" controls>
                             <source src="assets/video/HowToDebloat.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
                     </li>
                     <li>
-                        Debloater recognizes the folder names that you
-                        want to delete in priv-app or app folder.
+                        Debloater also deletes specific path that is entered in debloater.config.
                     </li>
                     <li>
-                        You can Just enter the name of the folder you want
-                        to delete. For e.g. YouTube. This would remove the YouTube folder
-                        wherever it is located in <code>/system/app</code>,
-                        <code>/system/priv-app</code>, <code>/system/product/app</code>,
-                        <code>/system/product/priv-app</code>.
+                        If you want to delete /system/etc/hosts, you can enter <code>/system/etc/hosts</code> in debloater.config
                     </li>
                     <li>
-                        If you want to delete a specific file/folder you can enter full
-                        path. For e.g. <code>/system/app/YouTube</code>.
-                    </li>
-                    <li>
-                        However, the above one wouldn't work in case of SAR device since the
-                        partition path you're looking for can be
-                        <code>/system_root/system/app/YouTube</code> or
-                        <code>/system/system/app/YouTube</code>(Hence use the Folder method).
+                        The debloater will debloat everything that is entered in debloater.config
                     </li>
                 </ul>
             </div>
