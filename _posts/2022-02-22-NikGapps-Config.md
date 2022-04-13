@@ -113,7 +113,7 @@ if for any reason, you wish to uninstall the installed package, there are two wa
 
 # How to control addon.d execution with NikGapps
 
-nikgapps.config comes with 2 more config entries that allows you to control the addon.d execution. 
+nikgapps.config comes with another config entry that allows you to control the addon.d execution. 
 
 <table class="ui striped fixed small unstackable table">
   <thead>
@@ -126,10 +126,6 @@ nikgapps.config comes with 2 more config entries that allows you to control the 
     <tr>
       <td class="center aligned">execute.d</td>
       <td>1 (enabled by default), set to 0 if you want the installer to skip restoring NikGapps upon dirty flashing the rom</td>
-    </tr>
-    <tr>
-      <td class="center aligned">addon_version.d</td>
-      <td>3 (by default which comes with mounting partitions), set to 2 if 3 doesn't work for you</td>
     </tr>
   </tbody>
 </table>
