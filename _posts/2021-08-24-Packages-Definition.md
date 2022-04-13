@@ -18,7 +18,6 @@ author: Kingshuk Das, Nikhil Menghani
 | `>>GoogleCalendarSyncAdapter=1`  | This package is used to sync the calendar events associated to your google account  |
 | `>>GmsCore=1`  | Google Play Services - heart of google apps  |
 | `DigitalWellbeing=1`  | Digital Wellbeing is Android's Digital Wellbeing tools give you a daily view of how often you check your phone and how frequently you use different apps  |
-| `VancedManager=0`  | Package for youtube vanced manager, required for install youtube vanced. Set to 0 by default, change it to 1 if you want to install vanced manager  |
 | `GoogleMessages=1`  | Package for Google Messages app  |
 | `GoogleDialer=1`  | Package for Google Dialer app  |
 | `GoogleContacts=1`  | Package for google contacts app  |
@@ -43,6 +42,7 @@ author: Kingshuk Das, Nikhil Menghani
 | `>>PixelLauncher=1` | Package for Pixel Launcher  |
 | `>>DevicePersonalizationServices=1` | Device Personalization Services is the method through which Google delivers and updates features like Now Playing (on Pixel), Live Caption, and smart actions in notifications to Android devices |
 | `>>QuickAccessWallet=1` | Quick Access Wallet is for enabling access to wallets on Lock Screen |
+| `>>GoogleWallpaper=1` | Package for Google based Wallpaper app |
 | `GoogleFiles=1` | AppSet that controls Google Files components |
 | `>>GoogleFiles=1` | Package for Google Files Manager |  
 | `>>StorageManager=1` | StorageManager is junk cleaner in settings | 
@@ -50,7 +50,6 @@ author: Kingshuk Das, Nikhil Menghani
 | `GoogleRecorder=1` | Package for Google Recorder app |    
 | `GoogleCalendar=1` | Package for Google Calendar app |
 | `MarkupGoogle=1`  | Photos Markup app used in google photos and also to edit the captured screenshots|
-| `GoogleWallpaper=1` | Package for Google based Wallpaper app |
 | `GoogleFeedback=1` | Package for Google Feedback app |
 | `GooglePartnerSetup=1` | Google Partner Setup is an app that helps you run applications in conjunction with Google products - For example, you can use the calendar from your device with a ToDo app that you've just installed |  
 | `GoogleSounds=1` | Replaces stock aosp sounds selector with google sounds |
@@ -77,9 +76,6 @@ author: Kingshuk Das, Nikhil Menghani
 | `GmailGo=1`  | Go version of Gmail app |
 | `AdAway=1`  | Used to block ads via editing hosts file. Needs root or can be used with vpn method |
 | `PixelLiveWallpapers=1`  | Pixel Live Wallpapers |
-| `YouTubeVancedDark=1`  | Youtube Vanced dark version |
-| `YouTubeVancedBlack=1`  | Youtube vanced amoled black version |
-| `YouTubeVancedMusic=1`  | Youtube vanced music |
 | `PixelSetupWizard=1`  | Pixel Setup Wizard addon with all that you need to have pixel setup wizard working |
 | `GoogleFi=1`  | Google Fi app |
 | `GoogleDuo=1` | Google Video Calling app |
@@ -87,4 +83,3 @@ author: Kingshuk Das, Nikhil Menghani
 | `GoogleSlides=1`  | Google Slides app |
 | `GoogleSheets=1`  | Google Excel Sheets app |
 | `YouTube=1` | Stock YouTube app |
-| `PokePixLiveWallpapers=1`  | Pokemon themed live wallpapers  |
