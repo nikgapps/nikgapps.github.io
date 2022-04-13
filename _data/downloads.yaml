@@ -14,7 +14,6 @@ packages:
           - item: Google Carrier Services
           - item: Google Clock (Replaces AOSP Clock)
           - item: Digital Wellbeing
-          - item: Vanced Manager
           - item: Google Dialer (Replaces AOSP Dialer)
           - item: Google Messages (Replaces AOSP Messages)
           - item: Google Contacts (Replaces AOSP Contacts)
@@ -25,7 +24,7 @@ packages:
           - item: Google Drive
           - item: Gmail (Replaces AOSP Email)
           - item: Google Calculator (Replaces AOSP Calculator)
-          - item: Google/Pixel Setup Wizard (configurable with nikgapps.config using Pixelize)
+          - item: Google Setup Wizard
           - item: Google Maps
           - item: Google Photos (Replaces AOSP Gallery)
     - title: Stock
@@ -38,7 +37,7 @@ packages:
           - item: Google Partner Setup
           - item: Pixel Launcher
           - item: Device Personalization Services
-          - item: Google Files (Android R only)
+          - item: Google Files (Android R+)
           - item: Google Velvet (for voice unlock)
           - item: Google Sound Recorder
           - item: Google Markup
@@ -66,4 +65,4 @@ packages:
           - item: Navigation Go
           - item: Pixel Launcher 
           - item: Device Personalization Services
-          - item: Vanced Manager
+          - item: Google Wallpaper
