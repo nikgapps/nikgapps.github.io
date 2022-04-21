@@ -58,7 +58,7 @@ author: Kingshuk Das, Nikhil Menghani
     </tr>
     <tr>
       <td>GoogleContacts=1</td>
-      <td>Package for google contacts app</td>
+      <td>Package for Google Contacts app</td>
     </tr>
     <tr>
       <td>CarrierServices=1</td>
@@ -66,7 +66,7 @@ author: Kingshuk Das, Nikhil Menghani
     </tr>
     <tr>
       <td>GoogleClock=1</td>
-      <td>Package for Google Calendar app</td>
+      <td>Package for Google Clock app</td>
     </tr>
     <tr>
       <td>SetupWizard=1</td>
