@@ -74,7 +74,7 @@ If we let those google apps survive over the OTA update, they are again going to
 
 To overcome this problem, NikGapps has a different way of addon.d implementation. We create addon.d script for each google app individually. Meaning, if you find that Stock Google Play Games is draining a lot of battery and you never use it, you can simply follow below steps to get rid of it  
 
-- Find `51-GooglePlayGames.sh` file in /system/addon.d folder and delete it
+- Find `#-GooglePlayGames.sh` file in /system/addon.d folder where # can be any number (usually 10, 50 or 51) and delete it
 - Reflash your Rom and Profit!
 
 While we allow controlling backup and restore of every google app, we also let you control addon.d execution where you can decide whether you want to backup and restore your gapps during your addon.d execution
@@ -109,7 +109,7 @@ If you find yourself in such case, don't worry, we've got you covered. All you n
 
 **Second Method (when you want your aosp counterpart back)**
 
-- Find `51-<Package>.sh` file in /system/addon.d folder and delete it (for e.g. `51-YouTube.sh`)
+- Find `#-<Package>.sh` file in /system/addon.d folder where # can be any number (usually 10, 50 or 51) and delete it (for e.g. `10-YouTube.sh`)
 - Reflash your Rom
 
 ## Release only when it makes a difference
