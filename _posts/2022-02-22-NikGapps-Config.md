@@ -108,7 +108,7 @@ if for any reason, you wish to uninstall the installed package, there are two wa
 
 **If you want AOSP counterpack back**
 - Uninstall any playstore updates you have for the addon
-- Delete the <51-addon>.sh file from /system/addon.d folder (e.g. 51-GoogleContacts.sh)
+- Delete the <`#`-addon>.sh file from /system/addon.d folder where `#` is a number before Google App name (e.g. 10-YouTube.sh, 51-YouTube.sh)
 - Reflash the rom
 
 # How to control addon.d execution with NikGapps
