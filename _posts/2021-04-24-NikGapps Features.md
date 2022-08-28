@@ -141,7 +141,8 @@ We're very happy to make NikGapps open source. This gives everyone the opportuni
 4. [Apk files for Android 11 builds](https://gitlab.com/nikgapps/11)
 5. [Apk files for Android 12 builds](https://gitlab.com/nikgapps/12)
 6. [Apk files for Android 12.1 builds](https://gitlab.com/nikgapps/12.1)
-7. [NikGapps blogs](https://github.com/nikgapps/nikgapps.github.io/tree/master/_posts)
+7. [Apk files for Android 13 builds](https://gitlab.com/nikgapps/13)
+8. [NikGapps blogs](https://github.com/nikgapps/nikgapps.github.io/tree/master/_posts)
 
 ## Solid logging mechanism
 
