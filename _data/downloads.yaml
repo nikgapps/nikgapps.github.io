@@ -35,14 +35,11 @@ packages:
           - item: Google Calendar (Replaces AOSP Calendar)
           - item: Google Feedback
           - item: Google Partner Setup
-          - item: Pixel Launcher
-          - item: Device Personalization Services
           - item: Google Files (Android R+)
           - item: Google Velvet (for voice unlock)
           - item: Google Sound Recorder
           - item: Google Markup
           - item: Google Sounds
-          - item: Google Wallpaper
     - title: Full
       contains:
           - item: Everything from Stock
