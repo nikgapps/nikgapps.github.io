@@ -10,7 +10,7 @@
       {% if item.item != question %}
       <li>{{item.item}}</li>
       {% else %}
-      {% include nav.html nav=item.question %}
+      {% include faq.html nav=item.question %}
       {% endif %}
       {% endfor %}
     </ul>
