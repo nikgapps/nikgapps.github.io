@@ -1,17 +1,21 @@
-{% for item in include.nav %}
+{% for questionChild in include.nav %}
 <div class="accordion">
   <div class="title">
     <i class="dropdown icon"></i>
-    {{ item.title }}
+    {{ questionChild.title }}
   </div>
   <div class="content">
     <ul>
-      {% for item in item.content %}
-      {% if item.item != question %}
-      <li>{{item.item}}</li>
+      {% for contentChild in questionChild.content %}
+
+      {% if contentChild.ans != question %}
+      
+      <li>{{contentChild.ans}}</li>
+      
       {% else %}
-      {% include faq.html nav=item.question %}
+      {% include faq.html nav=contentChild.question %}
       {% endif %}
+
       {% endfor %}
     </ul>
   </div>

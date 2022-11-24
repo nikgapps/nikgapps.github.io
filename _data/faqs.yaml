@@ -1,39 +1,39 @@
 faqs:
   - title: Level 1
     content:
-      - item: A1
-      - item: A2
+      - ans: A1
+      - ans: A2
       - question:
         - title: Level 1A
           content:
-            - item: L1
-            - item: L2
+            - ans: L1
+            - ans: L2
       - question:
         - title: Level 2A
           content:
-            - item: L11
-            - item: L22
+            - ans: L11
+            - ans: L22
             - question:
               - title: Level 3A
                 content:
-                  - item: L111
-                  - item: L222
+                  - ans: L111
+                  - ans: L222
   - title: Level 2
     content:
-      - item: A3
-      - item: A4
+      - ans: A3
+      - ans: A4
       - question:
         - title: Level 2B
           content:
-            - item: L3
-            - item: L4
+            - ans: L3
+            - ans: L4
             - question:
               - title: Level 3B
                 content:
-                  - item: L33
-                  - item: L44
+                  - ans: L33
+                  - ans: L44
                   - question:
                     - title: Level 4B
                       content:
-                        - item: L333
-                        - item: L444
+                        - ans: L333
+                        - ans: L444
