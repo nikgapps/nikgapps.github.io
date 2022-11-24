@@ -1,0 +1,19 @@
+{% for item in include.nav %}
+<div class="accordion">
+  <div class="title">
+    <i class="dropdown icon"></i>
+    {{ item.title }}
+  </div>
+  <div class="content">
+    <ul>
+      {% for item in item.content %}
+      {% if item.item != question %}
+      <li>{{item.item}}</li>
+      {% else %}
+      {% include nav.html nav=item.question %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endfor %}

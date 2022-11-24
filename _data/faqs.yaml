@@ -1,0 +1,39 @@
+faqs:
+  - title: Level 1
+    content:
+      - item: A1
+      - item: A2
+      - question:
+        - title: Level 1A
+          content:
+            - item: L1
+            - item: L2
+      - question:
+        - title: Level 2A
+          content:
+            - item: L11
+            - item: L22
+            - question:
+              - title: Level 3A
+                content:
+                  - item: L111
+                  - item: L222
+  - title: Level 2
+    content:
+      - item: A3
+      - item: A4
+      - question:
+        - title: Level 2B
+          content:
+            - item: L3
+            - item: L4
+            - question:
+              - title: Level 3B
+                content:
+                  - item: L33
+                  - item: L44
+                  - question:
+                    - title: Level 4B
+                      content:
+                        - item: L333
+                        - item: L444
