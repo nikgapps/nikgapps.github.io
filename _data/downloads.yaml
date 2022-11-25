@@ -1,6 +1,6 @@
 packages:
     - title: Core
-      contains:
+      pkgs:
           - item: Minimum Google Apps Required To Run Play Store.
           - item: Google Play Store
           - item: Gms Core
@@ -9,7 +9,7 @@ packages:
           - item: Google Calendar Sync
           - item: ExtraFiles (necessary files for Gapps to work)
     - title: Basic
-      contains:
+      pkgs:
           - item: Everything from Core
           - item: Google Carrier Services
           - item: Google Clock (Replaces AOSP Clock)
@@ -18,7 +18,7 @@ packages:
           - item: Google Messages (Replaces AOSP Messages)
           - item: Google Contacts (Replaces AOSP Contacts)
     - title: Omni
-      contains:
+      pkgs:
           - item: Everything from Basic
           - item: Device Health Services
           - item: Google Drive
@@ -28,7 +28,7 @@ packages:
           - item: Google Maps
           - item: Google Photos (Replaces AOSP Gallery)
     - title: Stock
-      contains:
+      pkgs:
           - item: Everything from Omni  
           - item: Android Device Policy
           - item: GBoard (Replaces AOSP keyboard)
@@ -41,7 +41,7 @@ packages:
           - item: Google Markup
           - item: Google Sounds
     - title: Full
-      contains:
+      pkgs:
           - item: Everything from Stock
           - item: Google Play Books
           - item: Google Keep
@@ -52,7 +52,7 @@ packages:
           - item: Device Setup (Android for work)
           - item: Android Auto
     - title: Go
-      contains:
+      pkgs:
           - item: Everything from Core
           - item: Assistant Go
           - item: Gallery Go

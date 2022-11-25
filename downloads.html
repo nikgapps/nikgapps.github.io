@@ -13,13 +13,9 @@ bClass: downloads
                 <button class="tab__btn active">
                     <i class="fa fa-cube"></i> Packages
                 </button>
-                <!-- <button class="tab__btn">
-                    <i class="fa fa-puzzle-piece"></i> Addons
-                </button> -->
             </div>
             <div class="tab__content">
                 <div class="tab__pane tab__packages">
-                    <!-- <h2>Packages</h2> -->
                     <div class="downloads__grid">
                         {% for item in site.data.downloads.packages %}
                         <div class="item {{item.title | downcase}}">
@@ -30,7 +26,7 @@ bClass: downloads
                             </p>
                             {% endif %}
                             <ul>
-                                {% for entry in item.contains %}
+                                {% for entry in item.pkgs %}
                                 <li>{{entry.item}}</li>
                                 {% endfor %}
                             </ul>
@@ -38,18 +34,6 @@ bClass: downloads
                         {% endfor %}
                     </div>
                 </div>
-                <!-- <div class="tab__pane tab__addons">
-                    <div class="downloads__grid">
-                        {% for item in site.data.addons.addons %}
-                        <div class="item">
-                            <h3>{{item.title}}</h3>
-                            <p>
-                                {{item.contains}}
-                            </p>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>
