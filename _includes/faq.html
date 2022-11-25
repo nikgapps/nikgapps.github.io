@@ -8,6 +8,12 @@
     <ul>
       {% for contentChild in questionChild.content %}
 
+      <!-- {% for browser in contentChild %}
+      {{browser[0]}}
+      {% endfor %} -->
+      
+      <li>{{contentChild[1][0]}}</li>
+
       {% if contentChild.ans != question %}
       
       <li>{{contentChild.ans}}</li>
