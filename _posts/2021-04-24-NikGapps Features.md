@@ -95,20 +95,35 @@ If you find yourself in such case, don't worry, we've got you covered. All you n
 - Rename the zip you flashed to `UnInstall.zip`
 - Flash the zip to your device
 
+Note: this method is supported only when you are not sideloading the zip, when you sideload the zip, the name of the file you are flashing changes and the installer will not be able to recognize your instructions to uninstall the apps.
+
 **Second Method (when you can make changes to nikgapps.config file)**
 
 - set execute.d=0 in nikgapps.config
 - reflash your Rom
 
+Note: this method only works if you have decrypted storage, for encrypted method try First method or the Ultimate method.
+
+**Ultimate Method (when first method and second method doesn't help)**  
+
+- Uninstall all the playstore updates of google apps that you want to uninstall (settings -> apps -> find your app -> uninstall updates)
+- Find files with name `#-<Package>.sh`  in /system/addon.d folder where # can be any number (usually 10, 50 or 51) and delete all the files (for e.g. `10-YouTube.sh`, `10-GoogleDialer.sh`, etc)
+- Reflash your Rom
+
+Note: if you are unable to delete the files in /system/addon.d (devices with super partition don't have the flexibility of deleting files in system), you can use NikGapps Debloater. 
+Make an entry `/system/addon.d` in debloater.config, place the file in /sdcard/NikGapps folder and flash the NikGapps Debloater.
+
 ### Uninstall selected packages
 
 **First Method (when you don't want your aosp counterpart back)**
 
+- Uninstall the playstore updates of the app
 - Set `<Package>=-1` in nikgapps.config (for e.g. `YouTube=-1`)
 - Reflash the zip that you flashed to get the package in first place
 
 **Second Method (when you want your aosp counterpart back)**
 
+- Uninstall the playstore updates of the app
 - Find `#-<Package>.sh` file in /system/addon.d folder where # can be any number (usually 10, 50 or 51) and delete it (for e.g. `10-YouTube.sh`)
 - Reflash your Rom
 
