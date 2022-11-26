@@ -8,23 +8,16 @@
     <ul>
       {% for contentChild in questionChild.content %}
 
-      {% for browser in contentChild %}
-      {% assign entries = browser[0] %}
+      {% for child in contentChild %}
+      {% assign tag = child[0] %}
       {% endfor %}
 
-      <li>test {{entries}}</li>
-
-      {% if contentChild.ans != null or contentChild.ans != undefined %}
-      
-      <li>{{contentChild.ans}}</li>
-      
-      {% elsif contentChild.question!=null or contentChild.question != undefined %}
+      {% if tag == "ans" %}
+      <li>{{ contentChild.ans }}</li>
+      {% elsif tag == "p" %}
+      <p>{{ contentChild.p }}</p>
+      {% elsif tag == "question" %}
       {% include faq.html nav=contentChild.question %}
-
-      {% elsif contentChild.p != null or contentChild.p != undefined %}
-      
-      <li><b>{{contentChild.p}}</b></li>
-
       {% endif %}
 
       {% endfor %}
