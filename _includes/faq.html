@@ -1,6 +1,10 @@
 {% for questionChild in include.nav %}
 <div class="accordion">
+  {% if questionChild.id %}
+  <div class="title" id="{{ questionChild.id }}">
+  {% else %}
   <div class="title">
+  {% endif %}
     <i class="dropdown icon"></i>
     {{ questionChild.title }}
   </div>
