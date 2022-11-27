@@ -1,41 +1,213 @@
 faqs:
-  - title: Level 1
-    id: nikgapps
+  - title: Questions related to NikGapps Config
+    id: nikgappsconfig
     content:
-      - ans: A1
-      - ans: A2
-      - p: abcd
       - question:
-        - title: Level 1A
+        - title: What is NikGapps.config and how to use it?
           content:
-            - ans: L1
-            - ans: L2
+            - ans: NikGapps.config is a configuration file which allows you to configure your installation the way you like. You can skip any Package that you don't want to be part of your installation. More on that <a style="color:blue" href="https://nikgapps.com/misc/2022/02/22/NikGapps-Config.html">here</a>
       - question:
-        - title: Level 2A
+        - title: How does nikgapps config work if I am sideloading gapps or my device storage is encrypted?
           content:
-            - ans: L11
-            - ans: L22
-            - question:
-              - title: Level 3A
-                content:
-                  - ans: L111
-                  - ans: L222
-  - title: Level 2
+            - ans: If internal storage of your device is not encrypted, the recovery can read the files from your storage and thus, nikgapps.config will be read by default from /sdcard/NikGapps folder
+            - ans: If internal storage of your device is encrypted, the recovery cannot read the files from your storage and thus, you need to place nikgapps.config in the same folder as the gapps zip file and the recovery will read it from there
+            - ans: If you are sideloading gapps, you can place the nikgapps.config in /tmp folder and the recovery will read it from there
+            - ans: Alternatively, you can also edit the nikgapps.config file in the gapps zip file and then flash it only this time, you need to set use_zip_config=1 in nikgapps.config file to instruct the installer to use the config file placed in the gapps zip you are flashing
+            
+  - title: Questions related to Debloater
+    id: debloater
     content:
-      - ans: A3
-      - ans: A4
       - question:
-        - title: Level 2B
+        - title: What is debloater.config?
           content:
-            - ans: L3
-            - ans: L4
-            - question:
-              - title: Level 3B
-                content:
-                  - ans: L33
-                  - ans: L44
-                  - question:
-                    - title: Level 4B
-                      content:
-                        - ans: L333
-                        - ans: L444
+            - ans: Debloater config is a configuration that allows you to remove files/folders from system. You can place a file named debloater.config in <code>/sdcard/NikGapps</code> folder and add the folder name/file path that you want to remove and flash latest version of <a href="https://sourceforge.net/projects/NikGapps/files/Releases/Debloater/">Debloater Zip</a>.
+      - question:
+        - title: How to use debloater.config?
+          content:
+            - ans: Find the package name of the apk (MixPlorer is easy to use)
+            - ans: Find the install location of the app (run 'pm path packagename' in terminal app)
+            - ans: Note the Folder name (usually found in app or priv-app folder inside /system or /system/product folder)
+            - ans: Open debloater.config and enter the Folder name (it is case sensitive)
+            - ans: Flash the <a style="color:blue" href="https://sourceforge.net/projects/NikGapps/files/Releases/Debloater/">Debloater Zip</a>.
+      - question:
+        - title: Is there any video tutorial on how to use debloater.config?
+          content:
+            - ans: Watch below video to see how to use debloater.config
+            - ans: <video width="400" controls><source src="assets/video/HowToDebloat.mp4" type="video/mp4">Your browser does not support HTML video.</video>
+      - question:
+        - title: Can I delete a specific file from system?
+          content:
+            - ans: Yes, you can delete a specific file from system by adding the file path in debloater.config file. 
+            - ans: For example, if you want to delete <code>/system/app/GoogleTTS/GoogleTTS.apk</code> file, you can add <code>/system/app/GoogleTTS/GoogleTTS.apk</code> in debloater.config file and flash the <a style="color:blue" href="https://sourceforge.net/projects/NikGapps/files/Releases/Debloater/">Debloater Zip</a>
+      - question:
+        - title: Can I delete a specific folder from system?
+          content:
+            - ans: Yes, you can delete a specific folder from system by adding the folder path in debloater.config file. 
+            - ans: For example, if you want to delete <code>/system/app/GoogleTTS</code> or <code>/system/product/app/GoogleTTS</code> folder, you can add <code>GoogleTTS</code> in debloater.config file and flash the <a style="color:blue" href="https://sourceforge.net/projects/NikGapps/files/Releases/Debloater/">Debloater Zip</a>
+            - ans: The debloater will find the folder in <code>/system</code>, <code>/product</code> and <code>/system_ext</code> and delete it
+      - question:
+        - title: My Device has super partitions, how can I delete /system/addon.d folder?
+          content:
+            - ans: You can add <code>/system/addon.d</code> in debloater.config file and flash the <a style="color:blue" href="https://sourceforge.net/projects/NikGapps/files/Releases/Debloater/">Debloater Zip</a>
+            - ans: The debloater will find the folder in <code>/system</code>, <code>/product</code> and <code>/system_ext</code> and delete it
+
+  - title: Questions related to Installing NikGapps
+    content:
+      - question:
+        - title: How to install NikGapps?
+          content:
+            - ans: You can install NikGapps using any custom recovery including but not limited to TWRP, OrangeFox, PitchBlack, SkyHawk, LineageOS recovery. 
+      - question:
+        - title: Can I install NikGapps systemlessly via Magisk?
+          content:
+            - ans: No, You cannot install NikGapps systemlessly via Magisk. NikGapps is a full fledged Gapps package and it is not designed to be installed systemlessly.
+      - question:
+        - title: How to upgrade NikGapps with a newer release?
+          content:
+            - ans: You only need to upgrade if you are experiencing an issue with the gapps and newer release fixes it
+            - ans: You can upgrade NikGapps by flashing the newer release over the older release
+      - question:
+        - title: How to downgrade from one version of NikGapps to another?
+          content:
+            - ans: Downgrading NikGapps is not recommended as it may cause issues, if you must downgrade, please clean flash the rom and gapps by wiping /data
+      - question:
+        - title: Can I install NikGapps over other gapps package or over stock ROM?
+          content:
+            - ans: No, you cannot install NikGapps over other gapps package or over stock ROM. You need to clean flash the rom and gapps by wiping /data.
+      - question:
+        - title: How to switch between one NikGapps variant to another? (e.g. core to omni or vice versa)
+          content:
+            - ans: If you are switching between one NikGapps variant to another, you need to follow the ultimate uninstall guide from <a style="color:#063EDD;" href="https://nikgapps.com/misc/2021/04/24/NikGapps-Features.html#uninstall-nikgapps-completely-this-will-remove-all-the-traces-of-nikgapps-from-your-system">here</a> and then flash the new variant of NikGapps
+            - ans: Make sure you delete <code>runtime_permissions.xml</code>
+      - question:
+        - title: Where is runtime_permissions.xml located?
+          content:
+            - ans: <code>runtime_permissions.xml</code> is located at <code>/data/system/users/0/runtime_permissions.xml</code> if you're on Android 10
+            - ans: <code>runtime_permissions.xml</code> is located at <code>/data/misc_de/*/apexdata/com.android.permission/runtime_permissions.xml</code> if you're on Android 11 and above
+      - question:
+        - title: What are the guidelines for dirty flash?
+          content:
+            - ans: Follow the <code>Note:</code> section of the changelog on the NikGapps Release channel to find the recommendations on clean/dirty flash
+            - ans: If you don't see any instructions on <code>Note:</code> section, follow below guidelines
+            - ans: Dirty flashing gapps aren't really necessary! If your current setup is in working state, you have no reason to dirty flash. The apps will automatically update from Playstore.
+            - ans: You can choose to flash a newer update when you are clean flashing your Rom
+            - ans: If you are facing some issues with your current setup and you find a fix to the issue in the changelog of the gapps update, clean flash! This ensures that any residue factor is not impacting the actual fix
+            - ans: If you can risk your system get into unstable state (with the flexibility of clean flashing at will) then dirty flash! 
+
+  - title: Questions related to Uninstalling NikGapps
+    content:
+      - question:
+        - title: I want to uninstall a particular Package/AppSet such as YouTube or GoogleCalculator
+          content:
+            - ans: Follow Steps from <a style="color:#063EDD;" href="https://nikgapps.com/misc/2021/04/24/NikGapps-Features.html#uninstall-selected-packages">here</a>
+      - question:
+        - title: I want to uninstall all NikGapps Packages
+          content:
+            - ans: Follow Steps from <a style="color:#063EDD;" href="https://nikgapps.com/misc/2021/04/24/NikGapps-Features.html#uninstall-nikgapps-completely-this-will-remove-all-the-traces-of-nikgapps-from-your-system">here</a>
+
+  - title: Issues after successful installation?
+    content:
+      - question:
+        - title: Facing issues with SetupWizard?
+          content: 
+            - ans: Connect to any wifi
+            - ans: Go to wifi settings and change the wifi type to unmetered
+            - ans: Complete the setup
+      - question:
+        - title: What to do if my contacts are not syncing?
+          content:
+            - ans: Go to Settings
+            - ans: Click on Apps & Notification
+            - ans: Check all permissions for GooglePlayServices, whether allowed or not. If all permission denied, Allow them
+            - ans: On upper right corner there is a three dot menu. Click on Show system app
+            - ans: Search for Google Contacts Sync app
+            - ans: Check whether Contacts permission is allowed or not for that app. If disabled, please allow Contacts permission so that it can Sync Google Contacts
+            - ans: A restart maybe required
+      - question:
+        - title: Google Backup Waiting for backup?
+          content:
+            - ans: Connect your computer with your device and execute the following command from adb
+            - ans: <code>adb shell</code>
+            - ans: <code>bmgr run</code>
+            - ans: <code>bmgr backupnow --all</code>
+            - ans: if it's shows Transport error, do
+            - ans: <code>bmgr backupnow appdata</code>
+            - ans: and repeat the previous command once more
+
+  - title: Installation Failed, what to do now?
+    content:
+      - question:
+        - title: I am facing storage full error, what to do next?
+          content:
+            - ans: This usually happens when the recovery reports that no storage is left for further installation
+            - ans: If that is actually the case, you need to free up some space by debloating your system and removing any unnecessary apps
+            - ans: If you have enough space, you can try to install NikGapps again by following below steps
+            - ans: You can try setting InstallPartition in nikgapps to /system_root/system and flash the gapps zip again
+            - ans: You can try following this video to <a style="color:#063EDD;" href="https://youtu.be/gZgJgqjsfeM">resize your partition</a> and reflash gapps
+            - ans: If none of the above method works, share the installation logs from recovery and we will try to help you
+            - ans: Read the screen of your device carefully, it will tell you the exact path where the logs are stored
+            - ans: Grab the logs and share them on <a style="color:#063EDD;" href="https://t.me/NikGappsSupport">Telegram Support Group</a>
+
+  - title: How to report an issue?
+    content:
+      - question:
+        - title: How to report an issue with installation?
+          content:
+            - ans: If something is wrong with installation, addon.d, debloater, pull the installation logs and share it with us
+      - question:
+        - title: How to pull the installation logs?
+          content:
+            - ans: After flashing, read the screen of your device carefully, it will tell you the exact path where the logs are stored
+            - ans: Grab the logs and share them on <a style="color:#063EDD;" href="https://t.me/NikGappsSupport">Telegram Support Group</a>
+      - question:
+        - title: How to report a crash?
+          content: 
+            - ans: Pull logcat using matlog app or any other app related to logcat that you prefer and share it with us along with logs generated in <code>/sdcard/NikGapps/logs</code> folder
+      - question:
+        - title: How to report an issue related to debloater?
+          content:
+            - ans: For issues related to debloater, grab the debloater.config and share it with us along with the logs from <code>/sdcard/NikGapps/logs</code> folder
+      - question:
+        - title: How to report an issue with dirty installation and ota survival?
+          content:
+            - ans: Pull AddonLogs from <code>/sdcard/NikGapps</code> folder, zip them and share it with us
+      - question:
+        - title: How to take logcat if you face bootloop?
+          content:
+            - ans: If something is wrong with your device not booting up, try booting it without gapps to ensure the bootloop is sure to gapps
+            - ans: If you narrow the root cause down to gapps, try to get a logcat during bootloop
+            - ans: Steps to get a logcat during bootloop
+            - ans: "- boot into the system while flashing only ROM"
+            - ans: "- enable debugging in Developer settings"
+            - ans: "- run adb shell and enable connection on the phone"
+            - ans: "- reboot to recovery"
+            - ans: "- dirty flash gapps"
+            - ans: "- boot and try logcat again"
+
+  - title: Can I buy you a cup of coffee?
+    content:
+      - ans: Sure! :) Just find the Donate button on the top right corner of the page!
+
+  - title: What is the difference between OpenGapps and NikGapps?
+    content:
+      - ans: NikGapps supports Split Apks!
+      - ans: NikGapps packages are created from the apks present in my personal device.
+      - ans: NikGapps offers separate addon.d scripts for each package that it comes with. Easy to control which package you want to backup/restore after dirty flash!
+      - ans: NikGapps follows a different partition mounting mechanism.
+      - ans: NikGapps has it's own set of definition of packages defined keeping users feedback in mind.
+      - ans: NikGapps has it's own implementation of install configuration (defined in NikGapps.config and debloater.config).
+      - ans: NikGapps allows you to choose which partition you want to install the gapps in (/system or /product)
+      - ans: NikGapps offers gms optimization at users choice saving your battery so you don't have to worry about google services draining your battery while you are sleeping.
+      - ans: NikGapps comes with several addon packages for those who only require specific addon and not the whole gapps package.
+      - ans: More NikGapps Features <a target="_blank" style="color:#063EDD;" href="https://nikgapps.com/misc/2021/04/24/NikGapps-Features.html">here</a>
+
+  - title: What are the 'Canary' Builds?
+    content:
+      - ans: As with other kind of software releases, basically canary is technically a test, alpha, beta, whatever you call it. Has some improvements with quick fixes for previous issues. Main releases are more stable though it would be releases at a later date than canary. If you want to have a more stable update go for release, if you want bleeding edge, bugs damned, go canary
+      - ans: <code>Download:</code> <a style="color:blue" href="https://sourceforge.net/projects/nikgapps/files/Canary-Releases">Canary Releases</a>
+
+  - title: Where is Aroma NikGapps?
+    content:
+      - ans: This is discontinued since newer twrp doesn't work with aroma and eventually it will be deprecated
+      - ans: More details <a style="color:#063EDD" href="https://forum.xda-developers.com/showpost.php?p=78380874&postcount=96" target="_blank">here</a>
+      
