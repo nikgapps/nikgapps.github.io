@@ -162,6 +162,11 @@ faqs:
       - question:
         - title: How to report a crash?
           content: 
+            - ans: Method 1 - from computer
+            - ans: Make sure you have adb setup in your computer and your device is connected to it
+            - ans: If there is a crash, type <code>adb logcat AndroidRuntime:E *:S-v long > crash.txt</code> in your computer, hit enter and try to reproduce the crash
+            - ans: Once the crash is reproduced, type <code>ctrl+c</code> to stop the logcat and share the crash.txt file with us on XDA or Telegram
+            - ans: Method 2 - from device
             - ans: Pull logcat using matlog app or any other app related to logcat that you prefer and share it with us along with logs generated in <code>/sdcard/NikGapps/logs</code> folder
       - question:
         - title: How to report an issue related to debloater?
