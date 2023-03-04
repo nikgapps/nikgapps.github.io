@@ -31,6 +31,7 @@ packages:
       pkgs:
           - item: Everything from Omni  
           - item: Android Device Policy
+          - item: Pixel Launcher (Replaces AOSP Launcher)
           - item: GBoard (Replaces AOSP keyboard)
           - item: Google Calendar (Replaces AOSP Calendar)
           - item: Google Feedback
