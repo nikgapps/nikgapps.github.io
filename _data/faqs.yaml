@@ -222,6 +222,7 @@ faqs:
       - ans: <code>Download:</code> <a style="color:blue" href="https://sourceforge.net/projects/nikgapps/files/Canary-Releases">Canary Releases</a>
 
   - title: Where is Aroma NikGapps?
+    id: aroma
     content:
       - ans: This is discontinued since newer twrp doesn't work with aroma and eventually it will be deprecated
       - ans: More details <a style="color:#063EDD" href="https://forum.xda-developers.com/showpost.php?p=78380874&postcount=96" target="_blank">here</a>
