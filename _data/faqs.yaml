@@ -85,6 +85,7 @@ faqs:
             - ans: If you can risk your system get into unstable state (with the flexibility of clean flashing at will) then dirty flash! 
 
   - title: FAQs related to Runtime Permissions?  
+    id: runtime-permissions
     content:
       - question:
         - title: What is runtime_permissions.xml?
