@@ -84,7 +84,7 @@ faqs:
             - ans: If you are facing some issues with your current setup and you find a fix to the issue in the changelog of the gapps update, clean flash! This ensures that any residue factor is not impacting the actual fix
             - ans: If you can risk your system get into unstable state (with the flexibility of clean flashing at will) then dirty flash! 
 
-  - title: FAQs related to Runtime Permissions (runtime_permissions.xml)?  
+  - title: FAQs related to Runtime Permissions?  
     content:
       - question:
         - title: What is runtime_permissions.xml?
@@ -100,6 +100,20 @@ faqs:
           content: 
             - ans: Using Adb from Computer, you can use <code>adb shell rm -rf "path_to_runtime_permissions"</code> to wipe it
             - ans: On phone, using root, you can locate the file through any root explorer and delete it
+
+  - title: Unable to dirty flash Addons?  
+    content:
+      - question:
+        - title: What are the list of addons that can't be dirty flashed and why?
+          content: 
+            - ans: The reason why some addons can't be dirty flashed is because they are not designed to be dirty flashed. They are designed to be clean flashed only
+            - ans: Flashing them dirty will cause issues and you will have to clean flash the rom and gapps by wiping /data
+            - ans: The list of addons that can't be dirty flashed are as follows
+            - ans: <code>Velvet (Google app)</code> | <code> Android Auto</code> | <code>Google Clock</code> | <code>Gboard (Google Keyboard)</code> | <code>Google Play Services</code>
+      - question:
+        - title: How do I flash the addons dirty despite knowing the risk?
+          content:
+            - ans: Wipe Runtime Pemissions before flashing the addon/gapps containing the addon
 
   - title: Issues after successful installation?  
     content:
