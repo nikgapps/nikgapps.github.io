@@ -111,7 +111,7 @@ faqs:
             - ans: The reason why some addons can't be dirty flashed is because they are not designed to be dirty flashed. They are designed to be clean flashed only
             - ans: Flashing them dirty will cause issues and you will have to clean flash the rom and gapps by wiping /data
             - ans: The list of addons that can't be dirty flashed are as follows
-            - ans: <code>Velvet (Google app)</code> | <code> Android Auto</code> | <code>Google Clock</code> | <code>Gboard (Google Keyboard)</code> | <code>Google Play Services</code>
+            - ans: <code>Velvet (Google app)</code> | <code> Android Auto</code> | <code>Google Clock</code> | <code>Gboard (Google Keyboard)</code> | <code>Google Play Services</code> | <code>Google Sounds</code>
       - question:
         - title: How do I flash the addons dirty despite knowing the risk?
           content:
