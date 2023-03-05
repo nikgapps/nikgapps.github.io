@@ -103,6 +103,7 @@ faqs:
             - ans: On phone, using root, you can locate the file through any root explorer and delete it
 
   - title: Unable to dirty flash Addons?  
+    id: dirty-flash-addons
     content:
       - question:
         - title: What are the list of addons that can't be dirty flashed and why?
