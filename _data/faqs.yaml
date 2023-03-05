@@ -1,5 +1,5 @@
 faqs:
-  - title: Questions related to NikGapps Config
+  - title: FAQs related to nikgapps.config
     id: nikgappsconfig
     content:
       - question:
@@ -14,7 +14,7 @@ faqs:
             - ans: If you are sideloading gapps, you can place the nikgapps.config in /tmp folder and the recovery will read it from there
             - ans: Alternatively, you can also edit the nikgapps.config file in the gapps zip file and then flash it only this time, you need to set use_zip_config=1 in nikgapps.config file to instruct the installer to use the config file placed in the gapps zip you are flashing
             
-  - title: Questions related to Debloater
+  - title: FAQs related to Debloater
     id: debloater
     content:
       - question:
@@ -51,21 +51,16 @@ faqs:
             - ans: You can add <code>/system/addon.d</code> in debloater.config file and flash the <a style="color:blue" href="https://sourceforge.net/projects/NikGapps/files/Releases/Debloater/">Debloater Zip</a>
             - ans: The debloater will find the folder in <code>/system</code>, <code>/product</code> and <code>/system_ext</code> and delete it
 
-  - title: Questions related to Installing NikGapps
+  - title: FAQs related to Installing or Uninstalling NikGapps
     content:
-      - question:
-        - title: How to install NikGapps?
-          content:
-            - ans: You can install NikGapps using any custom recovery including but not limited to TWRP, OrangeFox, PitchBlack, SkyHawk, LineageOS recovery. 
       - question:
         - title: Can I install NikGapps systemlessly via Magisk?
           content:
             - ans: No, You cannot install NikGapps systemlessly via Magisk. NikGapps is a full fledged Gapps package and it is not designed to be installed systemlessly.
       - question:
-        - title: How to upgrade NikGapps with a newer release?
+        - title: How to install/update/upgrade/dirty flash NikGapps?
           content:
-            - ans: You only need to upgrade if you are experiencing an issue with the gapps and newer release fixes it
-            - ans: You can upgrade NikGapps by flashing the newer release over the older release
+            - ans: Check <a style="color:blue" href="https://nikgapps.com/misc/2023/03/04/Flash-NikGapps.html">this guide</a> to install/update/upgrade/dirty flash NikGapps
       - question:
         - title: How to downgrade from one version of NikGapps to another?
           content:
@@ -74,11 +69,6 @@ faqs:
         - title: Can I install NikGapps over other gapps package or over stock ROM?
           content:
             - ans: No, you cannot install NikGapps over other gapps package or over stock ROM. You need to clean flash the rom and gapps by wiping /data.
-      - question:
-        - title: How to switch between one NikGapps variant to another? (e.g. core to omni or vice versa)
-          content:
-            - ans: If you are switching between one NikGapps variant to another, you need to follow the ultimate uninstall guide from <a style="color:#063EDD;" href="https://nikgapps.com/misc/2021/04/24/NikGapps-Features.html#uninstall-nikgapps-completely-this-will-remove-all-the-traces-of-nikgapps-from-your-system">here</a> and then flash the new variant of NikGapps
-            - ans: Make sure you delete <code>runtime_permissions.xml</code>
       - question:
         - title: Where is runtime_permissions.xml located?
           content:
@@ -94,18 +84,24 @@ faqs:
             - ans: If you are facing some issues with your current setup and you find a fix to the issue in the changelog of the gapps update, clean flash! This ensures that any residue factor is not impacting the actual fix
             - ans: If you can risk your system get into unstable state (with the flexibility of clean flashing at will) then dirty flash! 
 
-  - title: Questions related to Uninstalling NikGapps
+  - title: FAQs related to Runtime Permissions (runtime_permissions.xml)?  
     content:
       - question:
-        - title: I want to uninstall a particular Package/AppSet such as YouTube or GoogleCalculator
-          content:
-            - ans: Follow Steps from <a style="color:#063EDD;" href="https://nikgapps.com/misc/2021/04/24/NikGapps-Features.html#uninstall-selected-packages">here</a>
+        - title: What is runtime_permissions.xml?
+          content: 
+            - ans: It is the file which stores the runtime permissions granted to apps by the user, for example, if you grant location permission to Google Maps, it will be stored in <code>runtime_permissions.xml</code> file
       - question:
-        - title: I want to uninstall all NikGapps Packages
-          content:
-            - ans: Follow Steps from <a style="color:#063EDD;" href="https://nikgapps.com/misc/2021/04/24/NikGapps-Features.html#uninstall-nikgapps-completely-this-will-remove-all-the-traces-of-nikgapps-from-your-system">here</a>
+        - title: Where is runtime_permissions.xml located?
+          content: 
+            - ans: <code>runtime_permissions.xml</code> is located at <code>/data/system/users/0/runtime_permissions.xml</code> if you're on Android 10
+            - ans: <code>runtime_permissions.xml</code> is located at <code>/data/misc_de/*/apexdata/com.android.permission/runtime_permissions.xml</code> if you're on Android 11 and above
+      - question:
+        - title: How to wipe runtime_permissions.xml?
+          content: 
+            - ans: Using Adb from Computer, you can use <code>adb shell rm -rf "path_to_runtime_permissions"</code> to wipe it
+            - ans: On phone, using root, you can locate the file through any root explorer and delete it
 
-  - title: Issues after successful installation?
+  - title: Issues after successful installation?  
     content:
       - question:
         - title: Facing issues with SetupWizard?
@@ -134,29 +130,13 @@ faqs:
             - ans: <code>bmgr backupnow appdata</code>
             - ans: and repeat the previous command once more
 
-  - title: Installation Failed, what to do now?
-    content:
-      - question:
-        - title: I am facing storage full error, what to do next?
-          content:
-            - ans: This usually happens when the recovery reports that no storage is left for further installation
-            - ans: If that is actually the case, you need to free up some space by debloating your system and removing any unnecessary apps
-            - ans: If you have enough space, you can try to install NikGapps again by following below steps
-            - ans: You can try setting InstallPartition in nikgapps to /system_root/system and flash the gapps zip again
-            - ans: You can try following this video to <a style="color:#063EDD;" href="https://youtu.be/gZgJgqjsfeM">resize your partition</a> and reflash gapps
-            - ans: If none of the above method works, share the installation logs from recovery and we will try to help you
-            - ans: Read the screen of your device carefully, it will tell you the exact path where the logs are stored
-            - ans: Grab the logs and share them on <a style="color:#063EDD;" href="https://t.me/NikGappsSupport">Telegram Support Group</a>
-
   - title: How to report an issue?
     content:
       - question:
         - title: How to report an issue with installation?
           content:
             - ans: If something is wrong with installation, addon.d, debloater, pull the installation logs and share it with us
-      - question:
-        - title: How to pull the installation logs?
-          content:
+            - ans: You will find the installation logs directory on the recovery screen at the end of NikGapps installation
             - ans: After flashing, read the screen of your device carefully, it will tell you the exact path where the logs are stored
             - ans: Grab the logs and share them on <a style="color:#063EDD;" href="https://t.me/NikGappsSupport">Telegram Support Group</a>
       - question:
@@ -164,7 +144,7 @@ faqs:
           content: 
             - ans: Method 1 - from computer
             - ans: Make sure you have adb setup in your computer and your device is connected to it
-            - ans: If there is a crash, type <code>adb logcat AndroidRuntime:E *:S-v long > crash.txt</code> in your computer, hit enter and try to reproduce the crash
+            - ans: If there is a crash, type <code>adb logcat AndroidRuntime:E *:S -v long > crash.txt</code> in your computer, hit enter and try to reproduce the crash
             - ans: Once the crash is reproduced, type <code>ctrl+c</code> to stop the logcat and share the crash.txt file with us on XDA or Telegram
             - ans: Method 2 - from device
             - ans: Pull logcat using matlog app or any other app related to logcat that you prefer and share it with us along with logs generated in <code>/sdcard/NikGapps/logs</code> folder
@@ -188,6 +168,20 @@ faqs:
             - ans: "- reboot to recovery"
             - ans: "- dirty flash gapps"
             - ans: "- boot and try logcat again"
+
+  - title: Installation Failed, what to do now?
+    content:
+      - question:
+        - title: I am facing storage full error, what to do next?
+          content:
+            - ans: This usually happens when the recovery reports that no storage is left for further installation
+            - ans: If that is actually the case, you need to free up some space by debloating your system and removing any unnecessary apps
+            - ans: If you have enough space, you can try to install NikGapps again by following below steps
+            - ans: You can try setting InstallPartition in nikgapps to /system_root/system and flash the gapps zip again
+            - ans: You can try following this video to <a style="color:#063EDD;" href="https://youtu.be/gZgJgqjsfeM">resize your partition</a> and reflash gapps
+            - ans: If none of the above method works, share the installation logs from recovery and we will try to help you
+            - ans: Read the screen of your device carefully, it will tell you the exact path where the logs are stored
+            - ans: Grab the logs and share them on <a style="color:#063EDD;" href="https://t.me/NikGappsSupport">Telegram Support Group</a>
 
   - title: Can I buy you a cup of coffee?
     content:
