@@ -27,40 +27,37 @@ packages:
           - item: Google Setup Wizard
           - item: Google Maps
           - item: Google Photos (Replaces AOSP Gallery)
-    - title: Stock
-      pkgs:
-          - item: Everything from Omni  
-          - item: Android Device Policy
-          - item: Pixel Launcher (Replaces AOSP Launcher)
           - item: GBoard (Replaces AOSP keyboard)
           - item: Google Calendar (Replaces AOSP Calendar)
-          - item: Google Feedback
-          - item: Google Partner Setup
+          - item: Google Keep (Replaces AOSP Notepad)
+    - title: Stock
+      pkgs:
+          - item: Everything from Omni 
           - item: Google Files (Android R+)
           - item: Google Velvet (for voice unlock)
-          - item: Google Sound Recorder
+          - item: Google Chrome (Replaces AOSP Browser)
+          - item: Google Play Games
           - item: Google Markup
-          - item: Google Sounds
+          - item: Pixel Launcher (Replace Stock Launcher)
+          - item: Google Sound Recorder (Replaces AOSP Sound Recorder)
+          - item: Google TTS (Replaces Stock TTS)
+          
     - title: Full
       pkgs:
           - item: Everything from Stock
-          - item: Google Play Books
-          - item: Google Keep
-          - item: Google Chrome (Replaces AOSP Browser)
-          - item: Google Assistant
-          - item: Google Play Games
-          - item: YouTube Music (Replaces AOSP Music and Google Play Music)
+          - item: Google Sounds
+          - item: Android Auto 
+          - item: Android Device Policy
           - item: Device Setup (Android for work)
-          - item: Android Auto
+          - item: Google Feedback
+          - item: Google Partner Setup
+          
     - title: Go
       pkgs:
-          - item: Everything from Core
+          - item: Everything from Core - but Go
           - item: Assistant Go
           - item: Gallery Go
           - item: Gmail Go
           - item: Google Go
           - item: Maps Go
           - item: Navigation Go
-          - item: Pixel Launcher 
-          - item: Device Personalization Services
-          - item: Google Wallpaper
