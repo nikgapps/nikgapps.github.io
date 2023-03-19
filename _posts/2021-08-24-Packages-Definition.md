@@ -149,6 +149,14 @@ author: Kingshuk Das, Nikhil Menghani
       <td>Package for Google based Wallpaper app</td>
     </tr>
     <tr>
+      <td>&gt;&gt;SettingsServices=1</td>
+      <td>The Settings app on your phone uses core system software called Settings Services. The software allows setup, connection, and customization for settings on your phone and certain app settings. The system gives permissions to Settings Services for things like displaying information about network connections and connected devices, setting rules for when to activate do not disturb mode, or sending notifications.</td>
+    </tr>
+    <tr>
+      <td>&gt;&gt;PrivateComputeServices=1</td>
+      <td>PrivateComputeServices is a secure, isolated data processing environment inside of the Android operating system that gives you control of the data inside, such as deciding if, how, and when it is shared with others. This way, PCC can enable features like Live Translate without sharing continuous sensing data with service providers, including Google. PCC is part of Protected Computing, a toolkit of technologies that transforms how, when, and where data is processed to technically ensure its privacy and safety.</td>
+    </tr>
+    <tr>
       <td>GoogleFiles=1</td>
       <td>AppSet that controls Google Files components</td>
     </tr>
