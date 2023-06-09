@@ -17,7 +17,7 @@ Today, we’re excited to introduce NikGapps Elites, an initiative designed to r
 
 Since our inception, NikGapps has been empowered by the unwavering support from our committed community. Whether it's monetary donations, ROM recommendations, or invaluable code contributions, every act has played a pivotal role in shaping NikGapps into its current form. Today, we're opening doors to the NikGapps Elites program to those who have contributed to NikGapps or indend to do so in future.
 
-## Exclusive Benefits for NikGapps Elites:
+## Exclusive Benefits for NikGapps Elites
 
 - **Highly Compressed Zip Files**: Saving your data and speeding up downloads.
 - **Signed Zips**: Guaranteeing a secure and reliable experience.
@@ -30,7 +30,7 @@ While the NikGapps Elites program is about appreciating past contributors, it's 
 
 For more details on the NikGapps Elites program on how to join and how it works, check below thread
 
-## How to Join NikGapps Elites:
+## How to Join NikGapps Elites
 
 - **Step 1**: Join the contributors list by making a contribution in one of the following 3 ways
     1. [Become a sponsor](https://github.com/sponsors/nikgapps) or Make a donation of any amount to NikGapps via [PayPal](https://www.paypal.com/paypalme/inikhilmenghani) or [Patreon](https://www.patreon.com/nikgapps).
@@ -39,7 +39,7 @@ For more details on the NikGapps Elites program on how to join and how it works,
 - **Step 2**: Create an issue [here](https://github.com/nikgapps/config/issues/new), add the details of your contribution in the issue description for nikgapps team to review and add the folder name you need access to in the issue title.
 - **Step 3**: Once your contribution is verified, your github account will be added to the NikGapps Elites list and you will then be able to configure your elite build (check below on how).
 
-## NikGapps Elites: Configuration and Working:
+## NikGapps Elites: Configuration and Working
 
 - Similar to [creating user builds](https://github.com/nikgapps/config), you can now create an elite build by submitting a pull request to the elite folder.
 - Create a (pre-approved) folder and config file at `elite/<android_version>/<folder_name>/<elite>.config`.
@@ -47,7 +47,7 @@ For more details on the NikGapps Elites program on how to join and how it works,
 - You can have multiple folders under your name for different purposes, such as personal builds and supporting device builds.
 - Each new stable release automatically generates an elite build that is made available in your dedicated SourceForge folder.
 
-## FAQs:
+## FAQs
 
 **Q: What is the difference between a user build and an elite build?**
 - User builds are manually requested and tailored for individual needs, available in a shared SourceForge folder, unsigned, unvalidated, and less compressed. Elite builds, on the other hand, are automatically created with each release, designed for broader use, available in a dedicated SourceForge folder, signed, validated, and more compressed for faster downloads and less storage use.
