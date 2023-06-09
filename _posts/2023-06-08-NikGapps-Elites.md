@@ -46,7 +46,7 @@ For more details on the NikGapps Elites program on how to join and how it works,
 - Create a (pre-approved) folder and config file at `elite/<android_version>/<folder_name>/<elite>.config`.
 - The `android_version` signifies the Android version of your elite build, while `folder_name` indicates the name of your dedicated folder on SourceForge where your elite build will be hosted.
 - You can have multiple folders under your name for different purposes, such as personal builds and supporting device builds.
-- Each new stable release automatically generates an elite build that is made available in your dedicated SourceForge folder.
+- Each new stable release automatically generates an elite build [here](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/) that is made available in your dedicated SourceForge folder.
 
 ## FAQs
 
