@@ -28,17 +28,7 @@ Since our inception, NikGapps has been empowered by the unwavering support from 
 
 While the NikGapps Elites program is about appreciating past contributors, it's also a call to more people to join us in this mission. Whether it's a donation, ROM recommendation, or code contribution, every act helps in advancing NikGapps.
 
-For more details on the NikGapps Elites program on how it works and how to join, check below thread
-
-## How NikGapps Elites Works:
-
-Following is a gist of how it works:
-- Just as you've been [creating user builds](https://github.com/nikgapps/config) by sending a pull request into one of the android versions folders, you can now create an elite build by sending a pull request into the elite folder.
-- The config file needs to be created under `elite/<android_version>/<folder_name>/<elite>.config` folder.
-- The `android_version` denotes the android version for which the elite build is being created.
-- The `folder_name` denotes the name of the folder in which the elite build is to be created on sourceforge. This folder will be exclusive to you and can serve as a dedicated folder for your builds.
-- You can have more than 1 folder under your name, for example, you can have a folder for your personal builds and another folder for your supporting device builds. The folder name can be anything you want (which is not already taken).
-- Everytime there is a new release, the elite build(s) will be created automatically and will be available for download in your dedicated folder on sourceforge.
+For more details on the NikGapps Elites program on how to join and how it works, check below thread
 
 ## How to Join NikGapps Elites:
 
@@ -47,40 +37,42 @@ Following is a gist of how it works:
     2. Recommend NikGapps to your ROM.
     3. Contribute code to NikGapps or help address a critical issue.
 - **Step 2**: Create an issue [here](https://github.com/nikgapps/config/issues/new), add the details of your contribution in the issue description for nikgapps team to review and add the folder name you need access to in the issue title.
-- **Step 3**: Once your contribution is verified, your github account will be added to the NikGapps Elites list and you will then be able to configure your elite build.
+- **Step 3**: Once your contribution is verified, your github account will be added to the NikGapps Elites list and you will then be able to configure your elite build (check below on how).
+
+## NikGapps Elites: Configuration and Working:
+
+- Similar to [creating user builds](https://github.com/nikgapps/config), you can now create an elite build by submitting a pull request to the elite folder.
+- Create a (pre-approved) folder and config file at elite/<android_version>/<folder_name>/<elite>.config.
+- The android_version signifies the Android version of your elite build, while folder_name indicates the name of your dedicated folder on SourceForge where your elite build will be hosted.
+- You can have multiple folders under your name for different purposes, such as personal builds and supporting device builds.
+- Each new release automatically generates an elite build that is made available in your dedicated SourceForge folder.
 
 ## FAQs:
 
 **Q: What is the difference between a user build and an elite build?**
-- **Available on Manual Request vs Available with every release:** A user build is created only when a user requests for it by sending a pull request into the android version folder whereas an elite build is created automatically everytime there is a new release.
-- **Designed for a single user vs Designed for a release:** A user build or custom build is a build that is created for a specific user tailored to his needs and is available for download in the shared folder on sourceforge. On the other hand, elite build is a build that is created for an elite user and is available for download in his dedicated folder on sourceforge. This can be a build that suits best for certain devices based on their configuration and is recommended by Rom Developers.
-- **Not signed vs Signed:** A user build is not signed whereas an elite build is signed.
-- **Not validated vs Validated:** A user build is not validated whereas an elite build is validated by your rom developer.
-- **Not highly compressed vs Highly Compressed:** A user build is not compressed beyond the default level whereas an elite build is highly compressed with faster downloads and takes up less storage space in your sdcard.
-- **No dedicated folder vs Dedicated folder:** A user build is available for download in the shared folder on sourceforge whereas an elite build is available for download in your dedicated folder on sourceforge so you never have to search through folders with release date to find your build.
+- User builds are manually requested and tailored for individual needs, available in a shared SourceForge folder, unsigned, unvalidated, and less compressed. Elite builds, on the other hand, are automatically created with each release, designed for broader use, available in a dedicated SourceForge folder, signed, validated, and more compressed for faster downloads and less storage use.
 
-**Q: Is this in other words a paid feature?**
-- No, this is not a paid feature. The contribution is not limited to donations. This is a way to recognize and honor the invaluable contributions made to the NikGapps project by contributors. However, the donations are a way to show recognition and appreciation for the work done by the NikGapps team.
 
-**Q: Why not bring all these exclusives to everyone?**
+**Q: Is this a paid feature?**
+- No, it's not a paid feature, but a way to honor valuable contributions to the NikGapps project. Donations are welcomed as a form of recognition and appreciation for the NikGapps team's work.
+
+**Q: Why aren't all exclusives available to everyone?**
 - We would love to bring all these exclusives to everyone but at the same time we want to reward and honor the invaluable contributions made to the NikGapps project. A lot of people have made monetary contribution/donation and never came forward. We believe that this is the best way to do it.
 
 **Q: What if I don't want to be an elite?**
-- You can still create a user build by sending a pull request into the android version folder.
-- You will still receive all the updates from NikGapps like before and bug fixes.
-- However, you will not receive the exclusives mentioned above.
+- You can still create user builds and receive NikGapps updates and bug fixes. However, elite exclusives will not be available.
 
-**Q: What if I don't want to be an elite anymore?**
+**Q: What if I no longer wish to be an elite?**
 - After you have been added to the NikGapps Elites list, you can request to be removed from the list by creating an issue [here](https://github.com/nikgapps/config/issues/new). 
 
 **Q: What if I want to add another folder or change my folder name?**
-- You can request to add another folder or change your folder name by creating an issue [here](https://github.com/nikgapps/config/issues/new). The request should be genuine and should not be just for fun. The request will be reviewed by the NikGapps team and will be approved only if it is genuine.
+- You can request folder modifications [here](https://github.com/nikgapps/config/issues/new), subject to NikGapps team's approval for genuineness.
 
-**Q: Will there be more exlusives in future?**
-- Yes, we will be adding more exclusives in future which will be available only to NikGapps Elites.
+**Q: Will there be more elite exclusives in the future?**
+- Yes, more exclusives will be added for NikGapps Elites.
 
 **Q: What if there is a bug in the elite build?**
-- If there is a bug in the elite build, you can create an issue [here](https://github.com/nikgapps/config/issues/new) and it will be addressed by the NikGapps team.
+- Report any bugs in the elite build [here](https://github.com/nikgapps/config/issues/new) for the NikGapps team to address.
 
 
 Thank you for your support, and a warm welcome to NikGapps Elites!
