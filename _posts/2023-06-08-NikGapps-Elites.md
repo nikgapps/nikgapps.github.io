@@ -15,7 +15,7 @@ Greetings everyone,
 
 Today, we’re excited to introduce NikGapps Elites, an initiative designed to recognize and honor the invaluable contributions made to the NikGapps project.
 
-Since our inception, NikGapps has been empowered by the unwavering support from our committed community. Whether it's monetary donations, ROM recommendations, or invaluable code contributions, every act has played a pivotal role in shaping NikGapps into its current form. As a token of our deepest appreciation and acknowledgement, we're opening doors to the NikGapps Elites program to those who have contributed to NikGapps and indend to do so in future.
+Since our inception, NikGapps has been empowered by the unwavering support from our committed community. Whether it's monetary donations, ROM recommendations, or invaluable code contributions, every act has played a pivotal role in shaping NikGapps into its current form. Today, we're opening doors to the NikGapps Elites program to those who have contributed to NikGapps or indend to do so in future.
 
 ## Exclusive Benefits for NikGapps Elites:
 
@@ -46,7 +46,7 @@ Following is a gist of how it works:
     1. [Become a sponsor](https://github.com/sponsors/nikgapps) or Make a donation of any amount to NikGapps via [PayPal](https://www.paypal.com/paypalme/inikhilmenghani) or [Patreon](https://www.patreon.com/nikgapps).
     2. Recommend NikGapps to your ROM.
     3. Contribute code to NikGapps or help address a critical issue.
-- **Step 2**: Create an issue [here](https://github.com/nikgapps/config/issues/new) and tag it with `elite request` label, add the details of your contribution in the issue description for nikgapps team to review and add the folder name you need access to in the issue title.
+- **Step 2**: Create an issue [here](https://github.com/nikgapps/config/issues/new), add the details of your contribution in the issue description for nikgapps team to review and add the folder name you need access to in the issue title.
 - **Step 3**: Once your contribution is verified, your github account will be added to the NikGapps Elites list and you will then be able to configure your elite build.
 
 ## FAQs:
@@ -82,12 +82,5 @@ Following is a gist of how it works:
 **Q: What if there is a bug in the elite build?**
 - If there is a bug in the elite build, you can create an issue [here](https://github.com/nikgapps/config/issues/new) and it will be addressed by the NikGapps team.
 
-**Q: Can I contribute in other ways?**
-- Yes, there are more ways to contribute and support NikGapps such as
-    - Creating a tutorial video on how to use NikGapps.
-    - Writing a blog post on how to use NikGapps on a recognized platform.
-    - Helping other users on XDA or other forums.
-    - Helping in solving bugs or issues.
-    - And much more... 
 
 Thank you for your support, and a warm welcome to NikGapps Elites!
