@@ -15,7 +15,7 @@ Greetings everyone,
 
 Today, we’re excited to introduce NikGapps Elites, an initiative designed to recognize and honor the invaluable contributions made to the NikGapps project.
 
-Since our inception, NikGapps has been empowered by the unwavering support from our committed community. Whether it's monetary donations, ROM recommendations, or invaluable code contributions, every act has played a pivotal role in shaping NikGapps into its current form. Today, we're opening doors to the NikGapps Elites program to those who have contributed to NikGapps or indend to do so in future.
+Since our inception, NikGapps has been empowered by the unwavering support from our committed community. Whether it's monetary donations, ROM recommendations, or invaluable code contributions, every act has played a pivotal role in shaping NikGapps into its current form. Today, we're opening doors to the NikGapps Elites program to those who have contributed to NikGapps or intend to do so in future.
 
 ## Exclusive Benefits for NikGapps Elites
 
