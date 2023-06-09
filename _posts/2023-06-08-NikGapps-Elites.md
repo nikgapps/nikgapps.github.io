@@ -23,7 +23,7 @@ Since our inception, NikGapps has been empowered by the unwavering support from 
 - **Signed Zips**: Ensuring a secure and reliable NikGapps experience.
 - **Consistent Releases**: No need for manual custom build requests, saving your time.
 - **Personally Validated Builds**: Ensuring packages don’t conflict for a seamless user experience.
-- **Device Specific Builds (Rom Devs)**: Rom Devs can establish a specific folder for their ROM, allowing users to download a build tailored to their device. Instead of suggesting separate NikGapps core and addons, Rom Devs can recommend a single `NikGapps-DeviceName-arm64-1x-YYYYMMDD-signed.zip` file with all components included.
+- **Device Specific Builds**: Rom Devs can establish a specific folder for their ROM, allowing users to download a build tailored to their device. Instead of suggesting separate NikGapps core and addons, Rom Devs can recommend a single `NikGapps-DeviceName-arm64-1x-YYYYMMDD-signed.zip` file with all components included.
 - **Exclusive Folder on Sourceforge**: A dedicated folder for your personalized builds on Sourceforge.
 - **Name in the Recovery**: A special badge of honor (Coming soon).
 
