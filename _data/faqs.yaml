@@ -13,7 +13,51 @@ faqs:
             - ans: If internal storage of your device is encrypted, the recovery cannot read the files from your storage and thus, you need to place nikgapps.config in the same folder as the gapps zip file and the recovery will read it from there
             - ans: If you are sideloading gapps, you can place the nikgapps.config in /tmp folder and the recovery will read it from there
             - ans: Alternatively, you can also edit the nikgapps.config file in the gapps zip file and then flash it only this time, you need to set use_zip_config=1 in nikgapps.config file to instruct the installer to use the config file placed in the gapps zip you are flashing
-            
+
+  - title: FAQs related to NikGapps Elites
+    id: elite
+    content:
+      - question:
+        - title: What is NikGapps Elites?
+          content:
+            - ans: You can find all the information <a style="color:blue" href="https://nikgapps.com/misc/2023/06/08/NikGapps-Elites.html#introducing-nikgapps-elites-rewarding-our-valuable-contributors">here</a>.
+      - question:
+        - title: What are the benefits of being a NikGapps Elite?
+          content:
+            - ans: You can find all the information <a style="color:blue" href="https://nikgapps.com/misc/2023/06/08/NikGapps-Elites.html#exclusive-benefits-for-nikgapps-elites">here</a>.
+      - question:
+        - title: What is the difference between a user build and an elite build?
+          content:
+            - ans: User builds are manually requested and tailored for individual needs, available in a shared SourceForge folder, unsigned, unvalidated, and less compressed. Elite builds, on the other hand, are automatically created with each release, designed for broader use, available in a dedicated SourceForge folder, signed, validated, and more compressed for faster downloads and less storage use.
+      - question:
+        - title: Is this a paid feature?
+          content:
+            - ans: No, it's not a paid feature, but a way to honor valuable contributions to the NikGapps project. Donations are welcomed as a form of recognition and appreciation for the NikGapps team's work.
+      - question:
+        - title: Why aren't all exclusives available to everyone?
+          content:
+            - ans: We would love to bring all these exclusives to everyone but at the same time we want to reward and honor the invaluable contributions made to the NikGapps project. A lot of people have made monetary contribution/donation and never came forward. We believe that this is the best way to do it.
+      - question:
+        - title: What if I don't want to be an elite?
+          content:
+            - ans: You can still create user builds and receive NikGapps updates and bug fixes. However, elite exclusives will not be available.
+      - question:
+        - title: What if I no longer wish to be an elite?
+          content:
+            - ans: After you have been added to the NikGapps Elites list, you can request to be removed from the list by creating an issue <a style="color:blue" href="https://github.com/nikgapps/config/issues/new">here</a>.
+      - question:
+        - title: What if I want to add another folder or change my folder name?
+          content:
+            - ans: You can request folder modifications <a style="color:blue" href="https://github.com/nikgapps/config/issues/new">here</a>, subject to NikGapps team's approval for genuineness.
+      - question:
+        - title: Will there be more elite exclusives in the future?
+          content:
+            - ans: Yes, more exclusives will be added for NikGapps Elites.
+      - question:
+        - title: What if there is a bug in the elite build?
+          content:
+            - ans: Report any bugs in the elite build <a style="color:blue" href="https://github.com/nikgapps/config/issues/new">here</a> for the NikGapps team to address.
+
   - title: FAQs related to Debloater
     id: debloater
     content:
