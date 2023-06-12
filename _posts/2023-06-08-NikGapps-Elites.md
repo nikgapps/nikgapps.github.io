@@ -21,9 +21,9 @@ Since our inception, NikGapps has been empowered by the unwavering support from 
 
 - **Highly Compressed Zip Files**: Saving your data and speeding up downloads.
 - **Signed Zips**: Ensuring a secure and reliable NikGapps experience.
-- **Consistent Releases**: No need for manual custom build requests, saving your time.
-- **Personally Validated Builds**: Ensuring packages don’t conflict for a seamless user experience.
-- **Device Specific Builds**: Rom Devs can establish a specific folder for their ROM, allowing users to download a build tailored to their device. Instead of suggesting separate NikGapps core and addons, Rom Devs can recommend a single `NikGapps-DeviceName-arm64-1x-YYYYMMDD-signed.zip` file with all components included.
+- **Consistent Releases**: A personalized build automatically created with every stable release. No need for manual custom build requests, saving your time.
+- **Personally Validated Builds**: Ensuring packages don’t conflict for a seamless user experience, you don't run into errors while flashing the builds just because the chosen combination of pacakges wasn't right.
+- **Device Specific Builds**: Rom Devs can establish a device specific folder for their ROM depending on the configuration of the device, allowing users to download a build tailored to their device. Instead of suggesting separate NikGapps core and addons, Rom Devs can recommend a single `NikGapps-DeviceName-arm64-1x-YYYYMMDD-signed.zip` file with all components included.
 - **Exclusive Folder on Sourceforge**: A dedicated folder for your personalized builds on Sourceforge.
 - **Name in the Recovery**: A special badge of honor (Coming soon).
 
@@ -50,30 +50,7 @@ For more details on the NikGapps Elites program on how to join and how it works,
 
 ## FAQs
 
-**Q: What is the difference between a user build and an elite build?**
-- User builds are manually requested and tailored for individual needs, available in a shared SourceForge folder, unsigned, unvalidated, and less compressed. Elite builds, on the other hand, are automatically created with each release, designed for broader use, available in a dedicated SourceForge folder, signed, validated, and more compressed for faster downloads and less storage use.
-
-
-**Q: Is this a paid feature?**
-- No, it's not a paid feature, but a way to honor valuable contributions to the NikGapps project. Donations are welcomed as a form of recognition and appreciation for the NikGapps team's work.
-
-**Q: Why aren't all exclusives available to everyone?**
-- We would love to bring all these exclusives to everyone but at the same time we want to reward and honor the invaluable contributions made to the NikGapps project. A lot of people have made monetary contribution/donation and never came forward. We believe that this is the best way to do it.
-
-**Q: What if I don't want to be an elite?**
-- You can still create user builds and receive NikGapps updates and bug fixes. However, elite exclusives will not be available.
-
-**Q: What if I no longer wish to be an elite?**
-- After you have been added to the NikGapps Elites list, you can request to be removed from the list by creating an issue [here](https://github.com/nikgapps/config/issues/new). 
-
-**Q: What if I want to add another folder or change my folder name?**
-- You can request folder modifications [here](https://github.com/nikgapps/config/issues/new), subject to NikGapps team's approval for genuineness.
-
-**Q: Will there be more elite exclusives in the future?**
-- Yes, more exclusives will be added for NikGapps Elites.
-
-**Q: What if there is a bug in the elite build?**
-- Report any bugs in the elite build [here](https://github.com/nikgapps/config/issues/new) for the NikGapps team to address.
+Head over to [FAQs page](https://nikgapps.com/faqs#elite) to get answers to some of the most common questions about NikGapps Elites.
 
 
 Thank you for your support, and a warm welcome to NikGapps Elites!
