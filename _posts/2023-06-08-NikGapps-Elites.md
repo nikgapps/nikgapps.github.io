@@ -26,6 +26,7 @@ Since our inception, NikGapps has been empowered by the unwavering support from 
 - **Personally Validated Builds**: Ensuring packages don’t conflict for a seamless user experience, you don't run into errors while flashing the builds just because the chosen combination of pacakges wasn't right.
 - **Device Specific Builds**: Rom Devs can establish a device specific folder for their ROM depending on the configuration of the device, allowing users to download a build tailored to their device. Instead of suggesting separate NikGapps core and addons, Rom Devs can recommend a single `NikGapps-DeviceName-arm64-1x-YYYYMMDD-signed.zip` file with all components included.
 - **Name in the Recovery**: A special badge of honor (Coming soon).
+- **Ability to Debloat with your `<elite>`.config**: You will be able to debloat your system using your personalized config (Coming soon).
 
 While the NikGapps Elites program is about appreciating past contributors, it's also a call to more people to join us in this mission. Whether it's a donation, ROM recommendation, or code contribution, every act helps in advancing NikGapps.
 
