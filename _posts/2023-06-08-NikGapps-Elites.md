@@ -37,7 +37,7 @@ For more details on the NikGapps Elites program on how to join and how it works,
     1. [Become a sponsor](https://github.com/sponsors/nikgapps) or Make a donation of any amount to NikGapps via [PayPal](https://www.paypal.com/paypalme/inikhilmenghani) or [Patreon](https://www.patreon.com/nikgapps).
     2. Recommend NikGapps to your ROM.
     3. Contribute code to NikGapps or help address a critical issue.
-- **Step 2**: Create an issue [here](https://github.com/nikgapps/config/issues/new), add the details of your contribution in the issue description for nikgapps team to review and add the folder name you need access to in the issue title.
+- **Step 2**: Create an issue [here](https://github.com/nikgapps/config/issues/new), add brief details of your contribution in the issue description for nikgapps team to review and add the folder name you need access to in the issue title. Example: `Add me to NikGapps Elites: <folder_name>` or refer [this](https://github.com/nikgapps/config/issues/7149).
 - **Step 3**: Once your contribution is verified, your github account will be added to the NikGapps Elites list and you will then be able to configure your elite build (check below on how).
 
 ## NikGapps Elites: Configuration and Working
