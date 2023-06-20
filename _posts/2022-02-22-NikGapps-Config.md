@@ -189,7 +189,8 @@ PixelSetupWizard=0
 GoogleTalkback=0
 PixelLiveWallpapers=0
 
-# NikGapps debloater starts here, add all the stuff to add to debloater.config below (for elite and user builds only), check examples below
+# NikGapps debloater starts here, add all the stuff to add to debloater.config below (for elite and user builds only)
+# check examples below
 # lines starting with '#' indicates comments, do not remove them
 # 
 
@@ -198,9 +199,8 @@ PixelLiveWallpapers=0
 /system/app/YouTube
 /system/app/YouTube/YouTube.apk
 
-# Or you can specify the name of the folder you want to remove and nikgapps installer will remove all the files/folders with that name
+# You can specify the name of the folder you want to remove and nikgapps installer will remove all the files/folders with that name
 YouTube
-
 ```
 
 **Note:** You can debloat files/folders from your device only if you're installing Elite build. Debloating is not supported for Stock build.
