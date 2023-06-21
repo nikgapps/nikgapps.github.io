@@ -179,7 +179,7 @@ gms_optimization=1
 
 To debloat files/folders from your device, make an entry of the file/folder you want to debloat in nikgapps.config file at the end of the file where all the package configurations are complete. Below is an example of how you can debloat files/folders from your device.
 
-<div class="ui teal message">
+
 Core=0  
 .  
 .  
@@ -201,7 +201,6 @@ PixelLiveWallpapers=0
   
 \# You can specify the name of the folder you want to remove and nikgapps installer will remove all the files/folders with that name  
 YouTube  
-</div>
 
 **Note:** You can debloat files/folders from your device only if you're installing Elite build. Debloating is not supported for Stock build.
 
