@@ -33,7 +33,7 @@ If the installer doesn't find **nikgapps.config**, it automatically creates the 
 
 ## How to setup nikgapps.config for first time users
 
-You can download nikgapps.config from <a target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Releases/Config/nikgapps-config">here</a> and place it in `/sdcard/NikGapps` folder (you can create this folder manually) and then start configuring. Alternatively, you can also extract nikgapps.config from the gapps zip and place it in `/sdcard/NikGapps`. 
+You can download nikgapps.config from <a target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Releases/Config/">here</a> and place it in `/sdcard/NikGapps` folder (you can create this folder manually) and then start configuring. Alternatively, you can also extract nikgapps.config from the gapps zip and place it in `/sdcard/NikGapps`. 
 
 ## Understanding nikgapps.config and using it to configure your installation
 
