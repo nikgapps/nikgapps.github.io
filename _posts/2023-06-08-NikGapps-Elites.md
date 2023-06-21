@@ -48,6 +48,7 @@ For more details on the NikGapps Elites program on how to join and how it works,
 - The `android_version` signifies the Android version of your elite build, while `folder_name` indicates the name of your dedicated folder on SourceForge where your elite build will be hosted.
 - You can have multiple folders under your name for different purposes, such as personal builds and supporting device builds.
 - Each new stable release automatically generates an elite build [here](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/) that is made available in your dedicated SourceForge folder.
+- If you made a mistake and wish to create a new elite build for the same config, you can do so by editing your config file, making the corrections and changing RELEASE_DATE to any number less than it's current value and commit the changes. For e.g. if RELEASE_DATE=2306091657, set it to 2306091656. This will trigger a new build for your config.
 
 ## FAQs
 
