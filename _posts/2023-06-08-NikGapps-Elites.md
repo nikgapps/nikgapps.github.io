@@ -27,6 +27,7 @@ Since our inception, NikGapps has been empowered by the unwavering support from 
 - **Device Specific Builds**: Rom Devs can establish a device specific folder for their ROM depending on the configuration of the device, allowing users to download a build tailored to their device. Instead of suggesting separate NikGapps core and addons, Rom Devs can recommend a single `NikGapps-DeviceName-arm64-1x-YYYYMMDD-signed.zip` file with all components included.
 - **Name in the Recovery**: A special badge of honor.
 - **Ability to Debloat with your `<elite>`.config**: You will be able to debloat your system using your personalized config.
+- **Hassle free config updates**: You will be able to update your personalized config without having to upload the config again. You can make changes to your already uploaded config and submit the changes via pull request.
 
 While the NikGapps Elites program is about appreciating past contributors, it's also a call to more people to join us in this mission. Whether it's a donation, ROM recommendation, or code contribution, every act helps in advancing NikGapps.
 
@@ -48,7 +49,7 @@ For more details on the NikGapps Elites program on how to join and how it works,
 - The `android_version` signifies the Android version of your elite build, while `folder_name` indicates the name of your dedicated folder on SourceForge where your elite build will be hosted.
 - You can have multiple folders under your name for different purposes, such as personal builds and supporting device builds.
 - Each new stable release automatically generates an elite build [here](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/) that is made available in your dedicated SourceForge folder.
-- If you made a mistake and wish to create a new elite build for the same config, you can do so by editing your config file, making the corrections and changing RELEASE_DATE to any number less than it's current value and commit the changes. For e.g. if RELEASE_DATE=2306091657, set it to 2306091656. This will trigger a new build for your config.
+- If you made a mistake and wish to create a new elite build for the same config, you can do so by editing your config file, making the corrections and submitting the pull request. The new build will be automatically generated and made available in your dedicated SourceForge folder.
 
 ## FAQs
 
