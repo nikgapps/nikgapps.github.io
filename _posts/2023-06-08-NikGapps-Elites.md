@@ -35,21 +35,26 @@ For more details on the NikGapps Elites program on how to join and how it works,
 
 ## How to Join NikGapps Elites
 
-- **Step 1**: Join the contributors list by making a contribution in one of the following 3 ways
-    1. [Become a sponsor](https://github.com/sponsors/nikgapps) or Make a donation of any amount to NikGapps via [PayPal](https://www.paypal.com/paypalme/inikhilmenghani) or [Patreon](https://www.patreon.com/nikgapps).
-    2. Recommend NikGapps to your ROM.
-    3. Contribute through code to NikGapps or help address a critical issue.
-- **Step 2**: Create an issue [here](https://github.com/nikgapps/config/issues/new), add brief details of your contribution in the issue description for nikgapps team to review and add the folder name you need access to in the issue title. Example: `Add me to NikGapps Elites: <folder_name>` or refer [this](https://github.com/nikgapps/config/issues/7149).
-- **Step 3**: Once your contribution is verified, your github account will be added to the NikGapps Elites list and you will then be able to configure your elite build (check below on how).
+Join the contributors list by making a contribution in one of the following ways  
+
+1. [Become a sponsor](https://github.com/sponsors/nikgapps) or Make a donation of any amount to NikGapps via [PayPal](https://www.paypal.com/paypalme/inikhilmenghani) or [Patreon](https://www.patreon.com/nikgapps).  
+2. Recommend NikGapps to your ROM.  
+3. Contribute through code to NikGapps or help address a critical issue.  
+4. Create a tutorial video on NikGapps and share it with us.  
+
+## I am a Contributor, How do I benefit from the Elite program?
+
+- Create an issue [here](https://github.com/nikgapps/config/issues/new), add brief details of your contribution in the issue description for nikgapps team to review and add the folder name you need access to in the issue title. Example: `Add me to NikGapps Elites: <folder_name>` or refer [this](https://github.com/nikgapps/config/issues/7149).
+- Once your contribution is verified, your github account will be added to the NikGapps Elites list and you will then be able to configure your elite build (check below on how).
 
 ## NikGapps Elites: Configuration and Working
 
 - Similar to [creating user builds](https://github.com/nikgapps/config), you can now create an elite build by submitting a pull request to the elite folder.
-- Create a (pre-approved from issue) folder and config file at `elite/<android_version>/<folder_name>/<elite>.config` in fork of [config](https://github.com/nikgapps/config) repo and send a pull request.
-- The `android_version` signifies the Android version of your elite build, while `folder_name` indicates the name of your dedicated folder on SourceForge where your elite build will be hosted.
+- Create a config file at `elite/<android_version>/<folder_name>/<elite>.config` in fork of [config](https://github.com/nikgapps/config) repo and send a pull request. 
+- The `android_version` signifies the Android version of your elite build, while `folder_name` indicates the name of your dedicated folder on SourceForge where your elite build will be hosted. Please note, you need to make sure the path to your config file is correct. It must be exactly `elite/<android_version>/<folder_name>/<your_elite>.config`.
 - You can have multiple folders under your name for different purposes, such as personal builds and supporting device builds.
 - Each new stable release automatically generates an elite build [here](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/) that is made available in your dedicated SourceForge folder.
-- If you made a mistake and wish to create a new elite build for the same config, you can do so by editing your config file, making the corrections and submitting the pull request. The new build will be automatically generated and made available in your dedicated SourceForge folder.
+- If you made a mistake and wish to create a new elite build for the same config, you can do so by editing your config file, making the corrections and submitting the pull request. The new build will be automatically generated and made available in your dedicated SourceForge folder shortly after your changes are merged.
 
 ## FAQs
 
