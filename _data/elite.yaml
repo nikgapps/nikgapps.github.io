@@ -12,6 +12,19 @@ Gwolf2u:
       title: 20230802 (Gwolf2u.config)
   id: Gwolf2u_Android13
   title: Android 13
+TeaqariaWTF:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" href="https://gofile.io/d/LcTrc3">NikGapps-Mergen-arm64-12.1-20230802-signed.zip</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- -> GoogleDialer<br>- -> GoogleContacts<br>-
+          -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>- ->
+          GBoard<br>- -> GoogleCalendar<br>- -> MarkupGoogle
+      title: 20230802 (Mergen.config)
+  id: TeaqariaWTF_Android12.1
+  title: Android 12.1
 Terminator-J:
 - content:
   - question:
