@@ -51,6 +51,28 @@ Terminator-J:
       title: 20230802 (crDroid-op6.config)
   id: Terminator-J_Android13
   title: Android 13
+Wossgebber:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-T/03-Aug-2023/NikGapps-wossgebberTcustomgapps-arm64-13-20230803-signed.zip/download">NikGapps-wossgebberTcustomgapps-arm64-13-20230803-signed.zip</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
+          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- -> GBoard<br>- -> GoogleCalendar<br>- -> PixelLauncher<br>-
+          - DevicePersonalizationServices<br>- - QuickAccessWallet<br>- - GoogleWallpaper<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelThemes<br>-
+          - EmojiWallpaper<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleSounds<br>-
+          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> Gmail<br>- -> DeviceSetup<br>- -> GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          -> Books
+      title: 20230803 (wossgebberTcustomgapps.config)
+  id: Wossgebber_Android13
+  title: Android 13
 osm0sis:
 - content:
   - question:
