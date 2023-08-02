@@ -1,0 +1,14 @@
+Terminator-J:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" href="https://gofile.io/d/JheW6g">NikGapps-crDroid-op6-arm64-13-20230802-signed.zip</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> CarrierServices<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> DeviceHealthServices<br>-
+          -> MarkupGoogle<br>- -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>-
+          - Assistant<br>- -> DeviceSetup<br>- -> AndroidAuto<br>- -> GooglePartnerSetup
+      title: 20230802 (crDroid-op6.config)
+  id: Terminator-J_Android13
+  title: Android 13
