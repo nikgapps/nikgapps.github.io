@@ -28,7 +28,7 @@ faqs:
       - question:
         - title: What is the difference between a user build and an elite build?
           content:
-            - ans: User builds are manually requested and tailored for individual needs, available in a shared SourceForge folder, unsigned, unvalidated, and less compressed. Elite builds, on the other hand, are automatically created with each release, designed for broader use, available in a dedicated SourceForge folder, signed, validated, and more compressed for faster downloads and less storage use.
+            - ans: User builds are manually requested and tailored for individual needs, available in a shared SourceForge folder, unsigned, unvalidated, and less compressed. Elite builds, on the other hand, are automatically created with each release, designed for broader use, available in a dedicated Elite page on nikgapps.com, signed, validated, and more compressed for faster downloads and less storage use.
       - question:
         - title: Is this a paid feature?
           content:
