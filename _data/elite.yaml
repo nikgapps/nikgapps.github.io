@@ -73,6 +73,31 @@ Wossgebber:
       title: 20230803 (wossgebberTcustomgapps.config)
   id: Wossgebber_Android13
   title: Android 13
+kourtzis:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" href="https://gofile.io/d/i9CC9Y">NikGapps-darkstar-superpixel-arm64-13-20230803-signed.zip</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
+          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- -> Drive<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- -> DeviceHealthServices<br>- -> GoogleCalendar<br>-
+          -> PlayGames<br>- -> PixelLauncher<br>- - PixelLauncher<br>- - DevicePersonalizationServices<br>-
+          - QuickAccessWallet<br>- - GoogleWallpaper<br>- - SettingsServices<br>-
+          - PrivateComputeServices<br>- - PixelThemes<br>- - EmojiWallpaper<br>- ->
+          GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
+          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          -> DeviceSetup<br>- -> AndroidAuto<br>- -> GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          -> AndroidDevicePolicy<br>- -> GoogleTalkback<br>- -> PixelLiveWallpapers<br>-
+          - PixelLiveWallpaper<br>- - PixelWallpapers2022
+      title: 20230803 (darkstar-superpixel.config)
+  id: kourtzis_Android13
+  title: Android 13
 osm0sis:
 - content:
   - question:
