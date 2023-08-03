@@ -22,7 +22,7 @@ Since our inception, NikGapps has been empowered by the unwavering support from 
 - **Highly Compressed Zip Files**: Saving your data and speeding up downloads.
 - **Signed Zips**: Ensuring a secure and reliable NikGapps experience.
 - **Consistent Releases**: A personalized build automatically created with every stable release. No need for manual custom build requests, saving your time.
-- **Exclusive Folder on Sourceforge**: A dedicated folder for your personalized builds on Sourceforge.
+- **Exclusive Elite page on NikGapps page**: A dedicated page for your personalized builds on nikgapps website.
 - **Personally Validated Builds**: Ensuring packages don’t conflict for a seamless user experience, you don't run into errors while flashing the builds just because the chosen combination of pacakges wasn't right.
 - **Device Specific Builds**: Rom Devs can establish a device specific folder for their ROM depending on the configuration of the device, allowing users to download a build tailored to their device. Instead of suggesting separate NikGapps core and addons, Rom Devs can recommend a single `NikGapps-DeviceName-arm64-1x-YYYYMMDD-signed.zip` file with all components included.
 - **Name in the Recovery**: A special badge of honor.
@@ -51,10 +51,10 @@ Join the contributors list by making a contribution in one of the following ways
 
 - Similar to [creating user builds](https://github.com/nikgapps/config), you can now create an elite build by submitting a pull request to the elite folder.
 - Create a config file at `elite/<android_version>/<folder_name>/<elite>.config` in fork of [config](https://github.com/nikgapps/config) repo and send a pull request. 
-- The `android_version` signifies the Android version of your elite build, while `folder_name` indicates the name of your dedicated folder on SourceForge where your elite build will be hosted. Please note, you need to make sure the path to your config file is correct. It must be exactly `elite/<android_version>/<folder_name>/<your_elite>.config`.
+- The `android_version` signifies the Android version of your elite build, while `folder_name` indicates the name of your dedicated folder in which you can control your `<elite>.config`. Please note, you need to make sure the path to your config file is correct. It must be exactly `elite/<android_version>/<folder_name>/<your_elite>.config`.
 - You can have multiple folders under your name for different purposes, such as personal builds and supporting device builds.
-- Each new stable release automatically generates an elite build [here](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/) that is made available in your dedicated SourceForge folder.
-- If you made a mistake and wish to create a new elite build for the same config, you can do so by editing your config file, making the corrections and submitting the pull request. The new build will be automatically generated and made available in your dedicated SourceForge folder shortly after your changes are merged.
+- Each new stable release automatically generates an elite build that is made available to your dedicated Elite Page - https://nikgapps.com/<github_username> (github_username is the name of your github account).
+- If you made a mistake and wish to create a new elite build for the same config, you can do so by editing your config file, making the corrections and submitting the pull request. The new build will be automatically generated and made available in your dedicated Elite page shortly after your changes are merged.
 
 ## FAQs
 
