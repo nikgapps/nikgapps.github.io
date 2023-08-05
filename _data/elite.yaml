@@ -86,16 +86,15 @@ helliscloser:
 - content:
   - question:
     - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://gofile.io/d/lciLmO">NikGapps-alphadroid-arm64-13-20230805-signed.zip</a>
+      - ans: Download <a style="color:blue" target="_blank" href="https://gofile.io/d/5YFvfV">NikGapps-alphadroid-arm64-13-20230805-signed.zip</a>
       - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
           - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
           -> CarrierServices<br>- -> SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
           -> GoogleCalculator<br>- -> GoogleLocationHistory<br>- -> GBoard<br>- ->
           MarkupGoogle<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
           GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> DeviceSetup<br>- -> AndroidAuto<br>- -> GoogleGo<br>- -> AssistantGo<br>-
-          -> MapsGo<br>- -> NavigationGo<br>- -> GalleryGo<br>- -> GmailGo<br>- ->
-          PixelLiveWallpapers<br>- - PixelLiveWallpaper<br>- - PixelWallpapers2022
+          -> DeviceSetup<br>- -> AndroidAuto<br>- -> PixelLiveWallpapers<br>- - PixelLiveWallpaper<br>-
+          - PixelWallpapers2022
       title: 20230805 (alphadroid.config)
   id: helliscloser_Android13
   title: Android 13
