@@ -59,6 +59,15 @@ TeaqariaWTF:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-T/30-Aug-2023/NikGapps-Mergen-arm64-13-20230830-signed.zip/download">NikGapps-Mergen-arm64-13-20230830-signed.zip</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- -> GoogleDialer<br>- -> GoogleContacts<br>-
+          -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>- ->
+          GBoard<br>- -> GoogleCalendar<br>- -> MarkupGoogle
+      title: 20230830 (Mergen.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-T/22-Aug-2023/NikGapps-Mergen-arm64-13-20230822-signed.zip/download">NikGapps-Mergen-arm64-13-20230822-signed.zip</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
