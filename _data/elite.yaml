@@ -2,6 +2,17 @@ Dreamer-Arcana:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/UMR85N/NikGapps-T/22-Sep-2023/NikGapps-Dreamer-Arcana-arm64-13-20230922-signed.zip/download">NikGapps-Dreamer-Arcana-arm64-13-20230922-signed.zip</a>
+      - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
+          - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
+          -> GoogleMessages<br>- -> GoogleDialer<br>- -> GoogleContacts<br>- -> CarrierServices<br>-
+          -> GoogleClock<br>- -> GoogleCalculator<br>- -> Drive<br>- -> GooglePhotos<br>-
+          -> GoogleCalendar<br>- -> GoogleRecorder<br>- -> GoogleChrome<br>- - GoogleChrome<br>-
+          - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>- -> YouTube<br>-
+          -> YouTubeMusic
+      title: 20230922 (Dreamer-Arcana.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/UMR85N/NikGapps-T/15-Sep-2023/NikGapps-Dreamer-Arcana-arm64-13-20230915-signed.zip/download">NikGapps-Dreamer-Arcana-arm64-13-20230915-signed.zip</a>
       - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
           - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
