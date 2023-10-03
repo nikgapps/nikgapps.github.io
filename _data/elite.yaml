@@ -230,6 +230,23 @@ osm0sis:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/NikGapps-T/03-Oct-2023/NikGapps-osm0sis-arm64-13-20231003-signed.zip/download">NikGapps-osm0sis-arm64-13-20231003-signed.zip</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
+          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- -> Drive<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- -> DeviceHealthServices<br>- -> GBoard<br>- -> GoogleCalendar<br>-
+          -> GoogleKeep<br>- -> PlayGames<br>- -> PixelLauncher<br>- - DevicePersonalizationServices<br>-
+          - QuickAccessWallet<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          -> GoogleRecorder<br>- -> GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
+          -> MarkupGoogle<br>- -> GoogleTTS<br>- -> GoogleSearch<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          -> AndroidAuto<br>- -> GoogleFeedback<br>- -> GooglePartnerSetup
+      title: 20231003 (osm0sis.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/NikGapps-T/30-Sep-2023/NikGapps-osm0sis-arm64-13-20230930-signed.zip/download">NikGapps-osm0sis-arm64-13-20230930-signed.zip</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
