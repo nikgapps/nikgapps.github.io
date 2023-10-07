@@ -253,7 +253,7 @@ helliscloser:
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-T/07-Oct-2023/NikGapps-alphadroid-arm64-13-20231007-signed.zip/download">NikGapps-alphadroid-arm64-13-20231007-signed.zip
-          (403.85 MB)</a>
+          (403.84 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
           - GmsCore<br>- -> CarrierServices<br>- -> GoogleCalculator<br>- -> GoogleLocationHistory<br>-
