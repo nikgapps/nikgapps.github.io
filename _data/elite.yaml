@@ -366,6 +366,22 @@ vivekvijayan20:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/07-Oct-2023/NikGapps-SinisterGapps-arm64-13-20231007-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20231007-signed.zip
+          (307.42 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
+          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>-
+          -> GoogleLocationHistory<br>- -> DeviceHealthServices<br>- -> GBoard<br>-
+          -> GoogleCalendar<br>- -> PixelLauncher<br>- - QuickAccessWallet<br>- -
+          SettingsServices<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleSounds<br>-
+          -> DeviceSetup<br>- -> AndroidAuto<br>- -> GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>-
+          -> PixelSetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          - PixelSetupWizard
+      title: 20231007 (SinisterGapps.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/12-Sep-2023/NikGapps-SinisterGapps-arm64-13-20230912-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20230912-signed.zip</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
@@ -419,65 +435,5 @@ vivekvijayan20:
           -> GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
           -> GoogleSounds<br>- -> AndroidAuto
       title: 20230817 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/10-Aug-2023/NikGapps-SinisterGapps-arm64-13-20230810-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20230810-signed.zip</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- -> GoogleLocationHistory<br>- -> DeviceHealthServices<br>-
-          -> GBoard<br>- -> GoogleCalendar<br>- -> PixelLauncher<br>- -> GoogleRecorder<br>-
-          -> GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
-          -> GoogleSounds<br>- -> AndroidAuto
-      title: 20230810 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/09-Aug-2023/NikGapps-SinisterGapps-arm64-13-20230809-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20230809-signed.zip</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>-
-          -> GoogleLocationHistory<br>- -> DeviceHealthServices<br>- -> GBoard<br>-
-          -> GoogleCalendar<br>- -> PixelLauncher<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleSounds<br>-
-          -> AndroidAuto<br>- -> PixelSetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
-          - GoogleOneTimeInitializer<br>- - PixelSetupWizard
-      title: 20230809 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://gofile.io/d/t7NaDn">NikGapps-SinisterGapps-arm64-13-20230804-signed.zip</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
-          - GoogleOneTimeInitializer<br>- -> GBoard<br>- -> PixelLauncher<br>- ->
-          GoogleFiles<br>- -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
-          Assistant<br>- -> GoogleSounds<br>- -> AndroidAuto
-      title: 20230804 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" href="https://gofile.io/d/D8mhmX">NikGapps-SinisterGapps-arm64-13-20230803-signed.zip</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
-          - GoogleOneTimeInitializer<br>- -> GBoard<br>- -> PixelLauncher<br>- ->
-          GoogleFiles<br>- -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
-          Assistant<br>- -> GoogleSounds<br>- -> AndroidAuto
-      title: 20230803 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/02-Aug-2023/NikGapps-SinisterGapps-arm64-13-20230802-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20230802-signed.zip</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
-          - GoogleOneTimeInitializer<br>- -> GBoard<br>- -> PixelLauncher<br>- ->
-          GoogleRecorder<br>- -> GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
-          -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
-          GoogleSounds<br>- -> AndroidAuto
-      title: 20230802 (SinisterGapps.config)
   id: vivekvijayan20_Android13
   title: Android 13
