@@ -60,7 +60,7 @@ Gwolf2u:
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Gwolf2u/NikGapps-T/07-Oct-2023/NikGapps-Gwolf2u-arm64-13-20231007-signed.zip/download">NikGapps-Gwolf2u-arm64-13-20231007-signed.zip
-          (230.11 MB)</a>
+          (230.13 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
           - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
