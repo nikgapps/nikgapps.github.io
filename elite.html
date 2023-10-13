@@ -1,0 +1,17 @@
+---
+layout: page
+title: 'NikGapps Elites'
+permalink: /elites
+headline: 'NikGapps Elites'
+bClass: aboutpage
+---
+
+
+<div class="elite-grid">
+    {% for elite in site.data.elite %}
+    <div class="elite-item">
+        <p>{{ elite[0] }}</p>
+        <a class="download-btn" href="https://nikgapps.com/{{ elite[0] | replace: " ", "-" }}" target="_blank">Download</a>
+    </div>
+    {% endfor %}
+</div>

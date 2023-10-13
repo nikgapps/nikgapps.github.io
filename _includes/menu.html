@@ -1,17 +1,28 @@
 <ul class="menu" id="navlist">
-    <li {% if page.url contains '/about' %}class="active" {% endif %}><a href="{{'/about' | relative_url}}"
-            class="has-svg">
-            <i class="fa fa-info-circle"></i> About</a></li>
-    <li {% if page.url contains '/downloads' %}class="active" {% endif %}><a href="{{'/downloads' | relative_url}}"
-            class="has-svg"><i class="fa fa-download"></i>
-            Downloads</a></li>
-    <li {% if page.url contains '/faqs' %}class="active" {% endif %}><a href="{{'/faqs' | relative_url}}"
-            class="has-svg"><i class="fa fa-question-circle"></i> FAQs</a></li>
-    <li {% if page.url contains '/blog' %}class="active" {% endif %}><a href="{{'./blog'| relative_url}}" 
-            class="has-svg"><i class="fa fa-rss"></i> Blog</a></li>
-    <li {% if page.url contains '/team' %}class="active" {% endif %}><a href="{{'/team' | relative_url}}"
-            class="has-svg"><i class="fa fa-users"></i> Team</a></li>
-    <li>
-        <a href="https://www.paypal.me/inikhilmenghani" class="header__c2a has-svg"><i class="fa fa-usd"></i> Donate</a>
-    </li>
+        <li {% if page.url contains '/about' %}class="active" {% endif %}><a
+                        href="{{'/about' | relative_url}}"
+                        class="has-svg">
+                        <i class="fa fa-info-circle"></i> About</a></li>
+        <li {% if page.url contains '/downloads' %}class="active" {% endif %}><a
+                        href="{{'/downloads' | relative_url}}"
+                        class="has-svg"><i class="fa fa-download"></i>
+                        Downloads</a></li>
+        <li {% if page.url contains '/elites' %}class="active" {% endif %}><a
+                        href="{{'/elites' | relative_url}}"
+                        class="has-svg"><i class="fa fa-users"></i> Elites</a></li>
+        <li {% if page.url contains '/faqs' %}class="active" {% endif %}><a
+                        href="{{'/faqs' | relative_url}}"
+                        class="has-svg"><i class="fa fa-question-circle"></i>
+                        FAQs</a></li>
+        <li {% if page.url contains '/blog' %}class="active" {% endif %}><a
+                        href="{{'./blog'| relative_url}}"
+                        class="has-svg"><i class="fa fa-rss"></i> Blog</a></li>
+        <li {% if page.url contains '/team' %}class="active" {% endif %}><a
+                        href="{{'/team' | relative_url}}"
+                        class="has-svg"><i class="fa fa-users"></i> Team</a></li>
+        <li>
+                <a href="https://www.paypal.me/inikhilmenghani"
+                        class="header__c2a has-svg"><i class="fa fa-usd"></i>
+                        Donate</a>
+        </li>
 </ul>

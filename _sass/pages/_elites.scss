@@ -1,0 +1,36 @@
+.elite-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* Spacing between items */
+}
+
+.elite-item {
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px; /* Adjust this value to bring text closer to the button */
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: var(--clr-primary); /* Button color from variable */
+    color: #ffffff; /* Text color */
+    padding: 10px 10px; /* Adjusted padding for button */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover - Adjust if needed */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .elite-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
