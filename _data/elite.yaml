@@ -418,6 +418,25 @@ Wossgebber:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-T/07-Nov-2023/NikGapps-Wossgebber-Gapps-Config-arm64-13-20231107-signed.zip/download">NikGapps-Wossgebber-Gapps-Config-arm64-13-20231107-signed.zip
+          (627.0 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
+          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- -> GBoard<br>- -> GoogleCalendar<br>- -> PixelLauncher<br>-
+          - PixelLauncher<br>- - DevicePersonalizationServices<br>- - QuickAccessWallet<br>-
+          - GoogleWallpaper<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          - PixelThemes<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleSearch<br>-
+          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          -> DeviceSetup<br>- -> GooglePartnerSetup<br>- -> Books
+      title: 20231107 (Wossgebber-Gapps-Config.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-T/05-Nov-2023/NikGapps-wossgebberTcustomgapps-arm64-13-20231105-signed.zip/download">NikGapps-wossgebberTcustomgapps-arm64-13-20231105-signed.zip
           (626.99 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -491,25 +510,6 @@ Wossgebber:
           -> Gmail<br>- -> DeviceSetup<br>- -> GooglePartnerSetup<br>- -> Books<br>-
           -> PixelLiveWallpapers<br>- - PixelLiveWallpaper<br>- - PixelWallpapers2022
       title: 20231011 (wossgebberTcustomgapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-T/10-Oct-2023/NikGapps-wossgebberTcustomgapps-arm64-13-20231010-signed.zip/download">NikGapps-wossgebberTcustomgapps-arm64-13-20231010-signed.zip
-          (512.45 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
-          -> DeviceHealthServices<br>- -> GBoard<br>- -> GoogleCalendar<br>- -> PixelLauncher<br>-
-          - DevicePersonalizationServices<br>- - QuickAccessWallet<br>- - GoogleWallpaper<br>-
-          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelThemes<br>-
-          - EmojiWallpaper<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleSounds<br>-
-          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> Gmail<br>- -> DeviceSetup<br>- -> GoogleFeedback<br>- -> GooglePartnerSetup<br>-
-          -> Books
-      title: 20231010 (wossgebberTcustomgapps.config)
   id: Wossgebber_Android13
   title: Android 13
 cocka11:
