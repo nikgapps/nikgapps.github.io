@@ -217,6 +217,17 @@ Pfuenzle:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/NikGapps-T/07-Nov-2023/NikGapps-pfuenzle-arm64-13-20231107-signed.zip/download">NikGapps-pfuenzle-arm64-13-20231107-signed.zip
+          (299.54 MB)</a>
+      - ans: What's included?<br>- -> Drive<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- -> PlayGames<br>- -> PixelLauncher<br>- - QuickAccessWallet<br>-
+          - PrivateComputeServices<br>- - PixelThemes<br>- - EmojiWallpaper<br>- ->
+          MarkupGoogle<br>- -> GoogleTTS<br>- -> GoogleSounds<br>- -> Gmail<br>- ->
+          AndroidDevicePolicy<br>- -> GoogleDuo<br>- -> GoogleDocs<br>- -> GoogleSlides<br>-
+          -> GoogleSheets<br>- -> Books<br>- -> GoogleTalkback
+      title: 20231107 (pfuenzle.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/NikGapps-T/07-Nov-2023/NikGapps-pfuenzle-full-arm64-13-20231107-signed.zip/download">NikGapps-pfuenzle-full-arm64-13-20231107-signed.zip
           (988.2 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
