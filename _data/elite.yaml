@@ -472,6 +472,19 @@ Wossgebber:
       title: 20231010 (wossgebberTcustomgapps.config)
   id: Wossgebber_Android13
   title: Android 13
+cocka11:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/cocka11/NikGapps-T/07-Nov-2023/NikGapps-cocka11-arm64-13-20231107-signed.zip/download">NikGapps-cocka11-arm64-13-20231107-signed.zip
+          (85.4 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> GooglePartnerSetup
+      title: 20231107 (cocka11.config)
+  id: cocka11_Android13
+  title: Android 13
 helliscloser:
 - content:
   - question:
