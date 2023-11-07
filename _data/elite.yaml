@@ -307,6 +307,16 @@ TeaqariaWTF:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-T/07-Nov-2023/NikGapps-Mergen-arm64-13-20231107-signed.zip/download">NikGapps-Mergen-arm64-13-20231107-signed.zip
+          (236.53 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- -> GoogleDialer<br>- -> GoogleContacts<br>-
+          -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>- ->
+          GBoard<br>- -> GoogleCalendar<br>- -> MarkupGoogle
+      title: 20231107 (Mergen.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-T/10-Oct-2023/NikGapps-Mergen-arm64-13-20231010-signed.zip/download">NikGapps-Mergen-arm64-13-20231010-signed.zip
           (236.44 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -343,15 +353,6 @@ TeaqariaWTF:
           -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>- ->
           GBoard<br>- -> GoogleCalendar<br>- -> MarkupGoogle
       title: 20230822 (Mergen.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-T/13-Aug-2023/NikGapps-Mergen-arm64-13-20230813-signed.zip/download">NikGapps-Mergen-arm64-13-20230813-signed.zip</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> GoogleMessages<br>- -> GoogleDialer<br>- -> GoogleContacts<br>-
-          -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>- ->
-          GBoard<br>- -> GoogleCalendar<br>- -> MarkupGoogle
-      title: 20230813 (Mergen.config)
   id: TeaqariaWTF_Android13
   title: Android 13
 Terminator-J:
