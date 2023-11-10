@@ -469,6 +469,24 @@ Wossgebber:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-T/10-Nov-2023/NikGapps-wossgebberTcustomgapps-arm64-13-20231110-signed.zip/download">NikGapps-wossgebberTcustomgapps-arm64-13-20231110-signed.zip
+          (530.09 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
+          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- -> GBoard<br>- -> GoogleCalendar<br>- -> PixelLauncher<br>-
+          - PixelLauncher<br>- - DevicePersonalizationServices<br>- - GoogleWallpaper<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelThemes<br>-
+          -> GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
+          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleChrome<br>- - GoogleChrome<br>-
+          - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>- -> DeviceSetup<br>-
+          -> GooglePartnerSetup<br>- -> YouTubeMusic<br>- -> Books
+      title: 20231110 (wossgebberTcustomgapps.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-T/08-Nov-2023/NikGapps-wossgebberTcustomgapps-arm64-13-20231108-signed.zip/download">NikGapps-wossgebberTcustomgapps-arm64-13-20231108-signed.zip
           (675.62 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -543,25 +561,6 @@ Wossgebber:
           - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
           -> DeviceSetup<br>- -> GooglePartnerSetup<br>- -> Books
       title: 20231106 (wossgebberTcustomgapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-T/05-Nov-2023/NikGapps-Wossgebber-Gapps-Config-arm64-13-20231105-signed.zip/download">NikGapps-Wossgebber-Gapps-Config-arm64-13-20231105-signed.zip
-          (626.96 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
-          -> DeviceHealthServices<br>- -> GBoard<br>- -> GoogleCalendar<br>- -> PixelLauncher<br>-
-          - PixelLauncher<br>- - DevicePersonalizationServices<br>- - QuickAccessWallet<br>-
-          - GoogleWallpaper<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          - PixelThemes<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleSearch<br>-
-          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- -> GoogleChrome<br>-
-          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
-          -> DeviceSetup<br>- -> GooglePartnerSetup<br>- -> Books
-      title: 20231105 (Wossgebber-Gapps-Config.config)
   id: Wossgebber_Android13
   title: Android 13
 cocka11:
