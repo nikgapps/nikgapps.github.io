@@ -969,3 +969,21 @@ vivekvijayan20:
       title: 20231010 (SinisterGapps.config)
   id: vivekvijayan20_Android13
   title: Android 13
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-U/29-Nov-2023/NikGapps-SinisterGapps-arm64-14-20231129-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20231129-signed.zip
+          (309.56 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
+          -> GoogleContacts<br>- -> CarrierServices<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          -> GoogleLocationHistory<br>- -> DeviceHealthServices<br>- -> GBoard<br>-
+          -> GoogleCalendar<br>- -> PixelLauncher<br>- - QuickAccessWallet<br>- -
+          SettingsServices<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> DeviceSetup<br>-
+          -> AndroidAuto<br>- -> GooglePartnerSetup<br>- -> AndroidDevicePolicy
+      title: 20231129 (SinisterGapps.config)
+  id: vivekvijayan20_Android14
+  title: Android 14
