@@ -437,6 +437,19 @@ TeaqariaWTF:
       title: 20230822 (Mergen.config)
   id: TeaqariaWTF_Android13
   title: Android 13
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-U/29-Nov-2023/NikGapps-Mergen-arm64-14-20231129-signed.zip/download">NikGapps-Mergen-arm64-14-20231129-signed.zip
+          (246.67 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- -> GoogleDialer<br>- -> GoogleContacts<br>-
+          -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>- ->
+          GBoard<br>- -> GoogleCalendar<br>- -> MarkupGoogle
+      title: 20231129 (Mergen.config)
+  id: TeaqariaWTF_Android14
+  title: Android 14
 Terminator-J:
 - content:
   - question:
