@@ -465,6 +465,20 @@ Terminator-J:
       title: 20230802 (crDroid-op6.config)
   id: Terminator-J_Android13
   title: Android 13
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crDroid-op6/NikGapps-U/29-Nov-2023/NikGapps-crDroid-op6-arm64-14-20231129-signed.zip/download">NikGapps-crDroid-op6-arm64-14-20231129-signed.zip
+          (225.0 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> CarrierServices<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> DeviceHealthServices<br>-
+          -> MarkupGoogle<br>- -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>-
+          - Assistant<br>- -> DeviceSetup<br>- -> AndroidAuto<br>- -> GooglePartnerSetup
+      title: 20231129 (crDroid-op6.config)
+  id: Terminator-J_Android14
+  title: Android 14
 Wossgebber:
 - content:
   - question:
