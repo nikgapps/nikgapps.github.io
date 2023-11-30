@@ -728,17 +728,6 @@ crdroid-official:
           -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
           GoogleSounds<br>- -> DeviceSetup<br>- -> AndroidAuto
       title: 20231130 (crdroid-official.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-U/29-Nov-2023/NikGapps-crdroid-official-arm64-14-20231129-signed.zip/download">NikGapps-crdroid-official-arm64-14-20231129-signed.zip
-          (224.3 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
-          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- -> MarkupGoogle<br>-
-          -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
-          GoogleSounds<br>- -> DeviceSetup<br>- -> AndroidAuto
-      title: 20231129 (crdroid-official.config)
   id: crdroid-official_Android14
   title: Android 14
 helliscloser:
