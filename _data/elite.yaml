@@ -723,7 +723,7 @@ crdroid-official:
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
           - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
-          - GoogleOneTimeInitializer<br>- -> PixelLauncher<br>- - DevicePersonalizationServices<br>-
+          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
           - SettingsServices<br>- - PrivateComputeServices<br>- -> MarkupGoogle<br>-
           -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
           GoogleSounds<br>- -> DeviceSetup<br>- -> AndroidAuto
@@ -735,7 +735,7 @@ crdroid-official:
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
           - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
-          - GoogleOneTimeInitializer<br>- -> PixelLauncher<br>- -> MarkupGoogle<br>-
+          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- -> MarkupGoogle<br>-
           -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
           GoogleSounds<br>- -> DeviceSetup<br>- -> AndroidAuto
       title: 20231129 (crdroid-official.config)
