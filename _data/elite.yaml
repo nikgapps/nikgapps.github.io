@@ -767,6 +767,21 @@ helliscloser:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-T/29-Jan-2024/NikGapps-alphadroid-arm64-13-20240129-signed.zip/download">NikGapps-alphadroid-arm64-13-20240129-signed.zip
+          (404.18 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> CarrierServices<br>- - CarrierServices<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GBoard<br>- - GBoard<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- ->
+          GoogleSearch<br>- - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
+          -> PixelSetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          - PixelSetupWizard
+      title: 20240129 (alphadroid.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-T/07-Nov-2023/NikGapps-alphadroid-arm64-13-20231107-signed.zip/download">NikGapps-alphadroid-arm64-13-20231107-signed.zip
           (404.21 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -813,18 +828,6 @@ helliscloser:
           GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
           -> DeviceSetup<br>- -> AndroidAuto
       title: 20231010 (alphaofficial.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-T/07-Oct-2023/NikGapps-alphadroid-arm64-13-20231007-signed.zip/download">NikGapps-alphadroid-arm64-13-20231007-signed.zip
-          (403.84 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> CarrierServices<br>- -> GoogleCalculator<br>- -> GoogleLocationHistory<br>-
-          -> GBoard<br>- -> MarkupGoogle<br>- -> GoogleSearch<br>- -> GoogleSounds<br>-
-          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> DeviceSetup<br>- -> AndroidAuto<br>- -> PixelSetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- - PixelSetupWizard
-      title: 20231007 (alphadroid.config)
   id: helliscloser_Android13
   title: Android 13
 - content:
