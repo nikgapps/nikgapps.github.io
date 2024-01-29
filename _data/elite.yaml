@@ -764,6 +764,18 @@ crdroid-official:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-U/29-Jan-2024/NikGapps-crdroid-official-arm64-14-20240129-signed.zip/download">NikGapps-crdroid-official-arm64-14-20240129-signed.zip
+          (222.89 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
+          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20240129 (crdroid-official.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-U/30-Nov-2023/NikGapps-crdroid-official-arm64-14-20231130-signed.zip/download">NikGapps-crdroid-official-arm64-14-20231130-signed.zip
           (260.96 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
