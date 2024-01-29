@@ -776,6 +776,21 @@ crdroid-official:
       title: 20231130 (crdroid-official.config)
   id: crdroid-official_Android14
   title: Android 14
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-T/29-Jan-2024/NikGapps-crdroid-official-arm64-13-20240129-signed.zip/download">NikGapps-crdroid-official-arm64-13-20240129-signed.zip
+          (230.39 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
+          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20240129 (crdroid-official.config)
+  id: crdroid-official_Android13
+  title: Android 13
 helliscloser:
 - content:
   - question:
