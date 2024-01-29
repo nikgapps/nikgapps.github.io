@@ -554,6 +554,18 @@ TeaqariaWTF:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-U/29-Jan-2024/NikGapps-Mergen-arm64-14-20240129-signed.zip/download">NikGapps-Mergen-arm64-14-20240129-signed.zip
+          (246.7 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
+          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> MarkupGoogle<br>- - MarkupGoogle
+      title: 20240129 (Mergen.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-U/16-Jan-2024/NikGapps-Mergen-arm64-14-20240116-signed.zip/download">NikGapps-Mergen-arm64-14-20240116-signed.zip
           (246.61 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
