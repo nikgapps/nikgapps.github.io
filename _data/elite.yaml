@@ -785,6 +785,18 @@ TeaqariaWTF:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-U/12-Feb-2024/NikGapps-Mergen-arm64-14-20240212-signed.zip/download">NikGapps-Mergen-arm64-14-20240212-signed.zip
+          (246.75 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
+          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> MarkupGoogle<br>- - MarkupGoogle
+      title: 20240212 (Mergen.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-U/07-Feb-2024/NikGapps-Mergen-arm64-14-20240207-signed.zip/download">NikGapps-Mergen-arm64-14-20240207-signed.zip
           (246.75 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -829,16 +841,6 @@ TeaqariaWTF:
           -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>- ->
           GBoard<br>- -> GoogleCalendar<br>- -> MarkupGoogle
       title: 20240116 (Mergen.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-U/29-Nov-2023/NikGapps-Mergen-arm64-14-20231129-signed.zip/download">NikGapps-Mergen-arm64-14-20231129-signed.zip
-          (246.67 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> GoogleMessages<br>- -> GoogleDialer<br>- -> GoogleContacts<br>-
-          -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>- ->
-          GBoard<br>- -> GoogleCalendar<br>- -> MarkupGoogle
-      title: 20231129 (Mergen.config)
   id: TeaqariaWTF_Android14
   title: Android 14
 Terminator-J:
