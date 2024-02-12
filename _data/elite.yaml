@@ -653,6 +653,20 @@ Pfuenzle:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/NikGapps-U/12-Feb-2024/NikGapps-pfuenzle-arm64-14-20240212-signed.zip/download">NikGapps-pfuenzle-arm64-14-20240212-signed.zip
+          (293.42 MB)</a>
+      - ans: What's included?<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>-
+          - Gmail<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>- -> GoogleDuo<br>-
+          - GoogleDuo<br>- -> GoogleDocs<br>- - GoogleDocs<br>- -> GoogleSlides<br>-
+          - GoogleSlides<br>- -> GoogleSheets<br>- - GoogleSheets<br>- -> Books<br>-
+          - Books<br>- -> GoogleTalkback<br>- - GoogleTalkback
+      title: 20240212 (pfuenzle.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/NikGapps-U/12-Feb-2024/NikGapps-pfuenzle-full-arm64-14-20240212-signed.zip/download">NikGapps-pfuenzle-full-arm64-14-20240212-signed.zip
           (849.95 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -728,27 +742,6 @@ Pfuenzle:
           AndroidDevicePolicy<br>- -> GoogleDuo<br>- -> GoogleDocs<br>- -> GoogleSlides<br>-
           -> GoogleSheets<br>- -> Books<br>- -> GoogleTalkback
       title: 20231129 (pfuenzle.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/NikGapps-U/29-Nov-2023/NikGapps-pfuenzle-full-arm64-14-20231129-signed.zip/download">NikGapps-pfuenzle-full-arm64-14-20231129-signed.zip
-          (897.29 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>-
-          -> Drive<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>- -> GooglePhotos<br>-
-          -> DeviceHealthServices<br>- -> GBoard<br>- -> GoogleCalendar<br>- -> GoogleKeep<br>-
-          -> PlayGames<br>- -> PixelLauncher<br>- - PixelLauncher<br>- - DevicePersonalizationServices<br>-
-          - QuickAccessWallet<br>- - GoogleWallpaper<br>- - SettingsServices<br>-
-          - PrivateComputeServices<br>- - PixelThemes<br>- - EmojiWallpaper<br>- ->
-          GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
-          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleTTS<br>- -> GoogleSearch<br>-
-          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- -> GoogleChrome<br>-
-          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
-          -> AndroidAuto<br>- -> GoogleFeedback<br>- -> GooglePartnerSetup<br>- ->
-          AndroidDevicePolicy<br>- -> GoogleDuo<br>- -> GoogleDocs<br>- -> GoogleSlides<br>-
-          -> GoogleSheets<br>- -> Books<br>- -> GoogleTalkback
-      title: 20231129 (pfuenzle-full.config)
   id: Pfuenzle_Android14
   title: Android 14
 TeaqariaWTF:
