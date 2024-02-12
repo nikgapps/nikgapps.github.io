@@ -71,6 +71,46 @@ Bartixxx32:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Bartixxx/NikGapps-U/10-Feb-2024/NikGapps-bartixxx-arm64-14-20240210-signed.zip/download">NikGapps-bartixxx-arm64-14-20240210-signed.zip
+          (344.31 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>-
+          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleRecorder<br>-
+          - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
+          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
+          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20240210 (bartixxx.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Bartixxx/NikGapps-U/07-Feb-2024/NikGapps-bartixxx-arm64-14-20240207-signed.zip/download">NikGapps-bartixxx-arm64-14-20240207-signed.zip
+          (344.31 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>-
+          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleRecorder<br>-
+          - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
+          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
+          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20240207 (bartixxx.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Bartixxx/NikGapps-U/29-Jan-2024/NikGapps-bartixxx-arm64-14-20240129-signed.zip/download">NikGapps-bartixxx-arm64-14-20240129-signed.zip
           (344.25 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -106,6 +146,32 @@ Bartixxx32:
           -> GooglePartnerSetup<br>- -> AndroidDevicePolicy
       title: 20231129 (bartixxx.config)
   id: Bartixxx32_Android14
+  title: Android 14
+CanerKaraca23:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/CanerKaraca/NikGapps-U/07-Feb-2024/NikGapps-CanerKaraca-arm64-14-20240207-signed.zip/download">NikGapps-CanerKaraca-arm64-14-20240207-signed.zip
+          (660.17 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
+          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          - PixelThemes<br>- - PixelWeather<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
+          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleSearch<br>- - Velvet<br>-
+          - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup
+      title: 20240207 (CanerKaraca.config)
+  id: CanerKaraca23_Android14
   title: Android 14
 Dreamer-Arcana:
 - content:
@@ -173,6 +239,20 @@ Dreamer-Arcana:
   id: Dreamer-Arcana_Android13
   title: Android 13
 - content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/UMR85N/NikGapps-U/07-Feb-2024/NikGapps-Dreamer-Arcana-arm64-14-20240207-signed.zip/download">NikGapps-Dreamer-Arcana-arm64-14-20240207-signed.zip
+          (451.39 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
+          - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
+          -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>-
+          -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>-
+          -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> Drive<br>- - Drive<br>- -> GooglePhotos<br>- - GooglePhotos<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          - Gmail<br>- -> YouTube<br>- - YouTube<br>- -> YouTubeMusic<br>- - YouTubeMusic
+      title: 20240207 (Dreamer-Arcana.config)
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/UMR85N/NikGapps-U/30-Jan-2024/NikGapps-Dreamer-Arcana-arm64-14-20240130-signed.zip/download">NikGapps-Dreamer-Arcana-arm64-14-20240130-signed.zip
@@ -325,6 +405,29 @@ Juloboy:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Juloboy/NikGapps-U/07-Feb-2024/NikGapps-Juloboy-arm64-14-20240207-signed.zip/download">NikGapps-Juloboy-arm64-14-20240207-signed.zip
+          (670.04 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- -> GoogleRecorder<br>-
+          - GoogleRecorder<br>- -> GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>-
+          - TrichromeLibrary<br>- -> PixelSetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- - PixelSetupWizard
+      title: 20240207 (Juloboy.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Juloboy/NikGapps-U/29-Jan-2024/NikGapps-Juloboy-arm64-14-20240129-signed.zip/download">NikGapps-Juloboy-arm64-14-20240129-signed.zip
           (670.02 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -462,6 +565,46 @@ Pfuenzle:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/NikGapps-U/07-Feb-2024/NikGapps-pfuenzle-arm64-14-20240207-signed.zip/download">NikGapps-pfuenzle-arm64-14-20240207-signed.zip
+          (293.41 MB)</a>
+      - ans: What's included?<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>-
+          - Gmail<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>- -> GoogleDuo<br>-
+          - GoogleDuo<br>- -> GoogleDocs<br>- - GoogleDocs<br>- -> GoogleSlides<br>-
+          - GoogleSlides<br>- -> GoogleSheets<br>- - GoogleSheets<br>- -> Books<br>-
+          - Books<br>- -> GoogleTalkback<br>- - GoogleTalkback
+      title: 20240207 (pfuenzle.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/NikGapps-U/07-Feb-2024/NikGapps-pfuenzle-full-arm64-14-20240207-signed.zip/download">NikGapps-pfuenzle-full-arm64-14-20240207-signed.zip
+          (849.94 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
+          DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>-
+          -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>-
+          -> PlayGames<br>- - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
+          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>-
+          - TrichromeLibrary<br>- -> Gmail<br>- - Gmail<br>- -> AndroidAuto<br>- -
+          AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>-
+          -> GoogleDuo<br>- - GoogleDuo<br>- -> GoogleDocs<br>- - GoogleDocs<br>-
+          -> GoogleSlides<br>- - GoogleSlides<br>- -> GoogleSheets<br>- - GoogleSheets<br>-
+          -> Books<br>- - Books<br>- -> GoogleTalkback<br>- - GoogleTalkback
+      title: 20240207 (pfuenzle-full.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/NikGapps-U/29-Nov-2023/NikGapps-pfuenzle-arm64-14-20231129-signed.zip/download">NikGapps-pfuenzle-arm64-14-20231129-signed.zip
           (299.74 MB)</a>
       - ans: What's included?<br>- -> Drive<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
@@ -594,6 +737,18 @@ TeaqariaWTF:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-U/07-Feb-2024/NikGapps-Mergen-arm64-14-20240207-signed.zip/download">NikGapps-Mergen-arm64-14-20240207-signed.zip
+          (246.75 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
+          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> MarkupGoogle<br>- - MarkupGoogle
+      title: 20240207 (Mergen.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/NikGapps-U/30-Jan-2024/NikGapps-Mergen-arm64-14-20240130-signed.zip/download">NikGapps-Mergen-arm64-14-20240130-signed.zip
           (246.76 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -642,6 +797,19 @@ Terminator-J:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crDroid-op6/NikGapps-T/10-Feb-2024/NikGapps-crDroid-op6-arm64-13-20240210-signed.zip/download">NikGapps-crDroid-op6-arm64-13-20240210-signed.zip
+          (234.05 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> CarrierServices<br>- - CarrierServices<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- - Assistant<br>- -> DeviceSetup<br>- - DeviceSetup<br>- ->
+          AndroidAuto<br>- - AndroidAuto<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup
+      title: 20240210 (crDroid-op6.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crDroid-op6/NikGapps-T/29-Jan-2024/NikGapps-crDroid-op6-arm64-13-20240129-signed.zip/download">NikGapps-crDroid-op6-arm64-13-20240129-signed.zip
           (234.73 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -686,16 +854,6 @@ Terminator-J:
           -> MarkupGoogle<br>- -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>-
           - Assistant<br>- -> DeviceSetup<br>- -> AndroidAuto<br>- -> GooglePartnerSetup
       title: 20231007 (crDroid-op6.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crDroid-op6/NikGapps-T/02-Aug-2023/NikGapps-crDroid-op6-arm64-13-20230802-signed.zip/download">NikGapps-crDroid-op6-arm64-13-20230802-signed.zip</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> CarrierServices<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> DeviceHealthServices<br>-
-          -> MarkupGoogle<br>- -> GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>-
-          - Assistant<br>- -> DeviceSetup<br>- -> AndroidAuto<br>- -> GooglePartnerSetup
-      title: 20230802 (crDroid-op6.config)
   id: Terminator-J_Android13
   title: Android 13
 - content:
@@ -815,6 +973,27 @@ Wossgebber:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-U/07-Feb-2024/NikGapps-wossgebberTcustomgapps-arm64-14-20240207-signed.zip/download">NikGapps-wossgebberTcustomgapps-arm64-14-20240207-signed.zip
+          (504.7 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
+          -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>-
+          -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> YouTubeMusic<br>- - YouTubeMusic<br>- -> Books<br>-
+          - Books
+      title: 20240207 (wossgebberTcustomgapps.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-U/30-Jan-2024/NikGapps-wossgebberTcustomgapps-arm64-14-20240130-signed.zip/download">NikGapps-wossgebberTcustomgapps-arm64-14-20240130-signed.zip
           (504.68 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -871,6 +1050,45 @@ crdroid-official:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-U/10-Feb-2024/NikGapps-crdroid-official-arm64-14-20240210-signed.zip/download">NikGapps-crdroid-official-arm64-14-20240210-signed.zip
+          (262.3 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20240210 (crdroid-official.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-U/07-Feb-2024/NikGapps-crdroid-official-arm64-14-20240207-signed.zip/download">NikGapps-crdroid-official-arm64-14-20240207-signed.zip
+          (262.3 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20240207 (crdroid-official.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-U/04-Feb-2024/NikGapps-crdroid-official-arm64-14-20240204-signed.zip/download">NikGapps-crdroid-official-arm64-14-20240204-signed.zip
+          (262.27 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20240204 (crdroid-official.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-U/29-Jan-2024/NikGapps-crdroid-official-arm64-14-20240129-signed.zip/download">NikGapps-crdroid-official-arm64-14-20240129-signed.zip
           (222.89 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -898,6 +1116,18 @@ crdroid-official:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-T/10-Feb-2024/NikGapps-crdroid-official-arm64-13-20240210-signed.zip/download">NikGapps-crdroid-official-arm64-13-20240210-signed.zip
+          (230.39 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
+          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20240210 (crdroid-official.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/NikGapps-T/29-Jan-2024/NikGapps-crdroid-official-arm64-13-20240129-signed.zip/download">NikGapps-crdroid-official-arm64-13-20240129-signed.zip
           (230.39 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -912,6 +1142,21 @@ crdroid-official:
   title: Android 13
 helliscloser:
 - content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-T/10-Feb-2024/NikGapps-alphadroid-arm64-13-20240210-signed.zip/download">NikGapps-alphadroid-arm64-13-20240210-signed.zip
+          (404.11 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> CarrierServices<br>- - CarrierServices<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GBoard<br>- - GBoard<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- ->
+          GoogleSearch<br>- - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
+          -> PixelSetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          - PixelSetupWizard
+      title: 20240210 (alphadroid.config)
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-T/29-Jan-2024/NikGapps-alphadroid-arm64-13-20240129-signed.zip/download">NikGapps-alphadroid-arm64-13-20240129-signed.zip
@@ -963,21 +1208,45 @@ helliscloser:
           -> DeviceSetup<br>- -> AndroidAuto<br>- -> PixelSetupWizard<br>- - SetupWizard<br>-
           - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- - PixelSetupWizard
       title: 20231010 (alphadroid.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-T/10-Oct-2023/NikGapps-alphaofficial-arm64-13-20231010-signed.zip/download">NikGapps-alphaofficial-arm64-13-20231010-signed.zip
-          (397.69 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
-          - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
-          -> CarrierServices<br>- -> SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- -> GoogleLocationHistory<br>- -> GBoard<br>- ->
-          MarkupGoogle<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
-          GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> DeviceSetup<br>- -> AndroidAuto
-      title: 20231010 (alphaofficial.config)
   id: helliscloser_Android13
   title: Android 13
 - content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-U/10-Feb-2024/NikGapps-alphadroid-arm64-14-20240210-signed.zip/download">NikGapps-alphadroid-arm64-14-20240210-signed.zip
+          (439.02 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
+          GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- ->
+          GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleSearch<br>- - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20240210 (alphadroid.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-U/07-Feb-2024/NikGapps-alphadroid-arm64-14-20240207-signed.zip/download">NikGapps-alphadroid-arm64-14-20240207-signed.zip
+          (439.01 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
+          GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- ->
+          GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleSearch<br>- - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20240207 (alphadroid.config)
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-U/29-Jan-2024/NikGapps-alphadroid-arm64-14-20240129-signed.zip/download">NikGapps-alphadroid-arm64-14-20240129-signed.zip
@@ -1024,30 +1293,6 @@ helliscloser:
           - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleSearch<br>- -> GoogleSounds<br>-
           -> DeviceSetup<br>- -> AndroidAuto
       title: 20231130 (alphadroid.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-U/29-Nov-2023/NikGapps-alphadroid-arm64-14-20231129-signed.zip/download">NikGapps-alphadroid-arm64-14-20231129-signed.zip
-          (399.35 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> CarrierServices<br>- -> GoogleCalculator<br>- -> GoogleLocationHistory<br>-
-          -> GBoard<br>- -> MarkupGoogle<br>- -> GoogleSearch<br>- -> GoogleSounds<br>-
-          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> DeviceSetup<br>- -> AndroidAuto<br>- -> PixelSetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- - PixelSetupWizard
-      title: 20231129 (alphadroid.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/NikGapps-U/29-Nov-2023/NikGapps-alphaofficial-arm64-14-20231129-signed.zip/download">NikGapps-alphaofficial-arm64-14-20231129-signed.zip
-          (392.29 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
-          - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
-          -> CarrierServices<br>- -> SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- -> GoogleLocationHistory<br>- -> GBoard<br>- ->
-          MarkupGoogle<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
-          GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> DeviceSetup<br>- -> AndroidAuto
-      title: 20231129 (alphaofficial.config)
   id: helliscloser_Android14
   title: Android 14
 kourtzis:
@@ -1144,6 +1389,34 @@ kourtzis:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/darkstar/NikGapps-U/07-Feb-2024/NikGapps-darkstar-superpixel-arm64-14-20240207-signed.zip/download">NikGapps-darkstar-superpixel-arm64-14-20240207-signed.zip
+          (657.02 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- ->
+          PlayGames<br>- - PlayGames<br>- -> PixelSpecifics<br>- - PixelLauncher<br>-
+          - DevicePersonalizationServices<br>- - QuickAccessWallet<br>- - GoogleWallpaper<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelThemes<br>-
+          - EmojiWallpaper<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>-
+          -> GoogleTalkback<br>- - GoogleTalkback
+      title: 20240207 (darkstar-superpixel.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/darkstar/NikGapps-U/29-Nov-2023/NikGapps-darkstar-superpixel-arm64-14-20231129-signed.zip/download">NikGapps-darkstar-superpixel-arm64-14-20231129-signed.zip
           (652.0 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -1215,6 +1488,23 @@ melindr0s0:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/m3l1ndr0s0/NikGapps-U/07-Feb-2024/NikGapps-meligapps-arm64-14-20240207-signed.zip/download">NikGapps-meligapps-arm64-14-20240207-signed.zip
+          (546.26 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>- ->
+          Drive<br>- - Drive<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GBoard<br>-
+          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleKeep<br>-
+          - GoogleKeep<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>-
+          -> GoogleSheets<br>- - GoogleSheets<br>- -> Books<br>- - Books
+      title: 20240207 (meligapps.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/m3l1ndr0s0/NikGapps-U/30-Jan-2024/NikGapps-meligapps-arm64-14-20240130-signed.zip/download">NikGapps-meligapps-arm64-14-20240130-signed.zip
           (546.26 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -1247,6 +1537,29 @@ melindr0s0:
   title: Android 14
 osm0sis:
 - content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/NikGapps-T/10-Feb-2024/NikGapps-osm0sis-arm64-13-20240210-signed.zip/download">NikGapps-osm0sis-arm64-13-20240210-signed.zip
+          (669.88 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- ->
+          GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> Gmail<br>- - Gmail<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
+          - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup
+      title: 20240210 (osm0sis.config)
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/NikGapps-T/29-Jan-2024/NikGapps-osm0sis-arm64-13-20240129-signed.zip/download">NikGapps-osm0sis-arm64-13-20240129-signed.zip
@@ -1324,27 +1637,55 @@ osm0sis:
           - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
           -> AndroidAuto<br>- -> GoogleFeedback<br>- -> GooglePartnerSetup
       title: 20231007 (osm0sis.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/NikGapps-T/04-Oct-2023/NikGapps-osm0sis-arm64-13-20231004-signed.zip/download">NikGapps-osm0sis-arm64-13-20231004-signed.zip
-          (707.96 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- -> Drive<br>- -> GoogleMaps<br>- -> GoogleLocationHistory<br>-
-          -> GooglePhotos<br>- -> DeviceHealthServices<br>- -> GBoard<br>- -> GoogleCalendar<br>-
-          -> GoogleKeep<br>- -> PlayGames<br>- -> PixelLauncher<br>- - DevicePersonalizationServices<br>-
-          - QuickAccessWallet<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          -> GoogleRecorder<br>- -> GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
-          -> MarkupGoogle<br>- -> GoogleTTS<br>- -> GoogleSearch<br>- -> GoogleChrome<br>-
-          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
-          -> AndroidAuto<br>- -> GoogleFeedback<br>- -> GooglePartnerSetup
-      title: 20231004 (osm0sis.config)
   id: osm0sis_Android13
   title: Android 13
 - content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/NikGapps-U/10-Feb-2024/NikGapps-osm0sis-arm64-14-20240210-signed.zip/download">NikGapps-osm0sis-arm64-14-20240210-signed.zip
+          (675.23 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- ->
+          GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> Gmail<br>- - Gmail<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
+          - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup
+      title: 20240210 (osm0sis.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/NikGapps-U/07-Feb-2024/NikGapps-osm0sis-arm64-14-20240207-signed.zip/download">NikGapps-osm0sis-arm64-14-20240207-signed.zip
+          (675.23 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- ->
+          GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> Gmail<br>- - Gmail<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
+          - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup
+      title: 20240207 (osm0sis.config)
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/NikGapps-U/29-Jan-2024/NikGapps-osm0sis-arm64-14-20240129-signed.zip/download">NikGapps-osm0sis-arm64-14-20240129-signed.zip
@@ -1390,6 +1731,25 @@ osm0sis:
   title: Android 14
 vivekvijayan20:
 - content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/10-Feb-2024/NikGapps-SinisterGapps-arm64-13-20240210-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20240210-signed.zip
+          (295.8 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
+          -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>-
+          -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
+          -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>-
+          - AndroidDevicePolicy
+      title: 20240210 (SinisterGapps.config)
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/29-Jan-2024/NikGapps-SinisterGapps-arm64-13-20240129-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20240129-signed.zip
@@ -1456,25 +1816,78 @@ vivekvijayan20:
           -> PixelSetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
           - PixelSetupWizard
       title: 20231111 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/07-Nov-2023/NikGapps-SinisterGapps-arm64-13-20231107-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20231107-signed.zip
-          (307.76 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> GoogleCalculator<br>-
-          -> GoogleLocationHistory<br>- -> DeviceHealthServices<br>- -> GBoard<br>-
-          -> GoogleCalendar<br>- -> PixelLauncher<br>- - QuickAccessWallet<br>- -
-          SettingsServices<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> GoogleSounds<br>-
-          -> DeviceSetup<br>- -> AndroidAuto<br>- -> GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>-
-          -> PixelSetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          - PixelSetupWizard
-      title: 20231107 (SinisterGapps.config)
   id: vivekvijayan20_Android13
   title: Android 13
 - content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-U/10-Feb-2024/NikGapps-SinisterGapps-arm64-14-20240210-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20240210-signed.zip
+          (425.21 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - QuickAccessWallet<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          - PixelWeather<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
+          -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20240210 (SinisterGapps.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-U/07-Feb-2024/NikGapps-SinisterGapps-arm64-14-20240207-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20240207-signed.zip
+          (425.21 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - QuickAccessWallet<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          - PixelWeather<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
+          -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20240207 (SinisterGapps.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-U/04-Feb-2024/NikGapps-SinisterGapps-arm64-14-20240204-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20240204-signed.zip
+          (425.22 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - QuickAccessWallet<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          - PixelWeather<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
+          -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20240204 (SinisterGapps.config)
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-U/30-Jan-2024/NikGapps-SinisterGapps-arm64-14-20240130-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20240130-signed.zip
@@ -1517,51 +1930,5 @@ vivekvijayan20:
           -> PixelSetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
           - PixelSetupWizard
       title: 20240129 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-U/08-Jan-2024/NikGapps-SinisterGapps-arm64-14-20240108-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20240108-signed.zip
-          (437.63 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleCalculator<br>-
-          -> GoogleLocationHistory<br>- -> DeviceHealthServices<br>- -> GBoard<br>-
-          -> GoogleCalendar<br>- -> PixelLauncher<br>- - DevicePersonalizationServices<br>-
-          - SettingsServices<br>- - PrivateComputeServices<br>- -> GoogleRecorder<br>-
-          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
-          -> MarkupGoogle<br>- -> GoogleSearch<br>- -> AndroidAuto<br>- -> PixelSetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          - PixelSetupWizard
-      title: 20240108 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-U/07-Jan-2024/NikGapps-SinisterGapps-arm64-14-20240107-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20240107-signed.zip
-          (424.41 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleCalculator<br>-
-          -> GoogleLocationHistory<br>- -> DeviceHealthServices<br>- -> GBoard<br>-
-          -> PixelLauncher<br>- - DevicePersonalizationServices<br>- - SettingsServices<br>-
-          - PrivateComputeServices<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>-
-          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
-          -> GoogleSearch<br>- -> AndroidAuto<br>- -> PixelSetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- - PixelSetupWizard
-      title: 20240107 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-U/05-Jan-2024/NikGapps-SinisterGapps-arm64-14-20240105-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20240105-signed.zip
-          (341.32 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
-          -> GoogleLocationHistory<br>- -> DeviceHealthServices<br>- -> GBoard<br>-
-          -> GoogleCalendar<br>- -> PixelLauncher<br>- - DevicePersonalizationServices<br>-
-          - SettingsServices<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- -> DeviceSetup<br>-
-          -> AndroidAuto<br>- -> GooglePartnerSetup<br>- -> AndroidDevicePolicy
-      title: 20240105 (SinisterGapps.config)
   id: vivekvijayan20_Android14
   title: Android 14

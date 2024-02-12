@@ -35,17 +35,15 @@ packages:
           - item: Google Files (Android R+)
           - item: Google Velvet (for voice unlock)
           - item: Google Play Games
-          - item: Google Markup
+          - item: Google Markup, Google Sounds
           - item: Google Sound Recorder (Replaces AOSP Sound Recorder)
           - item: Google TTS (Replaces Stock TTS)
-          - item: Google Sounds
           - item: Pixel Specifics (includes following apps)
           - item: Pixel Launcher (Replaces Stock Launcher)
-          - item: Google Wallpapers
           - item: ASI (formally known as Device Personalization Services)
           - item: Settings Services, Private Compute Services
-          - item: Quick Access Wallet
-          - item: Pixel Themes, Emoji Wallpaper, Pixel Weather
+          - item: Google Wallpapers, Quick Access Wallet
+          - item: Pixel Themes, Emoji Wallpaper, Pixel Weather (Android U+)
           
     - title: Full
       pkgs:
