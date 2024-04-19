@@ -220,6 +220,24 @@ CanerKaraca23:
           - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
           - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
           - Gmail
+      title: 20240420 (CanerKaraca.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/CanerKaraca/NikGapps-U/19-Apr-2024/NikGapps-CanerKaraca-arm64-14-20240419-signed.zip/download">NikGapps-CanerKaraca-arm64-14-20240419-signed.zip
+          (556.86 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
+          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GooglePhotos<br>-
+          - GooglePhotos<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> GoogleRecorder<br>-
+          - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
+          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          - Gmail
       title: 20240419 (CanerKaraca.config)
   - question:
     - content:
@@ -285,28 +303,6 @@ CanerKaraca23:
           - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>- - Gmail<br>-
           -> DeviceSetup<br>- - DeviceSetup
       title: 20240217 (CanerKaraca.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/CanerKaraca/NikGapps-U/12-Feb-2024/NikGapps-CanerKaraca-arm64-14-20240212-signed.zip/download">NikGapps-CanerKaraca-arm64-14-20240212-signed.zip
-          (660.17 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
-          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
-          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>-
-          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
-          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
-          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PixelSpecifics<br>-
-          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          - PixelThemes<br>- - PixelWeather<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
-          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleSearch<br>- - Velvet<br>-
-          - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
-          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
-          - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup
-      title: 20240212 (CanerKaraca.config)
   id: CanerKaraca23_Android14
   title: Android 14
 DeadlyShroud:
