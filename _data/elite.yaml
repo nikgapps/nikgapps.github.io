@@ -2,6 +2,26 @@ Bartixxx32:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Bartixxx/NikGapps-T/20-Apr-2024/NikGapps-bartixxx-arm64-13-20240420-signed.zip/download">NikGapps-bartixxx-arm64-13-20240420-signed.zip
+          (329.96 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>-
+          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleRecorder<br>-
+          - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
+          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
+          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20240420 (bartixxx.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Bartixxx/NikGapps-T/19-Apr-2024/NikGapps-bartixxx-arm64-13-20240419-signed.zip/download">NikGapps-bartixxx-arm64-13-20240419-signed.zip
           (329.96 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -80,22 +100,6 @@ Bartixxx32:
           - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GooglePartnerSetup<br>-
           - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
       title: 20240130 (bartixxx.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Bartixxx/NikGapps-T/07-Nov-2023/NikGapps-bartixxx-arm64-13-20231107-signed.zip/download">NikGapps-bartixxx-arm64-13-20231107-signed.zip
-          (364.66 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- -> GoogleMessages<br>- -> GoogleDialer<br>-
-          -> GoogleContacts<br>- -> CarrierServices<br>- -> GoogleClock<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- -> GoogleLocationHistory<br>- -> DeviceHealthServices<br>-
-          -> GBoard<br>- -> GoogleCalendar<br>- -> PixelLauncher<br>- - DevicePersonalizationServices<br>-
-          - PrivateComputeServices<br>- -> GoogleRecorder<br>- -> GoogleFiles<br>-
-          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
-          -> GoogleTTS<br>- -> GoogleSounds<br>- -> DeviceSetup<br>- -> AndroidAuto<br>-
-          -> GooglePartnerSetup<br>- -> AndroidDevicePolicy
-      title: 20231107 (bartixxx.config)
   id: Bartixxx32_Android13
   title: Android 13
 - content:
