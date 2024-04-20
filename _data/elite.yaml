@@ -1822,17 +1822,18 @@ ionutgherman:
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/NikGapps-U/20-Apr-2024/NikGapps-basic-shusky-arm64-14-20240420-signed.zip/download">NikGapps-basic-shusky-arm64-14-20240420-signed.zip
-          (336.21 MB)</a>
+          (334.42 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
           - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleLocationHistory<br>-
           - GoogleLocationHistory<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
-          -> GBoard<br>- - GBoard<br>- -> PixelSpecifics<br>- - GoogleWallpaper<br>-
-          - SettingsServices<br>- - PixelThemes<br>- - EmojiWallpaper<br>- - PixelWeather<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
-          -> GoogleSearch<br>- - Velvet<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
-          -> GoogleFeedback<br>- - GoogleFeedback<br>- -> PixelSetupWizard<br>- -
-          PixelSetupWizard<br>- -> GoogleTalkback<br>- - GoogleTalkback
+          -> GBoard<br>- - GBoard<br>- -> PixelSpecifics<br>- - SettingsServices<br>-
+          - PixelThemes<br>- - EmojiWallpaper<br>- - PixelWeather<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
+          - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>-
+          -> PixelSetupWizard<br>- - PixelSetupWizard<br>- -> GoogleTalkback<br>-
+          - GoogleTalkback
       title: 20240420 (basic-shusky.config)
   - question:
     - content:
