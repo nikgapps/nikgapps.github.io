@@ -940,7 +940,7 @@ Pfuenzle:
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/NikGapps-U/20-Apr-2024/NikGapps-pfuenzle-full-arm64-14-20240420-signed.zip/download">NikGapps-pfuenzle-full-arm64-14-20240420-signed.zip
-          (845.36 MB)</a>
+          (845.35 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
           - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
