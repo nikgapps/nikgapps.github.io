@@ -479,7 +479,7 @@ Dreamer-Arcana:
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/UMR85N/NikGapps-U/20-Apr-2024/NikGapps-Dreamer-Arcana-arm64-14-20240420-signed.zip/download">NikGapps-Dreamer-Arcana-arm64-14-20240420-signed.zip
-          (461.66 MB)</a>
+          (461.65 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
           - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
           -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>-
