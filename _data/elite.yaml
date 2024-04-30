@@ -2627,6 +2627,25 @@ vivekvijayan20:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/30-Apr-2024/NikGapps-SinisterGapps-arm64-13-20240430-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20240430-signed.zip
+          (296.47 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
+          -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>-
+          -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
+          -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>-
+          - AndroidDevicePolicy
+      title: 20240430 (SinisterGapps.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/29-Apr-2024/NikGapps-SinisterGapps-arm64-13-20240429-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20240429-signed.zip
           (296.47 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -2701,25 +2720,6 @@ vivekvijayan20:
           -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>-
           - AndroidDevicePolicy
       title: 20240307 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/NikGapps-T/10-Feb-2024/NikGapps-SinisterGapps-arm64-13-20240210-signed.zip/download">NikGapps-SinisterGapps-arm64-13-20240210-signed.zip
-          (295.8 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> GoogleLocationHistory<br>-
-          - GoogleLocationHistory<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
-          -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>-
-          -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
-          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
-          -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>-
-          - AndroidDevicePolicy
-      title: 20240210 (SinisterGapps.config)
   id: vivekvijayan20_Android13
   title: Android 13
 - content:
