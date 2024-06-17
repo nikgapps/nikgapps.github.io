@@ -2112,6 +2112,23 @@ ionutgherman:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/NikGapps-T/17-Jun-2024/NikGapps-basic-pixels-arm64-13-20240617-signed.zip/download">NikGapps-basic-pixels-arm64-13-20240617-signed.zip
+          (372.65 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
+          -> GBoard<br>- - GBoard<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelThemes<br>-
+          - EmojiWallpaper<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> PixelSetupWizard<br>- - SetupWizard<br>- -
+          GoogleRestore<br>- - GoogleOneTimeInitializer<br>- - PixelSetupWizard<br>-
+          -> GoogleTalkback<br>- - GoogleTalkback
+      title: 20240617 (basic-pixels.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/NikGapps-T/17-May-2024/NikGapps-full-wahoo-arm64-13-20240517-signed.zip/download">NikGapps-full-wahoo-arm64-13-20240517-signed.zip
           (689.7 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
