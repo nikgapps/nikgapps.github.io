@@ -2286,6 +2286,32 @@ kourtzis:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/darkstar/NikGapps-T/27-Jun-2024/NikGapps-darkstar-superpixel-arm64-13-20240627-signed.zip/download">NikGapps-darkstar-superpixel-arm64-13-20240627-signed.zip
+          (749.44 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- ->
+          PlayGames<br>- - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
+          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>-
+          - TrichromeLibrary<br>- -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- -
+          DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
+          - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>-
+          -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>- -> GoogleTalkback<br>-
+          - GoogleTalkback
+      title: 20240627 (darkstar/NikGapps-T/27-Jun-2024.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/darkstar/NikGapps-T/26-Jun-2024/NikGapps-darkstar-superpixel-arm64-13-20240626-signed.zip/download">NikGapps-darkstar-superpixel-arm64-13-20240626-signed.zip
           (749.44 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -2391,33 +2417,6 @@ kourtzis:
           - GoogleTalkback<br>- -> PixelLiveWallpapers<br>- - PixelLiveWallpaper<br>-
           - PixelWallpapers2022
       title: 20240420 (darkstar-superpixel.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/darkstar/NikGapps-T/19-Apr-2024/NikGapps-darkstar-superpixel-arm64-13-20240419-signed.zip/download">NikGapps-darkstar-superpixel-arm64-13-20240419-signed.zip
-          (692.45 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
-          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
-          DeviceHealthServices<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- ->
-          PlayGames<br>- - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
-          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
-          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
-          - GoogleSounds<br>- -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>-
-          - TrichromeLibrary<br>- -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- -
-          DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
-          - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>-
-          -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>- -> GoogleTalkback<br>-
-          - GoogleTalkback<br>- -> PixelLiveWallpapers<br>- - PixelLiveWallpaper<br>-
-          - PixelWallpapers2022
-      title: 20240419 (darkstar-superpixel.config)
   id: kourtzis_Android13
   title: Android 13
 - content:
