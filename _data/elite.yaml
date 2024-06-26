@@ -630,6 +630,20 @@ Dreamer-Arcana:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/UMR85N/NikGapps-T/26-Jun-2024/NikGapps-Dreamer-Arcana-arm64-13-20240626-signed.zip/download">NikGapps-Dreamer-Arcana-arm64-13-20240626-signed.zip
+          (528.96 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
+          - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
+          -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>-
+          -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>-
+          -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> Drive<br>- - Drive<br>- -> GooglePhotos<br>- - GooglePhotos<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          - Gmail<br>- -> YouTube<br>- - YouTube<br>- -> YouTubeMusic<br>- - YouTubeMusic
+      title: 20240626 (UMR85N/NikGapps-T/26-Jun-2024.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/UMR85N/NikGapps-T/30-Apr-2024/NikGapps-Dreamer-Arcana-arm64-13-20240430-signed.zip/download">NikGapps-Dreamer-Arcana-arm64-13-20240430-signed.zip
           (427.57 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
@@ -684,20 +698,6 @@ Dreamer-Arcana:
           - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
           - Gmail<br>- -> YouTube<br>- - YouTube<br>- -> YouTubeMusic<br>- - YouTubeMusic
       title: 20240419 (Dreamer-Arcana.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/UMR85N/NikGapps-T/07-Mar-2024/NikGapps-Dreamer-Arcana-arm64-13-20240307-signed.zip/download">NikGapps-Dreamer-Arcana-arm64-13-20240307-signed.zip
-          (427.56 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
-          - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
-          -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>-
-          -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>-
-          -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
-          -> Drive<br>- - Drive<br>- -> GooglePhotos<br>- - GooglePhotos<br>- -> GoogleCalendar<br>-
-          - GoogleCalendar<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleChrome<br>-
-          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
-          - Gmail<br>- -> YouTube<br>- - YouTube<br>- -> YouTubeMusic<br>- - YouTubeMusic
-      title: 20240307 (Dreamer-Arcana.config)
   id: Dreamer-Arcana_Android13
   title: Android 13
 - content:
