@@ -835,6 +835,27 @@ Juloboy:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Juloboy/NikGapps-T/26-Jun-2024/NikGapps-Juloboy-arm64-13-20240626-signed.zip/download">NikGapps-Juloboy-arm64-13-20240626-signed.zip
+          (767.8 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> PixelSetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - PixelSetupWizard<br>- - GoogleOneTimeInitializer
+      title: 20240626 (Juloboy/NikGapps-T/26-Jun-2024.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Juloboy/NikGapps-T/30-Apr-2024/NikGapps-Juloboy-arm64-13-20240430-signed.zip/download">NikGapps-Juloboy-arm64-13-20240430-signed.zip
           (625.87 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -921,28 +942,6 @@ Juloboy:
           - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
           - PixelSetupWizard
       title: 20240419 (Juloboy.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Juloboy/NikGapps-T/07-Mar-2024/NikGapps-Juloboy-arm64-13-20240307-signed.zip/download">NikGapps-Juloboy-arm64-13-20240307-signed.zip
-          (625.93 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
-          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
-          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
-          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
-          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PlayGames<br>-
-          - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
-          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
-          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
-          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> PixelSetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          - PixelSetupWizard
-      title: 20240307 (Juloboy.config)
   id: Juloboy_Android13
   title: Android 13
 - content:
