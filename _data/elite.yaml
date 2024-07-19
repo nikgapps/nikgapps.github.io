@@ -2,6 +2,30 @@
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-14/20-Jul-2024/NikGapps-crDroid-redbull-full-arm64-14-20240720-signed.zip/download">NikGapps-crDroid-redbull-full-arm64-14-20240720-signed.zip
+          (580.65 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
+          DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>-
+          -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>-
+          -> PixelSpecifics<br>- - PixelLauncher<br>- - DevicePersonalizationServices<br>-
+          - GoogleWallpaper<br>- - QuickAccessWallet<br>- - SettingsServices<br>-
+          - PrivateComputeServices<br>- - PixelThemes<br>- - EmojiWallpaper<br>- -
+          PixelWeather<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> AndroidAuto<br>- - AndroidAuto
+      title: 20240720 (crDroid-redbull-full.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-14/20-Jul-2024/NikGapps-crDroid-redbull-lite-arm64-14-20240720-signed.zip/download">NikGapps-crDroid-redbull-lite-arm64-14-20240720-signed.zip
           (184.16 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -76,30 +100,6 @@
           - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
           -> AndroidAuto<br>- - AndroidAuto
       title: 20240626 (306bobby/NikGapps-U/26-Jun-2024.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/NikGapps-U/16-Jun-2024/NikGapps-crDroid-redbull-full-arm64-14-20240616-signed.zip/download">NikGapps-crDroid-redbull-full-arm64-14-20240616-signed.zip
-          (574.53 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
-          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
-          DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>-
-          -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>-
-          -> PixelSpecifics<br>- - PixelLauncher<br>- - DevicePersonalizationServices<br>-
-          - QuickAccessWallet<br>- - GoogleWallpaper<br>- - SettingsServices<br>-
-          - PrivateComputeServices<br>- - PixelThemes<br>- - EmojiWallpaper<br>- -
-          PixelWeather<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
-          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
-          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
-          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
-          -> AndroidAuto<br>- - AndroidAuto
-      title: 20240616 (crDroid-redbull-full.config)
   id: 306bobby-android_Android14
   title: Android 14
 - content:
