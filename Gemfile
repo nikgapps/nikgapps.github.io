@@ -1,1 +1,15 @@
-gem 'jekyll-seo-tag'
+source "https://rubygems.org"
+
+gem "jekyll"
+gem "addressable"
+gem "i18n"
+gem "rouge"
+gem "public_suffix"
+gem "concurrent-ruby"
+gem "sass-embedded"
+gem "listen"
+gem "rexml"
+gem "unicode-display_width"
+gem "rake"
+gem "rb-inotify"
+gem "ffi"

@@ -2,8 +2,6 @@ url: "nikgapps.com"
 baseurl: "/"
 title: "NikGapps Website"
 
-plugins:
-  - jekyll-seo-tag
 
 # Instructions
 

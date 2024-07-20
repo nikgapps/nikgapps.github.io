@@ -266,13 +266,15 @@
 	padding: 0.5em 1em 1.5em;
 }
 .ui.styled.accordion .accordion .content {
-	&.active {
-		> * + * {
-			margin-top: 0.75rem;
-		}
-	}
-	padding: 0;
-	padding: 0.5em 1em 1.5em;
+    &.active {
+        > * + * {
+            margin-top: 0.75rem;
+        }
+    }
+    & {
+        padding: 0;
+        padding: 0.5em 1em 1.5em;
+    }
 }
 .ui.styled.accordion .accordion .active.title,
 .ui.styled.accordion .accordion .title:hover,
