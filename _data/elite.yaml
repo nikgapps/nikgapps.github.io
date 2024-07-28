@@ -1162,6 +1162,20 @@ Pfuenzle:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/Android-14/28-Jul-2024/NikGapps-pfuenzle-arm64-14-20240728-signed.zip/download">NikGapps-pfuenzle-arm64-14-20240728-signed.zip
+          (273.16 MB)</a>
+      - ans: What's included?<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>-
+          - Gmail<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>- -> Meet<br>-
+          - Meet<br>- -> GoogleDocs<br>- - GoogleDocs<br>- -> GoogleSheets<br>- -
+          GoogleSheets<br>- -> GoogleSlides<br>- - GoogleSlides<br>- -> Books<br>-
+          - Books<br>- -> GoogleTalkback<br>- - GoogleTalkback
+      title: 20240728 (pfuenzle.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/Android-14/28-Jul-2024/NikGapps-pfuenzle-full-arm64-14-20240728-signed.zip/download">NikGapps-pfuenzle-full-arm64-14-20240728-signed.zip
           (840.44 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -1252,20 +1266,6 @@ Pfuenzle:
           -> GoogleSlides<br>- - GoogleSlides<br>- -> Books<br>- - Books<br>- -> GoogleTalkback<br>-
           - GoogleTalkback
       title: 20240720 (pfuenzle-full.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/Android-14/20-Jul-2024/NikGapps-pfuenzle-arm64-14-20240720-signed.zip/download">NikGapps-pfuenzle-arm64-14-20240720-signed.zip
-          (273.16 MB)</a>
-      - ans: What's included?<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
-          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PlayGames<br>-
-          - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
-          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>-
-          - Gmail<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>- -> GoogleDocs<br>-
-          - GoogleDocs<br>- -> GoogleSheets<br>- - GoogleSheets<br>- -> GoogleSlides<br>-
-          - GoogleSlides<br>- -> Books<br>- - Books<br>- -> GoogleTalkback<br>- -
-          GoogleTalkback
-      title: 20240720 (pfuenzle.config)
   id: Pfuenzle_Android14
   title: Android 14
 TeaqariaWTF:
