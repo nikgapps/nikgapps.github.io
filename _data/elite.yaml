@@ -773,6 +773,18 @@ Gwolf2u:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-13/28-Jul-2024/NikGapps-crdroid-official-arm64-13-20240728-signed.zip/download">NikGapps-crdroid-official-arm64-13-20240728-signed.zip
+          (231.56 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
+          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20240728 (crdroid-official.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-13/21-Jul-2024/NikGapps-crdroid-official-arm64-13-20240721-signed.zip/download">NikGapps-crdroid-official-arm64-13-20240721-signed.zip
           (230.53 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -819,17 +831,6 @@ Gwolf2u:
           Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
           - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
       title: 20240626 (crdroid-official/NikGapps-T/26-Jun-2024.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Gwolf2u/NikGapps-T/10-Oct-2023/NikGapps-Gwolf2u-arm64-13-20231010-signed.zip/download">NikGapps-Gwolf2u-arm64-13-20231010-signed.zip
-          (230.38 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
-          - GoogleOneTimeInitializer<br>- -> MarkupGoogle<br>- -> GoogleTTS<br>- ->
-          GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- ->
-          DeviceSetup<br>- -> AndroidAuto
-      title: 20231010 (Gwolf2u.config)
   id: Gwolf2u_Android13
   title: Android 13
 Juloboy:
