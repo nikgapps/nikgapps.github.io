@@ -1641,6 +1641,28 @@ Wossgebber:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/Android-14/13-Aug-2024/NikGapps-wossgebberUcustomgapps-arm64-14-20240813-signed.zip/download">NikGapps-wossgebberUcustomgapps-arm64-14-20240813-signed.zip
+          (1.17 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>- ->
+          GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> PixelSpecifics<br>- - PixelLauncher<br>- - GoogleWallpaper<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- -> GoogleRecorder<br>-
+          - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
+          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          - Gmail<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> Books<br>- - Books
+      title: 20240813 (wossgebberUcustomgapps.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/Android-14/28-Jul-2024/NikGapps-wossgebberUcustomgapps-arm64-14-20240728-signed.zip/download">NikGapps-wossgebberUcustomgapps-arm64-14-20240728-signed.zip
           (535.85 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -1727,28 +1749,6 @@ Wossgebber:
           - Gmail<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
           - GooglePartnerSetup<br>- -> Books<br>- - Books
       title: 20240719 (wossgebberUcustomgapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Wossgebber/NikGapps-U/26-Jun-2024/NikGapps-wossgebberUcustomgapps-arm64-14-20240626-signed.zip/download">NikGapps-wossgebberUcustomgapps-arm64-14-20240626-signed.zip
-          (663.58 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>- ->
-          GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GoogleCalendar<br>-
-          - GoogleCalendar<br>- -> PixelSpecifics<br>- - PixelLauncher<br>- - GoogleWallpaper<br>-
-          - SettingsServices<br>- - PrivateComputeServices<br>- -> GoogleRecorder<br>-
-          - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
-          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleSearch<br>-
-          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
-          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
-          - Gmail<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
-          - GooglePartnerSetup<br>- -> Books<br>- - Books
-      title: 20240626 (Wossgebber/NikGapps-U/26-Jun-2024.config)
   id: Wossgebber_Android14
   title: Android 14
 cocka11:
