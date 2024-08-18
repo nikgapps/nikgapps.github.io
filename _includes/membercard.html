@@ -1,0 +1,24 @@
+<div class="member">
+    <img src="{{ '/images/team/' | append: include.image_name | relative_url }}" alt="{{ include.name }}" class="avatar">
+    <h3 class="name">{{ include.name }}</h3>
+    <h5 class="posi">{{ include.position }}</h5>
+
+    <p class="member__intro">
+        {{ include.intro }}
+    </p>
+
+    <ul class="social__links">
+        {% if include.facebook %}
+            <li><a href="{{ include.facebook }}">Facebook</a></li>
+        {% endif %}
+        {% if include.telegram %}
+            <li><a href="{{ include.telegram }}">Telegram</a></li>
+        {% endif %}
+        {% if include.portfolio %}
+            <li><a href="{{ include.portfolio }}">Portfolio</a></li>
+        {% endif %}
+        {% if include.email %}
+            <li><a href="{{ include.email }}">Email</a></li>
+        {% endif %}
+    </ul>
+</div>

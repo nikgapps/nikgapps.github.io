@@ -7,53 +7,34 @@ bClass: teampage
 ---
 
 <section class="team__members">
-    <div class="member">
-        <img src="{{ '/images/team/NikAvatar.jpg' | relative_url }}" alt="" class="avatar">
-        <h3 class="name">Nikhil Menghani</h3>
-        <h5 class="posi">NIKGAPPS FOUNDER & MAINTAINER</h5>
 
-        <p class="member__intro">
-            I am an Android Anthusiast, a software developer by profession. I spend my time creating Softwares that
-            saves my time.
-        </p>
+    {% include membercard.html 
+        image_name="NikAvatar.jpg" 
+        name="Nikhil Menghani" 
+        position="NIKGAPPS FOUNDER & MAINTAINER"
+        intro="I am an Android Anthusiast, a software developer by profession. I spend my time creating Softwares that
+        saves my time." 
+        facebook="https://www.facebook.com/nikhilmenghani" 
+        telegram="http://t.me/inikhilmenghani" 
+    %}
 
-        <ul class="social__links">
-            <li><a href="https://www.facebook.com/nikhilmenghani">Facebook</a></li>
-            <li><a href="http://t.me/inikhilmenghani">Telegram</a></li>
-        </ul>
-    </div>
+    {% include membercard.html
+        image_name="male.svg"
+        name="Vipin Mishra"
+        position="WEB DEVELOPER"
+        intro="I spend my time creating good looking websites on the Internet & try to share what I learn by making videos
+        on the Youtube Channel"
+        portfolio="https://thevipinmishra.github.io/"
+        telegram="http://t.me/thevipinmishra"
+    %}
 
-    <div class="member">
-        <img src="{{ '/images/team/male.svg' | relative_url }}" alt="" class="avatar">
-        <h3 class="name">Vipin Mishra</h3>
-        <h5 class="posi">WEB DEVELOPER</h5>
-
-        <p class="member__intro">
-            I spend my time creating good looking websites on the Internet & try to share what I learn by making videos
-            on the Youtube Channel
-        </p>
-
-        <ul class="social__links">
-            <li><a href="https://thevipinmishra.github.io/">Portfolio</a></li>
-            <li><a href="http://t.me/thevipinmishra">Telegram</a></li>
-        </ul>
-    </div>
-
-    <div class="member">
-        <img src="{{ '/images/team/Arya.png' | relative_url }}" alt="" class="avatar">
-        <h3 class="name">DrAMoled</h3>
-        <h5 class="posi">Project Analyst</h5>
-
-        <p class="member__intro">
-            I'm an Android enthusiast too, more than Nik obviously by tremendous amount. Have some little knowledge about Android if that counts.
-I criticize Nik work because i got no better things to do.
-Also i love graphic design and cats
-        </p>
-
-        <ul class="social__links">
-            <li><a href="http://t.me/DrAMoled">Telegram</a></li>
-            <li><a href="mailTo:dramoled@gmail.com">Email</a></li>
-        </ul>
-    </div>
+    {% include membercard.html
+        image_name="Arya.png"
+        name="DrAMoled"
+        position="Project Analyst"
+        intro="I'm an Android enthusiast too, more than Nik obviously by tremendous amount. Have some little knowledge about Android if that counts. I criticize Nik work because i got no better things to do. Also i love graphic design and cats"
+        telegram="http://t.me/DrAMoled"
+        email="mailTo:dramoled@gmail.com"
+    %}
 
 </section>

@@ -324,20 +324,6 @@
 		}
 	}
 
-	.team__members {
-		display: grid;
-		gap: 2rem;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
-		.member {
-			flex-basis: 40%;
-		}
-
-		.member + .member {
-			margin-top: 0;
-		}
-	}
-
 	.post__outer {
 		.post__title {
 			font-size: 1.5rem;

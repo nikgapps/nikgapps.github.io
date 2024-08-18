@@ -1,4 +1,13 @@
 .team__members {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    .member {
+        flex-basis: 40%;
+        margin-top: 1.5rem;
+    }
+
     .member + .member {
         margin-top: 1.5rem;
     }
