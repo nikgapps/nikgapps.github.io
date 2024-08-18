@@ -1,0 +1,22 @@
+---
+---
+
+@import "variables";
+
+/* Base styles */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Light theme */
+body[data-theme='light'] {
+    --background-color: #{$light-background-color};
+    --text-color: #{$light-text-color};
+}
+
+/* Dark theme */
+body[data-theme='dark'] {
+    --background-color: #{$dark-background-color};
+    --text-color: #{$dark-text-color};
+}
