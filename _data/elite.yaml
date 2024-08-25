@@ -2180,6 +2180,31 @@ ionutgherman:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-13/25-Aug-2024/NikGapps-full-pixels-arm64-13-20240825-signed.zip/download">NikGapps-full-pixels-arm64-13-20240825-signed.zip
+          (694.38 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
+          DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>-
+          -> GoogleCalendar<br>- - GoogleCalendar<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelThemes<br>-
+          -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- ->
+          GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>- - GoogleChrome<br>-
+          - WebViewGoogle<br>- - TrichromeLibrary<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
+          -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> GalleryGo<br>- - GalleryGo<br>- -> PixelSetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - PixelSetupWizard<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleTalkback<br>- - GoogleTalkback
+      title: 20240825 (full-pixels.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-13/25-Aug-2024/NikGapps-basic-pixels-arm64-13-20240825-signed.zip/download">NikGapps-basic-pixels-arm64-13-20240825-signed.zip
           (377.34 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -2254,31 +2279,6 @@ ionutgherman:
           GoogleRestore<br>- - PixelSetupWizard<br>- - GoogleOneTimeInitializer<br>-
           -> GoogleTalkback<br>- - GoogleTalkback
       title: 20240728 (basic-pixels.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-13/28-Jul-2024/NikGapps-full-pixels-arm64-13-20240728-signed.zip/download">NikGapps-full-pixels-arm64-13-20240728-signed.zip
-          (694.4 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
-          -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
-          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
-          DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>-
-          -> GoogleCalendar<br>- - GoogleCalendar<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
-          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelThemes<br>-
-          -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
-          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- ->
-          GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>- - GoogleChrome<br>-
-          - WebViewGoogle<br>- - TrichromeLibrary<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
-          -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
-          - GooglePartnerSetup<br>- -> GalleryGo<br>- - GalleryGo<br>- -> PixelSetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - PixelSetupWizard<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleTalkback<br>- - GoogleTalkback
-      title: 20240728 (full-pixels.config)
   id: ionutgherman_Android13
   title: Android 13
 kourtzis:
