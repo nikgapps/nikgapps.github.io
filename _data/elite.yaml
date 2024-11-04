@@ -199,6 +199,34 @@
       title: 20240728 (crDroid-redbull-full.config)
   id: 306bobby-android_Android13
   title: Android 13
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-15/04-Nov-2024/NikGapps-redbull-full-arm64-15-20241104-signed.zip/download">NikGapps-redbull-full-arm64-15-20241104-signed.zip
+          (710.55 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - GooglePlayStore<br>- - GoogleServicesFramework<br>-
+          - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
+          - ExtraFiles<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - GoogleOneTimeInitializer<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - QuickAccessWallet<br>- - SettingsServices<br>-
+          - PrivateComputeServices<br>- - EmojiWallpaper<br>- - PixelThemes<br>- -
+          PixelLauncher<br>- - PixelWeather<br>- - AICore<br>- -> PlayGames<br>- -
+          PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto
+      title: 20241104 (redbull-full.config)
+  id: 306bobby-android_Android15
+  title: Android 15
 Bartixxx32:
 - content:
   - question:
