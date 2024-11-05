@@ -2742,6 +2742,23 @@ melindr0s0:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/m3l1ndr0s0/Android-14/05-Nov-2024/NikGapps-meligapps-arm64-14-20241105-signed.zip/download">NikGapps-meligapps-arm64-14-20241105-signed.zip
+          (563.39 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>- ->
+          Drive<br>- - Drive<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GBoard<br>-
+          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleKeep<br>-
+          - GoogleKeep<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>-
+          -> GoogleSheets<br>- - GoogleSheets<br>- -> Books<br>- - Books
+      title: 20241105 (meligapps.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/m3l1ndr0s0/Android-14/04-Nov-2024/NikGapps-meligapps-arm64-14-20241104-signed.zip/download">NikGapps-meligapps-arm64-14-20241104-signed.zip
           (562.21 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - GoogleServicesFramework<br>- - GooglePlayStore<br>-
@@ -2808,23 +2825,6 @@ melindr0s0:
           - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>-
           -> GoogleSheets<br>- - GoogleSheets<br>- -> Books<br>- - Books
       title: 20240721 (meligapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/m3l1ndr0s0/Android-14/20-Jul-2024/NikGapps-meligapps-arm64-14-20240720-signed.zip/download">NikGapps-meligapps-arm64-14-20240720-signed.zip
-          (566.68 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>- ->
-          Drive<br>- - Drive<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GBoard<br>-
-          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleKeep<br>-
-          - GoogleKeep<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
-          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
-          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
-          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>-
-          -> GoogleSheets<br>- - GoogleSheets<br>- -> Books<br>- - Books
-      title: 20240720 (meligapps.config)
   id: melindr0s0_Android14
   title: Android 14
 osm0sis:
