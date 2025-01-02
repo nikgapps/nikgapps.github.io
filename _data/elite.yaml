@@ -3711,6 +3711,32 @@ vivekvijayan20:
       title: 20240813 (SinisterGapps.config)
   id: vivekvijayan20_Android14
   title: Android 14
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/Android-15/02-Jan-2025/NikGapps-SinisterGapps-arm64-15-20250102-signed.zip/download">NikGapps-SinisterGapps-arm64-15-20250102-signed.zip
+          (617.4 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>-
+          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          - PixelWeather<br>- - AICore<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
+          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20250102 (SinisterGapps.config)
+  id: vivekvijayan20_Android15
+  title: Android 15
 null:
 - content:
   - question:
