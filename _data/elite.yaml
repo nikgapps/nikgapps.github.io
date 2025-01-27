@@ -3596,6 +3596,29 @@ vivekvijayan20:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/Android-14/27-Jan-2025/NikGapps-SinisterGapps-arm64-14-20250127-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20250127-signed.zip
+          (438.3 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - QuickAccessWallet<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          - PixelWeather<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
+          -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20250127 (SinisterGapps.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/Android-14/31-Dec-2024/NikGapps-SinisterGapps-arm64-14-20241231-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20241231-signed.zip
           (438.28 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -3686,29 +3709,6 @@ vivekvijayan20:
           - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>-
           -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
       title: 20241104 (SinisterGapps.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/Android-14/13-Aug-2024/NikGapps-SinisterGapps-arm64-14-20240813-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20240813-signed.zip
-          (447.3 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GoogleCalendar<br>-
-          - GoogleCalendar<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
-          - QuickAccessWallet<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          - PixelWeather<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
-          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
-          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
-          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>-
-          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>-
-          -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
-          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
-      title: 20240813 (SinisterGapps.config)
   id: vivekvijayan20_Android14
   title: Android 14
 - content:
