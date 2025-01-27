@@ -2404,6 +2404,24 @@ helliscloser:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/Android-14/27-Jan-2025/NikGapps-alphadroid-arm64-14-20250127-signed.zip/download">NikGapps-alphadroid-arm64-14-20250127-signed.zip
+          (451.51 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
+          GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- ->
+          GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleSearch<br>- - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20250127 (alphadroid.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/Android-14/31-Dec-2024/NikGapps-alphadroid-arm64-14-20241231-signed.zip/download">NikGapps-alphadroid-arm64-14-20241231-signed.zip
           (451.54 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -2474,24 +2492,6 @@ helliscloser:
           -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>-
           -> AndroidAuto<br>- - AndroidAuto
       title: 20241104 (alphadroid.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/Android-14/13-Aug-2024/NikGapps-alphadroid-arm64-14-20240813-signed.zip/download">NikGapps-alphadroid-arm64-14-20240813-signed.zip
-          (452.43 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
-          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
-          GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- ->
-          GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
-          -> GoogleSearch<br>- - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
-          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
-      title: 20240813 (alphadroid.config)
   id: helliscloser_Android14
   title: Android 14
 ionutgherman:
