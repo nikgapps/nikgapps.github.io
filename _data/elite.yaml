@@ -670,6 +670,30 @@ DeadlyShroud:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/PrateekGurjar/Android-14/27-Jan-2025/NikGapps-Munch-arm64-14-20250127-signed.zip/download">NikGapps-Munch-arm64-14-20250127-signed.zip
+          (679.53 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> Drive<br>- - Drive<br>-
+          -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PixelSpecifics<br>-
+          - PixelLauncher<br>- - DevicePersonalizationServices<br>- - QuickAccessWallet<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelThemes<br>-
+          - EmojiWallpaper<br>- - PixelWeather<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup
+      title: 20250127 (Munch.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/PrateekGurjar/Android-14/31-Dec-2024/NikGapps-Munch-arm64-14-20241231-signed.zip/download">NikGapps-Munch-arm64-14-20241231-signed.zip
           (679.54 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -764,30 +788,6 @@ DeadlyShroud:
           - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> GooglePartnerSetup<br>-
           - GooglePartnerSetup
       title: 20241105 (Munch.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/PrateekGurjar/Android-14/04-Nov-2024/NikGapps-Pixel-arm64-14-20241104-signed.zip/download">NikGapps-Pixel-arm64-14-20241104-signed.zip
-          (680.34 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - GoogleServicesFramework<br>- - GooglePlayStore<br>-
-          - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>- - GmsCore<br>-
-          - ExtraFiles<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
-          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- - SetupWizard<br>-
-          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> Drive<br>- - Drive<br>-
-          -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
-          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
-          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PixelSpecifics<br>-
-          - GoogleWallpaper<br>- - DevicePersonalizationServices<br>- - QuickAccessWallet<br>-
-          - SettingsServices<br>- - PixelLauncher<br>- - PrivateComputeServices<br>-
-          - EmojiWallpaper<br>- - PixelThemes<br>- - PixelWeather<br>- -> MarkupGoogle<br>-
-          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
-          - Assistant<br>- - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
-          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> GooglePartnerSetup<br>-
-          - GooglePartnerSetup
-      title: 20241104 (Pixel.config)
   id: DeadlyShroud_Android14
   title: Android 14
 - content:
