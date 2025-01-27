@@ -422,6 +422,26 @@ Bartixxx32:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Bartixxx/Android-14/27-Jan-2025/NikGapps-bartixxx-arm64-14-20250127-signed.zip/download">NikGapps-bartixxx-arm64-14-20250127-signed.zip
+          (354.78 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>-
+          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleRecorder<br>-
+          - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
+          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
+          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20250127 (bartixxx.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Bartixxx/Android-14/31-Dec-2024/NikGapps-bartixxx-arm64-14-20241231-signed.zip/download">NikGapps-bartixxx-arm64-14-20241231-signed.zip
           (354.82 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -500,26 +520,6 @@ Bartixxx32:
           - AndroidAuto<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>-
           -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
       title: 20241104 (bartixxx.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Bartixxx/Android-14/13-Aug-2024/NikGapps-bartixxx-arm64-14-20240813-signed.zip/download">NikGapps-bartixxx-arm64-14-20240813-signed.zip
-          (357.83 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>-
-          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleRecorder<br>-
-          - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
-          - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
-          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
-          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GooglePartnerSetup<br>-
-          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
-      title: 20240813 (bartixxx.config)
   id: Bartixxx32_Android14
   title: Android 14
 CanerKaraca23:
