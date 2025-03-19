@@ -1768,6 +1768,27 @@ Pfuenzle:
       title: 20241212 (pfuenzle.config)
   id: Pfuenzle_Android14
   title: Android 14
+StudioKeys:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/bliss-official/Android-15/19-Mar-2025/NikGapps-bliss-arm64-15-20250319-signed.zip/download">NikGapps-bliss-arm64-15-20250319-signed.zip
+          (527.25 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          - PixelWeather<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
+          GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>- - WebViewGoogle<br>-
+          - TrichromeLibrary<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> YouTube<br>- - YouTube<br>- -> YouTubeMusic<br>- -
+          YouTubeMusic
+      title: 20250319 (bliss.config)
+  id: StudioKeys_Android15
+  title: Android 15
 TeaqariaWTF:
 - content:
   - question:
