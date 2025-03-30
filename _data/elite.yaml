@@ -2370,6 +2370,84 @@ crdroid-official:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/30-Mar-2025/NikGapps-crdroid-official-arm64-15-20250330-signed.zip/download">NikGapps-crdroid-official-arm64-15-20250330-signed.zip
+          (462.55 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20250330 (crdroid-official.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/16-Feb-2025/NikGapps-crdroid-official-arm64-15-20250216-signed.zip/download">NikGapps-crdroid-official-arm64-15-20250216-signed.zip
+          (462.55 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20250216 (crdroid-official.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/27-Jan-2025/NikGapps-crdroid-official-arm64-15-20250127-signed.zip/download">NikGapps-crdroid-official-arm64-15-20250127-signed.zip
+          (356.75 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto
+      title: 20250127 (crdroid-official.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/31-Dec-2024/NikGapps-crdroid-official-arm64-15-20241231-signed.zip/download">NikGapps-crdroid-official-arm64-15-20241231-signed.zip
+          (356.31 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto
+      title: 20241231 (crdroid-official.config)
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/12-Dec-2024/NikGapps-crdroid-official-arm64-15-20241212-signed.zip/download">NikGapps-crdroid-official-arm64-15-20241212-signed.zip
+          (356.68 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto
+      title: 20241212 (crdroid-official.config)
+  id: crdroid-official_Android15
+  title: Android 15
+- content:
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-14/16-Feb-2025/NikGapps-crdroid-official-arm64-14-20250216-signed.zip/download">NikGapps-crdroid-official-arm64-14-20250216-signed.zip
           (368.51 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -2500,84 +2578,6 @@ crdroid-official:
       title: 20241104 (crdroid-official.config)
   id: crdroid-official_Android13
   title: Android 13
-- content:
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/30-Mar-2025/NikGapps-crdroid-official-arm64-15-20250330-signed.zip/download">NikGapps-crdroid-official-arm64-15-20250330-signed.zip
-          (462.55 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
-          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
-          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
-          - GoogleSounds<br>- -> GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
-      title: 20250330 (crdroid-official.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/16-Feb-2025/NikGapps-crdroid-official-arm64-15-20250216-signed.zip/download">NikGapps-crdroid-official-arm64-15-20250216-signed.zip
-          (462.55 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
-          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
-          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
-          - GoogleSounds<br>- -> GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
-      title: 20250216 (crdroid-official.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/27-Jan-2025/NikGapps-crdroid-official-arm64-15-20250127-signed.zip/download">NikGapps-crdroid-official-arm64-15-20250127-signed.zip
-          (356.75 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
-          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
-          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
-          - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
-          - AndroidAuto
-      title: 20250127 (crdroid-official.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/31-Dec-2024/NikGapps-crdroid-official-arm64-15-20241231-signed.zip/download">NikGapps-crdroid-official-arm64-15-20241231-signed.zip
-          (356.31 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
-          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
-          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
-          - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
-          - AndroidAuto
-      title: 20241231 (crdroid-official.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/12-Dec-2024/NikGapps-crdroid-official-arm64-15-20241212-signed.zip/download">NikGapps-crdroid-official-arm64-15-20241212-signed.zip
-          (356.68 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
-          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
-          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
-          - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
-          - AndroidAuto
-      title: 20241212 (crdroid-official.config)
-  id: crdroid-official_Android15
-  title: Android 15
 helliscloser:
 - content:
   - question:
