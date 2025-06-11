@@ -40,7 +40,8 @@ Join the contributors list by making a contribution in one of the following ways
 1. [Become a sponsor](https://github.com/sponsors/nikgapps) or Make a donation of any amount to NikGapps via [PayPal](https://www.paypal.com/paypalme/inikhilmenghani) or [Patreon](https://www.patreon.com/nikgapps).  
 2. Recommend NikGapps to your ROM.  
 3. Contribute through code to NikGapps or help address a critical issue.  
-4. Create a tutorial video on NikGapps and share it with us.  
+4. Create a tutorial video on NikGapps and share it with us. 
+5. Become a tester and report your findings for least `10 NikGapps test builds` with necessary logs (such as logcat, installation logs, etc) to investigate an issue.
 
 ## I am a Contributor, How do I benefit from the Elite program?
 
