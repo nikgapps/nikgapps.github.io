@@ -1500,6 +1500,20 @@ N0m4n904:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/halogenOS/Android-15/11-Jun-2025/NikGapps-halogenOS-arm64-15-20250611-signed.zip/download">NikGapps-halogenOS-arm64-15-20250611-signed.zip
+          (394.65 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelWeather<br>-
+          -> PlayGames<br>- - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> YouTube<br>- - YouTube<br>- -> Books<br>- - Books
+      title: 20250611 (halogenOS.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/halogenOS/Android-15/27-Jan-2025/NikGapps-halogenOS-arm64-15-20250127-signed.zip/download">NikGapps-halogenOS-arm64-15-20250127-signed.zip
           (408.73 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -1554,21 +1568,6 @@ N0m4n904:
           Assistant<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
           - AndroidAuto<br>- -> YouTube<br>- - YouTube<br>- -> Books<br>- - Books
       title: 20241121 (halogenOS.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/halogenOS/Android-15/06-Nov-2024/NikGapps-halogenOS-arm64-15-20241106-signed.zip/download">NikGapps-halogenOS-arm64-15-20241106-signed.zip
-          (411.1 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
-          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
-          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelWeather<br>-
-          -> PlayGames<br>- - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
-          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
-          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>-
-          - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> YouTube<br>-
-          - YouTube<br>- -> Books<br>- - Books
-      title: 20241106 (halogenOS.config)
   id: N0m4n904_Android15
   title: Android 15
 Pfuenzle:
