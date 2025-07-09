@@ -2427,6 +2427,31 @@ Wossgebber:
       title: 20241105 (wossgebberUcustomgapps.config)
   id: Wossgebber_Android14
   title: Android 14
+anhdat1024:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/NguyenPhong/Android-15/09-Jul-2025/NikGapps-a52sxq-arm64-15-20250709-signed.zip/download">NikGapps-a52sxq-arm64-15-20250709-signed.zip
+          (568.33 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
+          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> GoogleClock<br>-
+          - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - GoogleWallpaper<br>- - QuickAccessWallet<br>- - SettingsServices<br>-
+          - PrivateComputeServices<br>- - PixelThemes<br>- - EmojiWallpaper<br>- -
+          PixelWeather<br>- - AICore<br>- -> GoogleFiles<br>- - GoogleFiles<br>- -
+          StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback
+      title: 20250709 (a52sxq.config)
+  id: anhdat1024_Android15
+  title: Android 15
 cocka11:
 - content:
   - question:
