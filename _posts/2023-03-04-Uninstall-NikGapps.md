@@ -27,8 +27,9 @@ You can uninstall NikGapps completely or selectively. Completely means you are r
 **Note:** this method is supported only when you are not sideloading the zip, when you sideload the zip, the name of the file you are flashing changes and the installer will not be able to recognize your instructions to uninstall the apps. In this case, use the sideloading method.
 
 ### Uninstall by sideloading the zip
-- Edit `zip_name.txt` file in the zip and rename the actual file name to `UnInstall.zip` (for e.g. `NikGapps-core-arm64-20210410.zip` to `UnInstall.zip`)
-- Sideload the zip in recovery
+- Open `zip_name.txt` file from the NikGapps zip you want to sideload
+- Rename the text contents from `zip_name.txt` file which reads the actual file name (for e.g. `NikGapps-core-arm64-20210410.zip`) to `UnInstall.zip`
+- Sideload the zip in recovery (The installer reads the instruction from `zip_name.txt` and when it finds `UnInstall.zip` in it, it runs the uninstaller instead of standard installer)
 
 **Note:** this method is supported only when you are sideloading the zip, when you are not sideloading the zip, the name of the file you are flashing changes and the installer will not be able to recognize your instructions to uninstall the apps. In this case, use the renaming method.
 
