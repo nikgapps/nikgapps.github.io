@@ -1672,6 +1672,32 @@ Pfuenzle:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/Android-14/16-Jul-2025/NikGapps-pfuenzle-full-arm64-14-20250716-signed.zip/download">NikGapps-pfuenzle-full-arm64-14-20250716-signed.zip
+          (838.93 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
+          DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>-
+          -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>-
+          -> PlayGames<br>- - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
+          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>-
+          - TrichromeLibrary<br>- -> Gmail<br>- - Gmail<br>- -> AndroidAuto<br>- -
+          AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>-
+          -> Meet<br>- - Meet<br>- -> GoogleDocs<br>- - GoogleDocs<br>- -> GoogleSheets<br>-
+          - GoogleSheets<br>- -> GoogleSlides<br>- - GoogleSlides<br>- -> Books<br>-
+          - Books<br>- -> GoogleTalkback<br>- - GoogleTalkback
+      title: 20250716 (pfuenzle-full.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/Android-14/11-Jun-2025/NikGapps-pfuenzle-arm64-14-20250611-signed.zip/download">NikGapps-pfuenzle-arm64-14-20250611-signed.zip
           (272.48 MB)</a>
       - ans: What's included?<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
@@ -1750,20 +1776,6 @@ Pfuenzle:
           - GoogleSheets<br>- -> GoogleSlides<br>- - GoogleSlides<br>- -> Books<br>-
           - Books<br>- -> GoogleTalkback<br>- - GoogleTalkback
       title: 20250127 (pfuenzle-full.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/Android-14/31-Dec-2024/NikGapps-pfuenzle-arm64-14-20241231-signed.zip/download">NikGapps-pfuenzle-arm64-14-20241231-signed.zip
-          (272.55 MB)</a>
-      - ans: What's included?<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
-          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PlayGames<br>-
-          - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
-          - GoogleTTS<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> Gmail<br>-
-          - Gmail<br>- -> AndroidDevicePolicy<br>- - AndroidDevicePolicy<br>- -> Meet<br>-
-          - Meet<br>- -> GoogleDocs<br>- - GoogleDocs<br>- -> GoogleSheets<br>- -
-          GoogleSheets<br>- -> GoogleSlides<br>- - GoogleSlides<br>- -> Books<br>-
-          - Books<br>- -> GoogleTalkback<br>- - GoogleTalkback
-      title: 20241231 (pfuenzle.config)
   id: Pfuenzle_Android14
   title: Android 14
 StudioKeys:
