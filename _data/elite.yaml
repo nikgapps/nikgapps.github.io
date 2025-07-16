@@ -942,6 +942,28 @@ DeadlyShroud:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/PrateekGurjar/Android-15/16-Jul-2025/NikGapps-Normal15-arm64-15-20250716-signed.zip/download">NikGapps-Normal15-arm64-15-20250716-signed.zip
+          (753.38 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> Drive<br>- - Drive<br>-
+          -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>-
+          - TrichromeLibrary<br>- -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- -
+          DeviceSetup<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup
+      title: 20250716 (Normal15.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/PrateekGurjar/Android-15/16-Jul-2025/NikGapps-Pixel15-arm64-15-20250716-signed.zip/download">NikGapps-Pixel15-arm64-15-20250716-signed.zip
           (770.05 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -1032,30 +1054,6 @@ DeadlyShroud:
           - TrichromeLibrary<br>- -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- -
           DeviceSetup<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup
       title: 20250203 (Normal15.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/PrateekGurjar/Android-15/03-Feb-2025/NikGapps-Pixel15-arm64-15-20250203-signed.zip/download">NikGapps-Pixel15-arm64-15-20250203-signed.zip
-          (778.12 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
-          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> Drive<br>- - Drive<br>-
-          -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
-          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
-          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PixelSpecifics<br>-
-          - PixelLauncher<br>- - DevicePersonalizationServices<br>- - GoogleWallpaper<br>-
-          - QuickAccessWallet<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          - PixelThemes<br>- - EmojiWallpaper<br>- - PixelWeather<br>- -> MarkupGoogle<br>-
-          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
-          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
-          -> GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> GooglePartnerSetup<br>-
-          - GooglePartnerSetup
-      title: 20250203 (Pixel15.config)
   id: DeadlyShroud_Android15
   title: Android 15
 Dreamer-Arcana:
