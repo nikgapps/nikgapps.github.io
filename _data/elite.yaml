@@ -1979,6 +1979,21 @@ TeaqariaWTF:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/Android-15/16-Jul-2025/NikGapps-Mergen-arm64-15-20250716-signed.zip/download">NikGapps-Mergen-arm64-15-20250716-signed.zip
+          (366.06 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>-
+          -> GoogleRecorder<br>- - GoogleRecorder<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS
+      title: 20250716 (Mergen.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/Android-15/11-Jun-2025/NikGapps-Mergen-arm64-15-20250611-signed.zip/download">NikGapps-Mergen-arm64-15-20250611-signed.zip
           (366.06 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -2033,19 +2048,6 @@ TeaqariaWTF:
           - GoogleCalendar<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> MarkupGoogle<br>-
           - MarkupGoogle<br>- -> NavigationGo<br>- - NavigationGo
       title: 20241231 (Mergen.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/mergen/Android-15/12-Dec-2024/NikGapps-Mergen-arm64-15-20241212-signed.zip/download">NikGapps-Mergen-arm64-15-20241212-signed.zip
-          (317.41 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
-          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
-          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
-          - GoogleCalendar<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> MarkupGoogle<br>-
-          - MarkupGoogle<br>- -> NavigationGo<br>- - NavigationGo
-      title: 20241212 (Mergen.config)
   id: TeaqariaWTF_Android15
   title: Android 15
 Terminator-J:
