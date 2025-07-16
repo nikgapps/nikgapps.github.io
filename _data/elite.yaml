@@ -1647,6 +1647,23 @@ N0m4n904:
       title: 20241212 (halogenOS.config)
   id: N0m4n904_Android15
   title: Android 15
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/halogenOS/Android-16/16-Jul-2025/NikGapps-halogenOS-arm64-16-20250716-signed.zip/download">NikGapps-halogenOS-arm64-16-20250716-signed.zip
+          (406.71 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelWeather<br>-
+          -> PlayGames<br>- - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> YouTube<br>- - YouTube<br>- -> Books<br>- - Books
+      title: 20250716 (halogenOS.config)
+  id: N0m4n904_Android16
+  title: Android 16
 Pfuenzle:
 - content:
   - question:
