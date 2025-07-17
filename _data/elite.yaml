@@ -1620,6 +1620,25 @@ Juloboy:
       title: 20241212 (Juloboy.config)
   id: Juloboy_Android14
   title: Android 14
+Karan-Frost:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Frost/Android-16/17-Jul-2025/NikGapps-frost-custom-arm64-16-20250717-signed.zip/download">NikGapps-frost-custom-arm64-16-20250717-signed.zip
+          (440.73 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - WebViewGoogle<br>- - TrichromeLibrary<br>- -> DeviceSetup<br>- - DeviceSetup<br>-
+          -> AndroidAuto<br>- - AndroidAuto
+      title: 20250717 (frost-custom.config)
+  id: Karan-Frost_Android16
+  title: Android 16
 N0m4n904:
 - content:
   - question:
