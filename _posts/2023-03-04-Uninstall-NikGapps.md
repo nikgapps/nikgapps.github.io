@@ -27,8 +27,8 @@ You can uninstall NikGapps completely or selectively. Completely means you are r
 **Note:** this method is supported only when you are not sideloading the zip, when you sideload the zip, the name of the file you are flashing changes and the installer will not be able to recognize your instructions to uninstall the apps. In this case, use the sideloading method.
 
 ### Uninstall by sideloading the zip
-- Open `zip_name.txt` file from the NikGapps zip you want to sideload
-- Change/Edit the text contents from `zip_name.txt` file which reads the actual file name (for e.g. `NikGapps-core-arm64-20210410.zip`) to `UnInstall.zip`.
+- Open the NikGapps zip file and locate `zip_name.txt` file from the NikGapps zip. Don't rename it, just open the `zip_name.txt` file.
+- Inside that .txt file, you'll see something like `NikGapps-core-arm64-20210410` (or the actual zip name you've opened). Replace that text with `UnInstall` (without the .zip).
 - Save `zip_name.txt`
 - Sideload the zip in recovery (The installer reads the instruction from `zip_name.txt` and when it finds `UnInstall.zip` in it, it runs the uninstaller instead of standard installer)
 
@@ -60,7 +60,7 @@ Make an entry `/system/addon.d` in debloater.config, place the file in /sdcard/N
 **Note:** this method is supported only when you are not sideloading the zip, when you sideload the zip, the name of the file you are flashing changes and the installer will not be able to recognize your instructions to uninstall the apps. In this case, use the sideloading method.
 
 ### Uninstall by sideloading the zip
-- Edit `zip_name.txt` file in the zip and rename the actual file name to `UnInstall.zip` (for e.g. `YouTube.zip` to `UnInstall.zip`)
+- Edit `zip_name.txt` file in the zip and rename the actual file name inside `zip_name.txt` to `UnInstall.zip` (for e.g. `YouTube` to `UnInstall.zip`)
 - Sideload the zip in recovery
 
 **Note:** this method is supported only when you are sideloading the zip, when you are not sideloading the zip, the name of the file you are flashing changes and the installer will not be able to recognize your instructions to uninstall the apps. In this case, use the renaming method.
