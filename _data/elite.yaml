@@ -1917,6 +1917,20 @@ N0m4n904:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/halogenOS/Android-16/02-Feb-2026/NikGapps-halogenOS-arm64-16-20260202-signed.zip/download">NikGapps-halogenOS-arm64-16-20260202-signed.zip
+          (410.26 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelWeather<br>-
+          -> PlayGames<br>- - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> YouTube<br>- - YouTube<br>- -> Books<br>- - Books
+      title: 20260202 (halogenOS.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/halogenOS/Android-16/28-Nov-2025/NikGapps-halogenOS-arm64-16-20251128-signed.zip/download">NikGapps-halogenOS-arm64-16-20251128-signed.zip
           (406.4 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
