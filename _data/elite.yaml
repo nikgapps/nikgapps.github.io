@@ -2894,6 +2894,27 @@ anhdat1024:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/NguyenPhong/Android-15/02-Feb-2026/NikGapps-a52sxq-arm64-15-20260202-signed.zip/download">NikGapps-a52sxq-arm64-15-20260202-signed.zip
+          (568.23 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
+          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> GoogleClock<br>-
+          - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - GoogleWallpaper<br>- - QuickAccessWallet<br>- - SettingsServices<br>-
+          - PrivateComputeServices<br>- - PixelThemes<br>- - EmojiWallpaper<br>- -
+          PixelWeather<br>- - AICore<br>- -> GoogleFiles<br>- - GoogleFiles<br>- -
+          StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- -
+          Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback
+      title: 20260202 (a52sxq.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/NguyenPhong/Android-15/16-Jul-2025/NikGapps-a52sxq-arm64-15-20250716-signed.zip/download">NikGapps-a52sxq-arm64-15-20250716-signed.zip
           (568.33 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
