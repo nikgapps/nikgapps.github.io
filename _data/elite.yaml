@@ -3906,6 +3906,32 @@ ionutgherman:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-16/02-Feb-2026/NikGapps-full-pixels-arm64-16-20260202-signed.zip/download">NikGapps-full-pixels-arm64-16-20260202-signed.zip
+          (852.59 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
+          GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- ->
+          PixelSpecifics<br>- - DevicePersonalizationServices<br>- - SettingsServices<br>-
+          - PrivateComputeServices<br>- - EmojiWallpaper<br>- - PixelWeather<br>-
+          - AICore<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
+          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
+          - Velvet<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> AndroidAuto<br>-
+          - AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>- -> GooglePartnerSetup<br>-
+          - GooglePartnerSetup<br>- -> GalleryGo<br>- - GalleryGo<br>- -> PixelSetupWizard<br>-
+          - SetupWizardPixel<br>- - GoogleRestorePixel<br>- - PixelSetupWizard<br>-
+          - GoogleOneTimeInitializerPixel<br>- -> GoogleTalkback<br>- - GoogleTalkback<br>-
+          -> GooglePersonalSafety<br>- - GooglePersonalSafety
+      title: 20260202 (full-pixels.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-16/02-Feb-2026/Addons/NikGapps-pixellauncher-addon-arm64-16-20260202-signed.zip/download">NikGapps-pixellauncher-addon-arm64-16-20260202-signed.zip
           (84.97 MB)</a>
       - ans: What's included?<br>- -> PixelSpecifics<br>- - PixelLauncher<br>- - DevicePersonalizationServices<br>-
@@ -3963,23 +3989,6 @@ ionutgherman:
           - GoogleWallpaper<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
           - PixelThemes<br>- - EmojiWallpaper<br>- - PixelWeather<br>- - AICore
       title: 20251128 (pixellauncher-addon.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-16/28-Nov-2025/NikGapps-basic-pixels-arm64-16-20251128-signed.zip/download">NikGapps-basic-pixels-arm64-16-20251128-signed.zip
-          (462.0 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleLocationHistory<br>-
-          - GoogleLocationHistory<br>- -> GBoard<br>- - GBoard<br>- -> PixelSpecifics<br>-
-          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          - EmojiWallpaper<br>- - PixelWeather<br>- - AICore<br>- -> MarkupGoogle<br>-
-          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
-          - Velvet<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
-          - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>-
-          -> PixelSetupWizard<br>- - SetupWizardPixel<br>- - GoogleRestorePixel<br>-
-          - PixelSetupWizard<br>- - GoogleOneTimeInitializerPixel<br>- -> GoogleTalkback<br>-
-          - GoogleTalkback<br>- -> GooglePersonalSafety<br>- - GooglePersonalSafety
-      title: 20251128 (basic-pixels.config)
   id: ionutgherman_Android16
   title: Android 16
 kourtzis:
