@@ -2553,6 +2553,27 @@ TodBonzalez:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/TodBonzalez/Android-11/02-Feb-2026/NikGapps-TodBonzalez-arm64-11-20260202-signed.zip/download">NikGapps-TodBonzalez-arm64-11-20260202-signed.zip
+          (377.48 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- - AndroidMigratePrebuilt<br>-
+          -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>- -> DeviceHealthServices<br>-
+          - DeviceHealthServices<br>- -> GoogleFiles<br>- - StorageManager<br>- -
+          DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
+          GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>- - GoogleChrome<br>-
+          - WebViewGoogle<br>- - TrichromeLibrary<br>- -> DeviceSetup<br>- - DeviceSetup<br>-
+          -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>-
+          -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>- -> AndroidDevicePolicy<br>-
+          - AndroidDevicePolicy
+      title: 20260202 (TodBonzalez.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/TodBonzalez/Android-11/16-Jul-2025/NikGapps-TodBonzalez-arm64-11-20250716-signed.zip/download">NikGapps-TodBonzalez-arm64-11-20250716-signed.zip
           (377.51 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
