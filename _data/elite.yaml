@@ -4400,6 +4400,29 @@ osm0sis:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/Android-14/02-Feb-2026/NikGapps-osm0sis-arm64-14-20260202-signed.zip/download">NikGapps-osm0sis-arm64-14-20260202-signed.zip
+          (693.14 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
+          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
+          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
+          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
+          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- ->
+          GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> Gmail<br>- - Gmail<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
+          - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup
+      title: 20260202 (osm0sis.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/Android-14/16-Jul-2025/NikGapps-osm0sis-arm64-14-20250716-signed.zip/download">NikGapps-osm0sis-arm64-14-20250716-signed.zip
           (693.38 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -4490,29 +4513,6 @@ osm0sis:
           -> Gmail<br>- - Gmail<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
           - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup
       title: 20241231 (osm0sis.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/osm0sis/Android-14/12-Dec-2024/NikGapps-osm0sis-arm64-14-20241212-signed.zip/download">NikGapps-osm0sis-arm64-14-20241212-signed.zip
-          (693.44 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> Drive<br>- - Drive<br>- -> GoogleMaps<br>- -
-          GoogleMaps<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
-          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>-
-          - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>- -> PlayGames<br>-
-          - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
-          - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
-          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- ->
-          GoogleChrome<br>- - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> Gmail<br>- - Gmail<br>- -> AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>-
-          - GoogleFeedback<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup
-      title: 20241212 (osm0sis.config)
   id: osm0sis_Android14
   title: Android 14
 vivekvijayan20:
