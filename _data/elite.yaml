@@ -4913,6 +4913,28 @@ vivekvijayan20:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/Android-16/02-Feb-2026/NikGapps-SinisterGapps-arm64-16-20260202-signed.zip/download">NikGapps-SinisterGapps-arm64-16-20260202-signed.zip
+          (607.27 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
+          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
+          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
+          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>-
+          - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - QuickAccessWallet<br>- - SettingsServices<br>-
+          - PrivateComputeServices<br>- - PixelWeather<br>- - AICore<br>- -> GoogleRecorder<br>-
+          - GoogleRecorder<br>- -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>-
+          - DocumentsUIGoogle<br>- -> GoogleSearch<br>- - Velvet<br>- -> GoogleSounds<br>-
+          - GoogleSounds<br>- -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>-
+          -> AndroidAuto<br>- - AndroidAuto<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>-
+          -> AndroidDevicePolicy<br>- - AndroidDevicePolicy
+      title: 20260202 (SinisterGapps.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/Android-16/28-Nov-2025/NikGapps-SinisterGapps-arm64-16-20251128-signed.zip/download">NikGapps-SinisterGapps-arm64-16-20251128-signed.zip
           (601.85 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
