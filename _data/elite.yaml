@@ -202,6 +202,25 @@
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-15/02-Feb-2026/NikGapps-redbull-lite-arm64-15-20260202-signed.zip/download">NikGapps-redbull-lite-arm64-15-20260202-signed.zip
+          (518.1 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
+          - GoogleMessages<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
+          SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
+          DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>-
+          -> PixelSpecifics<br>- - DevicePersonalizationServices<br>- - QuickAccessWallet<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- -> PlayGames<br>-
+          - PlayGames<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>-
+          - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- ->
+          GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>-
+          -> AndroidAuto<br>- - AndroidAuto
+      title: 20260202 (redbull-lite.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-15/02-Feb-2026/NikGapps-redbull-full-arm64-15-20260202-signed.zip/download">NikGapps-redbull-full-arm64-15-20260202-signed.zip
           (698.79 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -288,31 +307,6 @@
           GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>-
           -> AndroidAuto<br>- - AndroidAuto
       title: 20250611 (redbull-lite.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-15/11-Jun-2025/NikGapps-redbull-full-arm64-15-20250611-signed.zip/download">NikGapps-redbull-full-arm64-15-20250611-signed.zip
-          (698.96 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>- -> GoogleLocationHistory<br>-
-          - GoogleLocationHistory<br>- -> GooglePhotos<br>- - GooglePhotos<br>- ->
-          DeviceHealthServices<br>- - DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>-
-          -> GoogleCalendar<br>- - GoogleCalendar<br>- -> GoogleKeep<br>- - GoogleKeep<br>-
-          -> PixelSpecifics<br>- - DevicePersonalizationServices<br>- - QuickAccessWallet<br>-
-          - SettingsServices<br>- - PrivateComputeServices<br>- - PixelThemes<br>-
-          - EmojiWallpaper<br>- - PixelWeather<br>- - AICore<br>- -> PlayGames<br>-
-          - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>- -> GoogleFiles<br>-
-          - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>- -> MarkupGoogle<br>-
-          - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>-
-          - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>-
-          -> Gmail<br>- - Gmail<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
-          - AndroidAuto
-      title: 20250611 (redbull-full.config)
   id: 306bobby-android_Android15
   title: Android 15
 - content:
