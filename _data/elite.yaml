@@ -2487,7 +2487,7 @@ TeaqariaWTF:
   - question:
     - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/Android-14/04-Feb-2026/NikGapps-Mergen-arm64-14-20260204-signed.zip/download">NikGapps-Mergen-arm64-14-20260204-signed.zip
-          (255.39 MB)</a>
+          (255.5 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
           - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
           - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
