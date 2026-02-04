@@ -3860,6 +3860,24 @@ ionutgherman:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-15/04-Feb-2026/NikGapps-basic-pixels-arm64-15-20260204-signed.zip/download">NikGapps-basic-pixels-arm64-15-20260204-signed.zip
+          (451.89 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleLocationHistory<br>-
+          - GoogleLocationHistory<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
+          -> GBoard<br>- - GBoard<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - SettingsServices<br>- - PrivateComputeServices<br>- - EmojiWallpaper<br>-
+          - PixelWeather<br>- - AICore<br>- -> MarkupGoogle<br>- - MarkupGoogle<br>-
+          -> GoogleTTS<br>- - GoogleTTS<br>- -> GoogleSearch<br>- - Velvet<br>- ->
+          AndroidAuto<br>- - AndroidAuto<br>- -> GoogleFeedback<br>- - GoogleFeedback<br>-
+          -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>- -> PixelSetupWizard<br>-
+          - SetupWizardPixel<br>- - GoogleRestorePixel<br>- - PixelSetupWizard<br>-
+          - GoogleOneTimeInitializerPixel<br>- -> GoogleTalkback<br>- - GoogleTalkback<br>-
+          -> GooglePersonalSafety<br>- - GooglePersonalSafety
+      title: 20260204 (basic-pixels.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-15/02-Feb-2026/NikGapps-full-pixels-arm64-15-20260202-signed.zip/download">NikGapps-full-pixels-arm64-15-20260202-signed.zip
           (810.04 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -3936,14 +3954,6 @@ ionutgherman:
           - PixelSetupWizard<br>- - GoogleOneTimeInitializerPixel<br>- -> GoogleTalkback<br>-
           - GoogleTalkback<br>- -> GooglePersonalSafety<br>- - GooglePersonalSafety
       title: 20250716 (full-pixels.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-15/16-Jul-2025/NikGapps-pixellauncher-addon-arm64-15-20250716-signed.zip/download">NikGapps-pixellauncher-addon-arm64-15-20250716-signed.zip
-          (62.65 MB)</a>
-      - ans: What's included?<br>- -> PixelSpecifics<br>- - PixelLauncher<br>- - DevicePersonalizationServices<br>-
-          - GoogleWallpaper<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          - PixelThemes<br>- - EmojiWallpaper<br>- - PixelWeather<br>- - AICore
-      title: 20250716 (pixellauncher-addon.config)
   id: ionutgherman_Android15
   title: Android 15
 - content:
