@@ -704,6 +704,28 @@ CanerKaraca23:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/CanerKaraca/Android-15/05-Feb-2026/NikGapps-CanerKaraca-arm64-15-20260205-signed.zip/download">NikGapps-CanerKaraca-arm64-15-20260205-signed.zip
+          (727.55 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
+          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>-
+          -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>- -> GooglePhotos<br>-
+          - GooglePhotos<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
+          -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>-
+          -> GoogleKeep<br>- - GoogleKeep<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
+          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleSearch<br>- - Velvet<br>-
+          - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
+          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
+          - Gmail<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>- -> GooglePersonalSafety<br>-
+          - GooglePersonalSafety
+      title: 20260205 (CanerKaraca.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/CanerKaraca/Android-15/04-Feb-2026/NikGapps-CanerKaraca-arm64-15-20260204-signed.zip/download">NikGapps-CanerKaraca-arm64-15-20260204-signed.zip
           (727.6 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -790,28 +812,6 @@ CanerKaraca23:
           - Gmail<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>- -> GooglePersonalSafety<br>-
           - GooglePersonalSafety
       title: 20250611 (CanerKaraca.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/CanerKaraca/Android-15/31-Jan-2025/NikGapps-CanerKaraca-arm64-15-20250131-signed.zip/download">NikGapps-CanerKaraca-arm64-15-20250131-signed.zip
-          (735.58 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> GoogleMessages<br>- - GoogleMessages<br>- -> GoogleDialer<br>-
-          - GoogleDialer<br>- -> GoogleContacts<br>- - GoogleContacts<br>- -> CarrierServices<br>-
-          - CarrierServices<br>- -> GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> GoogleCalculator<br>- - GoogleCalculator<br>- -> GoogleMaps<br>- - GoogleMaps<br>-
-          -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>- -> GooglePhotos<br>-
-          - GooglePhotos<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
-          -> GBoard<br>- - GBoard<br>- -> GoogleCalendar<br>- - GoogleCalendar<br>-
-          -> GoogleKeep<br>- - GoogleKeep<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
-          -> GoogleFiles<br>- - GoogleFiles<br>- - StorageManager<br>- - DocumentsUIGoogle<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleSearch<br>- - Velvet<br>-
-          - Assistant<br>- -> GoogleSounds<br>- - GoogleSounds<br>- -> GoogleChrome<br>-
-          - GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>- -> Gmail<br>-
-          - Gmail<br>- -> GooglePartnerSetup<br>- - GooglePartnerSetup<br>- -> GooglePersonalSafety<br>-
-          - GooglePersonalSafety
-      title: 20250131 (CanerKaraca.config)
   id: CanerKaraca23_Android15
   title: Android 15
 - content:
