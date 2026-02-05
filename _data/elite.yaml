@@ -312,6 +312,22 @@
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-16/05-Feb-2026/NikGapps-redbull-lite-arm64-16-20260205-signed.zip/download">NikGapps-redbull-lite-arm64-16-20260205-signed.zip
+          (342.64 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> CarrierServices<br>-
+          - CarrierServices<br>- -> SetupWizard<br>- - SetupWizard<br>- - GoogleRestore<br>-
+          - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>- - GoogleCalculator<br>-
+          -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>- -> GooglePhotos<br>-
+          - GooglePhotos<br>- -> DeviceHealthServices<br>- - DeviceHealthServices<br>-
+          -> GBoard<br>- - GBoard<br>- -> PixelSpecifics<br>- - DevicePersonalizationServices<br>-
+          - QuickAccessWallet<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup
+      title: 20260205 (redbull-lite.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-16/05-Feb-2026/NikGapps-redbull-full-arm64-16-20260205-signed.zip/download">NikGapps-redbull-full-arm64-16-20260205-signed.zip
           (601.99 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -386,28 +402,6 @@
           -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
           -> GoogleSounds<br>- - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup
       title: 20260202 (redbull-lite.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-16/02-Feb-2026/NikGapps-redbull-full-arm64-16-20260202-signed.zip/download">NikGapps-redbull-full-arm64-16-20260202-signed.zip
-          (602.04 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> GoogleMessages<br>-
-          - GoogleMessages<br>- -> GoogleDialer<br>- - GoogleDialer<br>- -> GoogleContacts<br>-
-          - GoogleContacts<br>- -> CarrierServices<br>- - CarrierServices<br>- ->
-          GoogleClock<br>- - GoogleClock<br>- -> SetupWizard<br>- - SetupWizard<br>-
-          - GoogleRestore<br>- - GoogleOneTimeInitializer<br>- -> GoogleCalculator<br>-
-          - GoogleCalculator<br>- -> GoogleLocationHistory<br>- - GoogleLocationHistory<br>-
-          -> GooglePhotos<br>- - GooglePhotos<br>- -> DeviceHealthServices<br>- -
-          DeviceHealthServices<br>- -> GBoard<br>- - GBoard<br>- -> PixelSpecifics<br>-
-          - DevicePersonalizationServices<br>- - QuickAccessWallet<br>- - SettingsServices<br>-
-          - PrivateComputeServices<br>- - PixelThemes<br>- - EmojiWallpaper<br>- ->
-          PlayGames<br>- - PlayGames<br>- -> GoogleRecorder<br>- - GoogleRecorder<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
-          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
-          - GoogleSounds<br>- -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>-
-          - AndroidAuto
-      title: 20260202 (redbull-full.config)
   id: 306bobby-android_Android16
   title: Android 16
 Bartixxx32:
