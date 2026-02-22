@@ -3390,6 +3390,21 @@ crdroid-official:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-16/22-Feb-2026/NikGapps-crdroid-official-arm64-16-20260222-signed.zip/download">NikGapps-crdroid-official-arm64-16-20260222-signed.zip
+          (449.4 MB)</a>
+      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
+          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
+          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
+          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
+          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
+          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
+          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
+          -> GoogleSearch<br>- - Velvet<br>- - Gemini<br>- -> GoogleSounds<br>- -
+          GoogleSounds<br>- -> GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
+          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
+      title: 20260222 (crdroid-official.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-16/05-Feb-2026/NikGapps-crdroid-official-arm64-16-20260205-signed.zip/download">NikGapps-crdroid-official-arm64-16-20260205-signed.zip
           (448.39 MB)</a>
       - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
@@ -3448,21 +3463,6 @@ crdroid-official:
           - GoogleSounds<br>- -> GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
           -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
       title: 20251128 (crdroid-official.config)
-  - question:
-    - content:
-      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-16/16-Jul-2025/NikGapps-crdroid-official-arm64-16-20250716-signed.zip/download">NikGapps-crdroid-official-arm64-16-20250716-signed.zip
-          (447.05 MB)</a>
-      - ans: What's included?<br>- -> Core<br>- - ExtraFiles<br>- - GooglePlayStore<br>-
-          - GoogleServicesFramework<br>- - GoogleContactsSyncAdapter<br>- - GoogleCalendarSyncAdapter<br>-
-          - GmsCore<br>- -> DigitalWellbeing<br>- - DigitalWellbeing<br>- -> SetupWizard<br>-
-          - SetupWizard<br>- - GoogleRestore<br>- - GoogleOneTimeInitializer<br>-
-          -> DeviceHealthServices<br>- - DeviceHealthServices<br>- -> PixelSpecifics<br>-
-          - DevicePersonalizationServices<br>- - SettingsServices<br>- - PrivateComputeServices<br>-
-          -> MarkupGoogle<br>- - MarkupGoogle<br>- -> GoogleTTS<br>- - GoogleTTS<br>-
-          -> GoogleSearch<br>- - Velvet<br>- - Assistant<br>- -> GoogleSounds<br>-
-          - GoogleSounds<br>- -> GoogleChrome<br>- - WebViewGoogle<br>- - TrichromeLibrary<br>-
-          -> DeviceSetup<br>- - DeviceSetup<br>- -> AndroidAuto<br>- - AndroidAuto
-      title: 20250716 (crdroid-official.config)
   id: crdroid-official_Android16
   title: Android 16
 - content:
