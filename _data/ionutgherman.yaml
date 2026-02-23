@@ -86,6 +86,17 @@ ionutgherman:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-15/23-Feb-2026/Addons/NikGapps-pixellauncher-addon-arm64-15-20260223-signed.zip/download">NikGapps-pixellauncher-addon-arm64-15-20260223-signed.zip
+          (62.66 MB)</a>
+      - ans: What's included?<br><span class="appset">PixelSpecifics</span><br><span
+          class="package">PixelLauncher</span><br><span class="package">DevicePersonalizationServices</span><br><span
+          class="package">GoogleWallpaper</span><br><span class="package">SettingsServices</span><br><span
+          class="package">PrivateComputeServices</span><br><span class="package">PixelThemes</span><br><span
+          class="package">EmojiWallpaper</span><br><span class="package">PixelWeather</span><br><span
+          class="package">AICore</span>
+      title: 20260223 (pixellauncher-addon.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-15/23-Feb-2026/NikGapps-basic-pixels-arm64-15-20260223-signed.zip/download">NikGapps-basic-pixels-arm64-15-20260223-signed.zip
           (451.85 MB)</a>
       - ans: What's included?<br><span class="appset">Core</span><br><span class="package">ExtraFiles</span><br><span
