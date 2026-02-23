@@ -2,6 +2,27 @@ Pfuenzle:
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/Android-14/23-Feb-2026/NikGapps-pfuenzle-arm64-14-20260223-signed.zip/download">NikGapps-pfuenzle-arm64-14-20260223-signed.zip
+          (272.47 MB)</a>
+      - ans: What's included?<br><span class="appset">Drive</span><br><span class="package">Drive</span><br><span
+          class="appset">GoogleMaps</span><br><span class="package">GoogleMaps</span><br><span
+          class="appset">GoogleLocationHistory</span><br><span class="package">GoogleLocationHistory</span><br><span
+          class="appset">DeviceHealthServices</span><br><span class="package">DeviceHealthServices</span><br><span
+          class="appset">PlayGames</span><br><span class="package">PlayGames</span><br><span
+          class="appset">MarkupGoogle</span><br><span class="package">MarkupGoogle</span><br><span
+          class="appset">GoogleTTS</span><br><span class="package">GoogleTTS</span><br><span
+          class="appset">GoogleSounds</span><br><span class="package">GoogleSounds</span><br><span
+          class="appset">Gmail</span><br><span class="package">Gmail</span><br><span
+          class="appset">AndroidDevicePolicy</span><br><span class="package">AndroidDevicePolicy</span><br><span
+          class="appset">Meet</span><br><span class="package">Meet</span><br><span
+          class="appset">GoogleDocs</span><br><span class="package">GoogleDocs</span><br><span
+          class="appset">GoogleSheets</span><br><span class="package">GoogleSheets</span><br><span
+          class="appset">GoogleSlides</span><br><span class="package">GoogleSlides</span><br><span
+          class="appset">Books</span><br><span class="package">Books</span><br><span
+          class="appset">GoogleTalkback</span><br><span class="package">GoogleTalkback</span>
+      title: 20260223 (pfuenzle.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/pfuenzle/Android-14/23-Feb-2026/NikGapps-pfuenzle-full-arm64-14-20260223-signed.zip/download">NikGapps-pfuenzle-full-arm64-14-20260223-signed.zip
           (838.71 MB)</a>
       - ans: What's included?<br><span class="appset">Core</span><br><span class="package">ExtraFiles</span><br><span
