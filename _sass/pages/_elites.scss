@@ -28,6 +28,14 @@
     background-color: #0056b3; /* Darker shade for hover - Adjust if needed */
 }
 
+.appset {
+  font-weight: bold;
+}
+
+.package {
+  margin-left: 20px;
+}
+
 /* Mobile styles */
 @media (max-width: 768px) { /* Adjust the breakpoint as needed */
     .elite-grid {
