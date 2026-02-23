@@ -1,0 +1,28 @@
+crdroid-official:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-16/23-Feb-2026/NikGapps-crdroid-official-arm64-16-20260223-signed.zip/download">NikGapps-crdroid-official-arm64-16-20260223-signed.zip
+          (449.4 MB)</a>
+      - ans: What's included?<br><span class="appset">Core</span><br><span class="package">ExtraFiles</span><br><span
+          class="package">GooglePlayStore</span><br><span class="package">GoogleServicesFramework</span><br><span
+          class="package">GoogleContactsSyncAdapter</span><br><span class="package">GoogleCalendarSyncAdapter</span><br><span
+          class="package">GmsCore</span><br><span class="appset">DigitalWellbeing</span><br><span
+          class="package">DigitalWellbeing</span><br><span class="appset">SetupWizard</span><br><span
+          class="package">SetupWizard</span><br><span class="package">GoogleRestore</span><br><span
+          class="package">GoogleOneTimeInitializer</span><br><span class="appset">DeviceHealthServices</span><br><span
+          class="package">DeviceHealthServices</span><br><span class="appset">PixelSpecifics</span><br><span
+          class="package">DevicePersonalizationServices</span><br><span class="package">SettingsServices</span><br><span
+          class="package">PrivateComputeServices</span><br><span class="appset">MarkupGoogle</span><br><span
+          class="package">MarkupGoogle</span><br><span class="appset">GoogleTTS</span><br><span
+          class="package">GoogleTTS</span><br><span class="appset">GoogleSearch</span><br><span
+          class="package">Velvet</span><br><span class="package">Gemini</span><br><span
+          class="appset">GoogleSounds</span><br><span class="package">GoogleSounds</span><br><span
+          class="appset">GoogleChrome</span><br><span class="package">WebViewGoogle</span><br><span
+          class="package">TrichromeLibrary</span><br><span class="appset">DeviceSetup</span><br><span
+          class="package">DeviceSetup</span><br><span class="appset">AndroidAuto</span><br><span
+          class="package">AndroidAuto</span>
+      title: 20260223 (crdroid-official.config)
+  id: crdroid-official_Android16
+  title: Android 16
+  version: 16
