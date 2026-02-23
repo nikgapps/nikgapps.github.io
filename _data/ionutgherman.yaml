@@ -1,0 +1,31 @@
+ionutgherman:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/ionut/Android-16/23-Feb-2026/NikGapps-basic-pixels-arm64-16-20260223-signed.zip/download">NikGapps-basic-pixels-arm64-16-20260223-signed.zip
+          (465.52 MB)</a>
+      - ans: What's included?<br><span class="appset">Core</span><br><span class="package">ExtraFiles</span><br><span
+          class="package">GooglePlayStore</span><br><span class="package">GoogleServicesFramework</span><br><span
+          class="package">GoogleContactsSyncAdapter</span><br><span class="package">GoogleCalendarSyncAdapter</span><br><span
+          class="package">GmsCore</span><br><span class="appset">DigitalWellbeing</span><br><span
+          class="package">DigitalWellbeing</span><br><span class="appset">GoogleLocationHistory</span><br><span
+          class="package">GoogleLocationHistory</span><br><span class="appset">GBoard</span><br><span
+          class="package">GBoard</span><br><span class="appset">PixelSpecifics</span><br><span
+          class="package">DevicePersonalizationServices</span><br><span class="package">SettingsServices</span><br><span
+          class="package">PrivateComputeServices</span><br><span class="package">EmojiWallpaper</span><br><span
+          class="package">PixelWeather</span><br><span class="package">AICore</span><br><span
+          class="appset">MarkupGoogle</span><br><span class="package">MarkupGoogle</span><br><span
+          class="appset">GoogleTTS</span><br><span class="package">GoogleTTS</span><br><span
+          class="appset">GoogleSearch</span><br><span class="package">Velvet</span><br><span
+          class="appset">AndroidAuto</span><br><span class="package">AndroidAuto</span><br><span
+          class="appset">GoogleFeedback</span><br><span class="package">GoogleFeedback</span><br><span
+          class="appset">GooglePartnerSetup</span><br><span class="package">GooglePartnerSetup</span><br><span
+          class="appset">PixelSetupWizard</span><br><span class="package">SetupWizardPixel</span><br><span
+          class="package">GoogleRestorePixel</span><br><span class="package">PixelSetupWizard</span><br><span
+          class="package">GoogleOneTimeInitializerPixel</span><br><span class="appset">GoogleTalkback</span><br><span
+          class="package">GoogleTalkback</span><br><span class="appset">GooglePersonalSafety</span><br><span
+          class="package">GooglePersonalSafety</span>
+      title: 20260223 (basic-pixels.config)
+  id: ionutgherman_Android16
+  title: Android 16
+  version: 16
