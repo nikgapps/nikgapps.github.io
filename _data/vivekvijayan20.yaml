@@ -77,3 +77,44 @@ vivekvijayan20:
   id: vivekvijayan20_Android15
   title: Android 15
   version: 15
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Sinister/Android-14/23-Feb-2026/NikGapps-SinisterGapps-arm64-14-20260223-signed.zip/download">NikGapps-SinisterGapps-arm64-14-20260223-signed.zip
+          (438.05 MB)</a>
+      - ans: What's included?<br><span class="appset">Core</span><br><span class="package">ExtraFiles</span><br><span
+          class="package">GooglePlayStore</span><br><span class="package">GoogleServicesFramework</span><br><span
+          class="package">GoogleContactsSyncAdapter</span><br><span class="package">GoogleCalendarSyncAdapter</span><br><span
+          class="package">GmsCore</span><br><span class="appset">DigitalWellbeing</span><br><span
+          class="package">DigitalWellbeing</span><br><span class="appset">GoogleMessages</span><br><span
+          class="package">GoogleMessages</span><br><span class="appset">GoogleDialer</span><br><span
+          class="package">GoogleDialer</span><br><span class="appset">GoogleContacts</span><br><span
+          class="package">GoogleContacts</span><br><span class="appset">CarrierServices</span><br><span
+          class="package">CarrierServices</span><br><span class="appset">GoogleClock</span><br><span
+          class="package">GoogleClock</span><br><span class="appset">SetupWizard</span><br><span
+          class="package">SetupWizard</span><br><span class="package">GoogleRestore</span><br><span
+          class="package">GoogleOneTimeInitializer</span><br><span class="appset">GoogleCalculator</span><br><span
+          class="package">GoogleCalculator</span><br><span class="appset">GoogleLocationHistory</span><br><span
+          class="package">GoogleLocationHistory</span><br><span class="appset">DeviceHealthServices</span><br><span
+          class="package">DeviceHealthServices</span><br><span class="appset">GoogleCalendar</span><br><span
+          class="package">GoogleCalendar</span><br><span class="appset">PixelSpecifics</span><br><span
+          class="package">DevicePersonalizationServices</span><br><span class="package">QuickAccessWallet</span><br><span
+          class="package">SettingsServices</span><br><span class="package">PrivateComputeServices</span><br><span
+          class="package">PixelWeather</span><br><span class="appset">GoogleRecorder</span><br><span
+          class="package">GoogleRecorder</span><br><span class="appset">GoogleFiles</span><br><span
+          class="package">GoogleFiles</span><br><span class="package">StorageManager</span><br><span
+          class="package">DocumentsUIGoogle</span><br><span class="appset">MarkupGoogle</span><br><span
+          class="package">MarkupGoogle</span><br><span class="appset">GoogleTTS</span><br><span
+          class="package">GoogleTTS</span><br><span class="appset">GoogleSearch</span><br><span
+          class="package">Velvet</span><br><span class="appset">GoogleSounds</span><br><span
+          class="package">GoogleSounds</span><br><span class="appset">Gmail</span><br><span
+          class="package">Gmail</span><br><span class="appset">DeviceSetup</span><br><span
+          class="package">DeviceSetup</span><br><span class="appset">AndroidAuto</span><br><span
+          class="package">AndroidAuto</span><br><span class="appset">GoogleFeedback</span><br><span
+          class="package">GoogleFeedback</span><br><span class="appset">GooglePartnerSetup</span><br><span
+          class="package">GooglePartnerSetup</span><br><span class="appset">AndroidDevicePolicy</span><br><span
+          class="package">AndroidDevicePolicy</span>
+      title: 20260223 (SinisterGapps.config)
+  id: vivekvijayan20_Android14
+  title: Android 14
+  version: 14
