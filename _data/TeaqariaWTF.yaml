@@ -53,3 +53,25 @@ TeaqariaWTF:
   id: TeaqariaWTF_Android15
   title: Android 15
   version: 15
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/Mergen/Android-14/23-Feb-2026/NikGapps-Mergen-arm64-14-20260223-signed.zip/download">NikGapps-Mergen-arm64-14-20260223-signed.zip
+          (255.5 MB)</a>
+      - ans: What's included?<br><span class="appset">Core</span><br><span class="package">ExtraFiles</span><br><span
+          class="package">GooglePlayStore</span><br><span class="package">GoogleServicesFramework</span><br><span
+          class="package">GoogleContactsSyncAdapter</span><br><span class="package">GoogleCalendarSyncAdapter</span><br><span
+          class="package">GmsCore</span><br><span class="appset">GoogleMessages</span><br><span
+          class="package">GoogleMessages</span><br><span class="appset">GoogleDialer</span><br><span
+          class="package">GoogleDialer</span><br><span class="appset">GoogleContacts</span><br><span
+          class="package">GoogleContacts</span><br><span class="appset">CarrierServices</span><br><span
+          class="package">CarrierServices</span><br><span class="appset">GoogleClock</span><br><span
+          class="package">GoogleClock</span><br><span class="appset">GoogleCalculator</span><br><span
+          class="package">GoogleCalculator</span><br><span class="appset">GBoard</span><br><span
+          class="package">GBoard</span><br><span class="appset">GoogleCalendar</span><br><span
+          class="package">GoogleCalendar</span><br><span class="appset">MarkupGoogle</span><br><span
+          class="package">MarkupGoogle</span>
+      title: 20260223 (Mergen.config)
+  id: TeaqariaWTF_Android14
+  title: Android 14
+  version: 14
