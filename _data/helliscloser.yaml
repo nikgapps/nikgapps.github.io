@@ -1,0 +1,34 @@
+helliscloser:
+- content:
+  - question:
+    - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/alphadroid_davinci/Android-14/23-Feb-2026/NikGapps-alphadroid-arm64-14-20260223-signed.zip/download">NikGapps-alphadroid-arm64-14-20260223-signed.zip
+          (451.33 MB)</a>
+      - ans: What's included?<br><span class="appset">Core</span><br><span class="package">ExtraFiles</span><br><span
+          class="package">GooglePlayStore</span><br><span class="package">GoogleServicesFramework</span><br><span
+          class="package">GoogleContactsSyncAdapter</span><br><span class="package">GoogleCalendarSyncAdapter</span><br><span
+          class="package">GmsCore</span><br><span class="appset">GoogleMessages</span><br><span
+          class="package">GoogleMessages</span><br><span class="appset">GoogleContacts</span><br><span
+          class="package">GoogleContacts</span><br><span class="appset">CarrierServices</span><br><span
+          class="package">CarrierServices</span><br><span class="appset">GoogleClock</span><br><span
+          class="package">GoogleClock</span><br><span class="appset">SetupWizard</span><br><span
+          class="package">SetupWizard</span><br><span class="package">GoogleRestore</span><br><span
+          class="package">GoogleOneTimeInitializer</span><br><span class="appset">GoogleCalculator</span><br><span
+          class="package">GoogleCalculator</span><br><span class="appset">GoogleMaps</span><br><span
+          class="package">GoogleMaps</span><br><span class="appset">GoogleLocationHistory</span><br><span
+          class="package">GoogleLocationHistory</span><br><span class="appset">GooglePhotos</span><br><span
+          class="package">GooglePhotos</span><br><span class="appset">GBoard</span><br><span
+          class="package">GBoard</span><br><span class="appset">GoogleCalendar</span><br><span
+          class="package">GoogleCalendar</span><br><span class="appset">GoogleRecorder</span><br><span
+          class="package">GoogleRecorder</span><br><span class="appset">GoogleFiles</span><br><span
+          class="package">GoogleFiles</span><br><span class="package">StorageManager</span><br><span
+          class="package">DocumentsUIGoogle</span><br><span class="appset">MarkupGoogle</span><br><span
+          class="package">MarkupGoogle</span><br><span class="appset">GoogleSearch</span><br><span
+          class="package">Velvet</span><br><span class="appset">GoogleSounds</span><br><span
+          class="package">GoogleSounds</span><br><span class="appset">DeviceSetup</span><br><span
+          class="package">DeviceSetup</span><br><span class="appset">AndroidAuto</span><br><span
+          class="package">AndroidAuto</span>
+      title: 20260223 (alphadroid.config)
+  id: helliscloser_Android14
+  title: Android 14
+  version: 14
