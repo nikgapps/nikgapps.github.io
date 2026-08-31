@@ -2,6 +2,22 @@
 - content:
   - question:
     - content:
+      - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-16/31-Aug-2026/NikGapps-the306bobby-minimal-arm64-16-20260831-signed.zip/download">NikGapps-the306bobby-minimal-arm64-16-20260831-signed.zip
+          (157.58 MB)</a>
+      - ans: What's included?<br><span class="appset">Core</span><br><span class="package">ExtraFiles</span><br><span
+          class="package">GooglePlayStore</span><br><span class="package">GoogleServicesFramework</span><br><span
+          class="package">GmsCore</span><br><span class="appset">CarrierServices</span><br><span
+          class="package">CarrierServices</span><br><span class="appset">AndroidAuto</span><br><span
+          class="package">AndroidAuto</span><br><span class="appset">GoogleGo</span><br><span
+          class="package">GoogleGo</span><br><span class="appset">AssistantGo</span><br><span
+          class="package">AssistantGo</span><br><span class="appset">MapsGo</span><br><span
+          class="package">MapsGo</span><br><span class="appset">NavigationGo</span><br><span
+          class="package">NavigationGo</span><br><span class="appset">GalleryGo</span><br><span
+          class="package">GalleryGo</span><br><span class="appset">GmailGo</span><br><span
+          class="package">GmailGo</span>
+      title: 20260831 (the306bobby-minimal.config)
+  - question:
+    - content:
       - ans: Download <a style="color:blue" target="_blank" href="https://sourceforge.net/projects/nikgapps/files/Elite-Releases/306bobby/Android-16/31-Aug-2026/NikGapps-the306bobby-lite-arm64-16-20260831-signed.zip/download">NikGapps-the306bobby-lite-arm64-16-20260831-signed.zip
           (342.6 MB)</a>
       - ans: What's included?<br><span class="appset">Core</span><br><span class="package">ExtraFiles</span><br><span
