@@ -1,6 +1,13 @@
-- date: 22nd Feb 2026 (16)
+- date: 10th Nov 2026 (Android 17)
+  changes:
+      - item: Initial Android 17 Release
+      - item: Remove ExtraFiles and ExtraFilesGo from the builds (they are now part of the gmscore package)
+      - item: Remove GoogleCalendarSyncAdapter and GoogleContactsSyncAdapter as they are not needed
+      - item: Update nikgapps.config version to v42 (Android 17)
+- date: 22nd Feb 2026 (Android 16)
   changes:
       - item: Add support for Google Gemini (replacing Assistant under GoogleSearch) (Android 16)
+      - item: Update nikgapps.config version to v38 (Android 16)
 - date: 4th Feb 2026 (Android 10-16)
   changes:
       - item: Fixed the issue that caused some roms a forced reboot
@@ -453,7 +460,7 @@
       - item: Playstore Updates (31st Dec)
 - date: 12th Dec 2020 (Android R and Q Release)
   changes:
-      - item: Install gapps to /system partition in devices with dynamic partitions (should fix no space issue for several users) 
+      - item: Install gapps to /system partition in devices with dynamic partitions (should fix no space issue for several users)
       - item: Introduced more addon.sh.d configs to control addon.sh.d execution (read more in nikgapps.config file from the zip)
       - item: Fixed duplicate values coming in nikgapps.config causing issues
       - item: Ship working versions of Google Maps, Drive, Google Recorder
@@ -515,7 +522,7 @@
 - date: 26th Sept 2020 (Android R Release only)
   changes:
       - item: Fix 4G/LTE not working due to APN resetting
-      - item: Fixed an issue where Google Lens was not opening in Google Photos 
+      - item: Fixed an issue where Google Lens was not opening in Google Photos
       - item: Fixed Chrome sync issue out of the box (without contacts permissions)
       - item: Remove RevengeOS Messages and Calculator with Google Messages and Google Calculator installation respectively
       - item: Playstore Updates (25th Sept)
@@ -538,7 +545,7 @@
 - date: 14th Sept 2020 (Android R Release only)
   changes:
       - item: Fixed PixelSetupWizard (Test Google Restore and let me know how it works out for you)
-      - item: Move Pixel Setup Wizard overlays to /system/overlay 
+      - item: Move Pixel Setup Wizard overlays to /system/overlay
       - item: Improve the installer.sh script (in support for android 11)
 - date: 12th Sept 2020 (Android R Release only)
   changes:
@@ -597,7 +604,7 @@
       - item: Added Android Device Policy to support Work Profile (Starting Stock Package)
       - item: Moved Lawnchair to priv-app as it is reported to work better being privileged app
       - item: Debugging logs will now be better at reading (nikgapps.log)
-      - item: Playstore Updates (24th June) 
+      - item: Playstore Updates (24th June)
 - date: 07 June 2020
   changes:
       - item: Added a config 'InstallPartition' to choose between 'system' and 'product' while installing
@@ -606,18 +613,18 @@
       - item: Fixed crash with PixelWallpapers Addon (Need to be flashed over NikGapps package)
       - item: Support to Flash over Rom with Existing Gapps
       - item: Everything from Experimental Build (check older changelog)
-      - item: Playstore Updates (07th June) 
+      - item: Playstore Updates (07th June)
 - date: 10 May 2020 (Experimental)
   changes:
       - item: Fixed Dialer not supported message in Google Dialer
       - item: Fixed Crashes with Device Personalization Services
       - item: Fixed Device Health Services crash
       - item: Updated nikgapps.config (finally, I know :P)
-      - item: Separated LawnchairRecentsProvider from Lawnchair (use nikgapps.config to include) 
+      - item: Separated LawnchairRecentsProvider from Lawnchair (use nikgapps.config to include)
       - item: Fixed EOL issue with nikgapps.config
       - item: Added ActionServicesOverlay, WellbeingOverlay, Google Dialer Overlays
-      - item: More stuff that I forgot 
-      - item: Playstore Updates (10th May) 
+      - item: More stuff that I forgot
+      - item: Playstore Updates (10th May)
 - date: 27 April 2020
   changes:
       - item: Introducing NikGapps Go! A lite version of gapps
@@ -625,8 +632,8 @@
       - item: Fixed Bad/Rom Recovery issue reported for some devices
       - item: Added Lawnchair recents provider
       - item: Made Lawnchair a system app
-      - item: Addons are updated! 
-      - item: Playstore Updates (27th April) 
+      - item: Addons are updated!
+      - item: Playstore Updates (27th April)
 - date: 09 March 2020
   changes:
       - item: Included everything from the last experimental build.
@@ -664,7 +671,7 @@
 - date: 17 Dec 2019
   changes:
       - item: Back to Latest Lawnchair alpha version for Q releases
-      - item: Enable Google Apps Updates from PlayStore (for apps such as Digital Wellbeing, Google Sound Recorder) 
+      - item: Enable Google Apps Updates from PlayStore (for apps such as Digital Wellbeing, Google Sound Recorder)
       - item: Add support for Next Generation Assistant
       - item: Add Pixel Live Wallpapers (So Amazing! Must Check out!) addon.sh
       - item: Removed Pixel Live Wallpaper from Full package since there is a addon.sh package available now
@@ -674,7 +681,7 @@
       - item: Latest version of Google apps (17th Dec)
 - date: 03 Dec 2019
   changes:
-      - item: Removed Debloating from gapps installation to avoid unnecessary bootloops (Flash latest Debloater.zip if you want to debloat anything) 
+      - item: Removed Debloating from gapps installation to avoid unnecessary bootloops (Flash latest Debloater.zip if you want to debloat anything)
       - item: Fixed issues with payzapp installation
       - item: Added Lawnchair 2 (stable)
       - item: Added shared maps library support in favor of apps depending on maps library
@@ -689,7 +696,7 @@
       - item: Fixed - 'Busybox installation Failed'
       - item: Bootloop with various Roms should be fixed now
       - item: Fixed a bug in addon.sh.d script where dirty flashing did not delete the necessary files
-      - item: GMS Optimization is back! disable 'Find my device' option from settings 
+      - item: GMS Optimization is back! disable 'Find my device' option from settings
       - item: Lawnchair and Lawnfeed added (starting stock package)
       - item: More improvements to Addon.d
       - item: More Addons (Google Recorder, Lawnchair)
@@ -740,28 +747,28 @@
       - item: Updated all the Addon apps to latest version
       - item: Added MixPlorer and Google Play Music Addon
       - item: Introducing NikGapps Go Addon (Lite package including Go apps)
-      - item: Fixed FCs with CrDroid Rom 
-      - item: Latest Google Apps (17th Aug) 
+      - item: Fixed FCs with CrDroid Rom
+      - item: Latest Google Apps (17th Aug)
 - date: 04 Aug 2019
   changes:
       - item: A lot of Addons added
-      - item: Script changes to keep aosp dialer as it is for those who prefer call recording. (added a separate zip to delete aosp dialer, can be found in Addon Packages) 
+      - item: Script changes to keep aosp dialer as it is for those who prefer call recording. (added a separate zip to delete aosp dialer, can be found in Addon Packages)
       - item: Updated lawnchair to latest version
       - item: Added Google Markup in Omni Package
-      - item: Latest Google Apps (4th Aug) 
+      - item: Latest Google Apps (4th Aug)
 - date: 22 Jul 2019
   changes:
       - item: Removed Chrome from stock
       - item: Removed web view stub
-      - item: Removed Dialer app by default in stock (no more duplicates now) 
+      - item: Removed Dialer app by default in stock (no more duplicates now)
       - item: Introduced 4 new packages "core", "omni", "full", "aroma"
-      - item: Updated Google Apps (22nd July) 
+      - item: Updated Google Apps (22nd July)
 - date: 11 Jul 2019
   changes:
-      - item: Added Lawnchair 
-      - item: Added Google Drive 
+      - item: Added Lawnchair
+      - item: Added Google Drive
       - item: Added Google Maps
-      - item: Removed duplicate apps (except Dialer app) 
+      - item: Removed duplicate apps (except Dialer app)
       - item: Removed Google Assistant
       - item: Removed Google Chrome Beta
       - item: Removed Aosp keyboard
