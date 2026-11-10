@@ -1,0 +1,32 @@
+.release-downloads { margin: 1rem 0 2.5rem; color: #243746; }
+.release-downloads__heading { display: flex; align-items: start; justify-content: space-between; gap: 1rem; margin-bottom: 1.5rem; }
+.release-downloads h2 { font-size: 1.6rem; font-weight: 600; margin: 0 0 .5rem; }
+.release-downloads__heading p { margin: 0; line-height: 1.6; color: #526575; }
+.release-downloads button, .release-downloads select, .release-downloads input { font: inherit; }
+.release-downloads button { cursor: pointer; }
+.release-downloads__refresh, .release-downloads__older { background: #fff; color: var(--clr-primary, #34495e); border: 1px solid #bac8d3; border-radius: 5px; padding: .6rem 1rem; min-height: 44px; }
+.release-downloads__controls { display: grid; grid-template-columns: 1fr 1fr 1.6fr; gap: 1rem; }
+.release-downloads__controls label { display: flex; flex-direction: column; gap: .45rem; font-size: .9rem; font-weight: 600; }
+.release-downloads select, .release-downloads input { box-sizing: border-box; width: 100%; min-width: 0; background: white; color: inherit; border: 1px solid #bac8d3; border-radius: 5px; padding: .7rem; min-height: 44px; }
+.release-downloads :focus-visible { outline: 3px solid #247b9b; outline-offset: 3px; }
+.release-downloads__meta { font-size: .9rem; color: #526575; min-height: 1.4rem; margin: 1rem 0; }
+.release-downloads__filters { display: flex; flex-wrap: wrap; gap: .5rem; }
+.release-downloads__filters button { background: #fff; color: var(--clr-primary, #34495e); border: 1px solid #bac8d3; border-radius: 5px; padding: .6rem 1rem; min-height: 44px; }
+.release-downloads__filters button[aria-pressed="true"] { color: white; background: var(--clr-primary, #34495e); border-color: var(--clr-primary, #34495e); }
+.release-downloads__status { margin: 1rem 0; min-height: 1.5rem; color: #526575; font-size: .95rem; }
+.release-downloads__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.release-downloads__card { box-sizing: border-box; min-width: 0; background: white; border: 1px solid #d8e1e8; box-shadow: 0 3px 12px #24374608; border-radius: 7px; padding: 1.25rem; }
+.release-downloads__card h3 { margin: 0 0 .5rem; font-size: 1.15rem; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+.release-downloads__size { font-size: .9rem; color: #526575; margin: 0 0 1rem; }
+.release-downloads__download { display: block; border-radius: 5px; padding: .65rem 1rem; text-align: center; text-decoration: none; color: white; background: var(--clr-primary, #34495e); min-height: 44px; box-sizing: border-box; }
+.release-downloads__download:hover { color: white; background: #202d3a; }
+.release-downloads__card details { margin-top: 1rem; font-size: .85rem; color: #526575; }
+.release-downloads__card summary { cursor: pointer; min-height: 24px; }
+.release-downloads__card code { display: block; overflow-wrap: anywhere; font-size: .75rem; line-height: 1.6; margin-top: .4rem; }
+.release-downloads__card ul { margin: .5rem 0 0; padding-left: 1.1rem; line-height: 1.7; }
+.release-downloads__older { margin-top: 1rem; }
+.release-downloads__guide { margin: 2rem 0; }
+.release-downloads__guide > summary { padding: .8rem 0; cursor: pointer; color: #526575; }
+.release-downloads [hidden] { display: none !important; }
+@media (max-width: 850px) { .release-downloads__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .release-downloads__controls { grid-template-columns: 1fr 1fr; } .release-downloads__search { grid-column: 1 / -1; } }
+@media (max-width: 520px) { .release-downloads__grid { grid-template-columns: minmax(0, 1fr); } .release-downloads__heading { align-items: center; } .release-downloads h2 { font-size: 1.4rem; } .release-downloads__controls { gap: .75rem; } .release-downloads__filters { gap: .4rem; } .release-downloads__filters button { padding: .55rem .8rem; } }

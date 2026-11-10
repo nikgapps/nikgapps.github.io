@@ -9,6 +9,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css"/> -->
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/membercard.css" | relative_url }}">
+    {% if page.release_downloads %}<link rel="stylesheet" href="{{ '/assets/css/releases.css' | relative_url }}">{% endif %}
 </head>
 
 <body class="page {% if page.bClass %}
@@ -33,6 +34,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/components/accordion.min.js"></script>
     <script src="{{ "/assets/js/app.js" | relative_url }}"></script>
+    {% if page.release_downloads %}<script type="module" src="{{ '/assets/js/releases.mjs' | relative_url }}"></script>{% endif %}
     <script>
         $('.ui.dropdown').dropdown();
     </script>

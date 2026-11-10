@@ -4,9 +4,32 @@ permalink: /downloads
 headline: Downloads
 title: Downloads - NikGapps
 bClass: downloads
+release_downloads: true
 ---
 
 <div class="downloads__wrapper">
+    <section class="release-downloads" data-release-downloads aria-labelledby="release-downloads-title" aria-busy="true">
+        <div class="release-downloads__heading">
+            <div><h2 id="release-downloads-title">Download a release</h2><p>Choose your Android version to find packages, addons and tools.</p></div>
+            <button type="button" class="release-downloads__refresh" data-refresh>Refresh</button>
+        </div>
+        <div class="release-downloads__controls">
+            <label>Android version<select data-android disabled aria-label="Android version"><option>Loading…</option></select></label>
+            <label>Release<select data-release disabled aria-label="Release"><option>Loading…</option></select></label>
+            <label class="release-downloads__search">Find a download<input type="search" data-search placeholder="Search packages and addons" aria-label="Find a download"></label>
+        </div>
+        <p class="release-downloads__meta" data-release-meta></p>
+        <div class="release-downloads__filters" aria-label="Download type">
+            <button type="button" data-kind="preset" aria-pressed="true">Packages</button>
+            <button type="button" data-kind="addon" aria-pressed="false">Addons</button>
+            <button type="button" data-kind="other" aria-pressed="false">Tools &amp; config</button>
+        </div>
+        <p class="release-downloads__status" data-status role="status" aria-live="polite">Loading release downloads…</p>
+        <div class="release-downloads__grid" data-files></div>
+        <button type="button" class="release-downloads__older" data-older hidden>Show older releases</button>
+        <noscript><p>Enable JavaScript for direct release downloads, or browse the files on SourceForge below.</p></noscript>
+    </section>
+    <details class="release-downloads__guide"><summary>Package guide for Android 10–16</summary>
     <div class="downloads__inner">
         <div class="downloads">
             <div class="tab__item">
@@ -37,9 +60,10 @@ bClass: downloads
             </div>
         </div>
     </div>
+    </details>
     <div id="downloads">
         <a href="https://sourceforge.net/projects/nikgapps/files/" class="download__btn"><i class="fa fa-download"></i>
-            Download Now</a>
+            Browse all files on SourceForge</a>
     </div>
 
 
