@@ -1,107 +1,82 @@
 ---
 layout: default
 title: NikGapps - Custom Google Apps Package!
+homepage: true
 ---
 
-<section class="hero">
+<section class="hero homepage__hero" aria-labelledby="home-title">
     <div class="hero__inner container">
-        <!-- <div class="hero__art">
-            <img src="./images/nikgapps-logo.webp" alt="NikGapps Logo">
-        </div> -->
         <div class="hero__content">
             <div class="hero__art">
-                <img src="./images/nikgapps-logo.webp" alt="NikGapps Logo">
+                <img src="{{ '/images/nikgapps-logo.webp' | relative_url }}" alt="NikGapps Logo">
             </div>
+            <h1 id="home-title" class="headline">Google apps, your way.</h1>
             <p class="intro">
-                A Custom Google Apps Package that Suits Everyone Needs! <br>
-                Supports Android 16 (Baklava) with regular updates and Android 15 (V), 14 (U), 13 (T), 12L (SL), 12 (S), 11 (R), 10 (Q) on need basis 
+                Customizable Google apps packages for Android ROMs. Build a package around your needs or choose a ready-made option.
             </p>
             <div class="links">
-                <a href="/downloads#downloads" class="hero__download"><i class="fa fa-download"></i>
-                    Download</a>
-                <a href="https://t.me/NikGapps" class="hero__telegram">
-                    <i class="fa fa-telegram"></i> Telegram</a>
+                <a href="{{ '/downloads' | relative_url }}" class="hero__download"><i class="fa fa-download" aria-hidden="true"></i>
+                    Download NikGapps</a>
+                <a href="{% post_url 2023-03-04-Flash-NikGapps %}" class="hero__telegram">
+                    Installation guide</a>
             </div>
         </div>
     </div>
 </section>
 
-<section class="features">
+{% include home-app.html %}
+
+{% include home-config.html %}
+
+<section id="packages" class="features homepage__section" aria-labelledby="packages-title">
     <div class="f__inner container">
         <div class="section__heading">
-            <h3>Why NikGapps?</h3>
+            <span>Ready-made options</span>
+            <h2 id="packages-title">Choose a prebuilt package</h2>
         </div>
-
-        <div class="features__grid">
+        <p class="homepage__intro">Prefer a ready-made starting point? Explore the standard package families, from the essentials to a broader Google app selection.</p>
+        <p class="homepage__note">Contents and availability vary by Android version and release. Check <a href="{{ '/downloads#release-downloads-title' | relative_url }}">Included apps for your selected release</a> before downloading. The package guide for Android 10–16 does not define Android 17 contents.</p>
+        <div class="features__grid homepage__packages">
+            {% for package in site.data.downloads.packages %}
+            {% unless package.title == "Go" %}
             <div class="f__item">
-                <div class="icon">
-                    <i class="fa fa-3x fa-cubes"></i>
-                </div>
-                <h4>Customizable Installation</h4>
-                <p>
-                    Have full control over what you install. Only install the package you want to!
-                </p>
+                <h3>{{ package.title }}</h3>
+                <p>{{ site.data.home.package_summaries[package.title] }}</p>
             </div>
-
-            <div class="f__item">
-                <div class="icon">
-                    <i class="fa fa-3x fa-android"></i>
-                </div>
-                <h4>Wide Support</h4>
-                <p>
-                    From core to full package, NikGapps offers a wide range of packages to suit your needs
-                </p>
-            </div>
-
-            <div class="f__item">
-                <div class="icon">
-                    <i class="fa fa-3x fa-clock-o"></i>
-                </div>
-                <h4>Regular Updates</h4>
-                <p>
-                    Updates are usually weekly, any longer than that means something really interesting is cooking
-                </p>
-            </div>
-
-            <div class="f__item">
-                <div class="icon">
-                    <i class="fa fa-3x fa-puzzle-piece"></i>
-                </div>
-                <h4>Addons Support</h4>
-                <p>
-                    NikGapps comes with freeware Addons that are widely used along side gapps
-                </p>
-            </div>
-
-
-            <div class="f__item">
-                <div class="icon">
-                    <i class="fa fa-3x fa-refresh"></i>
-                </div>
-                <h4>Seamless OTA Updates</h4>
-                <p>
-                    NikGapps comes with full addon.d support to provide you flash and forget experience
-                </p>
-            </div>
-
-            <div class="f__item">
-                <div class="icon">
-                    <i class="fa fa-3x fa-smile-o"></i>
-                </div>
-                <h4>Happy Community</h4>
-                <p>
-                    NikGapps has a friendly community that helps you get what you're looking for in NikGapps
-                </p>
-            </div>
+            {% endunless %}
+            {% endfor %}
+        </div>
+        <p class="homepage__go"><strong>Looking for Go apps?</strong> Go offers a selection of lightweight apps in releases where it is available.</p>
+        <div class="homepage__links">
+            <a class="homepage__action" href="{{ '/downloads' | relative_url }}">Browse packages and downloads</a>
+            <a href="{% post_url 2021-08-24-Packages-Definition %}">Read the AppSet and package definitions</a>
         </div>
     </div>
 </section>
 
-<section class="thanks">
+<section id="why-nikgapps" class="features homepage__section" aria-labelledby="why-title">
+    <div class="f__inner container">
+        <div class="section__heading">
+            <h2 id="why-title">Why NikGapps?</h2>
+        </div>
+        <div class="features__grid">
+            {% for feature in site.data.home.features %}
+            <div class="f__item">
+                <div class="icon"><i class="fa fa-3x {{ feature.icon }}" aria-hidden="true"></i></div>
+                <h3>{{ feature.title }}</h3>
+                <p>{{ feature.description }}</p>
+                <a href="{% if feature.url contains '://' %}{{ feature.url }}{% else %}{{ feature.url | relative_url }}{% endif %}">{{ feature.link_text }}</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="thanks homepage__credits" aria-labelledby="credits-title">
     <div class="thanks__inner container">
         <div class="section__heading">
             <span>Credits</span>
-            <h3>Super Thanks</h3>
+            <h2 id="credits-title">Super Thanks</h2>
         </div>
 
         <div class="credits__row">

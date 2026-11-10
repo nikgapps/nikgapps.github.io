@@ -1,0 +1,68 @@
+# Screens captured on Samsung SM-S948W, 2026-11-10, existing development build.
+# App flow verified against the Android app's AppFeatureCatalog and build screens.
+# Public app releases: https://github.com/nikhilmenghani/NikGappsReleases/releases
+app_steps:
+  - title: Create a project
+    description: Keep your choices together, with a project for your Android version.
+    screenshot: /images/app/projects.png
+    alt: NikGapps project list showing saved Android projects and an available release.
+    caption: Your projects and available releases, together on Home.
+  - title: Choose and configure apps
+    description: Pick apps and AppSets, with control over which stock apps to keep.
+    screenshot: /images/app/choose-apps.png
+    alt: Choose your apps screen with selectable AppSets and the Build ZIP action.
+    caption: Choose whole AppSets or individual packages for your project.
+  - title: Review your selection
+    description: Check your packages and estimated installed size before building.
+    screenshot: /images/app/review-build.png
+    alt: Review build screen listing selected packages and estimated installed size.
+    caption: Review your selection before confirming the build.
+  - title: Build and save your ZIP
+    description: Follow the build log as your package is assembled and saved.
+    screenshot: /images/app/completed-zip.png
+    alt: Completed flashable ZIP build showing the build log, 100 percent progress and actions to open the ZIP or folder.
+    caption: A completed build, ready to open from Downloads/NikGapps.
+
+# Process and free service verified against https://github.com/nikgapps/config#how-it-works.
+# No build-time or merge-time promise: both processing stages are required.
+config_steps:
+  - title: Prepare your config
+    description: Fork the repo; customize the latest template with a unique name in a supported Android folder.
+  - title: Submit a pull request
+    description: Commit your config and open a pull request. It must be merged before building can begin.
+  - title: Collect the completed build
+    description: After processing, use the archived config's date to find your ZIP in Config-Releases.
+
+# Family names come from downloads.yaml; these are high-level summaries, not
+# version-independent contents. Android 17's published Included apps is authoritative.
+package_summaries:
+  Core: The essentials for Google Play services and the Play Store.
+  Basic: A small step up from Core with everyday essentials.
+  Omni: A wider everyday app selection beyond Basic.
+  Stock: A broader Google app experience beyond Omni.
+  Full: The most comprehensive standard package family.
+  Go: A selection of lightweight Go apps, where available.
+
+# Based on the existing homepage, features post and nikgapps.config guide.
+# OTA backup/restore depends on the ROM's addon.d implementation.
+features:
+  - title: Choose what installs
+    icon: fa-cubes
+    description: Skip bundled apps you do not need and control installation preferences with nikgapps.config.
+    url: /misc/2022/02/22/NikGapps-Config.html
+    link_text: Configure your installation
+  - title: Add individual apps
+    icon: fa-puzzle-piece
+    description: Install available addons for your Android version without downloading a larger package.
+    url: /downloads
+    link_text: Browse available addons
+  - title: Keep apps across ROM updates
+    icon: fa-refresh
+    description: Per-app addon.d scripts let you control backup and restore on ROMs that support addon.d.
+    url: /misc/2021/04/24/NikGapps-Features.html
+    link_text: Explore addon.d support
+  - title: Get community help
+    icon: fa-smile-o
+    description: Ask questions, share logs and discuss your setup with the NikGapps Telegram community.
+    url: https://t.me/NikGappsGroup
+    link_text: Join the support group

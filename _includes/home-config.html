@@ -1,0 +1,33 @@
+<section id="custom-builds" class="features homepage__section" aria-labelledby="custom-title">
+    <div class="f__inner container">
+        <div class="homepage__config-layout">
+            <div>
+                <div class="section__heading">
+                    <span>Build through GitHub</span>
+                    <h2 id="custom-title">Your config. Built for free.</h2>
+                </div>
+                <p class="homepage__intro">Prefer working with a config file? Choose the apps for your custom package and submit it to the NikGapps config repository. After your pull request is merged, the build process creates your ZIP at no cost.</p>
+                <div class="homepage__links">
+                    <a class="homepage__action" href="https://github.com/nikgapps/config">Open config repository <span aria-hidden="true">↗</span></a>
+                    <a href="https://github.com/nikgapps/config#how-it-works">Read the current guide</a>
+                </div>
+            </div>
+            <figure class="homepage__tutorial">
+                <div class="homepage__video" data-tutorial>
+                    <a href="https://www.youtube.com/watch?v=jZWR9Wz7hMk" data-video-link aria-label="Watch: How to create a custom GApps package with NikGapps">
+                        <img src="https://i.ytimg.com/vi/jZWR9Wz7hMk/hqdefault.jpg" width="480" height="360" alt="Community video tutorial: create a custom GApps package with NikGapps" loading="lazy">
+                        <span class="homepage__play"><span aria-hidden="true">▶</span> Watch the walkthrough</span>
+                    </a>
+                    <button type="button" data-video-play hidden aria-label="Play the custom build video tutorial">Play tutorial</button>
+                </div>
+                <figcaption>A community walkthrough by <a href="https://t.me/s/NikGapps/226">munchy</a>. Recorded with an earlier version; use the current guide for supported Android folders and config rules. <a href="https://www.youtube.com/watch?v=jZWR9Wz7hMk">Watch on YouTube</a>.</figcaption>
+            </figure>
+        </div>
+        <ol class="homepage__config-steps" aria-label="Request a custom build">
+            {% for step in site.data.home.config_steps %}
+            <li><span class="homepage__step-number" aria-hidden="true">0{{ forloop.index }}</span><div><h3>{{ step.title }}</h3><p>{{ step.description }}</p></div></li>
+            {% endfor %}
+        </ol>
+        <p class="homepage__note">Find completed ZIPs in the dated <a href="https://sourceforge.net/projects/nikgapps/files/Config-Releases/">Config-Releases folder</a>. Creating a build changes what is in the ZIP. <a href="{% post_url 2022-02-22-NikGapps-Config %}">Configuring an existing ZIP</a> instead controls which bundled apps it installs.</p>
+    </div>
+</section>

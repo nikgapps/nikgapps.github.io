@@ -22,8 +22,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Test dynamic release downloads
-        run: node --test tests/releases.test.mjs
+      - name: Test homepage and release downloads
+        run: node --test tests/*.test.mjs
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
