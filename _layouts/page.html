@@ -34,7 +34,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/components/accordion.min.js"></script>
     <script src="{{ "/assets/js/app.js" | relative_url }}"></script>
-    {% if page.release_downloads %}<script type="module" src="{{ '/assets/js/releases.mjs' | relative_url }}"></script>{% endif %}
+    {% if page.release_downloads %}<script type="module" src="{{ '/assets/js/releases.mjs' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}
     <script>
         $('.ui.dropdown').dropdown();
     </script>

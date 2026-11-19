@@ -1,13 +1,18 @@
-const API = 'https://gitlab.com/api/v4/projects/85036487/repository';
+const GITLAB = 'https://gitlab.com/api/v4/projects/85036487/repository';
+const GITHUB_REPOSITORY = 'nikgapps/nikgapps-packages';
 const PAGE_SIZE = 8;
 const KIND_LABELS = { preset: 'Packages', addon: 'Addons', tool: 'Tools', config: 'Config' };
 const PRESETS = ['Core', 'CoreGo', 'Basic', 'Omni', 'Stock', 'Full', 'Go'];
 
-export function metadataUrl(path, commit) {
+export function metadataUrl(path, commit, source = 'gitlab') {
     if (!/^[a-f0-9]{40}$/.test(commit) || !path.startsWith('releases/') || !path.endsWith('.json') || path.split('/').includes('..') || path.includes('\\')) {
         throw new Error('Invalid release metadata reference');
     }
-    return `${API}/files/${encodeURIComponent(path)}/raw?ref=${commit}`;
+    if (source === 'github') {
+        const encodedPath = path.split('/').map(encodeURIComponent).join('/');
+        return `https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${commit}/${encodedPath}`;
+    }
+    return `${GITLAB}/files/${encodeURIComponent(path)}/raw?ref=${commit}`;
 }
 
 async function readJson(url, fetcher, signal) {
@@ -16,12 +21,24 @@ async function readJson(url, fetcher, signal) {
     return response.json();
 }
 
-export async function loadSnapshot(fetcher = fetch, signal) {
-    const branch = await readJson(`${API}/branches/main`, fetcher, signal);
-    const commit = branch.commit?.id;
-    const index = await readJson(metadataUrl('releases/index.json', commit), fetcher, signal);
+async function loadSourceSnapshot(source, fetcher, signal) {
+    const branchUrl = source === 'github'
+        ? `https://api.github.com/repos/${GITHUB_REPOSITORY}/git/ref/heads/main`
+        : `${GITLAB}/branches/main`;
+    const branch = await readJson(branchUrl, fetcher, signal);
+    const commit = source === 'github' ? branch.object?.sha : branch.commit?.id;
+    const index = await readJson(metadataUrl('releases/index.json', commit, source), fetcher, signal);
     if (!Array.isArray(index.releases) || !index.latest) throw new Error('Invalid release index');
-    return { commit, index };
+    return { commit, index, source };
+}
+
+export async function loadSnapshot(fetcher = fetch, signal) {
+    try {
+        return await loadSourceSnapshot('gitlab', fetcher, signal);
+    } catch (error) {
+        if (signal?.aborted) throw error;
+        return loadSourceSnapshot('github', fetcher, signal);
+    }
 }
 
 function sourceforgeUrl(value, download = true) {
@@ -65,7 +82,7 @@ export function candidates(index, android) {
 
 export async function loadPublished(snapshot, summaries, fetcher = fetch, signal) {
     const settled = await Promise.allSettled(summaries.map(async summary => {
-        const manifest = await readJson(metadataUrl(summary.manifest, snapshot.commit), fetcher, signal);
+        const manifest = await readJson(metadataUrl(summary.manifest, snapshot.commit, snapshot.source), fetcher, signal);
         return publishedRelease(manifest, summary);
     }));
     if (settled.length && settled.every(value => value.status === 'rejected')) throw new Error('Release metadata is unavailable');
@@ -177,10 +194,14 @@ export function mountDownloads(root) {
         release.replaceChildren(); release.disabled = true; more.hidden = true; releases = [];
         announce('Loading release downloads…');
         try { remaining = candidates(snapshot.index, android.value); await loadPage(sequence); }
-        catch (error) { if (sequence === generation) announce('Download information is temporarily unavailable. Refresh to try again, or browse SourceForge below.'); }
+        catch (error) {
+            if (sequence !== generation) return;
+            if (snapshot.source === 'gitlab') await refresh('github');
+            else announce('Download information is temporarily unavailable. Refresh to try again, or browse SourceForge below.');
+        }
         finally { clearTimeout(timer); if (sequence === generation) root.setAttribute('aria-busy', 'false'); }
     }
-    async function refresh() {
+    async function refresh(source) {
         const sequence = ++generation;
         controller?.abort(); const activeController = controller = new AbortController();
         const timer = setTimeout(() => activeController.abort(), 30000);
@@ -189,7 +210,9 @@ export function mountDownloads(root) {
         root.setAttribute('aria-busy', 'true'); grid.replaceChildren(); meta.textContent = '';
         release.replaceChildren(); release.disabled = true; more.hidden = true; more.disabled = false; releases = []; announce('Loading releases…');
         try {
-            snapshot = await loadSnapshot(fetch, controller.signal);
+            snapshot = source
+                ? await loadSourceSnapshot(source, fetch, activeController.signal)
+                : await loadSnapshot(fetch, activeController.signal);
             if (sequence !== generation) return;
             const versions = Object.keys(snapshot.index.latest).filter(value => snapshot.index.latest[value]?.stable?.['arm64-v8a']).sort((a, b) => Number(b) - Number(a));
             android.replaceChildren(...versions.map(value => { const option = element('option', `Android ${value}`); option.value = value; return option; }));
@@ -203,7 +226,7 @@ export function mountDownloads(root) {
     android.addEventListener('change', loadAndroid);
     release.addEventListener('change', renderFiles);
     search.addEventListener('input', renderFiles);
-    root.querySelector('[data-refresh]').addEventListener('click', refresh);
+    root.querySelector('[data-refresh]').addEventListener('click', () => refresh());
     root.querySelectorAll('[data-kind]').forEach(button => button.addEventListener('click', () => {
         kind = button.dataset.kind;
         root.querySelectorAll('[data-kind]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));

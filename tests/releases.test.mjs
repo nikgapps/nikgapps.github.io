@@ -16,11 +16,45 @@ test('the index and manifests are read from one pinned metadata commit without c
     const fetcher = async (url, options) => { calls.push({ url, options }); return { ok: true, json: async () => calls.length === 1 ? { commit: { id: commit } } : { latest: {}, releases: [] } }; };
     const snapshot = await loadSnapshot(fetcher);
     assert.equal(snapshot.commit, commit);
+    assert.equal(snapshot.source, 'gitlab');
     assert.match(calls[1].url, /releases%2Findex.json\/raw\?ref=a{40}$/);
     assert.equal(calls[0].options.cache, 'no-store');
     assert.equal(calls[1].options.cache, 'no-store');
     assert.throws(() => metadataUrl('releases/../catalog.json', commit));
     assert.throws(() => metadataUrl('releases/index.json', 'main'));
+});
+
+test('a GitLab rate limit falls back to a single pinned GitHub snapshot', async () => {
+    const mirrorCommit = 'c'.repeat(40);
+    const mirror = `https://raw.githubusercontent.com/nikgapps/nikgapps-packages/${mirrorCommit}/`;
+    const branch = 'https://api.github.com/repos/nikgapps/nikgapps-packages/git/ref/heads/main';
+    const index = { latest: { 17: { stable: { 'arm64-v8a': summary.id } } }, releases: [summary] };
+    const calls = [];
+    const fetcher = async (url, { cache }) => {
+        calls.push(url);
+        assert.equal(cache, 'no-store');
+        if (url.includes('gitlab.com')) return { ok: false, status: 429 };
+        const data = new Map([[branch, { object: { sha: mirrorCommit } }],
+            [mirror + 'releases/index.json', index], [mirror + summary.manifest, manifest()]]);
+        assert.ok(data.has(url), url);
+        return { ok: true, json: async () => data.get(url) };
+    };
+    const snapshot = await loadSnapshot(fetcher);
+    assert.deepEqual(snapshot, { commit: mirrorCommit, index, source: 'github' });
+    const releases = await loadPublished(snapshot, candidates(snapshot.index, '17'), fetcher);
+    assert.equal(releases[0].files[0].downloadUrl, file.downloadUrl);
+    assert.deepEqual(calls.slice(1), [branch, mirror + 'releases/index.json', mirror + summary.manifest]);
+});
+
+test('cancelled metadata loads do not start a mirror request', async () => {
+    const controller = new AbortController();
+    let requests = 0;
+    await assert.rejects(loadSnapshot(async () => {
+        requests++;
+        controller.abort();
+        throw controller.signal.reason;
+    }, controller.signal), { name: 'AbortError' });
+    assert.equal(requests, 1);
 });
 
 test('only confirmed matching publications expose download links', () => {
