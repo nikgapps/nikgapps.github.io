@@ -1,3 +1,9 @@
+- date: 19th Nov 2026 (Android 17)
+  changes:
+      - item: Fix Pixel Launcher search suggestion card backgrounds in light and dark themes
+      - item: Bring back SyncAdapter for Aosp Calendar and Aosp Contacts
+      - item: Update the chrome and webview to v145.0.7632.218
+      - item: Update nikgapps.config version to v43 (Android 17)
 - date: 10th Nov 2026 (Android 17)
   changes:
       - item: Initial Android 17 Release
