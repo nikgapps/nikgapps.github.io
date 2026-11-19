@@ -16,7 +16,8 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Ruby 3.4.8 has a prebuilt archive for Ubuntu 24.04.
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout
