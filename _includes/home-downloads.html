@@ -1,0 +1,87 @@
+<section class="home-downloads home-width" id="downloads" aria-labelledby="release-downloads-title">
+    <div class="release-downloads" data-release-downloads aria-busy="true">
+        <div class="home-downloads__intro">
+            <div>
+                <p class="home-kicker">Downloads</p>
+                <h2 class="home-display" id="release-downloads-title">Choose the right package.</h2>
+                <p class="home-lede">Compare ready-to-flash ZIPs, see what’s included, or download a single addon.</p>
+                <div class="home-actions">
+                    <a class="home-button home-button--primary" href="#download-packages" data-open-packages>Browse packages</a>
+                    <a class="home-button" href="#download-changelog" data-open-changelog>View changelog</a>
+                </div>
+            </div>
+            <aside class="release-spotlight" aria-label="Latest stable release">
+                <p class="home-kicker">Latest stable release</p>
+                <h3 data-featured-android>Release downloads</h3>
+                <p class="release-spotlight__meta" data-featured-meta>Checking published packages…</p>
+                <div class="release-spotlight__choices" data-featured-choices hidden role="group" aria-label="Compare popular packages">
+                    <button type="button" data-featured-preset="Core" aria-pressed="true">Core</button>
+                    <button type="button" data-featured-preset="Stock" aria-pressed="false">Stock</button>
+                    <button type="button" data-featured-preset="Full" aria-pressed="false">Full</button>
+                </div>
+                <p class="release-spotlight__detail" data-featured-detail hidden aria-live="polite"><strong data-featured-size></strong><span data-featured-copy></span></p>
+                <button type="button" class="home-button release-spotlight__action" data-featured-open hidden><span>View Core details</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </aside>
+        </div>
+        <div class="release-downloads__browser" id="download-packages">
+            <div class="release-downloads__toolbar">
+                <div class="release-downloads__filters" role="group" aria-label="Downloads and changelog">
+                    <button type="button" data-kind="preset" aria-pressed="true">Packages</button>
+                    <button type="button" id="download-addons" data-kind="addon" aria-pressed="false">Addons</button>
+                    <button type="button" data-kind="other" aria-pressed="false">Tools &amp; config</button>
+                    <button type="button" data-kind="changes" aria-pressed="false">Changelog</button>
+                </div>
+                <button type="button" class="release-downloads__refresh" data-refresh>Refresh</button>
+            </div>
+            <div class="release-downloads__controls">
+                <label>Android version<select data-android disabled><option>Loading…</option></select></label>
+                <label>Release<select data-release disabled><option>Loading…</option></select></label>
+                <label class="release-downloads__search" data-search-control>Find a download<input type="search" data-search placeholder="Search by name"></label>
+            </div>
+            <p class="release-downloads__meta" data-release-meta></p>
+            <p class="release-downloads__status" data-status role="status" aria-live="polite">Loading release downloads…</p>
+            <div data-file-view>
+                <div class="release-downloads__files" data-files></div>
+                <button type="button" class="release-downloads__older" data-more-files hidden>Show more files</button>
+            </div>
+            <section class="release-downloads__changelog" id="download-changelog" aria-label="Changelog" data-changelog>
+                <div data-current-changelog>
+                    {% assign latest_notes = site.data.changelogs | first %}
+                    <h3>{{ latest_notes.date | escape }}</h3>
+                    <ul>{% for item in latest_notes.changes %}<li>{{ item.item | escape }}</li>{% endfor %}</ul>
+                </div>
+                <details>
+                    <summary>Older changelogs</summary>
+                    {% for note in site.data.changelogs %}
+                        {% assign date_parts = note.date | split: ' (' | first | split: ' ' %}
+                        {% assign day = date_parts[0] | remove: 'st' | remove: 'nd' | remove: 'rd' | remove: 'th' %}
+                        {% capture note_date %}{{ day }} {{ date_parts[1] }} {{ date_parts[2] }}{% endcapture %}
+                        {% assign platform = '' %}
+                        {% if note.date contains '(Android ' %}{% assign platform = note.date | split: '(Android ' | last | split: ')' | first %}{% endif %}
+                        <article data-changelog-entry data-date="{{ note_date | date: '%Y-%m-%d' | escape }}" data-android-version="{{ platform | escape }}"{% if forloop.first %} hidden{% endif %}>
+                            <h4>{{ note.date | escape }}</h4>
+                            <ul>{% for item in note.changes %}<li>{{ item.item | escape }}</li>{% endfor %}</ul>
+                        </article>
+                    {% endfor %}
+                </details>
+            </section>
+            <div class="release-downloads__bottom">
+                <button type="button" class="release-downloads__older" data-older hidden>Show older releases</button>
+                <a href="https://sourceforge.net/projects/nikgapps/files/Releases/">Browse all Android versions on SourceForge <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+            <noscript><p>Direct package selection requires JavaScript. Use the SourceForge link for downloads.</p></noscript>
+            <details class="release-downloads__guide">
+                <summary>Package guide for Android 10–16</summary>
+                <div class="release-downloads__legacy">
+                    {% for package in site.data.downloads.packages %}
+                        <div>
+                            <h4>{{ package.title | escape }}</h4>
+                            {% if package.message %}<p>{{ package.message | escape }}</p>{% endif %}
+                            <ul>{% for entry in package.pkgs %}<li>{{ entry.item | escape }}</li>{% endfor %}</ul>
+                        </div>
+                    {% endfor %}
+                </div>
+            </details>
+        </div>
+    </div>
+</section>

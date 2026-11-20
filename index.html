@@ -1,7 +1,8 @@
 ---
 layout: default
-title: NikGapps - Custom Google Apps Package!
+title: NikGapps - Custom Google Apps Package
 homepage: true
+release_downloads: true
 ---
 
 <section class="hero homepage__hero" aria-labelledby="home-title">
@@ -11,95 +12,14 @@ homepage: true
                 <img src="{{ '/images/nikgapps-logo.webp' | relative_url }}" alt="NikGapps Logo">
             </div>
             <h1 id="home-title" class="headline">Google apps, your way.</h1>
-            <p class="intro">
-                Customizable Google apps packages for Android ROMs. Build a package around your needs or choose a ready-made option.
-            </p>
+            <p class="intro">Customizable Google apps packages for Android ROMs. Build a package around your needs or choose a ready-made option.</p>
             <div class="links">
-                <a href="{{ '/downloads' | relative_url }}" class="hero__download"><i class="fa fa-download" aria-hidden="true"></i>
-                    Download NikGapps</a>
-                <a href="{% post_url 2023-03-04-Flash-NikGapps %}" class="hero__telegram">
-                    Installation guide</a>
+                <a href="#release-downloads-title" class="hero__download"><i class="fa fa-download" aria-hidden="true"></i> Download NikGapps</a>
+                <a href="{% post_url 2023-03-04-Flash-NikGapps %}" class="hero__telegram">Installation guide</a>
             </div>
         </div>
     </div>
 </section>
 
+{% include home-downloads.html %}
 {% include home-app.html %}
-
-{% include home-config.html %}
-
-<section id="packages" class="features homepage__section" aria-labelledby="packages-title">
-    <div class="f__inner container">
-        <div class="section__heading">
-            <span>Ready-made options</span>
-            <h2 id="packages-title">Choose a prebuilt package</h2>
-        </div>
-        <p class="homepage__intro">Prefer a ready-made starting point? Explore the standard package families, from the essentials to a broader Google app selection.</p>
-        <p class="homepage__note">Contents and availability vary by Android version and release. Check <a href="{{ '/downloads#release-downloads-title' | relative_url }}">Included apps for your selected release</a> before downloading. The package guide for Android 10–16 does not define Android 17 contents.</p>
-        <div class="features__grid homepage__packages">
-            {% for package in site.data.downloads.packages %}
-            {% unless package.title == "Go" %}
-            <div class="f__item">
-                <h3>{{ package.title }}</h3>
-                <p>{{ site.data.home.package_summaries[package.title] }}</p>
-            </div>
-            {% endunless %}
-            {% endfor %}
-        </div>
-        <p class="homepage__go"><strong>Looking for Go apps?</strong> Go offers a selection of lightweight apps in releases where it is available.</p>
-        <div class="homepage__links">
-            <a class="homepage__action" href="{{ '/downloads' | relative_url }}">Browse packages and downloads</a>
-            <a href="{% post_url 2021-08-24-Packages-Definition %}">Read the AppSet and package definitions</a>
-        </div>
-    </div>
-</section>
-
-<section id="why-nikgapps" class="features homepage__section" aria-labelledby="why-title">
-    <div class="f__inner container">
-        <div class="section__heading">
-            <h2 id="why-title">Why NikGapps?</h2>
-        </div>
-        <div class="features__grid">
-            {% for feature in site.data.home.features %}
-            <div class="f__item">
-                <div class="icon"><i class="fa fa-3x {{ feature.icon }}" aria-hidden="true"></i></div>
-                <h3>{{ feature.title }}</h3>
-                <p>{{ feature.description }}</p>
-                <a href="{% if feature.url contains '://' %}{{ feature.url }}{% else %}{{ feature.url | relative_url }}{% endif %}">{{ feature.link_text }}</a>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<section class="thanks homepage__credits" aria-labelledby="credits-title">
-    <div class="thanks__inner container">
-        <div class="section__heading">
-            <span>Credits</span>
-            <h2 id="credits-title">Super Thanks</h2>
-        </div>
-
-        <div class="credits__row">
-            <div class="credits__art">
-                <img src="./images/thanks.svg" alt="">
-            </div>
-
-            <div class="credits__content">
-                <ul>
-                    <li><a href="https://forum.xda-developers.com/member.php?u=4544860">osm0sis</a> (for the shell
-                        scripting template)</li>
-                    <li><a href="https://opengapps.org/">OpenGapps</a> Team (for base package and providing Open Gapps)
-                    </li>
-                    <li><a href="#">@DrAMoled</a> (for logo and his suggestions and help)</li>
-                    <li><a href="#">Aman</a> (for helping me setup NikGapps Channel and Support Group)</li>
-                    <li><a href="https://thevipinmishra.github.io/"> Vipin Mishra</a> for coding this website from
-                        scratch.</li>
-                    <li><a href="https://github.com/Kingsman44/Pixelify"> Shivan Singh</a> for Pixelify Module</li>
-                    <li><a href="https://vanced.app/">Vanced Team</a> (for YouTube Vanced)</li>
-                    <li><a href="https://twitter.com/lawnchairapp">Lawnchair Team</a> (for Lawnchair)</li>
-		    <li><a href="https://github.com/ElytrA8">Sheikh Adnan</a> (for his help with NikGapps release automation)</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>

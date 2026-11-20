@@ -1,28 +1,32 @@
-const nav = document.querySelector('nav')
+const nav = document.querySelector('header nav')
 const navWrapper = document.querySelector('.header__nav')
 const hamburger = document.querySelector('.hamburger')
 const closeButton = document.querySelector('.nav__close')
 const navOverlay = document.querySelector('.nav__overlay')
 
-function menuHandler() {
-    nav.classList.toggle('nav__expanded')
+function setMenu(open) {
+    nav.classList.toggle('nav__expanded', open)
+    hamburger.setAttribute('aria-expanded', String(open))
 }
 
-hamburger.addEventListener('click', menuHandler)
-
-nav.addEventListener('click', function (e) {
-    if (e.target == closeButton) {
-        nav.classList.remove('nav__expanded')
+if (nav && hamburger && navWrapper && navOverlay && closeButton) {
+    hamburger.addEventListener('click', () => {
+        const open = !nav.classList.contains('nav__expanded')
+        setMenu(open)
+        if (open) closeButton.focus()
+    })
+    const closeMenu = () => {
+        setMenu(false)
+        hamburger.focus()
     }
-})
+    closeButton.addEventListener('click', closeMenu)
+    navOverlay.addEventListener('click', event => { if (event.target === navOverlay) closeMenu() })
+    nav.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && nav.classList.contains('nav__expanded')) closeMenu()
+    })
+}
 
-navOverlay.addEventListener('click', function (e) {
-    if (e.target != navWrapper && nav.classList.contains('nav__expanded')) {
-        nav.classList.remove('nav__expanded')
-    }
-})
-
-$(document).ready(function () {
+if (typeof $ === 'function') $(document).ready(function () {
     // Accordion Init
     $('.ui.accordion').accordion()
 

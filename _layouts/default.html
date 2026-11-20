@@ -4,13 +4,17 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <!-- <title>{{ page.title }}</title> -->
+  <title>{{ page.title | escape }}</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  {% if page.homepage %}<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">{% endif %}
+  {% if page.homepage or page.features_page %}
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/homepage-design.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% endif %}
+  {% if page.release_downloads %}<link rel="stylesheet" href="{{ '/assets/css/releases.css' | relative_url }}?v={{ site.time | date: '%s' }}">{% endif %}
 </head>
 
-<body>
+<body{% if page.homepage or page.features_page %} class="site-design"{% endif %}>
   {% include header.html %}
 
   <main>
@@ -18,7 +22,8 @@
   </main>
   {% include footer.html %}
   <script src="{{ "/assets/js/app.js" | relative_url }}"></script>
-  {% if page.homepage %}<script type="module" src="{{ '/assets/js/home.mjs' | relative_url }}"></script>{% endif %}
+  {% if page.homepage or page.features_page %}<script type="module" src="{{ '/assets/js/home.mjs' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}
+  {% if page.release_downloads %}<script type="module" src="{{ '/assets/js/releases.mjs' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}
 </body>
 
 </html>

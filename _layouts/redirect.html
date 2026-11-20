@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | escape }}</title>
+    <link rel="canonical" href="https://nikgapps.com{{ page.redirect_to }}">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
+</head>
+<body>
+    <p><a href="{{ page.redirect_to | relative_url }}">{{ page.link_label | escape }}</a></p>
+</body>
+</html>

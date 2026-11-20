@@ -125,6 +125,13 @@ function displayDate(value) {
     return new Intl.DateTimeFormat(undefined, { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${value}T12:00:00Z`));
 }
 
+export function changelogMatches(entry, release) {
+    if (entry.date !== release.date) return false;
+    const [first, last = first] = entry.androidVersion.split('-');
+    return /^\d+(?:\.\d+)?$/.test(first) && /^\d+(?:\.\d+)?$/.test(last)
+        && Number(release.android) >= Number(first) && Number(release.android) <= Number(last);
+}
+
 export function mountDownloads(root) {
     const android = root.querySelector('[data-android]');
     const release = root.querySelector('[data-release]');
@@ -133,7 +140,17 @@ export function mountDownloads(root) {
     const search = root.querySelector('[data-search]');
     const more = root.querySelector('[data-older]');
     const meta = root.querySelector('[data-release-meta]');
-    let snapshot, remaining = [], releases = [], kind = 'preset', controller, generation = 0, refreshedAt = 0;
+    const moreFiles = root.querySelector('[data-more-files]');
+    const changelog = root.querySelector('[data-changelog]');
+    const notes = [...changelog.querySelectorAll('[data-changelog-entry]')];
+    const currentNote = changelog.querySelector('[data-current-changelog]');
+    const defaultNote = currentNote.cloneNode(true);
+    const featuredOpen = root.querySelector('[data-featured-open]');
+    const featuredChoices = [...root.querySelectorAll('[data-featured-preset]')];
+    const filters = [...root.querySelectorAll('[data-kind]')];
+    const summaries = { Core: 'Play Store essentials', Stock: 'A broader set of Google apps', Full: 'The largest standard preset' };
+    let snapshot, featured, newestAndroid, remaining = [], releases = [], kind = 'preset', controller, generation = 0, refreshedAt = 0;
+    let shown = PAGE_SIZE, openedFile, featuredPreset = 'Core';
     const element = (tag, text, cls) => {
         const node = document.createElement(tag);
         if (text !== undefined) node.textContent = text;
@@ -141,38 +158,96 @@ export function mountDownloads(root) {
         return node;
     };
     const announce = text => { status.textContent = text; };
+    function renderChangelog(selected) {
+        const match = selected && notes.find(note => changelogMatches(note.dataset, selected));
+        if (match) currentNote.replaceChildren(...[...match.children].map(node => node.cloneNode(true)));
+        else if (selected) currentNote.replaceChildren(element('p', 'No changelog has been published for this release.'));
+        else currentNote.replaceChildren(...[...defaultNote.children].map(node => node.cloneNode(true)));
+        notes.forEach((note, index) => {
+            note.hidden = selected
+                ? note === match || (/^\d{4}-\d{2}-\d{2}$/.test(note.dataset.date) && note.dataset.date > selected.date)
+                : index === 0;
+        });
+    }
+    function renderFeatured() {
+        if (!featured) return;
+        root.querySelector('[data-featured-android]').textContent = `Android ${featured.android}`;
+        root.querySelector('[data-featured-meta]').textContent = `${displayDate(featured.date)} · arm64 · Config v${featured.config}`;
+        const presets = new Map(filteredFiles(featured.files, 'preset').map(file => [fileLabel(file), file]));
+        const available = featuredChoices.filter(button => presets.has(button.dataset.featuredPreset));
+        if (!presets.has(featuredPreset)) featuredPreset = available[0]?.dataset.featuredPreset;
+        featuredChoices.forEach(button => {
+            button.hidden = !presets.has(button.dataset.featuredPreset);
+            button.setAttribute('aria-pressed', String(button.dataset.featuredPreset === featuredPreset));
+        });
+        const selected = presets.get(featuredPreset);
+        root.querySelector('[data-featured-choices]').hidden = !selected;
+        root.querySelector('[data-featured-detail]').hidden = !selected;
+        featuredOpen.hidden = !selected;
+        if (selected) {
+            root.querySelector('[data-featured-size]').textContent = formatSize(selected.size);
+            root.querySelector('[data-featured-copy]').textContent = summaries[featuredPreset];
+            featuredOpen.querySelector('span').textContent = `View ${featuredPreset} details`;
+        }
+    }
     function renderFiles() {
         const selected = releases.find(row => row.id === release.value);
+        const showingChanges = kind === 'changes';
+        changelog.hidden = !showingChanges;
+        root.querySelector('[data-file-view]').hidden = showingChanges;
+        root.querySelector('[data-search-control]').hidden = showingChanges;
+        status.hidden = showingChanges;
         grid.replaceChildren();
+        if (showingChanges) renderChangelog(selected);
         if (!selected) return;
         meta.textContent = `${displayDate(selected.date)} · Android ${selected.android} · arm64 · Config v${selected.config}`;
+        if (showingChanges) return;
         const files = filteredFiles(selected.files, kind, search.value);
-        files.forEach(file => {
-            const card = element('article', undefined, 'release-downloads__card');
-            card.append(element('h3', fileLabel(file)), element('p', `${formatSize(file.size)}${file.packageCount ? ` · ${file.packageCount} packages` : ''}`, 'release-downloads__size'));
+        files.slice(0, shown).forEach(file => {
+            const card = element('article', undefined, 'release-downloads__file');
+            const row = element('div', undefined, 'release-downloads__row');
+            const name = element('div');
+            const size = file.packageCount ? `${formatSize(file.size)} · ${file.packageCount} ${file.packageCount === 1 ? 'package' : 'packages'}` : formatSize(file.size);
+            name.append(element('h3', fileLabel(file)), element('p', size, 'release-downloads__size'));
             const link = element('a', 'Download', 'release-downloads__download');
             link.href = file.downloadUrl;
             link.setAttribute('aria-label', `Download ${fileLabel(file)}`);
-            card.append(link);
-            const checksum = element('details');
-            checksum.append(element('summary', 'SHA-256'), element('code', file.sha256));
-            card.append(checksum);
-            if (Array.isArray(file.packages) && file.packages.length) {
-                const contents = element('details');
-                contents.append(element('summary', 'Included apps'));
-                const list = element('ul');
+            row.append(name, link);
+            const details = element('details');
+            details.open = file.fileName === openedFile;
+            card.dataset.filename = file.fileName;
+            const hasApps = Array.isArray(file.packages) && file.packages.length;
+            const summary = element('summary', hasApps ? 'Included apps and checksum' : 'Checksum');
+            summary.setAttribute('aria-label', `Details for ${fileLabel(file)}`);
+            const body = element('div');
+            if (hasApps) {
+                const list = element('ul', undefined, 'release-downloads__apps');
                 file.packages.forEach(name => list.append(element('li', name.split('/').pop().replace(/([a-z0-9])([A-Z])/g, '$1 $2'))));
-                contents.append(list);
-                card.append(contents);
+                body.append(element('strong', 'Included apps'), list);
             }
+            body.append(element('strong', 'SHA-256'), element('code', file.sha256));
+            details.append(summary, body);
+            card.append(row, details);
             grid.append(card);
         });
+        moreFiles.hidden = files.length <= shown;
         announce(files.length ? `${files.length} ${kind === 'preset' ? 'packages' : kind === 'addon' ? 'addons' : 'tools and config files'} available.` : 'No downloads match your search.');
     }
+    function resetFiles() {
+        shown = PAGE_SIZE;
+        openedFile = undefined;
+        renderFiles();
+    }
+    function selectKind(next) {
+        kind = next;
+        filters.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.kind === kind)));
+        resetFiles();
+    }
     async function loadPage(sequence) {
-        const page = remaining.splice(0, PAGE_SIZE);
+        const page = remaining.slice(0, PAGE_SIZE);
         const values = await loadPublished(snapshot, page, fetch, controller.signal);
         if (sequence !== generation) return;
+        remaining.splice(0, page.length);
         const existing = new Set(releases.map(row => row.folder));
         releases.push(...values.filter(row => !existing.has(row.folder)));
         if (!releases.length && remaining.length) return loadPage(sequence);
@@ -183,6 +258,10 @@ export function mountDownloads(root) {
         if (releases.some(row => row.id === selected)) release.value = selected;
         release.disabled = !releases.length;
         more.hidden = !remaining.length;
+        if (android.value === newestAndroid && releases.length) {
+            featured = releases[0];
+            renderFeatured();
+        }
         if (releases.length) renderFiles();
         else announce('Direct downloads are not available for this Android version yet. You can browse all builds on SourceForge below.');
     }
@@ -190,10 +269,10 @@ export function mountDownloads(root) {
         const sequence = ++generation;
         controller?.abort(); const activeController = controller = new AbortController();
         const timer = setTimeout(() => activeController.abort(), 30000);
-        root.setAttribute('aria-busy', 'true'); grid.replaceChildren(); meta.textContent = '';
+        root.setAttribute('aria-busy', 'true'); grid.replaceChildren(); meta.textContent = ''; moreFiles.hidden = true;
         release.replaceChildren(); release.disabled = true; more.hidden = true; releases = [];
         announce('Loading release downloads…');
-        try { remaining = candidates(snapshot.index, android.value); await loadPage(sequence); }
+        try { remaining = candidates(snapshot.index, android.value); resetFiles(); await loadPage(sequence); }
         catch (error) {
             if (sequence !== generation) return;
             if (snapshot.source === 'gitlab') await refresh('github');
@@ -215,23 +294,49 @@ export function mountDownloads(root) {
                 : await loadSnapshot(fetch, activeController.signal);
             if (sequence !== generation) return;
             const versions = Object.keys(snapshot.index.latest).filter(value => snapshot.index.latest[value]?.stable?.['arm64-v8a']).sort((a, b) => Number(b) - Number(a));
+            newestAndroid = versions[0];
             android.replaceChildren(...versions.map(value => { const option = element('option', `Android ${value}`); option.value = value; return option; }));
             android.disabled = !versions.length;
             if (versions.includes(selectedAndroid)) android.value = selectedAndroid;
             refreshedAt = Date.now();
-            await loadAndroid();
+            if (android.value) await loadAndroid();
+            else announce('No release downloads are available. Browse SourceForge below.');
         } catch (error) { if (sequence === generation) { android.disabled = true; announce('Download information is temporarily unavailable. Refresh to try again, or browse SourceForge below.'); } }
         finally { clearTimeout(timer); if (sequence === generation) root.setAttribute('aria-busy', 'false'); }
     }
     android.addEventListener('change', loadAndroid);
-    release.addEventListener('change', renderFiles);
-    search.addEventListener('input', renderFiles);
+    release.addEventListener('change', resetFiles);
+    search.addEventListener('input', resetFiles);
+    moreFiles.addEventListener('click', () => { shown += PAGE_SIZE; renderFiles(); });
     root.querySelector('[data-refresh]').addEventListener('click', () => refresh());
-    root.querySelectorAll('[data-kind]').forEach(button => button.addEventListener('click', () => {
-        kind = button.dataset.kind;
-        root.querySelectorAll('[data-kind]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    filters.forEach(button => button.addEventListener('click', () => selectKind(button.dataset.kind)));
+    root.querySelector('[data-open-packages]').addEventListener('click', () => {
+        search.value = '';
+        selectKind('preset');
+    });
+    root.querySelector('[data-open-changelog]').addEventListener('click', event => {
+        event.preventDefault();
+        selectKind('changes');
+        changelog.scrollIntoView({ block: 'start' });
+    });
+    featuredChoices.forEach(button => button.addEventListener('click', () => { featuredPreset = button.dataset.featuredPreset; renderFeatured(); }));
+    featuredOpen.addEventListener('click', async () => {
+        const selected = featured;
+        const file = filteredFiles(selected.files, 'preset').find(row => fileLabel(row) === featuredPreset);
+        if (!file) return;
+        search.value = '';
+        selectKind('preset');
+        if (android.value !== selected.android) {
+            android.value = selected.android;
+            await loadAndroid();
+        }
+        if (releases.some(row => row.id === selected.id)) release.value = selected.id;
+        openedFile = file.fileName;
         renderFiles();
-    }));
+        const card = [...grid.children].find(row => row.dataset.filename === file.fileName);
+        card?.querySelector('summary').focus({ preventScroll: true });
+        card?.scrollIntoView({ block: 'center' });
+    });
     more.addEventListener('click', async () => {
         const sequence = generation;
         more.disabled = true;
@@ -240,6 +345,14 @@ export function mountDownloads(root) {
     });
     document.addEventListener('visibilitychange', () => { if (!document.hidden && Date.now() - refreshedAt > 60000) refresh(); });
     window.addEventListener('pageshow', event => { if (event.persisted) refresh(); });
+    function selectFromHash() {
+        if (window.location.hash === '#download-packages') selectKind('preset');
+        else if (window.location.hash === '#download-addons') selectKind('addon');
+        else if (window.location.hash === '#download-changelog') selectKind('changes');
+    }
+    window.addEventListener('hashchange', selectFromHash);
+    selectKind('preset');
+    selectFromHash();
     refresh();
 }
 
