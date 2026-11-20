@@ -3,20 +3,14 @@ export function mountShowcase(root) {
     const controls = root.querySelector('[data-screen-controls]');
     const buttons = [...root.querySelectorAll('[data-screen]')];
     const screens = [...root.querySelectorAll('[data-app-screen]')];
-    const caption = root.querySelector('[data-screen-caption]');
-    if (!controls || !caption || !buttons.length || !screens.length) return;
+    if (!controls || !buttons.length || !screens.length) return;
     function select(id) {
-        const index = screens.findIndex(screen => screen.dataset.appScreen === id);
-        if (index < 0) return;
-        const companion = index === screens.length - 1 ? index - 1 : index + 1;
         buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.screen === id)));
-        screens.forEach((screen, position) => {
-            screen.hidden = position !== index && position !== companion;
-            screen.toggleAttribute('data-companion', position === companion);
-        });
-        caption.textContent = screens[index].dataset.caption;
+        screens.forEach(screen => { screen.hidden = screen.dataset.appScreen !== id; });
     }
     buttons.forEach(button => {
+        button.addEventListener('mouseenter', () => select(button.dataset.screen));
+        button.addEventListener('focus', () => select(button.dataset.screen));
         button.addEventListener('click', () => select(button.dataset.screen));
     });
     select('2');
@@ -51,7 +45,7 @@ export async function mountAppDownload(link) {
     try {
         const release = await loadAppRelease();
         link.href = release.url;
-        link.textContent = `Get the Android app · ${release.version}`;
+        link.textContent = `Download NikGapps ${release.version}`;
         link.setAttribute('aria-label', `Download NikGapps ${release.version} APK for Android`);
     } catch {
         link.href = `${APP_REPOSITORY}/releases`;

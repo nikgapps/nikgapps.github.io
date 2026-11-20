@@ -1,7 +1,111 @@
 ---
-layout: redirect
+layout: page
 permalink: /downloads
+headline: Downloads
 title: Downloads - NikGapps
-redirect_to: /#release-downloads-title
-link_label: Browse NikGapps downloads
+bClass: downloads
+release_downloads: true
 ---
+
+<div class="downloads__wrapper">
+    <section class="release-downloads" data-release-downloads aria-labelledby="release-downloads-title" aria-busy="true">
+        <div class="release-downloads__heading">
+            <div><h2 id="release-downloads-title">Download a release</h2><p>Choose your Android version to find packages, addons and tools.</p></div>
+            <button type="button" class="release-downloads__refresh" data-refresh>Refresh</button>
+        </div>
+        <div class="release-downloads__controls">
+            <label>Android version<select data-android disabled aria-label="Android version"><option>Loading…</option></select></label>
+            <label>Release<select data-release disabled aria-label="Release"><option>Loading…</option></select></label>
+            <label class="release-downloads__search">Find a download<input type="search" data-search placeholder="Search packages and addons" aria-label="Find a download"></label>
+        </div>
+        <p class="release-downloads__meta" data-release-meta></p>
+        <div class="release-downloads__filters" aria-label="Download type">
+            <button type="button" data-kind="preset" aria-pressed="true">Packages</button>
+            <button type="button" data-kind="addon" aria-pressed="false">Addons</button>
+            <button type="button" data-kind="other" aria-pressed="false">Tools &amp; config</button>
+        </div>
+        <p class="release-downloads__status" data-status role="status" aria-live="polite">Loading release downloads…</p>
+        <div class="release-downloads__grid" data-files></div>
+        <button type="button" class="release-downloads__older" data-older hidden>Show older releases</button>
+        <noscript><p>Enable JavaScript for direct release downloads, or browse the files on SourceForge below.</p></noscript>
+    </section>
+    <details class="release-downloads__guide"><summary>Package guide for Android 10–16</summary>
+    <div class="downloads__inner">
+        <div class="downloads">
+            <div class="tab__item">
+                <button class="tab__btn active">
+                    <i class="fa fa-cube"></i> Packages
+                </button>
+            </div>
+            <div class="tab__content">
+                <div class="tab__pane tab__packages">
+                    <div class="downloads__grid">
+                        {% for item in site.data.downloads.packages %}
+                        <div class="item {{item.title | downcase}}">
+                            <h3>{{item.title}}</h3>
+                            {% if item.message %}
+                            <p class="info__box">
+                                {{item.message}}
+                            </p>
+                            {% endif %}
+                            <ul>
+                                {% for entry in item.pkgs %}
+                                <li>{{entry.item}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </details>
+    <div id="downloads">
+        <a href="https://sourceforge.net/projects/nikgapps/files/" class="download__btn"><i class="fa fa-download"></i>
+            Browse all files on SourceForge</a>
+    </div>
+
+
+    <div class="latest__changelogs">
+        {% for item in site.data.changelogs limit:1 %}
+        <h3>Latest Update - {{item.date}}</h3>
+        <ul>
+            {% for entry in item.changes %}
+            <li>{{entry.item}}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+
+    </div>
+
+    <div class="older__changelogs">
+        <div class="ui styled accordion">
+            <div class="title">
+                <i class="dropdown icon"></i>
+                Older Changelogs
+            </div>
+            <div class="content">
+                <p class="transition hidden">
+                    {% for item in site.data.changelogs offset:1 %}
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    {{item.date}}
+                </div>
+                <div class="content">
+                    <p class="transition hidden">
+                    <ul>
+                        {% for entry in item.changes %}
+                        <li>{{entry.item}}</li>
+                        {% endfor %}
+                    </ul>
+
+                    </p>
+                </div>
+                {% endfor %}
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>

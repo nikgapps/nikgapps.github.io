@@ -1,29 +1,44 @@
-<section id="nikgapps-app" class="home-app" aria-labelledby="app-title">
-    <div class="home-width home-app__layout" data-app-showcase>
-        <div>
-            <p class="home-kicker">The NikGapps app</p>
-            <h2 class="home-display" id="app-title">Build your own <em>Google apps ZIP.</em></h2>
-            <p class="home-lede">Choose apps and AppSets, review the estimated installed size, then build a flashable ZIP on your Android device.</p>
-            <div class="home-actions">
-                <a class="home-button home-button--primary" data-app-download href="https://github.com/nikhilmenghani/NikGappsReleases/releases">Get the Android app</a>
-                <a id="custom-builds" class="home-text-link" href="{{ '/features#custom-builds' | relative_url }}">Build with a GitHub config <i class="fa fa-external-link" aria-hidden="true"></i></a>
+<section id="nikgapps-app" class="features homepage__section" aria-labelledby="app-title">
+    <div class="f__inner container homepage__showcase" data-app-showcase>
+        <div class="homepage__app-copy">
+            <div class="section__heading">
+                <span>Build on your Android device</span>
+                <h2 id="app-title">Your apps. Your own package.</h2>
             </div>
-            <div class="home-app__steps" data-screen-controls hidden role="group" aria-label="App walkthrough">
-                {% assign steps = 'Projects,Choose apps,Review,Saved ZIP' | split: ',' %}
-                {% for step in steps %}
-                    <button type="button" data-screen="{{ forloop.index }}" aria-pressed="{% if forloop.index == 2 %}true{% else %}false{% endif %}">{{ step }}</button>
+            <p class="homepage__intro">The NikGapps app brings custom GApps builds to your Android device. Create a project, choose what you need and turn your selection into a flashable ZIP.</p>
+            <div class="homepage__screen-controls" data-screen-controls hidden role="group" aria-label="Explore the NikGapps app">
+                {% for step in site.data.home.app_steps %}
+                <button type="button" data-screen="{{ forloop.index }}" aria-pressed="{% if forloop.index == 2 %}true{% else %}false{% endif %}" aria-controls="app-screen-{{ forloop.index }}">
+                    <span class="homepage__step-number" aria-hidden="true">0{{ forloop.index }}</span>
+                    <span><strong>{{ step.title }}</strong><span class="homepage__step-description">{{ step.description }}</span></span>
+                </button>
                 {% endfor %}
             </div>
-            <p class="home-app__note" data-screen-caption aria-live="polite">{{ site.data.home.app_steps[1].caption | escape }}</p>
-            <p class="home-app__note" data-app-release-status role="status" hidden></p>
+            <div class="homepage__links">
+                <a class="homepage__action" data-app-download href="https://github.com/nikhilmenghani/NikGappsReleases/releases">Get the NikGapps app <span aria-hidden="true">↗</span></a>
+                <a href="{% post_url 2023-03-04-Flash-NikGapps %}">Installation guide</a>
+            </div>
+            <p class="homepage__capture-note" data-app-release-status role="status" hidden></p>
+            <p class="homepage__note">The app verifies release metadata, downloads the required files and saves your ZIP to Downloads/NikGapps. An internet connection is required.</p>
         </div>
-        <figure class="home-app__art">
+        <div class="homepage__screens" aria-live="polite">
             {% for step in site.data.home.app_steps %}
-                <a data-app-screen="{{ forloop.index }}" data-caption="{{ step.caption | escape }}" href="{{ step.screenshot | relative_url }}"{% unless forloop.index == 2 or forloop.index == 3 %} hidden{% endunless %}{% if forloop.index == 3 %} data-companion{% endif %} aria-label="View full screenshot: {{ step.title | escape }}">
-                    <img src="{{ step.screenshot | relative_url }}" width="1440" height="3120" alt="{{ step.alt | escape }}" loading="lazy">
-                </a>
+            <figure id="app-screen-{{ forloop.index }}" data-app-screen="{{ forloop.index }}">
+                <div class="homepage__device-stage">
+                    <div class="homepage__phone">
+                        <div class="homepage__demo-status" aria-hidden="true">
+                            <span>9:41</span>
+                            <span class="homepage__status-icons"><i class="fa fa-plane"></i><i class="fa fa-wifi"></i><i class="fa fa-battery-three-quarters"></i></span>
+                        </div>
+                        <a class="homepage__screenshot" href="{{ step.screenshot | relative_url }}" aria-label="View full screenshot: {{ step.title }}">
+                            <img src="{{ step.screenshot | relative_url }}" width="1440" height="3120" alt="{{ step.alt }}" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+                <figcaption>{{ step.caption }}</figcaption>
+            </figure>
             {% endfor %}
-            <figcaption>NikGapps app · development screenshots</figcaption>
-        </figure>
+            <p class="homepage__capture-note">Real app screenshots from a development build.</p>
+        </div>
     </div>
 </section>

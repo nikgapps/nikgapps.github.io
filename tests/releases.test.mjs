@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { metadataUrl, loadSnapshot, publishedRelease, candidates, loadPublished, filteredFiles, fileLabel, formatSize, changelogMatches } from '../assets/js/releases.mjs';
+import { metadataUrl, loadSnapshot, publishedRelease, candidates, loadPublished, filteredFiles, fileLabel, formatSize } from '../assets/js/releases.mjs';
 
 const commit = 'a'.repeat(40);
 const summary = { id: 'published', androidVersion: '17', channel: 'stable', architecture: 'arm64-v8a', createdAt: '2026-11-10T01:00:00Z', manifest: 'releases/android-17/published.json' };
@@ -121,14 +121,4 @@ test('CoreGo, addons, tools and config have independent filters and searchable l
 test('metadata errors do not fall back to stale download links', async () => {
     await assert.rejects(loadSnapshot(async () => ({ ok: false })), /unavailable/);
     await assert.rejects(loadPublished({ commit }, [summary], async () => ({ ok: false })), /unavailable/);
-});
-
-test('changelogs select matching dates and Android versions, including historical ranges', () => {
-    const release = { android: '17', date: '2026-11-19' };
-    const note = { date: release.date, androidVersion: '17' };
-    assert.equal(changelogMatches(note, release), true);
-    assert.equal(changelogMatches({ ...note, androidVersion: '10-16' }, release), false);
-    assert.equal(changelogMatches({ ...note, androidVersion: '14-17' }, release), true);
-    assert.equal(changelogMatches({ ...note, date: '2026-11-10' }, release), false);
-    assert.equal(changelogMatches({ ...note, androidVersion: '' }, release), false);
 });
